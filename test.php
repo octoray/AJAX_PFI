@@ -4,7 +4,6 @@
 <head>
     <meta name="viewport" content="width=device-width">
 
-    <title>SlickNav Demo - Responsive Mobile Nav Plugin for jQuery</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/slicknav/dist/slicknav.css">
@@ -12,10 +11,7 @@
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 </head>
-<body>
-<p><b>Resize browser to view mobile menu</b></p>
 
-Original Menu hidden on mobile
 <ul id="menu">
     <li>Parent 1
         <ul>
