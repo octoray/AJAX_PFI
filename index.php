@@ -11,8 +11,20 @@
     <script type="text/javascript">
     </script>
 
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+        });
+    </script>
+
 </head>
 <body>
+<ul id="menu">
+    <li><a href="#">item 1</a></li>
+    <li><a href="#">item 2</a></li>
+    <li><a href="#">item 3</a></li>
+    <li><a href="#">item 4</a></li>
+</ul>
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 
 <video width="400" controls autoplay >
