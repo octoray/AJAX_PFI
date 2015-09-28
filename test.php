@@ -62,8 +62,9 @@
     <img src="http://octoraypfi.co.uk/images/game1.png" class="game1" alt="Header">
 </div>
 
-
+<div class="game2">
 <a href="#" class="myButton">Click Here To Buy The Expansion Pack</a>
+</div>
 
 </body>
 </html>
