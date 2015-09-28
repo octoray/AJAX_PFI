@@ -63,8 +63,11 @@
 </div>
 
 <div class="button1">
-Buy Expansion Pack For £30 (Charged To Your Mobile)
+Buy Expansion Pack For £30 <br>
+    (Charged To Your Mobile)
 </div>
+<br>
+<br>
 
 </body>
 </html>
