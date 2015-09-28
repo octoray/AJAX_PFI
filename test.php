@@ -50,6 +50,7 @@
     The Legendary Edition features the complete Destiny experience including The Taken King, the next evolution in the Destiny universe, Destiny, Expansion I: The Dark Below and Expansion II: House of Wolves.  Unite with 20 million Guardians in the fight to defeat Earth’s enemies, reclaim all that we have lost, and Become Legend.
 </div>
 <br>
+<br>
 <div class="Buy_now_text2">
     LEGENDARY EDITION INCLUDES:<br>
 
