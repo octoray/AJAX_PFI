@@ -14,8 +14,7 @@
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 
 <video width="400" controls>
-    <source src="https://youtu.be/gIp7vZuYzoA?t=42s" type="video/mp4">
-    <source src=https://youtu.be/gIp7vZuYzoA?t=42s" type="video/ogg">
+    <source src="http://octoraypfi.co.uk/video/des1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 
