@@ -51,12 +51,12 @@
 </div>
 <br>
 <div class="Buy_now_text">
-    LEGENDARY EDITION INCLUDES:
+    LEGENDARY EDITION INCLUDES:<br>
 
-    The Taken King
-    Destiny
-    Expansion I: The Dark Below
-    Expansion II: House of Wolves
+    The Taken King <br>
+    Destiny<br>
+    Expansion I: The Dark Below <br>
+    Expansion II: House of Wolves <br>
 </div>
 <div class="game1">
     <img src="http://octoraypfi.co.uk/images/game1.png" class="game1" alt="Header">
