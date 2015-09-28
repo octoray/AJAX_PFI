@@ -4,10 +4,11 @@
     <title>foobar</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css" type="text/css">
     <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+
 
     <script type="text/javascript">
     </script>
