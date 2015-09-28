@@ -35,5 +35,11 @@
         $('#menu').slicknav();
     });
 </script>
+
+<img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
+
+
+
+
 </body>
 </html>
