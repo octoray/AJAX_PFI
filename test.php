@@ -62,8 +62,8 @@
     <img src="http://octoraypfi.co.uk/images/game1.png" class="game1" alt="Header">
 </div>
 
-<div class="game2">
-<a href="#" class="myButton">Click Here To Buy The Expansion Pack</a>
+<div class="button1">
+    Destiny:  The Taken King - Legendary Edition is perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars.
 </div>
 
 </body>
