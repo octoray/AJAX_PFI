@@ -12,3 +12,19 @@ img.banner {
     width: 100%;
     height: 100px;
 }
+
+
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 40em) {
+    /* #menu is the original menu */
+    .js #menu {
+        display:none;
+    }
+
+    .js .slicknav_menu {
+        display:block;
+    }
+}
