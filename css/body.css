@@ -14,11 +14,11 @@ img.banner {
 }
 
 
-.menu {
+.slicknav_menu {
     display:none;
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 1em) {
     /* #menu is the original menu */
     .js #menu {
         display:none;
