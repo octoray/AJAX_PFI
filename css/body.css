@@ -76,12 +76,13 @@ img.banner {
     opacity: 0.4;
 }
 
-.foot_logo {
+.foot_logo  {
     height: 25px;
     color: #ffffff;
     font-size: 8px;
     display: block;
     margin: 0 auto;
+    opacity: 0.2; !important;
 }
 
 
