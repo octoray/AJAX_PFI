@@ -63,7 +63,7 @@
 </div>
 
 
-<a href='#' class='button'>Click Here To Buy The Expansion Pack For £30(Charged To Your Mobile)</a>
+<a href="#" class="myButton">Click Here To Buy The Expansion Pack</a>
 
 </body>
 </html>
