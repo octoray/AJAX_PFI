@@ -63,7 +63,7 @@
 </div>
 
 <div class="button1">
-    Destiny:  The Taken King - Legendary Edition is perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars.
+Buy Expansion Pack For £30 (Charged To Your Mobile)
 </div>
 
 </body>
