@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css" />
+    <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css" type="text/css">
     <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.min.js"></script>
 
     <script type="text/javascript">
@@ -25,6 +25,7 @@
     <li><a href="#">item 3</a></li>
     <li><a href="#">item 4</a></li>
 </ul>
+
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 
 <video width="400" controls autoplay >
