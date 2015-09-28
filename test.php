@@ -40,14 +40,14 @@
 
 
 <div class="Buy_now">
-    Buy Stuff !!
+    Destiny:  The Taken King - Legendary Edition is perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars.
 </div>
 <video width="100%" poster="http://octoraypfi.co.uk/images/image.jpg" controls autoplay >
     <source src="http://octoraypfi.co.uk/video/des1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 <div class="Buy_now_text">
-    Video of Destiny
+    The Legendary Edition features the complete Destiny experience including The Taken King, the next evolution in the Destiny universe, Destiny, Expansion I: The Dark Below and Expansion II: House of Wolves.  Unite with 20 million Guardians in the fight to defeat Earth’s enemies, reclaim all that we have lost, and Become Legend.
 </div>
 
 
