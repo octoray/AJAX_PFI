@@ -1,10 +1,10 @@
 body {
     background-image: url("http://octoraypfi.co.uk/images/background1.jpg");
-    overflow-y: hidden ! important;
-    overflow-x: hidden ! important;
-    background-color: #f8f8f8;
-    /*background-size: cover;*/
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:   cover;                      /* <------ */
     background-repeat: no-repeat;
-    background-position: right;          /* optionally, center the image */
+    background-position: center center;            /* optionally, center the image */
+    background-size: 100% 1500%;
 }
