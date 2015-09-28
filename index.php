@@ -14,17 +14,17 @@
 
     <script>
         $(function(){
-            $('#menu').slicknav();
+            $('#menu').slicknav('open');
         });
     </script>
 
 </head>
 <body>
 <ul id="menu">
-    <li><a href="#">item 1</a></li>
-    <li><a href="#">item 2</a></li>
-    <li><a href="#">item 3</a></li>
-    <li><a href="#">item 4</a></li>
+    <li><a class="scroll" href="#features">Features</a></li>
+    <li><a class="scroll" href="#usage">Usage Instructions</a></li>
+    <li><a class="scroll" href="#examples">Examples</a></li>
+    <li><a href="http://github.com">View on Github</a></li>
 </ul>
 
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
