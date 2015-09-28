@@ -5,6 +5,5 @@ body {
     -o-background-size: cover;
     background-size:   cover;                      /* <------ */
     background-repeat: no-repeat;
-    background-position: center center;            /* optionally, center the image */
-    background-size: 100% 1500%;
+    background-size: 100% 1000%;
 }
