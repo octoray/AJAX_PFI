@@ -9,8 +9,6 @@
     <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
 
-
-    http://code.jquery.com/jquery-1.9.0.js
     <script type="text/javascript">
     </script>
 
