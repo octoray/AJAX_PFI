@@ -73,6 +73,7 @@ img.banner {
     text-align: center;
     font-size: 8px;
     background-color: #ffffff;
+    opacity: 0.4;
 }
 
 .foot_logo {
