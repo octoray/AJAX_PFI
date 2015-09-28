@@ -14,8 +14,8 @@
     </script>
 
     <script>
-        $(function(){
-            $('#menu').slicknav('open');
+        $('#menu').slicknav({
+            prependTo:'#demo1'
         });
     </script>
 
@@ -27,6 +27,9 @@
     <li><a class="scroll" href="#examples">Examples</a></li>
     <li><a href="http://github.com">View on Github</a></li>
 </ul>
+
+<div id="demo1">
+    </div>
 
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 
