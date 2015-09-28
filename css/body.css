@@ -67,6 +67,7 @@ img.banner {
 
 .myButton {
     text-align: center;
+    width: 100%;
     -moz-box-shadow: 0px 10px 14px -7px #29bbff;
     -webkit-box-shadow: 0px 10px 14px -7px #29bbff;
     box-shadow: 0px 10px 14px -7px #29bbff;
