@@ -38,7 +38,7 @@
 
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 
-<video width="100%" poster="http://octoraypfi.co.uk/images/images/image.jpg" controls autoplay >
+<video width="100%" poster="http://octoraypfi.co.uk/images/image.jpg" controls autoplay >
     <source src="http://octoraypfi.co.uk/video/des1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
