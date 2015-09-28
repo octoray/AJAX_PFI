@@ -42,7 +42,7 @@
 <div class="Buy_now">
     Destiny:  The Taken King - Legendary Edition is perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars.
 </div>
-<video width="100%" poster="http://octoraypfi.co.uk/images/image.jpg" controls autoplay >
+<video class="video" width="100%" poster="http://octoraypfi.co.uk/images/image.jpg" controls autoplay >
     <source src="http://octoraypfi.co.uk/video/des1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
