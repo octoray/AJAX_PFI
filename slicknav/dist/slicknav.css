@@ -125,12 +125,12 @@
       -moz-border-radius: 6px;
       border-radius: 6px;
       background: #ccc;
-      color: #6D6D6D; }
+      color: #ffffff; }
   .slicknav_nav a {
     padding: 5px 10px;
     margin: 2px 5px;
     text-decoration: none;
-    color: #6D6D6D; }
+    color: #ffffff; }
     .slicknav_nav a:hover {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
@@ -147,7 +147,7 @@
     margin: 0; }
 
 .slicknav_brand {
-  color: #6D6D6D;
+  color: #ffffff;
   font-size: 18px;
   line-height: 30px;
   padding: 7px 12px;
