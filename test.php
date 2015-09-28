@@ -15,15 +15,15 @@
 <ul id="menu">
     <li>Offers
         <ul>
-            <li><a href="#">item1 </a></li>
-            <li><a href="#">item 4</a></li>
+            <li><a href="#">EXPANSION I Offer</a></li>
+            <li><a href="#">EXPANSION II Offer</a></li>
         </ul>
     </li>
-    <li>Parent 2
+    <li>The Taken King Offer
         <ul>
-            <li><a href="#">item 5</a></li>
-            <li><a href="#">item 6</a></li>
-            <li><a href="#">item 7</a></li>
+            <li><a href="#">Abilitys</a></li>
+            <li><a href="#">New Gear</a></li>
+            <li><a href="#">New Subclasses</a></li>
         </ul>
     </li>
 </ul>
