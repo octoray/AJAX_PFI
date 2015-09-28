@@ -13,7 +13,7 @@
 <body>
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 
-<video width="400" controls>
+<video width="400" controls autoplay >
     <source src="http://octoraypfi.co.uk/video/des1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
