@@ -74,7 +74,7 @@ Buy Expansion Pack For £30 <br>
 
 
 <div class="footer">
-    <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header">
+    <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
 A minimum of 60 GB available hard drive storage space required as of September 2015 (PS4 and Xbox One). A minimum of 30 GB available hard drive storage space required as of September 2015 (PS3 and Xbox 360). Storage space requirements are subject to change and may increase. If you are purchasing after September 2015, please visit www.destinythegame.com/size-requirements for current storage requirements prior to purchase. Additional storage may be required for setup, some updates and features. There may be mandatory in-game updates which users must download to continue playing and which may require additional storage. Storage requirements subject to change. Broadband internet required. Users are responsible for broadband access and usage fees. Additional charges can apply for online content and some features. Various elements and functionality of PS4 Destiny Game require subscription to PlayStation Plus, sold separately. Various elements and functionality of Xbox One and Xbox 360 Destiny Game require subscription to Xbox Live, sold separately. Please see www.destinythegame.com for further details. Terms and conditions apply.
 </div>
 
