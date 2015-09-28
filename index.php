@@ -11,11 +11,7 @@
 
 </head>
 <body>
-
-<?php
-echo "hello";
-?>
-
+<img src="http://octoraypfi.co.uk/images/Destiny-Logo.png" class="banner" alt="Header">
 
 </body>
 </html>
