@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>foobar</title>
+    <title>Main</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
@@ -15,41 +15,7 @@
 
 </head>
 <body>
-<p><b>Resize browser to view mobile menu</b></p>
-
-Original Menu hidden on mobile
-<ul id="menu">
-    <li>Parent 1
-        <ul>
-            <li><a href="#">item 3</a></li>
-            <li>Parent 3
-                <ul>
-                    <li><a href="#">item 8</a></li>
-                    <li><a href="#">item 9</a></li>
-                    <li><a href="#">item 10</a></li>
-                </ul>
-            </li>
-            <li><a href="#">item 4</a></li>
-        </ul>
-    </li>
-    <li><a href="#">item 1</a></li>
-    <li>non-link item</li>
-    <li>Parent 2
-        <ul>
-            <li><a href="#">item 5</a></li>
-            <li><a href="#">item 6</a></li>
-            <li><a href="#">item 7</a></li>
-        </ul>
-    </li>
-</ul>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('#menu').slicknav();
-    });
-</script>
-<br>
+<br><br><br><br><br>
 
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 
