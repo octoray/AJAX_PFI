@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -189,5 +189,5 @@ img.banner {
     color: #ffffff;
     text-align: left;
     font-size: 11px;
-    display: flex;
+    display: inline-block;
 }
