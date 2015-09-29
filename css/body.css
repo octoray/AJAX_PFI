@@ -23,6 +23,19 @@ img.banner {
 }
 
 
+img.banner_main {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* height: 100px; */
+    margin-top: 25px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    /* align-content: center; */
+}
+
+
+
 .slicknav_menu {
     display:none;
 }
