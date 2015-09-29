@@ -95,7 +95,7 @@
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  background-color: #222; }
+  background-color: #777; }
 
 .slicknav_nav {
   color: #000000;
@@ -122,7 +122,7 @@
     padding: 5px 10px;
     margin: 2px 5px;
     text-decoration: none;
-    color: #000000; }
+    color: #ffffff; }
     .slicknav_nav a:hover {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
