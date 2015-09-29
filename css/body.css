@@ -168,8 +168,16 @@ img.banner {
      display: flex;
  }
 
-.block_4 {
+.block_5 {
     color: #000000;
+    text-align: left;
+    font-size: 11px;
+    display: flex;
+}
+
+.block_6 {
+    background-image: url("http://octoraypfi.co.uk/images/bg.jpg");
+    color: gray;
     text-align: left;
     font-size: 11px;
     display: flex;
