@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css" type="text/css">
     <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript">
         $(function(){
-            $(document).fadeOut(1000,function(){
+            $("body").fadeOut(1000,function(){
                 window.location.href = "http://octoraypfi.co.uk/test2.php"
             })
         });
