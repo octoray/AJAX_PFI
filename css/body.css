@@ -148,13 +148,5 @@ img.banner {
     font-size: 11px;
     background-color: #000000;
     padding-bottom: 20px;
-    background-image: url("http://octoraypfi.co.uk/images/image.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size:   cover;                      /* <------ */
-    background-repeat: no-repeat;
-    background-size: 100% 130%;
     margin: 0px;
-
 }
