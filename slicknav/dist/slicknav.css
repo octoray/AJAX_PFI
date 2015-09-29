@@ -89,7 +89,7 @@
   .slicknav_menu * {
     box-sizing: border-box; }
   .slicknav_menu .slicknav_menutxt {
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     text-shadow: 0 1px 3px #000; }
   .slicknav_menu .slicknav_icon-bar {
@@ -105,7 +105,7 @@
   background-color: #222; }
 
 .slicknav_nav {
-  color: #fff;
+  color: #000000;
   margin: 0;
   padding: 0;
   font-size: 0.875em;
