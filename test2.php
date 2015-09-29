@@ -61,7 +61,7 @@ Buy Expansion Pack For £30 (Charged To Your Mobile)
 </div>
 
 <div class="block_4">
-    <img src="http://octoraypfi.co.uk/images/box1.png" class="image2" alt="Header" width="100%">
+    <img src="http://octoraypfi.co.uk/images/box1.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 <div class="footer">
