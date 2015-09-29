@@ -64,6 +64,22 @@ Buy Expansion Pack For £30 (Charged To Your Mobile)
     <img src="http://octoraypfi.co.uk/images/box1.jpg" class="image2" alt="Header" width="100%">
 </div>
 
+
+<div class="block_3">
+    <h1>The Taken King - Legendary Edition</h1> <br>
+    Destiny: The Taken King - Legendary Edition is perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legends in the stars.
+</div>
+
+<div class="block_4">
+    <img src="http://octoraypfi.co.uk/images/image2.png" class="image2" alt="Header" width="100%">
+</div>
+
+
+
+
+
+
+
 <div class="footer">
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
