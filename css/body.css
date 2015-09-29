@@ -173,7 +173,6 @@ img.banner {
     color: #000000;
     text-align: left;
     font-size: 11px;
-    display: flex;
     height: 50%;
 }
 
@@ -181,7 +180,6 @@ img.banner {
     color: #000000;
     text-align: left;
     font-size: 11px;
-    display: flex;
     height: 50%;
 }
 

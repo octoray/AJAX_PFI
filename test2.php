@@ -74,6 +74,11 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <img src="http://octoraypfi.co.uk/images/image2.png" class="image2" alt="Header" width="100%">
 </div>
 
+<div class="block_3">
+    <h1>THIS IS YOUR LEGEND</h1> <br>
+    ACCESS YOUR ARSENAL, TRACK YOUR STATS, AND TEAM UP WITH OTHER GUARDIANS.
+</div>
+
 <div class="block_5">
     <img src="http://octoraypfi.co.uk/images/moon.jpg" class="image2" alt="Header" width="100%">
 </div>
