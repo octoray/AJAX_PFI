@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css" type="text/css">
     <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
     <script type="text/javascript">
