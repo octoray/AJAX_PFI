@@ -174,7 +174,17 @@ img.banner {
     text-align: left;
     font-size: 11px;
     display: flex;
+    height: 50%;
 }
+
+.block_7 {
+    color: #000000;
+    text-align: left;
+    font-size: 11px;
+    display: flex;
+    height: 50%;
+}
+
 
 .block_6 {
     background-image: url("http://octoraypfi.co.uk/images/bg.jpg");
