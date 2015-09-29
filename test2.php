@@ -53,12 +53,11 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     </div>
 </div>
 
-<div class="block_6">
+<div class="block_66">
     <br>
     <h1>The Taken King</h1> <br>
-    <br>
    <h2>Available Now</h2>
-    <br><br><br>
+    <br>
 </div>
 
 <div class="block_2">

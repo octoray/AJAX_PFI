@@ -216,3 +216,12 @@ img.banner_main {
     font-size: 11px;
     display: inline-block;
 }
+
+.block_66 {
+    background-image: url("http://octoraypfi.co.uk/images/bg.jpg");
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    display: inline-block;
+}
