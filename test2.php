@@ -49,7 +49,7 @@ Buy Expansion Pack For £30 (Charged To Your Mobile)
 </div>
 
 <div class="block_2">
-<video class="video" width="100%" poster="http://octoraypfi.co.uk/images/image.jpg" controls autoplay >
+<video class="video" width="100%" poster="http://octoraypfi.co.uk/images/image.jpg" autoplay="autoplay" >
     <source src="http://octoraypfi.co.uk/video/des1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
