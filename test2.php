@@ -38,7 +38,7 @@
 <div class="block_1">
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 <br>
-    <br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
 <div class="btn1">
 Buy Expansion Pack For £30 (Charged To Your Mobile)
 </div>
@@ -49,7 +49,7 @@ Buy Expansion Pack For £30 (Charged To Your Mobile)
 </div>
 
 <div class="block_2">
-<video class="video" width="100%" poster="http://octoraypfi.co.uk/images/image1.jpg" autoplay="autoplay" controls >
+<video class="video" width="100%" height="200px" poster="http://octoraypfi.co.uk/images/image1.jpg" autoplay="autoplay" controls >
     <source src="http://octoraypfi.co.uk/video/des1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
