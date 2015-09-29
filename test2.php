@@ -55,7 +55,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </video>
 </div>
 
-<div class="block_3">
+<div class="block_6">
     <h1>The Taken King Live Action Trailer – Evil’s Most Wanted</h1> <br>
     You killed his son. Now Oryx, The Taken King, wants revenge. Gather your Fireteam and take on the greatest threat this universe has seen with Destiny: The Taken King.
 </div>
@@ -65,7 +65,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 
 
-<div class="block_3">
+<div class="block_6">
     <h1>The Taken King - Legendary Edition</h1> <br>
     Destiny: The Taken King - Legendary Edition is perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legends in the stars.
 </div>
@@ -74,7 +74,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <img src="http://octoraypfi.co.uk/images/image2.png" class="image2" alt="Header" width="100%">
 </div>
 
-<div class="block_3">
+<div class="block_6">
     <h1>THIS IS YOUR LEGEND</h1> <br>
     ACCESS YOUR ARSENAL, TRACK YOUR STATS, AND TEAM UP WITH OTHER GUARDIANS.
 </div>
