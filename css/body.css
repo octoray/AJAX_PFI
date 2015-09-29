@@ -165,14 +165,14 @@ img.banner {
      color: #000000;
      text-align: left;
      font-size: 11px;
-    display: inline-block;
+     display: flex;
  }
 
 .block_5 {
     color: #000000;
     text-align: left;
     font-size: 11px;
-    display: inline-block;
+    display: flex;
 }
 
 .block_6 {
