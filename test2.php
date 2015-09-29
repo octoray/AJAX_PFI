@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <script type="text/javascript">
     $(function(){
-    $("body").hide();
-    $("body").fadeIn(1000);
+    $(document).hide();
+    $(document).fadeIn(1000);
     })
     </script>
     <link rel="stylesheet" href="style.css">

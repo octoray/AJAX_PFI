@@ -12,7 +12,7 @@
 
     <script type="text/javascript">
         $(function(){
-            $("body").fadeOut(1000,function(){
+            $(document).fadeOut(1000,function(){
                 window.location.href = "http://octoraypfi.co.uk/test2.php"
             })
         });
