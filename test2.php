@@ -56,7 +56,7 @@ Buy Expansion Pack For £30 (Charged To Your Mobile)
 </div>
 
 <div class="block_3">
-    The Taken King Live Action Trailer – Evil’s Most Wanted <br>
+    <h1>The Taken King Live Action Trailer – Evil’s Most Wanted</h1> <br>
     You killed his son. Now Oryx, The Taken King, wants revenge. Gather your Fireteam and take on the greatest threat this universe has seen with Destiny: The Taken King.
 </div>
 
