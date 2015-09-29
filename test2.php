@@ -4,7 +4,12 @@
 <head>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
-
+    <script type="text/javascript">
+    $(function(){
+    $("body").hide();
+    $("body").fadeIn(1000);
+    })
+    </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/slicknav/dist/slicknav.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
