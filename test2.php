@@ -55,8 +55,8 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 <div class="block_66">
     <br>
-    <h1>The Taken King</h1> <br>
-   <h2>Available Now</h2>
+    <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
+    <h2>Available Now</h2>
     <br>
 </div>
 
