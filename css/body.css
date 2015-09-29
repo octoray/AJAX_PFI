@@ -9,6 +9,10 @@ body {
     margin: 0px;
 }
 
+div {
+    display: flex;
+}
+
 img.banner {
     width: 60%;
     margin-left: 20%;
