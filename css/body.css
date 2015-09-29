@@ -161,7 +161,14 @@ img.banner {
      padding-top: 15px;
  }
 
-.block_3 {
+.block_4 {
+     color: #000000;
+     text-align: left;
+     font-size: 11px;
+     display: flex;
+ }
+
+.block_4 {
     color: #000000;
     text-align: left;
     font-size: 11px;
