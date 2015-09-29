@@ -9,9 +9,6 @@ body {
     margin: 0px;
 }
 
-div {
-    display: flex;
-}
 
 img.banner {
     width: 60%;
@@ -168,4 +165,5 @@ img.banner {
     color: #000000;
     text-align: left;
     font-size: 11px;
+    display: flex;
 }
