@@ -205,16 +205,21 @@ img.banner_main {
 
 
 .block_6 {
-background-color: #ffffff;
+    background-color: #ffffff;
     width: 100%;
     color: black;
     text-align: left;
     font-size: 9px;
     display: inline-block;
-    border-style: solid;
+    border-top-style: solid;
+    border-top-width: thin;
     border-color: gray;
-    border-bottom: gray;
-    border-top: gray;
+    /* border-bottom: gray; */
+    /* border-top: gray; */
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .block_66 {
