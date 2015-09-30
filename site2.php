@@ -11,7 +11,7 @@
     })
     </script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/slicknav/dist/slicknav.css">
+    <link rel="stylesheet" href="/slicknav/dist/slicknav2.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body2.css" type="text/css">
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
