@@ -99,7 +99,7 @@
 
 
 <div class="footer">
-    <br>
+    <br><br><br>
     <img src="https://g.twimg.com/Twitter_logo_blue.png"  class="foot_logo" alt="Header"><br><br>
     <img src="https://www.facebookbrand.com/img/fb-art.jpg"  class="foot_logo" alt="Header"><br><br>
     <img src="http://cdn.thedroidguy.com/wp-content/uploads/2015/09/instagramlogo.jpg"  class="foot_logo" alt="Header"><br><br>
