@@ -68,7 +68,7 @@
             <h2>MacBook</h2> from £749<br>
                 <h2>Microsoft Surface</h2> with Windows 10 pre-installed from £419<br>
                     <h2>Save up to £250 on selected desktop PCs</h2>
-    <br><br><br>
+    <br>
 </div>
 
 <div class="block_4">
