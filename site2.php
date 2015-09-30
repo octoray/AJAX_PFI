@@ -41,7 +41,7 @@
     });
 </script>
 <div class="block_1">
-<img src="http://octoraypfi.co.uk/images/logo.png" class="banner" alt="Header">
+<img src="http://octoraypfi.co.uk/images/tDesign.jpg" class="banner" alt="Header">
     </div>
 
 <div class="block_6">
