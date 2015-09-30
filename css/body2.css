@@ -16,8 +16,6 @@ img.banner {
     margin-left: 20%;
     margin-right: 20%;
     /* height: 100px; */
-    margin-top: 25px;
-    margin-bottom: 10px;
     /* text-align: center; */
     /* align-content: center; */
 }
@@ -156,7 +154,6 @@ img.banner_main {
     text-align: center;
     font-size: 11px;
     background-color: #ffffff;
-    padding-bottom: 10px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
