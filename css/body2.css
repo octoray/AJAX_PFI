@@ -191,10 +191,12 @@ img.banner_main {
  }
 
 .block_4 {
-     color: #000000;
-     text-align: left;
-     font-size: 11px;
-     display: flex;
+    color: #000000;
+    text-align: left;
+    font-size: 11px;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
  }
 
 .block_5 {
