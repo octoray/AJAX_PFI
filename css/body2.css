@@ -15,6 +15,10 @@ h1 {
     color: green;
 }
 
+h2 {
+    color: greenyellow;
+}
+
 img.banner {
     width: 60%;
     margin-left: 20%;

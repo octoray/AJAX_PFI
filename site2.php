@@ -61,12 +61,12 @@
 <div class="block_6">
     <br>
     <h1>More in laptops and desktops</h1> <br>
-    More in laptops and desktops
-    LAPTOPS FROM £149.99
-    Save up to £150 on selected Windows laptops
-    MacBook from £749
-    Microsoft Surface with Windows 10 pre-installed from £419
-    Save up to £250 on selected desktop PCs
+
+    <h2>LAPTOPS</h2> FROM £149.99<br>
+        <h2>Save up to £150 on selected Windows laptops</h2><br>
+            <h2>MacBook</h2> from £749<br>
+                <h2>Microsoft Surface</h2> with Windows 10 pre-installed from £419<br>
+                    <h2>Save up to £250 on selected desktop PCs</h2>
     <br><br><br>
 </div>
 
