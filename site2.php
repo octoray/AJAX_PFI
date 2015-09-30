@@ -52,6 +52,11 @@
 </div>
 
 
+<div class="block_4">
+    <img src="http://octoraypfi.co.uk/images/mban1.jpg" class="image2" alt="Header" width="100%">
+</div>
+
+
 <div class="footer">
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
