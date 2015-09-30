@@ -60,8 +60,13 @@
 
 <div class="block_6">
     <br>
-    <h1>The Taken King Live Action Trailer – Evil’s Most Wanted</h1> <br>
-    You killed his son. Now Oryx, The Taken King, wants revenge. Gather your Fireteam and take on the greatest threat this universe has seen with Destiny: The Taken King.
+    <h1>More in laptops and desktops</h1> <br>
+    More in laptops and desktops
+    LAPTOPS FROM £149.99
+    Save up to £150 on selected Windows laptops
+    MacBook from £749
+    Microsoft Surface with Windows 10 pre-installed from £419
+    Save up to £250 on selected desktop PCs
     <br><br><br>
 </div>
 
