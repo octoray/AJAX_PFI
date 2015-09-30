@@ -224,6 +224,8 @@ img.banner_main {
     border-top-style: solid;
     border-top-width: thin;
     border-color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
     /* border-bottom: gray; */
     /* border-top: gray; */
     text-align: center;
