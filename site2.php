@@ -101,12 +101,12 @@
 <div class="footer">
     <br>
     <img src="https://g.twimg.com/Twitter_logo_blue.png"  class="foot_logo" alt="Header"><br><br>
-    Delivery & Recycling<br>
-    Track my Order<br>
-    Order online & collect in store<br>
-    Price Promise<br>
-    Product Care Plans<br>
-    Customer Services<br>
+    <br> Delivery & Recycling<br><br>
+    Track my Order<br><br>
+    Order online & collect in store<br><br>
+    Price Promise<br><br>
+    Product Care Plans<br><br>
+    Customer Services<br><br>
 </div>
 
 </body>
