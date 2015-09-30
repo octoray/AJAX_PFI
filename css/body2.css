@@ -11,6 +11,10 @@ body {
 }
 
 
+h1 {
+    color: green;
+}
+
 img.banner {
     width: 60%;
     margin-left: 20%;
