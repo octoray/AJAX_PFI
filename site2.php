@@ -70,6 +70,14 @@
     <br><br><br>
 </div>
 
+<div class="block_4">
+    <img src="http://octoraypfi.co.uk/images/half-price.jpg" class="image2" alt="Header" width="100%">
+</div>
+
+<div class="block_4">
+    <img src="http://octoraypfi.co.uk/images/google.jpg" class="image2" alt="Header" width="100%">
+</div>
+
 
 <div class="footer">
     <br>
