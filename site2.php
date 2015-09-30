@@ -86,6 +86,17 @@
     <br><br><br>
 </div>
 
+<div class="block_4">
+    <h1>More in laptops and desktops</h1> <br>
+    <img src="http://octoraypfi.co.uk/images/advice.jpg" class="image2" alt="Header" width="100%">
+</div>
+
+
+<div class="block_4">
+    <h1>More in laptops and desktops</h1> <br>
+    <img src="http://octoraypfi.co.uk/images/advice2.jpg" class="image2" alt="Header" width="100%">
+</div>
+
 
 <div class="footer">
     <br>
