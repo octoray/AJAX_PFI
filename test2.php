@@ -7,7 +7,7 @@
     <script>
         $(function() { //When the document loads
             $("#scrollTop").bind("click", function() {
-                $(window).scrollTop($("#buy_scroll").offset().top); //scroll to div with container as ID.
+                $(window).scrollTop($("#click").offset().top); //scroll to div with container as ID.
                 return false; //Prevent Default and event bubbling.
             });
         });
@@ -52,13 +52,11 @@
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
-<button class="btn1" href="#" id="scrollTop">
+<a href="#" id="scrollTop" class="btn1">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
-</button>
+</a>
     <br>
-    <div class="btn1">
-        Learn More ...
-    </div>
+    <a href="#" id="scrollTop" class="btn1">Learn More ... </a>
 </div>
 
 <a href="#" id="scrollTop">Click to Scroll top</a>
