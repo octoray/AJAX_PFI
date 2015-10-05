@@ -55,9 +55,9 @@
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
-<div class="btn1" id="click">
+<button class="btn1" id="click">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
-</div>
+</button>
     <br>
     <div class="btn1">
         Learn More ...
