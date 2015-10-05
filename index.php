@@ -13,7 +13,7 @@
     <script type="text/javascript">
         $(function(){
             $("body").fadeOut(4200,function(){
-                window.location.href = "http://octoraypfi.co.uk/test2.php"
+                window.location.href = "http://the-sloth.uk/test2.php"
             })
         });
     </script>
