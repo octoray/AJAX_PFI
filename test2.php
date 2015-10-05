@@ -62,8 +62,8 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 <div class="block_66_buy" style="display:none">
     <br>
-    <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <h2>PART 2</h2>
+<br>
+    <h2>buy me</h2>
     <br>
 </div>
 
@@ -132,9 +132,8 @@ A minimum of 60 GB available hard drive storage space required as of September 2
 </body>
 <script type="text/javascript">
     function pageOne() {
-        $('#first').show();
-        $('#memberships').hide();
-        $('#videos').hide();
+        $('#block_66_buy').show();
+        $('#block_66').hide();
     }
 </script>
 </html>
