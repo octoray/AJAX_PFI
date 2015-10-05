@@ -4,6 +4,17 @@
 <head>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
+    <script>
+        $(document).ready(function (){
+            $("#click").click(function (){
+                //$(this).animate(function(){
+                $('html, body').animate({
+                    scrollTop: $("#buy_scroll").offset().top
+                }, 2000);
+                //});
+            });
+        });
+    </script>
     <script type="text/javascript">
     $(function(){
     $("body").hide();
@@ -44,7 +55,7 @@
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
-<div class="btn1">
+<div class="btn1" id="click">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
@@ -53,7 +64,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     </div>
 </div>
 
-<div class="block_66">
+<div class="block_66" id="buy_scroll">
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
     <h2>Available Now</h2>
@@ -107,7 +118,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     </h1><br>
     Destiny: &nbsp;The Taken King -&nbsp;Legendary Edition is&nbsp;perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars. &nbsp;The Legendary Edition features the complete Destiny experience including The Taken King, the next evolution in the Destiny universe, Destiny, Expansion I: The Dark Below and Expansion II: House of Wolves. &nbsp;Unite with 20 million Guardians in the fight to defeat Earth’s enemies, reclaim all that we have lost, and Become Legend.
 <br><br><br><br>
-    <div class="btn1">
+    <div class="btn1" id="click">
         Buy Expansion Pack For £30 <br> (Charged To Your Mobile)
     </div>
     <br><br><br>
