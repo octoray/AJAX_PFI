@@ -44,7 +44,7 @@
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
-<div class="btn1">
+<div class="merchant-button btn1" id="first" data-pfi-button="true" data-pfi-button-id="first">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
@@ -59,6 +59,14 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <h2>Available Now</h2>
     <br>
 </div>
+
+<div class="block_66_buy" style="display:none">
+    <br>
+    <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
+    <h2>PART 2</h2>
+    <br>
+</div>
+
 
 <div class="block_2">
 <video class="video" width="100%"  poster="http://octoraypfi.co.uk/images/image1.jpg" autoplay="autoplay" controls >
@@ -122,4 +130,11 @@ A minimum of 60 GB available hard drive storage space required as of September 2
 </div>
 
 </body>
+<script type="text/javascript">
+    function pageOne() {
+        $('#first').show();
+        $('#memberships').hide();
+        $('#videos').hide();
+    }
+</script>
 </html>
