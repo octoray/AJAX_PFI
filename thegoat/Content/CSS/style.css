@@ -1,4 +1,4 @@
-﻿html, body 
+﻿html, body
 {
     height: 100%;
     width: 100%;
@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('http://localhost:48458/content/image/background.jpg');
+    background-image: url('http://octoraypfi.co.uk/thegoat/content/image/background.jpg');
     background-opacity: 0.5;
 }
 
@@ -48,7 +48,7 @@ p {
     border: 1px solid blue;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 }
 
 .section .merchant-button {
