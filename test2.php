@@ -5,13 +5,10 @@
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <script>
-        $(document).ready(function (){
-            $("#click").click(function (){
-                //$(this).animate(function(){
-                $('html, body').animate({
-                    scrollTop: $("#buy_scroll").offset().top
-                }, 2000);
-                //});
+        $(function() { //When the document loads
+            $("#scrollTop").bind("click", function() {
+                $(window).scrollTop($("#buy_scroll").offset().top); //scroll to div with container as ID.
+                return false; //Prevent Default and event bubbling.
             });
         });
     </script>
@@ -55,7 +52,7 @@
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
-<button class="btn1" id="click">
+<button class="btn1" href="#" id="scrollTop">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </button>
     <br>
@@ -63,6 +60,8 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
         Learn More ...
     </div>
 </div>
+
+<a href="#" id="scrollTop">Click to Scroll top</a>
 
 <div class="block_66" id="buy_scroll">
     <br>
