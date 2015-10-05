@@ -48,9 +48,6 @@
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
-    <div class="btn1">
-        Learn More ...
-    </div>
 </div>
 
 <div class="block_66">
