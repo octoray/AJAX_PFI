@@ -1,4 +1,6 @@
-
+<?php
+header('bob: Negotiate');
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
