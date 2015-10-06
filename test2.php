@@ -150,7 +150,23 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
     <?php
-    print_r($_SERVER);
+    echo "Your Network is: ".$_SERVER['HTTP_X_PFI_NETINFO'];
+    echo"<br>";
+    echo "Your Alias is: ".$_SERVER['HTTP_X_PFI_ALIAS'];
+    echo"<br>";
+    echo "Your Status is: ".$_SERVER['HTTP_X_PFI_STATUS'];
+    echo"<br>";
+    echo "Your Network is: ".$_SERVER['HTTP_X_PFI_NETINFO'];
+    echo"<br>";
+    echo "Your referance is: ".$_SERVER['HTTP_X_PFI_REFERANCE'];
+    echo"<br>";
+    echo "Your Session token is: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN'];
+    echo"<br>";
+    echo "Your hash is: ".$_SERVER['HTTP_X_PFI_HASH'];
+    echo"<br>";
+    echo"<br>";
+    echo"<br>";
+    echo print_r($_SERVER);
     ?>
 </div>
 
