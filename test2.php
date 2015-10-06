@@ -17,6 +17,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 </head>
 
+<!-- Menu -->
 <ul id="menu">
     <li>Offers
         <ul>
@@ -33,6 +34,7 @@
     </li>
 </ul>
 
+<!-- activate Menu -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="/slicknav/dist/jquery.slicknav.js"></script>
 <script type="text/javascript">
@@ -40,16 +42,21 @@
         $('#menu').slicknav();
     });
 </script>
+
+<!-- 1st block /Destiny logo text overlay -->
 <div class="block_1">
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
+
+<!-- 1st block /Purchase button -->
 <div class="merchant-button btn1" id="first" data-pfi-button="true" data-pfi-button-id="first">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
 </div>
 
+<!-- 2nd block  -->
 <div class="block_66">
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
@@ -57,6 +64,11 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <br>
 </div>
 
+<div class="merchant-button"  id="1day" data-pfi-button="true" data-pfi-button-id="1day" data-pfi-service-id="324" data-pfi-reference="1daytest" data-pfi-content-url="/dogs/members" data-pfi-content-id="1daymem">
+    Get one day's access to Daft Dogs
+</div>
+
+<!-- 2nd block swap AJAX  -->
 <div class="block_66_buy" style="display:none">
     <br>
 <br>
@@ -65,6 +77,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 
 
+<!-- 3nd block  -->
 <div class="block_2">
 <video class="video" width="100%"  poster="http://octoraypfi.co.uk/images/image1.jpg" autoplay="autoplay" controls >
     <source src="http://octoraypfi.co.uk/video/des1.mp4" type="video/mp4">
@@ -72,6 +85,8 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </video>
 </div>
 
+
+<!-- 4th block  -->
 <div class="block_6">
     <br>
     <h1>The Taken King Live Action Trailer – Evil’s Most Wanted</h1> <br>
@@ -79,11 +94,14 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <br><br><br>
 </div>
 
+
+<!-- 5th block  -->
 <div class="block_4">
     <img src="http://octoraypfi.co.uk/images/box1.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 
+<!-- 6th block  -->
 <div class="block_6">
     <br>
     <h1>The Taken King - Legendary Edition</h1> <br>
@@ -91,10 +109,14 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <br><br><br>
 </div>
 
+
+<!-- 7th block  -->
 <div class="block_4">
     <img src="http://octoraypfi.co.uk/images/image2.png" class="image2" alt="Header" width="100%">
 </div>
 
+
+<!-- 8th block  -->
 <div class="block_6"><br>
     <h1>THIS IS YOUR LEGEND</h1> <br>
     ACCESS YOUR ARSENAL, TRACK YOUR STATS, AND TEAM UP WITH OTHER GUARDIANS.
