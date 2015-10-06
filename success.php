@@ -17,9 +17,13 @@ function getGUID(){
 }
 
 $GUID = getGUID();
-//echo $GUID;
-header("X-PFI-SessionToken: ".$GUID);
-header('X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496');
+if($_SERVER['HTTP_X_PFI_SESSIONTOKEN'] > 1) {
+    header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
+    header('X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496');
+}else{
+    header("X-PFI-SessionToken: ".$GUID);
+    header('X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496');
+};
 ?>
 <!DOCTYPE HTML>
 <html>
