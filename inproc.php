@@ -20,7 +20,7 @@ $GUID = getGUID();
     header('X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496');
 
 print_r($_GET);
-$file = fopen("./test.txt","w");
+$file = fopen("test.txt","w");
 echo fwrite($file,$_GET);
 fclose($file);
 ?>
