@@ -12,12 +12,12 @@
 <!-- POST DATA JSON FUNCTION -->
 <script type="text/javascript" language="javascript">
     $(document).ready(function() {
-
-        $("#post").click(function(event){
+        var post = JSON.stringify({ x: 5 });
+        $("#post").click(function(){
 
             $.post(
                 "http://212.71.238.228:1337/",
-                { name: "Zara" },
+                post,
                 function(data) {
                     $('#swap').html(data);
                 }
