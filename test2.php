@@ -19,7 +19,7 @@
     <!-- POST DATA JSON FUNCTION -->
 
 </head>
-
+<body>
 <!-- Menu -->
 <ul id="menu">
     <li>Offers
