@@ -211,7 +211,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     echo"<br>";
     echo"<br>";
     echo"<br>";
-    echo print_r($_GET);
+    echo print_r($http_response_header);
     ?>
 </div>
 
