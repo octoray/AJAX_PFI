@@ -23,8 +23,7 @@ print_r($_GET);
 
 $myFile = "log.txt";
 $fh = fopen($myFile, 'w') or die("can't open file");
-$stringData = "Bobby Bopper\n";
-fwrite($fh, $stringData);
+fwrite($fh, $_GET);
 fclose($fh);
 ?>
 
