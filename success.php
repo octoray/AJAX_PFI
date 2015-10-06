@@ -65,7 +65,7 @@
 <div class="block_66" data-pfi-area="true" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <h2 class="hed">Thank You For Buying The Taken King Game </h2>
+    <h2 class="hed" style="color: red">Thank You For Buying The Taken King Game </h2>
     <br>
 </div>
 
