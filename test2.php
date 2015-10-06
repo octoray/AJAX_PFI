@@ -46,6 +46,10 @@
     });
 </script>
 
+
+
+
+
 <!-- 1st block /Destiny logo text overlay -->
 <div class="block_1">
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
@@ -60,7 +64,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 
 <!-- 2nd block  -->
-<div class="block_66" pfi-area="true" >
+<div class="block_66" data-pfi-area="true" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
     <h2 class="hed">Available Now</h2>
