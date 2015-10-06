@@ -10,21 +10,31 @@
 <body>
 
 <!-- POST DATA JSON FUNCTION -->
-<script type="text/javascript">
-    $(document).ready(function(){
-        $.ajax({
-            type: 'POST',
-            url: 'http://212.71.238.228:1337/',
-            data: '{"name":"jonas"}',
-            success: function(data) { alert('data: ' + data); },
-            // success: 'NULL',
-            contentType: "application/json",
-            dataType: 'json'
+<script type="text/javascript" language="javascript">
+    $(document).ready(function() {
+
+        $("#post").click(function(event){
+
+            $.post(
+                "result.php",
+                { name: "Zara" },
+                function(data) {
+                    $('#swap').html(data);
+                }
+            );
+
         });
     });
 </script>
 
 POSTing hopefully.....
+<p>Click on the button</p>
+
+<div id="swap" style="background-color:cc0;">
+    hmmmmmmm
+</div>
+
+<input type="button" id="post" value="Load Data" />
 
 
 </body>
