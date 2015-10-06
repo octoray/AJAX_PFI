@@ -277,3 +277,12 @@ p#pfi-pin-message {
     border-radius: 25px;
     margin-top: 15px;
 }
+
+.pfi-button {
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-radius: 25px;
+    margin-top: 15px;
+}
