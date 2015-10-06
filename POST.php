@@ -16,8 +16,8 @@
             type: 'POST',
             url: 'http://212.71.238.228:1337/',
             data: '{"name":"jonas"}',
-            // success: function(data) { alert('data: ' + data); },
-            success: 'NULL',
+            success: function(data) { alert('data: ' + data); },
+            // success: 'NULL',
             contentType: "application/json",
             dataType: 'json'
         });
