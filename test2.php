@@ -21,7 +21,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
     $set = 'set';
 }else{
-    //header("X-PFI-SessionToken: ".$GUID);
+    header("X-PFI-SessionToken: ".$GUID);
     $notset = 'not set';
 };
 ?>
