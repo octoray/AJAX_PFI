@@ -16,8 +16,13 @@ function getGUID(){
     }
 }
 $GUID = getGUID();
-    //header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
-    //header('X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496');
+if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
+    header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
+    $set = 'set';
+}else{
+    header("X-PFI-SessionToken: ".$GUID);
+    $notset = 'not set';
+};
 
 $myFile = "log.txt";
 $fh = fopen($myFile, 'w') or die("can't open file");
