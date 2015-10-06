@@ -18,6 +18,7 @@
 
     <!-- POST DATA JSON FUNCTION -->
     <script type="text/javascript">
+        $(document).ready(function(){
     $.ajax({
     type: 'POST',
     url: 'http://192.168.209.105:9090/',
@@ -27,6 +28,7 @@
     contentType: "application/json",
     dataType: 'json'
     });
+        });
     </script>
 
 </head>
