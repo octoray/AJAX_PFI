@@ -268,7 +268,8 @@ p#pfi-pin-message {
     width: 60%;
 }
 
-.pfi-confirm .pfi-button {
+.pfi-confirm {
+    background: #003399;
     margin-bottom: 30px;
     margin-left: 10%;
     margin-right: 10%;
