@@ -16,7 +16,7 @@
         $("#post").click(function(event){
 
             $.post(
-                "result.php",
+                "http://212.71.238.228:1337/",
                 { name: "Zara" },
                 function(data) {
                     $('#swap').html(data);
