@@ -21,7 +21,7 @@
         $(document).ready(function(){
     $.ajax({
     type: 'POST',
-    url: 'http://192.168.209.105:9090/',
+    url: 'http://212.71.238.228:1337/',
     data: '{"name":"jonas"}',
     // success: function(data) { alert('data: ' + data); },
     success: 'NULL',
