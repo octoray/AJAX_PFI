@@ -23,7 +23,7 @@ print_r($_GET);
 
 $myFile = "log.txt";
 $fh = fopen($myFile, 'w') or die("can't open file");
-fwrite($fh, print_r($_GET));
+fwrite($fh, $_GET['a']);
 fclose($fh);
 ?>
 
