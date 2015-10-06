@@ -67,9 +67,6 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <br>
 </div>
 
-<div class="merchant-button"  id="1day" data-pfi-button="true" data-pfi-button-id="1day" data-pfi-service-id="324" data-pfi-reference="1daytest" data-pfi-content-url="/dogs/members" data-pfi-content-id="1daymem">
-    Get one day's access to Daft Dogs
-</div>
 
 <!-- 2nd block swap AJAX  -->
 <div class="block_66_buy" style="display:none">
@@ -137,7 +134,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     </h1><br>
     Destiny: &nbsp;The Taken King -&nbsp;Legendary Edition is&nbsp;perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars. &nbsp;The Legendary Edition features the complete Destiny experience including The Taken King, the next evolution in the Destiny universe, Destiny, Expansion I: The Dark Below and Expansion II: House of Wolves. &nbsp;Unite with 20 million Guardians in the fight to defeat Earth’s enemies, reclaim all that we have lost, and Become Legend.
 <br><br><br><br>
-    <div class="btn1">
+    <div class="btn1" onclick="test1()">
         Buy Expansion Pack For £30 <br> (Charged To Your Mobile)
     </div>
     <br><br><br>
@@ -156,6 +153,7 @@ A minimum of 60 GB available hard drive storage space required as of September 2
     function test1() {
         $('#block_66_buy').show();
         $('#block_66').hide();
+        $('#merchant-button').hide();
     }
 </script>
 </html>
