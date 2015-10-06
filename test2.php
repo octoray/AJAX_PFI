@@ -15,6 +15,20 @@
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+    <!-- POST DATA JSON FUNCTION -->
+    <script type="text/javascript">
+    $.ajax({
+    type: 'POST',
+    url: 'http://192.168.209.105:9090/',
+    data: '{"name":"jonas"}',
+    // success: function(data) { alert('data: ' + data); },
+    success: 'NULL',
+    contentType: "application/json",
+    dataType: 'json'
+    });
+    </script>
+
 </head>
 
 <!-- Menu -->
