@@ -31,7 +31,7 @@ POSTing hopefully.....
 <p>Click on the button</p>
 
 <div id="swap" style="background-color:cc0;">
-    hmmmmmmm
+    here goes
 </div>
 
 <input type="button" id="post" value="Load Data" />
