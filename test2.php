@@ -10,8 +10,8 @@
     $("body").fadeIn(1000);
     })
     </script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/slicknav/dist/slicknav.css">
+    <link rel="stylesheet" href="http://octoraypfi.co.uk/css/style.css">
+    <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -39,7 +39,7 @@
 
 <!-- activate Menu -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="/slicknav/dist/jquery.slicknav.js"></script>
+<script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $('#menu').slicknav();
