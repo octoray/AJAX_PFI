@@ -21,7 +21,7 @@ $GUID = getGUID();
 
 print_r($_GET);
 
-$myFile = "testFile.txt";
+$myFile = "log.txt";
 $fh = fopen($myFile, 'w') or die("can't open file");
 $stringData = "Bobby Bopper\n";
 fwrite($fh, $stringData);
