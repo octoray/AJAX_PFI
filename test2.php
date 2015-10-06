@@ -201,6 +201,8 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     echo"<br>";
     echo "Your Session token is: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN'];
     echo"<br>";
+    echo "GUID generated is: ".$GUID;
+    echo"<br>";
     echo "Your hash is: ".$_SERVER['HTTP_X_PFI_HASH'];
     echo"<br>";
     echo"<br>";
