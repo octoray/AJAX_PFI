@@ -17,19 +17,6 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
     <!-- POST DATA JSON FUNCTION -->
-    <script type="text/javascript">
-        $(document).ready(function(){
-    $.ajax({
-    type: 'POST',
-    url: 'http://212.71.238.228:1337/',
-    data: '{"name":"jonas"}',
-    // success: function(data) { alert('data: ' + data); },
-    success: 'NULL',
-    contentType: "application/json",
-    dataType: 'json'
-    });
-        });
-    </script>
 
 </head>
 
@@ -66,7 +53,7 @@
     <br><br><br><br><br><br><br>
 
 <!-- 1st block /Purchase button -->
-<div class="merchant-button btn1" id="first" data-pfi-button="true" data-pfi-button-id="first">
+<div class="merchant-button btn1" id="test1" data-pfi-button="true" data-pfi-button-id="test1" data-pfi-service-id="326" data-pfi-reference="test1" data-pfi-content-url="/mehh.php" data-pfi-content-id="test1">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
