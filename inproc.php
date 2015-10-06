@@ -16,8 +16,8 @@ function getGUID(){
     }
 }
 $GUID = getGUID();
-    header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
-    header('X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496');
+    //header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
+    //header('X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496');
 
 print_r($_GET);
 
