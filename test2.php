@@ -16,7 +16,12 @@
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
-    <!-- POST DATA JSON FUNCTION -->
+    <!-- Hide stuff -->
+    <script>
+        function hidebutton() {
+            document.getElementById('hideme').style.display = 'none';
+        }
+    </script>
 
 </head>
 <body>
@@ -57,7 +62,7 @@
     <br><br><br><br><br><br><br>
 
 <!-- 1st block /Purchase button -->
-<div class="merchant-button btn1" id="test1" data-pfi-button="true" data-pfi-button-id="test1" data-pfi-service-id="326" data-pfi-reference="test1" data-pfi-content-url="/success.php" data-pfi-content-id="test1">
+<div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="test1" data-pfi-content-url="/success.php" data-pfi-content-id="test1">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
@@ -141,7 +146,9 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <div class="btn1" onclick="test1()">
         Buy Expansion Pack For £30 <br> (Charged To Your Mobile)
     </div>
-    <br><br><br>
+    <br><br>
+    <button onclick="hidebutton()">Click me</button>
+    <br>
 </div>
 
 
