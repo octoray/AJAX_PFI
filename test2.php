@@ -19,8 +19,10 @@ function getGUID(){
 $GUID = getGUID();
 if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
+    $set = 'set';
 }else{
     header("X-PFI-SessionToken: ".$GUID);
+    $notset = 'not set';
 };
 ?>
 
@@ -183,6 +185,10 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
     <?php
+    echo"<br>";
+    echo $set;
+    echo $notset;
+    echo"<br>";
     echo "Your Network is: ".$_SERVER['HTTP_X_PFI_NETINFO'];
     echo"<br>";
     echo "Your Alias is: ".$_SERVER['HTTP_X_PFI_ALIAS'];
