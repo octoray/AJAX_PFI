@@ -230,3 +230,23 @@ img.banner_main {
 .hed {
 color: #ffffff;
 }
+
+
+
+
+
+
+
+.pfi-purchase {
+    background: #339900;
+    margin-bottom: 30px;
+}
+
+.pfi-charge-notification {
+    font-size: 20px;
+}
+
+p#pfi-msisdn-message {
+    font-size: 15px;
+}
+
