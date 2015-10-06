@@ -40,5 +40,11 @@ fwrite($fh, $stringData);
 fwrite($fh, $_SERVER['HTTP_X_PFI_CALLERID']);
 fwrite($fh, $stringData);
 fclose($fh);
+
+echo '{
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null
+}'
 ?>
 
