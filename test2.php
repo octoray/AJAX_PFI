@@ -63,7 +63,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 <div class="block_66" pfi-area="true" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <h2>Available Now</h2>
+    <h2 class="hed">Available Now</h2>
     <br>
 </div>
 
@@ -72,7 +72,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 <div class="block_66_buy" style="display:none">
     <br>
 <br>
-    <h2>buy me</h2>
+    <h2 class="hed">buy me</h2>
     <br>
 </div>
 
@@ -89,7 +89,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 <!-- 4th block  -->
 <div class="block_6">
     <br>
-    <h1>The Taken King Live Action Trailer – Evil’s Most Wanted</h1> <br>
+    <h1 class="hed">The Taken King Live Action Trailer – Evil’s Most Wanted</h1> <br>
     You killed his son. Now Oryx, The Taken King, wants revenge. Gather your Fireteam and take on the greatest threat this universe has seen with Destiny: The Taken King.
     <br><br><br>
 </div>
@@ -104,7 +104,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 <!-- 6th block  -->
 <div class="block_6">
     <br>
-    <h1>The Taken King - Legendary Edition</h1> <br>
+    <h1 class="hed">The Taken King - Legendary Edition</h1> <br>
     Destiny: The Taken King - Legendary Edition is perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legends in the stars.
     <br><br><br>
 </div>
@@ -118,7 +118,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 <!-- 8th block  -->
 <div class="block_6"><br>
-    <h1>THIS IS YOUR LEGEND</h1> <br>
+    <h1 class="hed">THIS IS YOUR LEGEND</h1> <br>
     ACCESS YOUR ARSENAL, TRACK YOUR STATS, AND TEAM UP WITH OTHER GUARDIANS.
     <br><br><br>
 </div>
@@ -129,7 +129,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 
 <div class="block_6">
-    <h1 class="edition-title">
+    <h1 class="edition-title" class="hed">
         The Taken King - <br>Legendary Edition
     </h1><br>
     Destiny: &nbsp;The Taken King -&nbsp;Legendary Edition is&nbsp;perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars. &nbsp;The Legendary Edition features the complete Destiny experience including The Taken King, the next evolution in the Destiny universe, Destiny, Expansion I: The Dark Below and Expansion II: House of Wolves. &nbsp;Unite with 20 million Guardians in the fight to defeat Earth’s enemies, reclaim all that we have lost, and Become Legend.
