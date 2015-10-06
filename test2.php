@@ -153,7 +153,7 @@ A minimum of 60 GB available hard drive storage space required as of September 2
 
 </body>
 <script type="text/javascript">
-    function pageOne() {
+    function test1() {
         $('#block_66_buy').show();
         $('#block_66').hide();
     }
