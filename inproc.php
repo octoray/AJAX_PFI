@@ -25,11 +25,20 @@ $myFile = "log.txt";
 $fh = fopen($myFile, 'w') or die("can't open file");
 $stringData = "\n";
 fwrite($fh, $stringData);
-fwrite($fh, $_GET['a']);
+fwrite($fh, $_GET['HTTP_X_PFI_SESSIONTOKEN']);
 fwrite($fh, $stringData);
-fwrite($fh, $_GET['a']);
+fwrite($fh, $_GET['HTTP_X_PFI_STATUS']);
 fwrite($fh, $stringData);
-fwrite($fh, $_GET['a']);
+fwrite($fh, $_GET['HTTP_X_PFI_REQUESTTIME']);
+fwrite($fh, $stringData);
+fwrite($fh, $_GET['HTTP_X_PFI_HASH']);
+fwrite($fh, $stringData);
+fwrite($fh, $_GET['HTTP_X_PFI_ALIAS']);
+fwrite($fh, $stringData);
+fwrite($fh, $_GET['HTTP_X_PFI_NETINFO']);
+fwrite($fh, $stringData);
+fwrite($fh, $_GET['HTTP_X_PFI_CALLERID']);
+fwrite($fh, $stringData);
 fclose($fh);
 ?>
 
