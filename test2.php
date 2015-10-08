@@ -24,6 +24,19 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     header("X-PFI-SessionToken: ".$GUID);
     $notset = 'not set';
 };
+
+
+    $length1 = 8;
+    $length2 = 10;
+    $length3 = 12;
+    $today1 = date("Y-m-d H:i:s");
+    $today2 = date("Y-m-d H:i:s");
+    $today3= date("Y-m-d H:i:s");
+    $out1 = substr(hash('md5', $today1), 0, $length1); // Hash it
+    $out2 = substr(hash('md5', $today2), 0, $length2); // Hash it
+    $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
+    ?>
+
 ?>
 
 
@@ -90,7 +103,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <br><br><br><br><br><br><br>
 
 <!-- 1st block /Purchase button -->
-<div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="test1" data-pfi-content-url="/success.php" data-pfi-content-id="test1">
+<div class="merchant-button btn1" id="<?php echo $out3;?>" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="<?php echo $out2;?>">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
