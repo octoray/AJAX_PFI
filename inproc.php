@@ -28,26 +28,29 @@ $myFile = "log.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
 $stringData = "\n";
 fwrite($fh, $stringData);
-fwrite($fh, $_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
+fwrite($fh, "Sessiontoken: ". $_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 fwrite($fh, $stringData);
-fwrite($fh, $_SERVER['HTTP_X_PFI_STATUS']);
+fwrite($fh, "status: ". $_SERVER['HTTP_X_PFI_STATUS']);
 fwrite($fh, $stringData);
-fwrite($fh, $_SERVER['HTTP_X_PFI_REQUESTTIME']);
+fwrite($fh, "requestime: ". $_SERVER['HTTP_X_PFI_REQUESTTIME']);
 fwrite($fh, $stringData);
-fwrite($fh, $_SERVER['HTTP_X_PFI_HASH']);
+fwrite($fh, "hash: ". $_SERVER['HTTP_X_PFI_HASH']);
 fwrite($fh, $stringData);
-fwrite($fh, $_SERVER['HTTP_X_PFI_ALIAS']);
+fwrite($fh, "alias: ". $_SERVER['HTTP_X_PFI_ALIAS']);
 fwrite($fh, $stringData);
-fwrite($fh, $_SERVER['HTTP_X_PFI_NETINFO']);
+fwrite($fh, "netinfo: ". $_SERVER['HTTP_X_PFI_NETINFO']);
 fwrite($fh, $stringData);
-fwrite($fh, $_SERVER['HTTP_X_PFI_CALLERID']);
+fwrite($fh, "callerid / function: ". $_SERVER['HTTP_X_PFI_CALLERID']);
 fwrite($fh, $stringData);
+fwrite($fh, "response was: ". $response);
 fclose($fh);
 
-echo '{
+var $response = '{
 	"Error":null,
 	"Script":"hidebutton()",
 	"InProcessUrl":null
-}'
+}';
+
+echo $response
 ?>
 
