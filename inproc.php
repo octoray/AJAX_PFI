@@ -24,6 +24,12 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     $notset = 'not set';
 };
 
+$response = '{
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null
+}';
+
 $today1 = date("Y-m-d H:i:s");
 $myFile = "log.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
@@ -46,12 +52,12 @@ fwrite($fh, $stringData);
 fwrite($fh, "response was: ".$response);
 fclose($fh);
 
-var $response = '{
+
+
+echo = '{
 	"Error":null,
 	"Script":"hidebutton()",
 	"InProcessUrl":null
 }';
-
-echo $response
 ?>
 
