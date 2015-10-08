@@ -54,10 +54,8 @@ fclose($fh);
 
 
 
-echo = '{
-	"Error":null,
-	"Script":"hidebutton()",
-	"InProcessUrl":null
-}';
+
+
+
 ?>
 
