@@ -43,6 +43,24 @@ $response3 = '{
 }';
 
 
+//respond
+
+if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
+    echo $response2;
+    $response = $response2;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing"){
+    echo $response1;
+    $response = $response1;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccess"){
+    echo $response3;
+    $response = $response3;
+}else{
+    echo $response1;
+    $response = $response1;
+};
+
+
+//Write logs
 $today1 = date("Y-m-d H:i:s");
 $myFile = "log.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
@@ -71,15 +89,5 @@ fwrite($fh, $stringData);
 fclose($fh);
 
 
-
-if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
-    echo $response2;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing"){
-    echo $response1;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccess"){
-    echo $response3;
-}else{
-    echo $response1;
-};
 
 ?>
