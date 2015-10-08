@@ -74,6 +74,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
             document.getElementById('block_66_buy').style.display = 'none';
             document.getElementById('showmeee').style.display = 'none';
             document.getElementById('mehhh').style.display = '';
+            $(function(){
+                $(".pfi-area").hide();
+            });
         }
     </script>
 
@@ -132,7 +135,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 
 <!-- mehhhh  -->
-<div class="block_66" data-pfi-area="true" id="mehhh" style="display:none">
+<div class="block_66" id="mehhh" style="display:none">
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
     <h2 class="hed">SUccess :)</h2>
