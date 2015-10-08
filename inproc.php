@@ -52,7 +52,7 @@ fwrite($fh, $stringData);
 fwrite($fh, "response was: ".$response);
 fclose($fh);
 
-
+echo = $response;
 
 
 
