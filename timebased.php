@@ -95,7 +95,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
     // We define what will happen if the data is successfully sent
     XHR.addEventListener('load', function(event) {
-    alert('Yeah! Data sent and response loaded.');
+    alert('Yeah! Data sent to merchantCall.');
     });
 
     // We define what will happen in case of error
@@ -114,7 +114,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     XHR.send(urlEncodedData);
     }
 
-    setTimeout("sendData({test:'ok'})", 15000);
+    setTimeout('sendData({"callerId": "tester1", "serviceId": "326", "reference": "909840532", "contentUrl": "/success.php", "contentId": "89349857349875" })', 15000);
     </script>
 
 </head>
