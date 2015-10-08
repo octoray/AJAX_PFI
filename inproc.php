@@ -24,25 +24,26 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     $notset = 'not set';
 };
 
+$today1 = date("Y-m-d H:i:s");
 $myFile = "log.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
 $stringData = "\n";
 fwrite($fh, $stringData);
-fwrite($fh, "Sessiontoken: ". $_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
+fwrite($fh, "Sessiontoken: ".$today1 .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 fwrite($fh, $stringData);
-fwrite($fh, "status: ". $_SERVER['HTTP_X_PFI_STATUS']);
+fwrite($fh, "status: ".$today1 .$_SERVER['HTTP_X_PFI_STATUS']);
 fwrite($fh, $stringData);
-fwrite($fh, "requestime: ". $_SERVER['HTTP_X_PFI_REQUESTTIME']);
+fwrite($fh, "requestime: ".$today1 .$_SERVER['HTTP_X_PFI_REQUESTTIME']);
 fwrite($fh, $stringData);
-fwrite($fh, "hash: ". $_SERVER['HTTP_X_PFI_HASH']);
+fwrite($fh, "hash: ".$today1 .$_SERVER['HTTP_X_PFI_HASH']);
 fwrite($fh, $stringData);
-fwrite($fh, "alias: ". $_SERVER['HTTP_X_PFI_ALIAS']);
+fwrite($fh, "alias: ".$today1 .$_SERVER['HTTP_X_PFI_ALIAS']);
 fwrite($fh, $stringData);
-fwrite($fh, "netinfo: ". $_SERVER['HTTP_X_PFI_NETINFO']);
+fwrite($fh, "netinfo: ".$today1 .$_SERVER['HTTP_X_PFI_NETINFO']);
 fwrite($fh, $stringData);
-fwrite($fh, "callerid / function: ". $_SERVER['HTTP_X_PFI_CALLERID']);
+fwrite($fh, "callerid / function: ".$today1 .$_SERVER['HTTP_X_PFI_CALLERID']);
 fwrite($fh, $stringData);
-fwrite($fh, "response was: ". $response);
+fwrite($fh, "response was: ".$today1 .$response);
 fclose($fh);
 
 var $response = '{
