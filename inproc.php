@@ -78,6 +78,8 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
     echo $response1;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccess"){
     echo $response3;
+}else{
+    echo $response1;
 };
 
 ?>
