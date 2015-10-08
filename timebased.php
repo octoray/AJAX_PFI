@@ -113,10 +113,8 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     // And finally, We send our data.
     XHR.send(urlEncodedData);
     }
-    </script>
 
-    <script>
-    setTimeout(sendData({ "sku": "111", "color": "red" }), 29000);
+    setTimeout("sendData({test:'ok'})", 15000);
     </script>
 
 </head>
