@@ -24,11 +24,18 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     $set = 'not set';
 };
 
-$response = '{
+$response1 = '{
 	"Error":null,
 	"Script":"hidebutton()",
 	"InProcessUrl":null
 }';
+
+$response2 = '{
+	"Error":null,
+	"Script":"showproc()",
+	"InProcessUrl":null
+}';
+
 
 $today1 = date("Y-m-d H:i:s");
 $myFile = "log.txt";
@@ -57,7 +64,15 @@ fwrite($fh, $today1. ": response was: ".$response);
 fwrite($fh, $stringData);
 fclose($fh);
 
-echo $response;
+
+
+if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
+    echo $response2;
+}else{
+    echo $response1;
+};
+
+echo $response1;
 
 ?>
 

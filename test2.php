@@ -64,6 +64,12 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
         }
     </script>
 
+    <script>
+        function showproc() {
+            document.getElementById('block_66_buy').style.display = '';
+        }
+    </script>
+
 </head>
 <body>
 <!-- Menu -->
@@ -119,10 +125,10 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 
 <!-- 2nd block swap AJAX  -->
-<div class="block_66_buy" style="display:none">
+<div class="block_66_buy" id ="block_66_buy" style="display:none">
     <br>
 <br>
-    <h2 class="hed">buy me</h2>
+    <h2 class="hed">Proccessing...</h2>
     <br>
 </div>
 
