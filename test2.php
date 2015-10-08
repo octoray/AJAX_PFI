@@ -37,7 +37,6 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     ?>
 
-?>
 
 
 <!DOCTYPE HTML>
