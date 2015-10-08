@@ -35,7 +35,7 @@ $myFile = "log.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
 $stringData = "\n";
 fwrite($fh, $stringData);
-fwrite($fh, $response. ": Sessiontoken: " .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
+fwrite($fh, $today1. ": Sessiontoken: " .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 fwrite($fh, $stringData);
 fwrite($fh, "status: " .$_SERVER['HTTP_X_PFI_STATUS']);
 fwrite($fh, $stringData);
@@ -50,6 +50,7 @@ fwrite($fh, $stringData);
 fwrite($fh, "callerid / function: " .$_SERVER['HTTP_X_PFI_CALLERID']);
 fwrite($fh, $stringData);
 fwrite($fh, "response was: ".$response);
+fwrite($fh, $stringData);
 fclose($fh);
 
 echo $response;
