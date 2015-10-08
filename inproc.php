@@ -25,7 +25,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 };
 
 $myFile = "log.txt";
-$fh = fopen($myFile, 'w') or die("can't open file");
+$fh = fopen($myFile, 'a') or die("can't open file");
 $stringData = "\n";
 fwrite($fh, $stringData);
 fwrite($fh, $_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
