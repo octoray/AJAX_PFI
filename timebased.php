@@ -104,7 +104,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     });
 
     // We setup our request
-    XHR.open('POST', 'http://the-sloth.uk/pfiAjax/merchantCall');
+    XHR.open('POST', '/pfiAjax/merchantCall');
 
     // We add the required HTTP header to handle a form data POST request
     XHR.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
@@ -114,7 +114,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     XHR.send(urlEncodedData);
     }
 
-    setTimeout('sendData({"callerId": "tester1", "serviceId": "326", "reference": "909840532", "contentUrl": "/success.php", "contentId": "89349857349875" })', 15000);
+    setTimeout('sendData({"requestedUrl": "http://the-sloth.uk/timebased.php", "callerId": "tester1", "serviceId": "326", "reference": "909840532", "contentUrl": "/success.php", "contentId": "89349857349875" })', 15000);
     </script>
 
 </head>
