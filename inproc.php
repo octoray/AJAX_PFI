@@ -72,8 +72,6 @@ fwrite($fh, $today1. ": GUID Set?: " .$set);
 fwrite($fh, $stringData);
 fwrite($fh, $today1. ": Sessiontoken: " .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 fwrite($fh, $stringData);
-fwrite($fh, $today1. ": Sessiontoken: " .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
-fwrite($fh, $stringData);
 fwrite($fh, $today1. ": status: " .$_SERVER['HTTP_X_PFI_STATUS']);
 fwrite($fh, $stringData);
 fwrite($fh, $today1. ": requestime: " .$_SERVER['HTTP_X_PFI_REQUESTTIME']);
