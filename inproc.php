@@ -18,10 +18,10 @@ function getGUID(){
 $GUID = getGUID();
 if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
-    $set = 'set';
+    $set = 'Yes';
 }else{
     header("X-PFI-SessionToken: ".$GUID);
-    $notset = 'not set';
+    $set = 'not set';
 };
 
 $response = '{
@@ -35,28 +35,29 @@ $myFile = "log.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
 $stringData = "\n";
 fwrite($fh, $stringData);
+fwrite($fh, $today1. ": GUID Set?: " .$set);
+fwrite($fh, $stringData);
 fwrite($fh, $today1. ": Sessiontoken: " .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 fwrite($fh, $stringData);
-fwrite($fh, "status: " .$_SERVER['HTTP_X_PFI_STATUS']);
+fwrite($fh, $today1. ": Sessiontoken: " .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 fwrite($fh, $stringData);
-fwrite($fh, "requestime: " .$_SERVER['HTTP_X_PFI_REQUESTTIME']);
+fwrite($fh, $today1. " status: " .$_SERVER['HTTP_X_PFI_STATUS']);
 fwrite($fh, $stringData);
-fwrite($fh, "hash: " .$_SERVER['HTTP_X_PFI_HASH']);
+fwrite($fh, $today1. " requestime: " .$_SERVER['HTTP_X_PFI_REQUESTTIME']);
 fwrite($fh, $stringData);
-fwrite($fh, "alias: " .$_SERVER['HTTP_X_PFI_ALIAS']);
+fwrite($fh, $today1. " hash: " .$_SERVER['HTTP_X_PFI_HASH']);
 fwrite($fh, $stringData);
-fwrite($fh, "netinfo: " .$_SERVER['HTTP_X_PFI_NETINFO']);
+fwrite($fh, $today1. " alias: " .$_SERVER['HTTP_X_PFI_ALIAS']);
 fwrite($fh, $stringData);
-fwrite($fh, "callerid / function: " .$_SERVER['HTTP_X_PFI_CALLERID']);
+fwrite($fh, $today1. " netinfo: " .$_SERVER['HTTP_X_PFI_NETINFO']);
 fwrite($fh, $stringData);
-fwrite($fh, "response was: ".$response);
+fwrite($fh, $today1. " callerid / function: " .$_SERVER['HTTP_X_PFI_CALLERID']);
+fwrite($fh, $stringData);
+fwrite($fh, $today1. " response was: ".$response);
 fwrite($fh, $stringData);
 fclose($fh);
 
 echo $response;
-
-
-
 
 ?>
 
