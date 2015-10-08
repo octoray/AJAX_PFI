@@ -69,6 +69,12 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
         }
     </script>
 
+    <script>
+        function hideproc() {
+            document.getElementById('block_66_buy').style.display = 'none';
+        }
+    </script>
+
 </head>
 <body>
 <!-- Menu -->

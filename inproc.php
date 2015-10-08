@@ -36,6 +36,12 @@ $response2 = '{
 	"InProcessUrl":null
 }';
 
+$response3 = '{
+	"Error":null,
+	"Script":"hideproc()",
+	"InProcessUrl":null
+}';
+
 
 $today1 = date("Y-m-d H:i:s");
 $myFile = "log.txt";
@@ -68,9 +74,19 @@ fclose($fh);
 
 if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
     echo $response2;
-}else{
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing"){
     echo $response1;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccess"){
+    echo $response3;
 };
 
 ?>
 
+
+if ($a > $b) {
+echo "a is bigger than b";
+} elseif ($a == $b) {
+echo "a is equal to b";
+} else {
+echo "a is smaller than b";
+}
