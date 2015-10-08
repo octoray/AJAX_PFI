@@ -115,9 +115,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     }
     </script>
 
-    <script>
-    setTimeout(sendData({test:'ok'}), 9000);
-    </script>
+
 
 </head>
 <body>
