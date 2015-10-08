@@ -35,7 +35,7 @@ $myFile = "log.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
 $stringData = "\n";
 fwrite($fh, $stringData);
-fwrite($fh, "Sessiontoken: ".$today1 .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
+fwrite($fh, $response. ": Sessiontoken: " .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 fwrite($fh, $stringData);
 fwrite($fh, "status: " .$_SERVER['HTTP_X_PFI_STATUS']);
 fwrite($fh, $stringData);
