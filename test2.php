@@ -81,7 +81,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
     <script>
         function addtodiv() {
-            var div = document.getElementById('hideme');
+            var div = document.getElementById('showmeee');
             div.innerHTML = div.innerHTML + 'Extra stuff';
         }
 
