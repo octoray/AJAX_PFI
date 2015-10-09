@@ -82,7 +82,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <script>
         $(document).ready(function(){
             $("#bob1").click(function(){
-                $("#showmeee").append(" <b>Appended text</b>.");
+                $("#showmeee").append(" <h1>Appended text</h1>.");
             });
 
         });
@@ -107,7 +107,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 </ul>
 
 <!-- activate Menu -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
