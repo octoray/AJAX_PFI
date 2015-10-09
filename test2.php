@@ -80,11 +80,11 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     </script>
 
     <script>
-        function addtodiv() {
-            var div = document.getElementById('showmeee');
-            div.innerHTML = div.innerHTML + 'Extra stuff';
-        }
-
+        $(document).ready(function(){
+            $("#bob1").click(function(){
+                $("#showmeee").append(" <b>Appended text</b>.");
+            });
+        });
     </script>
 </head>
 <body>
@@ -220,7 +220,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
         Buy Expansion Pack For £30 <br> (Charged To Your Mobile)
     </div>
     <br><br>
-    <button onclick="addtodiv()">Click me</button>
+    <button id="bob1">Click me</button>
     <br>
 </div>
 
