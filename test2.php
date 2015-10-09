@@ -79,6 +79,13 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
         }
     </script>
 
+    <script>
+        function addtodiv() {
+            var div = document.getElementById('hideme');
+            div.innerHTML = div.innerHTML + 'Extra stuff';
+        }
+
+    </script>
 </head>
 <body>
 <!-- Menu -->
@@ -213,7 +220,7 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
         Buy Expansion Pack For £30 <br> (Charged To Your Mobile)
     </div>
     <br><br>
-    <button onclick="hidebutton()">Click me</button>
+    <button onclick="addtodiv()">Click me</button>
     <br>
 </div>
 
