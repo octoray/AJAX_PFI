@@ -1,4 +1,6 @@
 <?php
+
+
 function getGUID(){
     if (function_exists('com_create_guid')){
         return com_create_guid();
@@ -22,43 +24,6 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 }else{
     header("X-PFI-SessionToken: ".$GUID);
     $set = 'not set';
-};
-
-$response1 = '{
-	"Error":null,
-	"Script":"hidebutton()",
-	"InProcessUrl":null
-}';
-
-$response2 = '{
-	"Error":null,
-	"Script":"showproc()",
-	"InProcessUrl":null
-}';
-
-$response3 = '{
-	"Error":null,
-	"Script":"hideproc()",
-	"InProcessUrl":null
-}';
-
-
-//respond
-
-if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
-    echo $response2;
-    $response = $response2;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing"){
-    echo $response1;
-    $response = $response1;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccess"){
-    echo $response3;
-    $response = $response3;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccess"){
-
-}else{
-    echo $response1;
-    $response = $response1;
 };
 
 
@@ -87,6 +52,46 @@ fwrite($fh, $stringData);
 fwrite($fh, $today1. ": response was: ".$response);
 fwrite($fh, $stringData);
 fclose($fh);
+
+
+$response1 = '{
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null
+}';
+
+$response2 = '{
+	"Error":null,
+	"Script":"showproc()",
+	"InProcessUrl":null
+}';
+
+$response3 = '{
+	"Error":null,
+	"Script":"hideproc()",
+	"InProcessUrl":null
+}';
+
+
+//respond
+
+if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
+    $response = $response2;
+    echo $response2;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessingq"){
+    $response = $response1;
+    echo $response1;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessz"){
+    $response = $response3;
+    echo $response3;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
+       $var = '1';
+}else{
+    $response = $response1;
+    echo $response1;
+};
+
+
 
 
 
