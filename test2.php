@@ -84,6 +84,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
             $("#bob1").click(function(){
                 $("#showmeee").append(" <b>Appended text</b>.");
             });
+
         });
     </script>
 </head>
