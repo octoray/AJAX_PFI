@@ -80,13 +80,11 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     </script>
 
     <script>
-        $(document).ready(function(){
-            $("#bob1").click(function(){
-                $("#showmeee").append(' <h2 class="hed">Appended text</h2>');
-            });
-
-        });
+        function showproc2() {
+            document.getElementById('extra').style.display = '';
+        }
     </script>
+
 </head>
 <body>
 <!-- Menu -->
@@ -124,7 +122,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
-    <button id="bob1">Click me</button>
+    <button onclick="showproc2()">Click me</button>
 
 <!-- 1st block /Purchase button -->
 <div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="<?php echo $out2;?>">
@@ -138,7 +136,10 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
     <h2 class="hed">Available Now</h2>
-    <br>
+
+</div>
+<div id="extra" style="display:none">
+    <h2 class="hed">extratext</h2>
 </div>
 
 
