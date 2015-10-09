@@ -86,7 +86,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 <ul id="menu">
     <li>Offers
         <ul>
-            <li><a href="#">EXPANSION I Offer</a></li>
+            <li><a href="#">EXPANSION I Offer hybrid</a></li>
             <li><a href="#">EXPANSION II Offer</a></li>
         </ul>
     </li>
