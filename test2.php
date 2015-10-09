@@ -50,7 +50,6 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     $("body").fadeIn(1000);
     })
     </script>
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/css/style.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
 
