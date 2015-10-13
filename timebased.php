@@ -108,7 +108,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
     // We add the required HTTP header to handle a form data POST request
     XHR.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    XHR.setRequestHeader('Content-Length', urlEncodedData.length);
+    //XHR.setRequestHeader('Content-Length', urlEncodedData.length);
 
     // And finally, We send our data.
     XHR.send(urlEncodedData);
