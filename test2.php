@@ -44,12 +44,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 <head>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
-    <script type="text/javascript">
-    $(function(){
-    $("body").hide();
-    $("body").fadeIn(1000);
-    })
-    </script>
+    <!-- activate Menu -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
     <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
 
@@ -104,9 +101,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     </li>
 </ul>
 
-<!-- activate Menu -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
+
 <script type="text/javascript">
     $(document).ready(function(){
         $('#menu').slicknav();
