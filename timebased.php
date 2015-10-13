@@ -42,6 +42,8 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 <!DOCTYPE HTML>
 <html>
 <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <script type="text/javascript">
@@ -137,8 +139,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 </ul>
 
 <!-- activate Menu -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
+
 <script type="text/javascript">
     $(document).ready(function(){
         $('#menu').slicknav();
