@@ -103,15 +103,6 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 </ul>
 
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('#menu').slicknav();
-    });
-</script>
-
-
-
-
 
 <!-- 1st block /Destiny logo text overlay -->
 <div class="block_1">
