@@ -206,9 +206,12 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     </h1><br>
     Destiny: &nbsp;The Taken King -&nbsp;Legendary Edition is&nbsp;perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars. &nbsp;The Legendary Edition features the complete Destiny experience including The Taken King, the next evolution in the Destiny universe, Destiny, Expansion I: The Dark Below and Expansion II: House of Wolves. &nbsp;Unite with 20 million Guardians in the fight to defeat Earth’s enemies, reclaim all that we have lost, and Become Legend.
 <br><br><br><br>
-    <div class="btn1" onclick="test1()">
-        Buy Expansion Pack For £30 <br> (Charged To Your Mobile)
+    <!-- 1st block /Purchase button -->
+    <div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="<?php echo $out2;?>">
+        Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     </div>
+    <br>
+</div>
     <br><br>
     <button id="bob1">Click me</button>
     <br>
