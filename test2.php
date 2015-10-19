@@ -83,6 +83,12 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
         }
     </script>
 
+    <script>
+        function hybridshow() {
+            document.getElementById('hybridshow').style.display = '';
+        }
+    </script>
+
 </head>
 <body>
 <!-- Menu -->
@@ -127,6 +133,11 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 <div id="extra" style="display:none">
     <h2 class="hed">extratext</h2>
+</div>
+
+</div>
+<div id="hybridshow" style="display:none">
+    <h2 class="hed">Please confirm using the SMS Link we just sent you</h2>
 </div>
 
 
