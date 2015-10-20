@@ -79,44 +79,13 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 
     <!-- Timebased call to merchantCall -->
-    <script>
-    function sendData(data) {
-    var XHR = new XMLHttpRequest();
-    var urlEncodedData = "";
-    var urlEncodedDataPairs = [];
-    var name;
+    <script type="text/javascript">
+        $().ready(function callme() {
+            merchantCall('script1', 330, 'trapped', '/dogs/video', 'trappedvid');
+        });
 
-    // We turn the data object into an array of URL encoded key value pairs.
-    for(name in data) {
-    urlEncodedDataPairs.push(encodeURIComponent(name) + '=' + encodeURIComponent(data[name]));
-    }
 
-    // We combine the pairs into a single string and replace all encoded spaces to
-    // the plus character to match the behaviour of the web browser form submit.
-    urlEncodedData = urlEncodedDataPairs.join('&').replace(/%20/g, '+');
-
-    // We define what will happen if the data is successfully sent
-    XHR.addEventListener('load', function(event) {
-    alert('Yeah! Data sent to merchantCall.');
-    });
-
-    // We define what will happen in case of error
-    XHR.addEventListener('error', function(event) {
-    alert('Oups! Something goes wrong.');
-    });
-
-    // We setup our request
-    XHR.open('POST', '/pfiAjax/merchantCall');
-
-    // We add the required HTTP header to handle a form data POST request
-    XHR.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    //XHR.setRequestHeader('Content-Length', urlEncodedData.length);
-
-    // And finally, We send our data.
-    XHR.send(urlEncodedData);
-    }
-
-    setTimeout('sendData({"requestedUrl": "http://the-sloth.uk/timebased.php", "callerId": "tester1", "serviceId": "326", "reference": "909840532", "contentUrl": "/success.php", "contentId": "89349857349875" })', 15000);
+    setTimeout('callme()', 15000);
     </script>
 
 </head>
