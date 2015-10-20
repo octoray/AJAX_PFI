@@ -30,21 +30,21 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 $response1 = '{
 	"Error":null,
 	"Script":"hidebutton()",
-	"ShowMarketingOptIn":"1",
+	"ShowMarketingOptIn": true,
 	"InProcessUrl":null
 }';
 
 $response2 = '{
 	"Error":null,
 	"Script":"showproc()",
-	"ShowMarketingOptIn":"1",
+	"ShowMarketingOptIn": true,
 	"InProcessUrl":null
 }';
 
 $response3 = '{
 	"Error":null,
 	"Script":"hybridshow()",
-	"ShowMarketingOptIn":"1",
+	"ShowMarketingOptIn": true,
 	"InProcessUrl":null
 }';
 
