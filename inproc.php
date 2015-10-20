@@ -50,18 +50,18 @@ $response3 = '{
 
 if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
     $response = $response2;
-    echo $response;
+    //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmButtonShown"){
     $response = $response3;
-    echo $response;
+    //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessz"){
     $response = $response3;
-    echo $response;
+    //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
-    $var = '1';
+    //$var = '1';
 }else{
     $response = $response1;
-    echo $response1;
+    //echo $response1;
 };
 
 
