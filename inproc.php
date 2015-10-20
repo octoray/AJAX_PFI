@@ -44,7 +44,7 @@ $response2 = '{
 $response3 = '{
 	"Error":null,
 	"Script":"hybridshow()",
-	"InProcessUrl":null
+	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
 
