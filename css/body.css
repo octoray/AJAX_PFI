@@ -260,6 +260,16 @@ h1 {
     border-radius: 25px;
 }
 
+.pfi-wait {
+    background: #cc001d;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-radius: 25px;
+}
+
+
 .pfi-charge-notification {
     font-size: 20px;
 }
