@@ -242,7 +242,7 @@ h1 {
 
 
 
-.pfi-purchase {
+.pfi-purchase .pfi-wait {
     background: #339900;
     margin-bottom: 30px;
     margin-left: 10%;
@@ -283,7 +283,7 @@ p#pfi-pin-message {
     margin-top: 15px;
 }
 
-.pfi-button {
+.pfi-button .pfi-wait {
     margin-bottom: 30px;
     margin-left: 10%;
     margin-right: 10%;
