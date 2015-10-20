@@ -80,12 +80,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
     <!-- Timebased call to merchantCall -->
     <script type="text/javascript">
-        $().ready(function callme() {
-            merchantCall('script1', 330, 'trapped', '/dogs/video', 'trappedvid');
-        });
-
-
-    setTimeout('callme()', 15000);
+    setTimeout("merchantCall('script1', 330, 'trapped', '/dogs/video', 'trappedvid'", 15000);
     </script>
 
 </head>
