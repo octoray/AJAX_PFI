@@ -243,12 +243,16 @@ h1 {
 
 
 .pfi-purchase .pfi-wait #pfi-msisdn-button-mt .pfi-button .pfi-purchase {
-    background: #339900;
+    background: #cc001d;
     margin-bottom: 30px;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
     border-radius: 25px;
+}
+
+.pfi-purchase {
+    background: #3C0099;
 }
 
 .pfi-charge-notification {
