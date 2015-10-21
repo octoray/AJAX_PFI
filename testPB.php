@@ -39,7 +39,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript">
         $(function(){
-            $("body").fadeOut(4200,function(){
+            $("body").fadeOut(94200,function(){
                 window.location.href = "http://the-sloth.uk/test2.php"
             })
         });
