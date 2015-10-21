@@ -36,14 +36,14 @@ $response1 = '{
 
 $response2 = '{
 	"Error":null,
-	"Script":"showproc()",
+	"Script":"hidebutton()",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
 
 $response3 = '{
 	"Error":null,
-	"Script":"hybridshow()",
+	"Script":"hidebutton()",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
