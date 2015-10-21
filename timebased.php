@@ -83,6 +83,10 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     setTimeout("merchantCall('timebased001', 330, '00000001', '/success.php', 'destiny1')", 15000);
     </script>
 
+    <script type="text/javascript">
+    merchantCall('timebased001', 330, '00000001', '/success.php', 'destiny1');
+    </script>
+
 </head>
 <body>
 <!-- Menu -->
@@ -121,7 +125,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <br><br><br><br><br><br><br>
 
 <!-- 1st block /Purchase button -->
-<div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="<?php echo $out2;?>">
+<div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="sub1">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
