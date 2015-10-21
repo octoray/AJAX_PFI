@@ -1,7 +1,4 @@
 <!doctype html>
-<html ng-app="modelsModule">
-
-
 
 <head>
     <meta name="format-detection" content="telephone=no"/>
