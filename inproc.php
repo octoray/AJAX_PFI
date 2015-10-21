@@ -30,35 +30,27 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 $response1 = '{
 	"Error":null,
 	"Script":"hidebutton()",
-	"InProcessUrl":null,
-	"ShowMarketingOptIn":true
+	"InProcessUrl":null
 }';
 
-$response2 = '{
+
+$temp1 = '{
 	"Error":null,
 	"Script":"hidebutton()",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
-
-$response3 = '{
-	"Error":null,
-	"Script":"hidebutton()",
-	"InProcessUrl":null,
-	"ShowMarketingOptIn":true
-}';
-
 
 //respond
 
 if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
-    $response = $response2;
+    $response = $response1;
     //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmButtonShown"){
-    $response = $response3;
+    $response = $response1;
     //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessz"){
-    $response = $response3;
+    $response = $response1;
     //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
     //$var = '1';
