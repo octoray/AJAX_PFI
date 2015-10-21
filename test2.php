@@ -58,6 +58,8 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
         function hidebutton() {
             document.getElementById('hideme1').style.display = 'none';
             document.getElementById('hideme2').style.display = 'none';
+            hideproc();
+            showproc2();
         }
     </script>
 
@@ -116,7 +118,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 <img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
-    <button onclick="hidebutton()">Click me</button>
+    <button onclick="hidebutton()">Click me to run hidebutton()</button>
 
 <!-- 1st block /Purchase subscription button -->
 <div class="merchant-button btn1" id="hideme1" data-pfi-button="true" ShowMarketingOptIn="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="sub1">
