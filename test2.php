@@ -58,8 +58,6 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
         function hidebutton() {
             document.getElementById('hideme1').style.display = 'none';
             document.getElementById('hideme2').style.display = 'none';
-            hideproc();
-            showproc2();
         }
     </script>
 
