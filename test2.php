@@ -56,7 +56,8 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <!-- Hide stuff -->
     <script>
         function hidebutton() {
-            document.getElementById('hideme').style.display = 'none';
+            document.getElementById('hideme1').style.display = 'none';
+            document.getElementById('hideme2').style.display = 'none';
         }
     </script>
 
@@ -118,14 +119,14 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <button onclick="hidebutton()">Click me</button>
 
 <!-- 1st block /Purchase subscription button -->
-<div class="merchant-button btn1" id="hideme" data-pfi-button="true" ShowMarketingOptIn="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="sub1">
+<div class="merchant-button btn1" id="hideme1" data-pfi-button="true" ShowMarketingOptIn="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="sub1">
 subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
 </div>
 
 <!-- 1st block /Purchase button -->
-<div class="merchant-button btn1" id="hideme" data-pfi-button="true" ShowMarketingOptIn="true" data-pfi-button-id="hidebutton" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="<?php echo $out2;?>">
+<div class="merchant-button btn1" id="hideme2" data-pfi-button="true" ShowMarketingOptIn="true" data-pfi-button-id="hidebutton" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="<?php echo $out2;?>">
     Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 <br>
