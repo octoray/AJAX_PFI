@@ -40,7 +40,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <script type="text/javascript">
         $(function(){
             $("body").fadeOut(4200,function(){
-                window.location.href = "http://the-sloth.uk/testPB.php"
+                window.location.href = "http://the-sloth.uk/test2.php"
             })
         });
     </script>
