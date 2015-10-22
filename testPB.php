@@ -7,25 +7,6 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
     <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="contentLevel" content="soft"/>
-    <title>69CamsBox</title>
-
-    <link href="/cams/css/fonts.css" rel="stylesheet"/>
-    <link href="/cams/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
-
-    <!-- CSS -->
-    <link href="/cams/css/pfi-header.css" rel="stylesheet"/>
-    <link href="/cams/css/custom.css" rel="stylesheet"/>
-    <link href="/cams/css/commercial.css" rel="stylesheet"/>
-
-    <script src="/cams/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/cams/bower_components/angular/angular.min.js"></script>
-    <script src="/cams/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/cams/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-    <script src="/cams/bower_components/angular-resource/angular-resource.min.js"></script>
-    <script src="/cams/modules/users/users.js"></script>
-    <script src="/cams/modules/models/modelsNew.js"></script>
 </head>
 
 
