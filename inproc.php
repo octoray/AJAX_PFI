@@ -30,7 +30,8 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 $response1 = '{
 	"Error":null,
 	"Script":"hidebutton()",
-	"InProcessUrl":null
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
 }';
 
 
