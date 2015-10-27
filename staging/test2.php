@@ -48,7 +48,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <!-- activate Menu -->
     <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
     <script type="text/javascript">
