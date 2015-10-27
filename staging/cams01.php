@@ -72,7 +72,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
         <script src="http://enzo.69camsbox.com/cams/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
         <script src="http://enzo.69camsbox.com/cams/bower_components/underscore/underscore-min.js"></script>
         <script src="http://enzo.69camsbox.com/cams/bower_components/angular-touch/angular-touch.min.js"></script>
-    <!--
+
           <script src="http://enzo.69camsbox.com/cams/services/userService.js"></script>
           <script src="http://enzo.69camsbox.com/cams/modules/models/FilterModelsService.js"></script>
           <script src="http://enzo.69camsbox.com/cams/modules/models/directives/AddedToFavouriteDirective.js"></script>
@@ -86,9 +86,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
           <script src="http://enzo.69camsbox.com/cams/modules/users/users.js"></script>
           <script src="http://enzo.69camsbox.com/cams/services/rtclient.js"></script>
 
-
-          <script src="http://enzo.69camsbox.com/cams/modules/prelanding/prelanding.js"></script>
-          -->
+    <!--
+              <script src="http://enzo.69camsbox.com/cams/modules/prelanding/prelanding.js"></script>
+              -->
 
 
 </head>
