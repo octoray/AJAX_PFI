@@ -26,6 +26,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 };
 ?>
 
+
+
+
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" ng-app="prelandingModule">
 
@@ -40,9 +43,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <title>69CamsBoxtest</title>
 
     <link href="http://octoraypfi.co.uk/staging/css/fonts.css" rel="stylesheet"/>
-    <!--
-    <link href="/cams/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    -->
+
+    <link href="http://octoraypfi.co.uk/staging/css/bootstrap.min.css" rel="stylesheet"/>
+
 
     <link href="http://octoraypfi.co.uk/staging/css/custom.css" rel="stylesheet"/>
 
