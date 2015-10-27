@@ -121,7 +121,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 <!-- 1st block /Destiny logo text overlay -->
 <div class="block_1">
-<img src="http://octoraypfi.co.uk/staging/images/banner.png" class="banner" alt="Header">
+<img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
     <button onclick="hidebutton()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button>

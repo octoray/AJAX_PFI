@@ -1,4 +1,6 @@
 <?php
+
+//Generate GUID
 function getGUID(){
     if (function_exists('com_create_guid')){
         return com_create_guid();
@@ -15,11 +17,14 @@ function getGUID(){
         return $uuid;
     }
 }
-
+//Set variable function to call
 $GUID = getGUID();
+
+//if PFI IMI server already comes to me with a session set in there header, simply take that and return it back
 if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
     $set = 'set';
+// But if PFI IMI server does not come with this set, generate GUID and send it in header
 }else{
     header("X-PFI-SessionToken: ".$GUID);
     $notset = 'not set';
