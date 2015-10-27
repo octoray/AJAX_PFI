@@ -62,9 +62,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     </script>
 
 
-
+    <!--
     <script src="http://enzo.69camsbox.com/cams/bower_components/jquery/dist/jquery.min.js"></script>
-
+-->
         <script src="http://enzo.69camsbox.com/cams/bower_components/angular/angular.min.js"></script>
         <script src="http://enzo.69camsbox.com/cams/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="http://enzo.69camsbox.com/cams/bower_components/angular-resource/angular-resource.min.js"></script>
