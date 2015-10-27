@@ -46,11 +46,11 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <!-- activate Menu -->
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css">
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
+    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">
+    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-    <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
+    <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $('#menu').slicknav();
@@ -121,20 +121,20 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 <!-- 1st block /Destiny logo text overlay -->
 <div class="block_1">
-<img src="http://octoraypfi.co.uk/images/banner.png" class="banner" alt="Header">
+<img src="http://octoraypfi.co.uk/staging/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
-    <button onclick="hidebutton()">Click me to run hidebutton() !!!!!!!!!!!!!</button>
+    <button onclick="hidebutton()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button>
 
 <!-- 1st block /Purchase subscription button -->
-<div class="merchant-button btn1" id="hideme1" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="17" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="<?php echo $out2;?>">
+<div class="merchant-button btn1" id="hideme1" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="17" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
 subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
 </div>
 
 <!-- 1st block /Purchase button -->
-<div class="merchant-button btn1" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="19" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="sub1">
+<div class="merchant-button btn1" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="19" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="sub1">
     Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 <br>
@@ -178,8 +178,8 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 <!-- 3nd block  -->
 <div class="block_2">
-<video class="video" width="100%"  poster="http://octoraypfi.co.uk/images/image1.jpg" controls >
-    <source src="http://octoraypfi.co.uk/video/des1.mp4" type="video/mp4">
+<video class="video" width="100%"  poster="http://octoraypfi.co.uk/staging/images/image1.jpg" controls >
+    <source src="http://octoraypfi.co.uk/staging/video/des1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 </div>
@@ -196,7 +196,7 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 <!-- 5th block  -->
 <div class="block_4">
-    <img src="http://octoraypfi.co.uk/images/box1.jpg" class="image2" alt="Header" width="100%">
+    <img src="http://octoraypfi.co.uk/staging/images/box1.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 
@@ -211,7 +211,7 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 <!-- 7th block  -->
 <div class="block_4">
-    <img src="http://octoraypfi.co.uk/images/image2.png" class="image2" alt="Header" width="100%">
+    <img src="http://octoraypfi.co.uk/staging/images/image2.png" class="image2" alt="Header" width="100%">
 </div>
 
 
@@ -223,7 +223,7 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 
 <div class="block_5">
-    <img src="http://octoraypfi.co.uk/images/gif.gif" class="image2" alt="Header" width="100%">
+    <img src="http://octoraypfi.co.uk/staging/images/gif.gif" class="image2" alt="Header" width="100%">
 </div>
 
 
@@ -234,7 +234,7 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
     Destiny: &nbsp;The Taken King -&nbsp;Legendary Edition is&nbsp;perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars. &nbsp;The Legendary Edition features the complete Destiny experience including The Taken King, the next evolution in the Destiny universe, Destiny, Expansion I: The Dark Below and Expansion II: House of Wolves. &nbsp;Unite with 20 million Guardians in the fight to defeat Earth’s enemies, reclaim all that we have lost, and Become Legend.
 <br><br><br><br>
     <!-- 1st block /Purchase button -->
-    <div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="<?php echo $out2;?>">
+    <div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
         Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     </div>
     <br>
