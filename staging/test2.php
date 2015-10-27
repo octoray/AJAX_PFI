@@ -46,22 +46,24 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <!-- activate Menu -->
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">
+    <!--<link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">-->
     <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
     <script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-    <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('#menu').slicknav();
-        });
-    </script>
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script> -->
+
+    <!--
+     <script type="text/javascript">
+         $(document).ready(function(){
+             $('#menu').slicknav();
+         });
+     </script>-->
 
 
 
 
 
-    <!-- Hide stuff -->
+     <!-- Hide stuff -->
     <script>
         function hidebutton() {
             document.getElementById('hideme1').style.display = 'none';
