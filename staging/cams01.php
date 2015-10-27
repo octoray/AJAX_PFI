@@ -39,12 +39,12 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <meta name="contentLevel" content="soft"/>
     <title>69CamsBoxtest</title>
 
-    <link href="/cams/css/fonts.css" rel="stylesheet"/>
+    <link href="http://octoraypfi.co.uk/staging/css/fonts.css" rel="stylesheet"/>
     <!--
     <link href="/cams/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
     -->
 
-    <link href="/cams/css/custom.css" rel="stylesheet"/>
+    <link href="http://octoraypfi.co.uk/staging/css/custom.css" rel="stylesheet"/>
 
     <!--
     <script>
@@ -92,7 +92,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 <body ng-controller="prelandingController" ng-cloak="">
 <div id="navigationRow" class="header">
     <!--MODEL NAME-->
-    <img class="prelander-logo" ng-src="/cams/images/cams-logo1.png"/>
+    <img class="prelander-logo" ng-src="http://enzo.69camsbox.com/cams/images/cams-logo1.png"/>
     <span class="preander-modelname pull-right">{{profile.displayname}}</span>
 </div>
 
@@ -109,7 +109,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
                     <!-- Video placeholder - Camplace will inject the video here -->
                     <div id="videoPlaceholder"></div>
                     <div class="prelander-swipe-holder">
-                        <img class="prelander-swipe-icon" src="/cams/images/swipe_icon.png" alt="swipeIcon"/>
+                        <img class="prelander-swipe-icon" src="http://enzo.69camsbox.com/cams/images/swipe_icon.png" alt="swipeIcon"/>
                         <p class="prelander-swipe-text">Swipe for more models</p>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
                 <img class="tag-offline no-tokens" ng-src="{{profile.avatarImageUrl}}" title="{{profile.chatname}}"/>
 
                 <div class="prelander-swipe-holder">
-                    <img class="prelander-swipe-icon" src="/cams/images/swipe_icon.png" alt="swipeIcon"/>
+                    <img class="prelander-swipe-icon" src="http://enzo.69camsbox.com/cams/images/swipe_icon.png" alt="swipeIcon"/>
                     <p class="prelander-swipe-text">Swipe for more models</p>
                 </div>
             </div>
@@ -142,7 +142,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
                     <div class="chat-input-underline"></div>
                             <span class="input-group-btn">
                                 <a class="btn btn-default send-button" ng-click="sendMessage()" scroll-to style="border-top-right-radius: 0;">
-                                    <img class="send-icon" ng-src="/cams/images/sendicon_small.png"/>
+                                    <img class="send-icon" ng-src="http://enzo.69camsbox.com/cams/images/sendicon_small.png"/>
                                 </a>
                             </span>
                 </div>
