@@ -49,7 +49,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
     <link href="http://octoraypfi.co.uk/staging/css/custom.css" rel="stylesheet"/>
 
-    <!--
+
     <script>
         var modelId = 808271;
         //var userId = "ce92458c-5ced-4c46-9056-e561e509d754";
@@ -60,7 +60,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
             root: '/cams/'
         };
     </script>
-    -->
+
 
     <!--
     <script src="/cams/bower_components/jquery/dist/jquery.min.js"></script>
