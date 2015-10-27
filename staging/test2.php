@@ -178,8 +178,8 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 <!-- 3nd block  -->
 <div class="block_2">
-<video class="video" width="100%"  poster="http://octoraypfi.co.uk/staging/images/image1.jpg" controls >
-    <source src="http://octoraypfi.co.uk/staging/video/des1.mp4" type="video/mp4">
+<video class="video" width="100%"  poster="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/image1.jpg" controls >
+    <source src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/video/des1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 </div>
@@ -196,7 +196,7 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 <!-- 5th block  -->
 <div class="block_4">
-    <img src="http://octoraypfi.co.uk/staging/images/box1.jpg" class="image2" alt="Header" width="100%">
+    <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/box1.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 
@@ -211,7 +211,7 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 
 <!-- 7th block  -->
 <div class="block_4">
-    <img src="http://octoraypfi.co.uk/staging/images/image2.png" class="image2" alt="Header" width="100%">
+    <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/image2.png" class="image2" alt="Header" width="100%">
 </div>
 
 
@@ -223,7 +223,7 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 
 <div class="block_5">
-    <img src="http://octoraypfi.co.uk/staging/images/gif.gif" class="image2" alt="Header" width="100%">
+    <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/gif.gif" class="image2" alt="Header" width="100%">
 </div>
 
 
