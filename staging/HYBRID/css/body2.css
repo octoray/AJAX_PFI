@@ -1,0 +1,243 @@
+body {
+    background-color: #ffffff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    margin: 0px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: #000000;
+}
+
+img.banner {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* height: 100px; */
+    /* text-align: center; */
+    /* align-content: center; */
+}
+
+
+img.banner_main {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* height: 100px; */
+    margin-top: 205px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    /* align-content: center; */
+}
+
+
+
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 90em) {
+    /* #menu is the original menu */
+    .js #menu {
+        display:none;
+    }
+
+    .js .slicknav_menu {
+        display:block;
+    }
+}
+
+
+.Buy_now {
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 10px;
+
+}
+
+.Buy_now_text {
+    color: #ffffff;
+    text-align: center;
+    font-size: 8px;
+
+}
+
+.game1 {
+    margin-top: 25px;
+    width: 60%;
+    height: 250px;
+    color: #ffffff;
+    font-size: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.Buy_now_text2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+
+
+}
+
+
+.footer {
+    color: #000000;
+    text-align: center;
+    font-size: 8px;
+    background-color: #ffffff;
+    opacity: 0.4;
+}
+
+.foot_logo  {
+    height: 25px;
+    color: #ffffff;
+    font-size: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.btn1 {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+0,d8e1e7+50,b5c6d0+51,e0eff9+100;Grey+Gloss+%232 */
+    background: rgb(242,246,248); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,246,248,1)), color-stop(50%,rgba(216,225,231,1)), color-stop(51%,rgba(181,198,208,1)), color-stop(100%,rgba(224,239,249,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+
+
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 11px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 1px;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6e026+0,abdc28+100;Green+Flat */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+0,d8e1e7+50,b5c6d0+51,e0eff9+100;Grey+Gloss+%232 */
+    background: rgb(242,246,248); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,246,248,1)), color-stop(50%,rgba(216,225,231,1)), color-stop(51%,rgba(181,198,208,1)), color-stop(100%,rgba(224,239,249,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+
+
+    text-decoration: none;
+}
+
+
+
+.block_1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    background-color: #ffffff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    margin: 0px;
+
+}
+
+.block_2 {
+     color: #ffffff;
+     text-align: center;
+     font-size: 11px;
+     background-color: #000000;
+     margin: 0px;
+ }
+
+.block_3 {
+     color: #000000;
+     text-align: left;
+     font-size: 11px;
+     background-color: #ffffff;
+     margin: 0px;
+     padding-bottom: 15px;
+     padding-top: 15px;
+ }
+
+.block_4 {
+    color: #000000;
+    text-align: left;
+    font-size: 11px;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+
+.block_5 {
+    color: #000000;
+    text-align: left;
+    font-size: 11px;
+    height: 50%;
+}
+
+.block_7 {
+    color: #000000;
+    text-align: left;
+    font-size: 11px;
+    height: 50%;
+}
+
+
+.block_6 {
+    background-color: #ffffff;
+    width: 100%;
+    color: black;
+    text-align: left;
+    font-size: 9px;
+    display: inline-block;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    /* border-bottom: gray; */
+    /* border-top: gray; */
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.block_66 {
+    background-image: url("http://octoraypfi.co.uk/images/bg.jpg");
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    display: inline-block;
+}
