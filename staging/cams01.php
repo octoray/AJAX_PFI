@@ -62,33 +62,33 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     </script>
 
 
+
+    <script src="http://enzo.69camsbox.com/cams/bower_components/jquery/dist/jquery.min.js"></script>
     <!--
-    <script src="/cams/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/bower_components/angular/angular.min.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/bower_components/angular-resource/angular-resource.min.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/bower_components/angular-route/angular-route.min.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/bower_components/underscore/underscore-min.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/bower_components/angular-touch/angular-touch.min.js"></script>
 
-    <script src="/cams/bower_components/angular/angular.min.js"></script>
-    <script src="/cams/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/cams/bower_components/angular-resource/angular-resource.min.js"></script>
-    <script src="/cams/bower_components/angular-route/angular-route.min.js"></script>
-    <script src="/cams/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-    <script src="/cams/bower_components/underscore/underscore-min.js"></script>
-    <script src="/cams/bower_components/angular-touch/angular-touch.min.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/services/userService.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/modules/models/FilterModelsService.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/modules/models/directives/AddedToFavouriteDirective.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/modules/models/models.js"></script>
 
-    <script src="/cams/services/userService.js"></script>
-    <script src="/cams/modules/models/FilterModelsService.js"></script>
-    <script src="/cams/modules/models/directives/AddedToFavouriteDirective.js"></script>
-    <script src="/cams/modules/models/models.js"></script>
-
-    <script src="/cams/modules/chat/directives/cursorBlinkDirective.js"></script>
-    <script src="/cams/modules/chat/chat.js"></script>
-    <script src="/cams/modules/chat/ChatService.js"></script>
-    <script src="/cams/modules/chat/EventMessageReceiver.js"></script>
-    <script src="/cams/modules/chat/ChatTime.js"></script>
-    <script src="/cams/modules/users/users.js"></script>
-    <script src="/cams/services/rtclient.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/modules/chat/directives/cursorBlinkDirective.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/modules/chat/chat.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/modules/chat/ChatService.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/modules/chat/EventMessageReceiver.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/modules/chat/ChatTime.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/modules/users/users.js"></script>
+        <script src="http://enzo.69camsbox.com/cams/services/rtclient.js"></script>
 
 
-    <script src="/cams/modules/prelanding/prelanding.js"></script>
-    -->
+        <script src="http://enzo.69camsbox.com/cams/modules/prelanding/prelanding.js"></script>
+        -->
 
 
 </head>
