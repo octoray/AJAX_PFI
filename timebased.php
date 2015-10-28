@@ -84,7 +84,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     </script>
 
     <script type="text/javascript">
+        function showproc() {
     merchantCall('timebased001', 330, '00000001', '/success.php', 'destiny1');
+        }
     </script>
 
 </head>
