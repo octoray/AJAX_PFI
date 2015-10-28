@@ -47,7 +47,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <meta name="contentLevel" content="soft"/>
     <title>69CamsBoxtest</title>
 
-    <link href="http://octoraypfi.co.uk/staging/css/fonts.css" rel="stylesheet"/>
+   <!-- <link href="http://octoraypfi.co.uk/staging/css/fonts.css" rel="stylesheet"/>-->
 
     <link href="http://octoraypfi.co.uk/staging/css/bootstrap.min.css" rel="stylesheet"/>
 
