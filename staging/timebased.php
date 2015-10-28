@@ -46,12 +46,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
-    <script type="text/javascript">
-    $(function(){
-    $("body").hide();
-    $("body").fadeIn(1000);
-    })
-    </script>
+
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/style.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
