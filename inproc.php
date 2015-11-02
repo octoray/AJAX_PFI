@@ -69,8 +69,8 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccess"){
     $response = $resp_success;
     //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
-    //$var = '1';
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing"){
+    $response = $resp_proccessing;
 }else{
     $response = $response_defualt;
     //echo $response1;
