@@ -26,6 +26,8 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 };
 
 
+
+
     $length1 = 8;
     $length2 = 10;
     $length3 = 12;
@@ -75,12 +77,11 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <script>
         function showproc() {
             document.getElementById('block_66_buy').style.display = '';
-            document.getElementById('showmeee').style.display = 'none';
         }
     </script>
 
     <script>
-        function showsuc() {
+        function show() {
             document.getElementById('block_66_buy2').style.display = '';
             document.getElementById('showmeee').style.display = 'none';
         }
@@ -128,18 +129,21 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     </li>
 </ul>
 
-
+<?php
+if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiHybridSession") {
+    show();
+}else{
+$set = 'set';
+?>
 
 <!-- 1st block /Destiny logo text overlay -->
 <div class="block_1">
 <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
-    <button onclick="showsuc()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button><br>
-    <button onclick="showproc()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button>
+    <button onclick="hidebutton()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button>
 
-
-    <!-- 1st block /Purchase subscription button -->
+<!-- 1st block /Purchase subscription button -->
 <div class="merchant-button btn1" id="hideme1" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="sub1">
 subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
