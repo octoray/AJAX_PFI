@@ -129,12 +129,6 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     </li>
 </ul>
 
-<?php
-if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiHybridSession") {
-    show();
-}else{
-$set = 'set';
-?>
 
 <!-- 1st block /Destiny logo text overlay -->
 <div class="block_1">
