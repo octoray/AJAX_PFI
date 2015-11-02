@@ -75,12 +75,14 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <script>
         function showproc() {
             document.getElementById('block_66_buy').style.display = '';
+            document.getElementById('showmeee').style.display = 'none';
         }
     </script>
 
     <script>
         function showsuc() {
             document.getElementById('block_66_buy2').style.display = '';
+            document.getElementById('showmeee').style.display = 'none';
         }
     </script>
 
