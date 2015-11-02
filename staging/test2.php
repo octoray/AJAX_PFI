@@ -79,6 +79,12 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     </script>
 
     <script>
+        function showsuc() {
+            document.getElementById('block_66_buy2').style.display = '';
+        }
+    </script>
+
+    <script>
         function hideproc() {
             document.getElementById('block_66_buy').style.display = 'none';
             document.getElementById('showmeee').style.display = 'none';
@@ -173,10 +179,19 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 <!-- 2nd block swap AJAX  -->
 <div class="block_66_buy" id ="block_66_buy" style="display:none">
     <br>
-<br>
+    <br>
     <h2 class="hed">Proccessing...</h2>
     <br>
 </div>
+
+<!-- 2nd block swap AJAX  -->
+<div class="block_66_buy2" id ="block_66_buy2" style="display:none">
+    <br>
+    <br>
+    <h2 class="hed">Loading Content....</h2>
+    <br>
+</div>
+
 
 
 <!-- 3nd block  -->

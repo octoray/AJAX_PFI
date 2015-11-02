@@ -140,6 +140,14 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <br>
 </div>
 
+<!-- 2nd block swap AJAX  -->
+<div class="block_66_buy2" id ="block_66_buy2" style="display:none">
+    <br>
+    <br>
+    <h2 class="hed">Loading Content....</h2>
+    <br>
+</div>
+
 
 <!-- 3nd block  -->
 <div class="block_2">
