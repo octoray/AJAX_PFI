@@ -1,4 +1,8 @@
 <?php
+
+
+
+
 function getGUID(){
     if (function_exists('com_create_guid')){
         return com_create_guid();
@@ -152,7 +156,7 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 
 <!-- 2nd block  -->
-<div class="block_66" data-pfi-area="true" id="showmeee" >
+<div class="block_66" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
     <h2 class="hed">Available Now</h2>
@@ -187,7 +191,7 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 
 <!-- 2nd block swap AJAX  -->
-<div class="block_66_buy2" id ="block_66_buy2" style="display:none">
+<div class="block_66_buy2" id ="block_66_buy2" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "";}else{echo "display:none";};?>">
     <br>
     <br>
     <h2 class="hed">Loading Content....</h2>
