@@ -76,6 +76,7 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
     //echo $response1;
 };
 
+//X-PFI-TransactionId
 
 //Write logs
 $today1 = date("Y-m-d H:i:s");
@@ -98,6 +99,8 @@ fwrite($fh, $stringData);
 fwrite($fh, $today1. ": netinfo: " .$_SERVER['HTTP_X_PFI_NETINFO']);
 fwrite($fh, $stringData);
 fwrite($fh, $today1. ": callerid / function: " .$_SERVER['HTTP_X_PFI_CALLERID']);
+fwrite($fh, $stringData);
+fwrite($fh, $today1. ": TransactionID: " .$_SERVER['HTTP_X_PFI_TRANSACTIONID']);
 fwrite($fh, $stringData);
 fwrite($fh, $today1. ": response was: ".$response);
 fwrite($fh, $stringData);
