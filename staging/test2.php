@@ -294,6 +294,10 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
     echo"<br>";
     echo "Your hash is: ".$_SERVER['HTTP_X_PFI_HASH'];
     echo"<br>";
+    echo "Your callerid is: ".$_SERVER['HTTP_X_PFI_CALLERID'];
+    echo"<br>";
+    echo "Your transid is: ".$_SERVER['HTTP_X_PFI_TRANSACTIONID'];
+    echo"<br>";
     echo"<br>";
     echo"<br>";
     echo print_r($_SERVER);
