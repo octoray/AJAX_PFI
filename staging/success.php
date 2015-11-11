@@ -134,7 +134,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <img src="http://octoraypfi.co.uk/staging/images/banner.png" class="banner" alt="Header">
     <br>
     <br><br><br><br><br><br><br>
-
+    <button onclick="showproc2()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button>
     <!-- 1st block /Purchase button -->
 
     <br>
