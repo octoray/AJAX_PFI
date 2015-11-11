@@ -36,6 +36,60 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
             $("body").fadeIn(1000);
         })
     </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#menu').slicknav();
+        });
+    </script>
+
+
+
+
+
+    <!-- Hide stuff -->
+    <script>
+        function hidebutton() {
+            document.getElementById('hideme1').style.display = 'none';
+            document.getElementById('hideme2').style.display = 'none';
+        }
+    </script>
+
+    <script>
+        function showproc() {
+            document.getElementById('block_66_buy').style.display = '';
+        }
+    </script>
+
+    <script>
+        function show() {
+            document.getElementById('block_66_buy2').style.display = '';
+            document.getElementById('showmeee').style.display = 'none';
+        }
+    </script>
+
+    <script>
+        function hideproc() {
+            document.getElementById('block_66_buy').style.display = 'none';
+            document.getElementById('showmeee').style.display = 'none';
+            document.getElementById('mehhh').style.display = '';
+            $(function(){
+                $(".pfi-area").hide();
+            });
+        }
+    </script>
+
+    <script>
+        function showproc2() {
+            document.getElementById('extra').style.display = '';
+        }
+    </script>
+
+    <script>
+        function hybridshow() {
+            document.getElementById('hybridshow').style.display = '';
+        }
+    </script>
+
     <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
 
@@ -94,6 +148,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <br>
     <h2 class="hed" style="color: greenyellow">Thank You For Buying The Taken King Game </h2>
     <br>
+</div>
+<div id="extra" style="display:none">
+    <h2 class="hed">extratext</h2>
 </div>
 
 
