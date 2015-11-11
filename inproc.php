@@ -45,7 +45,7 @@ $resp_proccessing = '{
 
 $resp_success = '{
 	"Error":null,
-	"Script":"showsuc()",
+	"Script":"showproc2()",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
