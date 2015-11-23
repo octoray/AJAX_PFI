@@ -27,25 +27,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 };
 
 
-$response_defualt = '{
+$response1 = '{
 	"Error":null,
 	"Script":"hidebutton()",
-	"InProcessUrl":null,
-	"ShowMarketingOptIn":true
-}';
-
-
-$resp_proccessing = '{
-	"Error":null,
-	"Script":"showproc()",
-	"InProcessUrl":null,
-	"ShowMarketingOptIn":true
-}';
-
-
-$resp_success = '{
-	"Error":null,
-	"Script":"showproc2()",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
@@ -61,22 +45,21 @@ $temp1 = '{
 //respond
 
 if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
-    $response = $response_defualt;
+    $response = $response1;
     //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing"){
-    $response = $resp_proccessing;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmButtonShown"){
+    $response = $response1;
     //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccess"){
-    $response = $resp_success;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessz"){
+    $response = $response1;
     //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing"){
-    $response = $resp_proccessing;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
+    //$var = '1';
 }else{
-    $response = $response_defualt;
+    $response = $response1;
     //echo $response1;
 };
 
-//X-PFI-TransactionId
 
 //Write logs
 $today1 = date("Y-m-d H:i:s");
@@ -99,8 +82,6 @@ fwrite($fh, $stringData);
 fwrite($fh, $today1. ": netinfo: " .$_SERVER['HTTP_X_PFI_NETINFO']);
 fwrite($fh, $stringData);
 fwrite($fh, $today1. ": callerid / function: " .$_SERVER['HTTP_X_PFI_CALLERID']);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": TransactionID: " .$_SERVER['HTTP_X_PFI_TRANSACTIONID']);
 fwrite($fh, $stringData);
 fwrite($fh, $today1. ": response was: ".$response);
 fwrite($fh, $stringData);

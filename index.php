@@ -31,16 +31,16 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <title>Main</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css" type="text/css">
-    <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
+    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
+    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css" type="text/css">
+    <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript">
         $(function(){
             $("body").fadeOut(4200,function(){
-                window.location.href = "http://the-sloth.uk/test2.php"
+                window.location.href = "http://the-sloth/test2.php"
             })
         });
     </script>
@@ -49,7 +49,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 <body>
 
 
-<img src="http://octoraypfi.co.uk/images/banner.png" class="banner_main" alt="Header">
+<img src="http://octoraypfi.co.uk/staging/images/banner.png" class="banner_main" alt="Header">
 
 
 </body>

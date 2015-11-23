@@ -46,12 +46,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <script src="http://octoraypfi.co.uk/slicknav/dist/jquery.slicknav.js"></script>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
-    <script type="text/javascript">
-    $(function(){
-    $("body").hide();
-    $("body").fadeIn(1000);
-    })
-    </script>
+
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/style.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/slicknav/dist/slicknav.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/css/body.css" type="text/css">
@@ -80,14 +75,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
     <!-- Timebased call to merchantCall -->
     <script type="text/javascript">
-    setTimeout("merchantCall('timebased001', 330, '00000001', '/success.php', 'destiny1')", 15000);
+    setTimeout("merchantCall('timebased001', 330, '00000001', '/success.php', 'destiny1')", 01);
     </script>
 
-    <script type="text/javascript">
-        function showproc() {
-    merchantCall('timebased001', 330, '00000001', '/success.php', 'destiny1');
-        }
-    </script>
 
 </head>
 <body>
@@ -127,7 +117,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <br><br><br><br><br><br><br>
 
 <!-- 1st block /Purchase button -->
-<div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="sub1">
+<div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/success.php" data-pfi-content-id="sub1">
 Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
@@ -147,6 +137,14 @@ Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
     <br>
 <br>
     <h2 class="hed">Proccessing...</h2>
+    <br>
+</div>
+
+<!-- 2nd block swap AJAX  -->
+<div class="block_66_buy2" id ="block_66_buy2" style="display:none">
+    <br>
+    <br>
+    <h2 class="hed">Loading Content....</h2>
     <br>
 </div>
 
