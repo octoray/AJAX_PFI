@@ -139,9 +139,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner" alt="Header">
 <br>
     <br><br><br><br><br><br><br>
-    <button onclick="hidebutton()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button><br>
+    <button onclick="hidebutton()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button><br><br>
     <!-- <a href="sms:/* phone number here */?body=/* body text here */">Link</a>-->
-     <a href="sms:07624806156?body=SLOTH">WIFI USERS CLICK HERE</a>
+     <a href="sms:07624806156?body=SLOTH"><h2>WIFI USERS CLICK HERE</h2></a><br><br>
 
 
  <!-- 1st block /Purchase subscription button -->
