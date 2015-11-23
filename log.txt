@@ -1,1 +1,1361 @@
-1
+
+
+2015-11-20 15:52:39: GUID Set?: Yes
+2015-11-20 15:52:39: Sessiontoken: 05eb458e-bfb5-1c0e-e899-de980eccd425
+2015-11-20 15:52:39: status: Initiated
+2015-11-20 15:52:39: requestime: 2015-11-20 15:52:39
+2015-11-20 15:52:39: hash: 0864f570941c481d7e69fac2b98dd888
+2015-11-20 15:52:39: alias: 
+2015-11-20 15:52:39: netinfo: 
+2015-11-20 15:52:39: callerid / function: hidebutton
+2015-11-20 15:52:39: TransactionID: 
+2015-11-20 15:52:39: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 15:56:20: GUID Set?: not set
+2015-11-20 15:56:20: Sessiontoken: 
+2015-11-20 15:56:20: status: PfiExit
+2015-11-20 15:56:20: requestime: 2015-11-20 15:56:20
+2015-11-20 15:56:20: hash: f9fee5600245664880479302a93ad6b4
+2015-11-20 15:56:20: alias: 
+2015-11-20 15:56:20: netinfo: 
+2015-11-20 15:56:20: callerid / function: 
+2015-11-20 15:56:20: TransactionID: 
+2015-11-20 15:56:20: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 15:58:38: GUID Set?: Yes
+2015-11-20 15:58:38: Sessiontoken: 2f67fe89-7585-fbdf-fbb8-9e92dbaf5801
+2015-11-20 15:58:38: status: Initiated
+2015-11-20 15:58:38: requestime: 2015-11-20 15:58:38
+2015-11-20 15:58:38: hash: c73df7856de6dc3385af3092715baa1e
+2015-11-20 15:58:38: alias: 
+2015-11-20 15:58:38: netinfo: 
+2015-11-20 15:58:38: callerid / function: hidebutton
+2015-11-20 15:58:38: TransactionID: 
+2015-11-20 15:58:38: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:04:37: GUID Set?: Yes
+2015-11-20 16:04:37: Sessiontoken: 6fa7a0d3-46df-bbec-637c-ef2dc2a8edd9
+2015-11-20 16:04:37: status: Initiated
+2015-11-20 16:04:37: requestime: 2015-11-20 16:04:37
+2015-11-20 16:04:37: hash: 873d1e82982fd24b6a71b2e335aec950
+2015-11-20 16:04:37: alias: 
+2015-11-20 16:04:37: netinfo: 
+2015-11-20 16:04:37: callerid / function: hidebutton
+2015-11-20 16:04:37: TransactionID: 
+2015-11-20 16:04:37: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:04:42: GUID Set?: not set
+2015-11-20 16:04:42: Sessiontoken: 
+2015-11-20 16:04:42: status: PfiExit
+2015-11-20 16:04:42: requestime: 2015-11-20 16:04:42
+2015-11-20 16:04:42: hash: ce7b2dabbf44e39cea4503d85ffc699b
+2015-11-20 16:04:42: alias: 
+2015-11-20 16:04:42: netinfo: 
+2015-11-20 16:04:42: callerid / function: 
+2015-11-20 16:04:42: TransactionID: 
+2015-11-20 16:04:42: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:08:10: GUID Set?: Yes
+2015-11-20 16:08:10: Sessiontoken: ccd8411e-d645-e4eb-5dd3-4c3c6132bbc9
+2015-11-20 16:08:10: status: Initiated
+2015-11-20 16:08:10: requestime: 2015-11-20 16:08:10
+2015-11-20 16:08:10: hash: f2cdfb473c2361fdddbdb39f7012387d
+2015-11-20 16:08:10: alias: 
+2015-11-20 16:08:10: netinfo: 
+2015-11-20 16:08:10: callerid / function: hidebutton
+2015-11-20 16:08:10: TransactionID: 
+2015-11-20 16:08:10: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:09:36: GUID Set?: Yes
+2015-11-20 16:09:36: Sessiontoken: 803498bf-1b51-70c1-efb6-49226340fa1a
+2015-11-20 16:09:36: status: PfiPurchaseButtonShown
+2015-11-20 16:09:36: requestime: 2015-11-20 16:09:36
+2015-11-20 16:09:36: hash: fc978e4b83fdda5620b3c941bbff5783
+2015-11-20 16:09:36: alias: Gj6QkLWmUbBNUPIoymmwJw==
+2015-11-20 16:09:36: netinfo: TMOUK
+2015-11-20 16:09:36: callerid / function: hidebutton
+2015-11-20 16:09:36: TransactionID: 
+2015-11-20 16:09:36: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:09:44: GUID Set?: Yes
+2015-11-20 16:09:44: Sessiontoken: 803498bf-1b51-70c1-efb6-49226340fa1a
+2015-11-20 16:09:44: status: PfiConfirmButtonShown
+2015-11-20 16:09:44: requestime: 2015-11-20 16:09:44
+2015-11-20 16:09:44: hash: 6da5004ed08225ce34bd2e087130a913
+2015-11-20 16:09:44: alias: Gj6QkLWmUbBNUPIoymmwJw==
+2015-11-20 16:09:44: netinfo: TMOUK
+2015-11-20 16:09:44: callerid / function: 
+2015-11-20 16:09:44: TransactionID: 
+2015-11-20 16:09:44: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:09:55: GUID Set?: Yes
+2015-11-20 16:09:55: Sessiontoken: 803498bf-1b51-70c1-efb6-49226340fa1a
+2015-11-20 16:09:55: status: PfiProcessing
+2015-11-20 16:09:55: requestime: 2015-11-20 16:09:55
+2015-11-20 16:09:55: hash: 1dfb9e089f8c1a3b8349bd249ef431c5
+2015-11-20 16:09:55: alias: Gj6QkLWmUbBNUPIoymmwJw==
+2015-11-20 16:09:55: netinfo: TMOUK
+2015-11-20 16:09:55: callerid / function: 
+2015-11-20 16:09:55: TransactionID: 9886
+2015-11-20 16:09:55: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:10:01: GUID Set?: Yes
+2015-11-20 16:10:01: Sessiontoken: 803498bf-1b51-70c1-efb6-49226340fa1a
+2015-11-20 16:10:01: status: PfiPurchaseSuccess
+2015-11-20 16:10:01: requestime: 2015-11-20 16:10:01
+2015-11-20 16:10:01: hash: b460fa97593b03b887ffbfab308e9817
+2015-11-20 16:10:01: alias: Gj6QkLWmUbBNUPIoymmwJw==
+2015-11-20 16:10:01: netinfo: TMOUK
+2015-11-20 16:10:01: callerid / function: 
+2015-11-20 16:10:01: TransactionID: 9886
+2015-11-20 16:10:01: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:12:17: GUID Set?: Yes
+2015-11-20 16:12:17: Sessiontoken: 3eb0e8cf-3aba-ed5d-4adc-cb00af0af496
+2015-11-20 16:12:17: status: Initiated
+2015-11-20 16:12:17: requestime: 2015-11-20 16:12:17
+2015-11-20 16:12:17: hash: 5803188105bc7dc1c15a31a82bbba42d
+2015-11-20 16:12:17: alias: 
+2015-11-20 16:12:17: netinfo: 
+2015-11-20 16:12:17: callerid / function: hidebutton
+2015-11-20 16:12:17: TransactionID: 
+2015-11-20 16:12:17: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:13:39: GUID Set?: Yes
+2015-11-20 16:13:39: Sessiontoken: 3eb0e8cf-3aba-ed5d-4adc-cb00af0af496
+2015-11-20 16:13:39: status: Initiated
+2015-11-20 16:13:39: requestime: 2015-11-20 16:13:39
+2015-11-20 16:13:39: hash: 1c217d8c6ce6f7a2dfa74cb36fadd5be
+2015-11-20 16:13:39: alias: 
+2015-11-20 16:13:39: netinfo: 
+2015-11-20 16:13:39: callerid / function: hidebutton
+2015-11-20 16:13:39: TransactionID: 
+2015-11-20 16:13:39: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:30:56: GUID Set?: Yes
+2015-11-20 16:30:56: Sessiontoken: 54e8320c-e23a-cf68-d6db-239c6fedcbb9
+2015-11-20 16:30:56: status: PfiPurchaseButtonShown
+2015-11-20 16:30:56: requestime: 2015-11-20 16:30:56
+2015-11-20 16:30:56: hash: 83a63f19c23901bdf348f02336123a5e
+2015-11-20 16:30:56: alias: Gj6QkLWmUbBNUPIoymmwJw==
+2015-11-20 16:30:56: netinfo: TMOUK
+2015-11-20 16:30:56: callerid / function: hidebutton
+2015-11-20 16:30:56: TransactionID: 
+2015-11-20 16:30:56: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:31:01: GUID Set?: Yes
+2015-11-20 16:31:01: Sessiontoken: 54e8320c-e23a-cf68-d6db-239c6fedcbb9
+2015-11-20 16:31:01: status: PfiConfirmButtonShown
+2015-11-20 16:31:01: requestime: 2015-11-20 16:31:01
+2015-11-20 16:31:01: hash: b03a9fdd52c690849f99f71ae8c70bc3
+2015-11-20 16:31:01: alias: Gj6QkLWmUbBNUPIoymmwJw==
+2015-11-20 16:31:01: netinfo: TMOUK
+2015-11-20 16:31:01: callerid / function: 
+2015-11-20 16:31:01: TransactionID: 
+2015-11-20 16:31:01: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:31:05: GUID Set?: Yes
+2015-11-20 16:31:05: Sessiontoken: 54e8320c-e23a-cf68-d6db-239c6fedcbb9
+2015-11-20 16:31:05: status: PfiProcessing
+2015-11-20 16:31:05: requestime: 2015-11-20 16:31:05
+2015-11-20 16:31:05: hash: efabc2abc2b4b9be07106843b8d4d85f
+2015-11-20 16:31:05: alias: Gj6QkLWmUbBNUPIoymmwJw==
+2015-11-20 16:31:05: netinfo: TMOUK
+2015-11-20 16:31:05: callerid / function: 
+2015-11-20 16:31:05: TransactionID: 9888
+2015-11-20 16:31:05: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-20 16:31:09: GUID Set?: Yes
+2015-11-20 16:31:09: Sessiontoken: 54e8320c-e23a-cf68-d6db-239c6fedcbb9
+2015-11-20 16:31:09: status: PfiPurchaseSuccess
+2015-11-20 16:31:09: requestime: 2015-11-20 16:31:09
+2015-11-20 16:31:09: hash: 5f2b84667ac786a1e1fd3f2a4f489734
+2015-11-20 16:31:09: alias: Gj6QkLWmUbBNUPIoymmwJw==
+2015-11-20 16:31:09: netinfo: TMOUK
+2015-11-20 16:31:09: callerid / function: 
+2015-11-20 16:31:09: TransactionID: 9888
+2015-11-20 16:31:09: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:04:44: GUID Set?: Yes
+2015-11-23 07:04:44: Sessiontoken: ba4e665b-da80-ba57-7eea-e62d6b4837a8
+2015-11-23 07:04:44: status: PfiPurchaseButtonShown
+2015-11-23 07:04:44: requestime: 2015-11-23 07:04:44
+2015-11-23 07:04:44: hash: 42ea13bf4cbaf0ac57f743cf0b71216f
+2015-11-23 07:04:44: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 07:04:44: netinfo: TMOUK
+2015-11-23 07:04:44: callerid / function: hidebutton
+2015-11-23 07:04:44: TransactionID: 
+2015-11-23 07:04:44: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:04:49: GUID Set?: Yes
+2015-11-23 07:04:49: Sessiontoken: ba4e665b-da80-ba57-7eea-e62d6b4837a8
+2015-11-23 07:04:49: status: PfiConfirmButtonShown
+2015-11-23 07:04:49: requestime: 2015-11-23 07:04:49
+2015-11-23 07:04:49: hash: 6c91d6f576a108a7d56ad5592782f3bb
+2015-11-23 07:04:49: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 07:04:49: netinfo: TMOUK
+2015-11-23 07:04:49: callerid / function: 
+2015-11-23 07:04:49: TransactionID: 
+2015-11-23 07:04:49: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:04:57: GUID Set?: Yes
+2015-11-23 07:04:57: Sessiontoken: ba4e665b-da80-ba57-7eea-e62d6b4837a8
+2015-11-23 07:04:57: status: PfiProcessing
+2015-11-23 07:04:57: requestime: 2015-11-23 07:04:57
+2015-11-23 07:04:57: hash: 86900a5890dfc6696137e240ed71097e
+2015-11-23 07:04:57: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 07:04:57: netinfo: TMOUK
+2015-11-23 07:04:57: callerid / function: 
+2015-11-23 07:04:57: TransactionID: 9895
+2015-11-23 07:04:57: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:05:00: GUID Set?: Yes
+2015-11-23 07:05:00: Sessiontoken: ba4e665b-da80-ba57-7eea-e62d6b4837a8
+2015-11-23 07:05:00: status: PfiPurchaseSuccess
+2015-11-23 07:05:00: requestime: 2015-11-23 07:05:00
+2015-11-23 07:05:00: hash: 8e0d4287ea105bbd53beb683bf3b3312
+2015-11-23 07:05:00: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 07:05:00: netinfo: TMOUK
+2015-11-23 07:05:00: callerid / function: 
+2015-11-23 07:05:00: TransactionID: 9895
+2015-11-23 07:05:00: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:05:41: GUID Set?: Yes
+2015-11-23 07:05:41: Sessiontoken: ba4e665b-da80-ba57-7eea-e62d6b4837a8
+2015-11-23 07:05:41: status: PfiPurchaseButtonShown
+2015-11-23 07:05:41: requestime: 2015-11-23 07:05:40
+2015-11-23 07:05:41: hash: bed815919e0271144e6a0643ccdc37a1
+2015-11-23 07:05:41: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 07:05:41: netinfo: TMOUK
+2015-11-23 07:05:41: callerid / function: hidebutton
+2015-11-23 07:05:41: TransactionID: 
+2015-11-23 07:05:41: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:05:42: GUID Set?: Yes
+2015-11-23 07:05:42: Sessiontoken: ba4e665b-da80-ba57-7eea-e62d6b4837a8
+2015-11-23 07:05:42: status: PfiConfirmButtonShown
+2015-11-23 07:05:42: requestime: 2015-11-23 07:05:42
+2015-11-23 07:05:42: hash: 8eb692edf3051d478123a76b58e281af
+2015-11-23 07:05:42: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 07:05:42: netinfo: TMOUK
+2015-11-23 07:05:42: callerid / function: 
+2015-11-23 07:05:42: TransactionID: 
+2015-11-23 07:05:42: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:05:46: GUID Set?: Yes
+2015-11-23 07:05:46: Sessiontoken: ba4e665b-da80-ba57-7eea-e62d6b4837a8
+2015-11-23 07:05:46: status: PfiProcessing
+2015-11-23 07:05:46: requestime: 2015-11-23 07:05:46
+2015-11-23 07:05:46: hash: 889f43c8a68f8c954062c2551ec14321
+2015-11-23 07:05:46: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 07:05:46: netinfo: TMOUK
+2015-11-23 07:05:46: callerid / function: 
+2015-11-23 07:05:46: TransactionID: 9896
+2015-11-23 07:05:46: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:05:48: GUID Set?: Yes
+2015-11-23 07:05:48: Sessiontoken: ba4e665b-da80-ba57-7eea-e62d6b4837a8
+2015-11-23 07:05:48: status: PfiPurchaseSuccess
+2015-11-23 07:05:48: requestime: 2015-11-23 07:05:48
+2015-11-23 07:05:48: hash: 1a4e301049eeac6e759f5d8d8fe71187
+2015-11-23 07:05:48: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 07:05:48: netinfo: TMOUK
+2015-11-23 07:05:48: callerid / function: 
+2015-11-23 07:05:48: TransactionID: 9896
+2015-11-23 07:05:48: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:14:01: GUID Set?: Yes
+2015-11-23 07:14:01: Sessiontoken: 0784d76e-6eaa-8ed3-ae43-35ce64515ec8
+2015-11-23 07:14:01: status: PfiPurchaseButtonShown
+2015-11-23 07:14:01: requestime: 2015-11-23 07:14:01
+2015-11-23 07:14:01: hash: d59e9274409833ddd2a88408df2ecce1
+2015-11-23 07:14:01: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:14:01: netinfo: VODUK
+2015-11-23 07:14:01: callerid / function: hidebutton
+2015-11-23 07:14:01: TransactionID: 
+2015-11-23 07:14:01: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:14:06: GUID Set?: Yes
+2015-11-23 07:14:06: Sessiontoken: 0784d76e-6eaa-8ed3-ae43-35ce64515ec8
+2015-11-23 07:14:06: status: PfiConfirmButtonShown
+2015-11-23 07:14:06: requestime: 2015-11-23 07:14:06
+2015-11-23 07:14:06: hash: 00c6565e8d5a129df56ae0fc162e8b2c
+2015-11-23 07:14:06: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:14:06: netinfo: VODUK
+2015-11-23 07:14:06: callerid / function: 
+2015-11-23 07:14:06: TransactionID: 
+2015-11-23 07:14:06: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:14:09: GUID Set?: Yes
+2015-11-23 07:14:09: Sessiontoken: 0784d76e-6eaa-8ed3-ae43-35ce64515ec8
+2015-11-23 07:14:09: status: PfiProcessing
+2015-11-23 07:14:09: requestime: 2015-11-23 07:14:09
+2015-11-23 07:14:09: hash: 952361cae03356ac57e15570110f7687
+2015-11-23 07:14:09: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:14:09: netinfo: VODUK
+2015-11-23 07:14:09: callerid / function: 
+2015-11-23 07:14:09: TransactionID: 9897
+2015-11-23 07:14:09: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:14:12: GUID Set?: Yes
+2015-11-23 07:14:12: Sessiontoken: 0784d76e-6eaa-8ed3-ae43-35ce64515ec8
+2015-11-23 07:14:12: status: PfiPurchaseSuccess
+2015-11-23 07:14:12: requestime: 2015-11-23 07:14:11
+2015-11-23 07:14:12: hash: 89ce8f94f8379d2dd1d3269dc1dd1d0a
+2015-11-23 07:14:12: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:14:12: netinfo: VODUK
+2015-11-23 07:14:12: callerid / function: 
+2015-11-23 07:14:12: TransactionID: 9897
+2015-11-23 07:14:12: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:15:40: GUID Set?: Yes
+2015-11-23 07:15:40: Sessiontoken: e64992ea-97d1-2a35-dfdf-ec0cb33122c1
+2015-11-23 07:15:40: status: PfiPurchaseButtonShown
+2015-11-23 07:15:40: requestime: 2015-11-23 07:15:40
+2015-11-23 07:15:40: hash: 8eebe825eb649286f479d73af5ee60b1
+2015-11-23 07:15:40: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:15:40: netinfo: VODUK
+2015-11-23 07:15:40: callerid / function: hidebutton
+2015-11-23 07:15:40: TransactionID: 
+2015-11-23 07:15:40: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:15:42: GUID Set?: Yes
+2015-11-23 07:15:42: Sessiontoken: e64992ea-97d1-2a35-dfdf-ec0cb33122c1
+2015-11-23 07:15:42: status: PfiConfirmButtonShown
+2015-11-23 07:15:42: requestime: 2015-11-23 07:15:41
+2015-11-23 07:15:42: hash: 2fd288f05e27d6ce9fe6e86a885c89df
+2015-11-23 07:15:42: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:15:42: netinfo: VODUK
+2015-11-23 07:15:42: callerid / function: 
+2015-11-23 07:15:42: TransactionID: 
+2015-11-23 07:15:42: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:15:44: GUID Set?: Yes
+2015-11-23 07:15:44: Sessiontoken: e64992ea-97d1-2a35-dfdf-ec0cb33122c1
+2015-11-23 07:15:44: status: PfiProcessing
+2015-11-23 07:15:44: requestime: 2015-11-23 07:15:44
+2015-11-23 07:15:44: hash: 7cc30d67d702659266fcaf3fd2d58266
+2015-11-23 07:15:44: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:15:44: netinfo: VODUK
+2015-11-23 07:15:44: callerid / function: 
+2015-11-23 07:15:44: TransactionID: 9898
+2015-11-23 07:15:44: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:15:46: GUID Set?: Yes
+2015-11-23 07:15:46: Sessiontoken: e64992ea-97d1-2a35-dfdf-ec0cb33122c1
+2015-11-23 07:15:46: status: PfiPurchaseSuccess
+2015-11-23 07:15:46: requestime: 2015-11-23 07:15:46
+2015-11-23 07:15:46: hash: 09451471f57340b30ac521c28f5fc145
+2015-11-23 07:15:46: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:15:46: netinfo: VODUK
+2015-11-23 07:15:46: callerid / function: 
+2015-11-23 07:15:46: TransactionID: 9898
+2015-11-23 07:15:46: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:25:33: GUID Set?: Yes
+2015-11-23 07:25:33: Sessiontoken: e64992ea-97d1-2a35-dfdf-ec0cb33122c1
+2015-11-23 07:25:33: status: PfiPurchaseButtonShown
+2015-11-23 07:25:33: requestime: 2015-11-23 07:25:32
+2015-11-23 07:25:33: hash: 5e8e2ca5aa04a11ba052d99f76edab68
+2015-11-23 07:25:33: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:25:33: netinfo: VODUK
+2015-11-23 07:25:33: callerid / function: hidebutton
+2015-11-23 07:25:33: TransactionID: 
+2015-11-23 07:25:33: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:25:47: GUID Set?: not set
+2015-11-23 07:25:47: Sessiontoken: 
+2015-11-23 07:25:47: status: PfiExit
+2015-11-23 07:25:47: requestime: 2015-11-23 07:25:47
+2015-11-23 07:25:47: hash: a0cab4306a52d96870cc9809681933e1
+2015-11-23 07:25:47: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:25:47: netinfo: VODUK
+2015-11-23 07:25:47: callerid / function: 
+2015-11-23 07:25:47: TransactionID: 
+2015-11-23 07:25:47: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:26:04: GUID Set?: Yes
+2015-11-23 07:26:04: Sessiontoken: 16c12aa4-7325-74a3-799c-de693c82a73a
+2015-11-23 07:26:04: status: PfiPurchaseButtonShown
+2015-11-23 07:26:04: requestime: 2015-11-23 07:26:04
+2015-11-23 07:26:04: hash: 674633c465533ccc8d3d41dc1cf2df14
+2015-11-23 07:26:04: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:26:04: netinfo: VODUK
+2015-11-23 07:26:04: callerid / function: hidebutton
+2015-11-23 07:26:04: TransactionID: 
+2015-11-23 07:26:04: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:35:54: GUID Set?: Yes
+2015-11-23 07:35:54: Sessiontoken: 35ed947a-a90a-9282-b651-e3c4800eb254
+2015-11-23 07:35:54: status: PfiPurchaseButtonShown
+2015-11-23 07:35:54: requestime: 2015-11-23 07:35:53
+2015-11-23 07:35:54: hash: b494c2883b6e0a41bb0c2d9332dbfe25
+2015-11-23 07:35:54: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:35:54: netinfo: VODUK
+2015-11-23 07:35:54: callerid / function: hidebutton
+2015-11-23 07:35:54: TransactionID: 
+2015-11-23 07:35:54: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:36:19: GUID Set?: Yes
+2015-11-23 07:36:19: Sessiontoken: 35ed947a-a90a-9282-b651-e3c4800eb254
+2015-11-23 07:36:19: status: PfiConfirmButtonShown
+2015-11-23 07:36:19: requestime: 2015-11-23 07:36:19
+2015-11-23 07:36:19: hash: 5f9b333980fbba83fff1ecc32f6f5290
+2015-11-23 07:36:19: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:36:19: netinfo: VODUK
+2015-11-23 07:36:19: callerid / function: 
+2015-11-23 07:36:19: TransactionID: 
+2015-11-23 07:36:19: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:36:20: GUID Set?: Yes
+2015-11-23 07:36:20: Sessiontoken: 35ed947a-a90a-9282-b651-e3c4800eb254
+2015-11-23 07:36:20: status: PfiProcessing
+2015-11-23 07:36:20: requestime: 2015-11-23 07:36:20
+2015-11-23 07:36:20: hash: 5343be0e0bd6fb089f6db39e7ed24a39
+2015-11-23 07:36:20: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:36:20: netinfo: VODUK
+2015-11-23 07:36:20: callerid / function: 
+2015-11-23 07:36:20: TransactionID: 9899
+2015-11-23 07:36:20: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:36:23: GUID Set?: Yes
+2015-11-23 07:36:23: Sessiontoken: 35ed947a-a90a-9282-b651-e3c4800eb254
+2015-11-23 07:36:23: status: PfiPurchaseSuccess
+2015-11-23 07:36:23: requestime: 2015-11-23 07:36:23
+2015-11-23 07:36:23: hash: 872a613b00c9e3f16a7e4f84cd0bcb56
+2015-11-23 07:36:23: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:36:23: netinfo: VODUK
+2015-11-23 07:36:23: callerid / function: 
+2015-11-23 07:36:23: TransactionID: 9899
+2015-11-23 07:36:23: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:48:45: GUID Set?: Yes
+2015-11-23 07:48:45: Sessiontoken: f7f50d26-4b3c-b0dd-3c86-bb48dc6c4c45
+2015-11-23 07:48:45: status: PfiPurchaseButtonShown
+2015-11-23 07:48:45: requestime: 2015-11-23 07:48:45
+2015-11-23 07:48:45: hash: 8b384700a3cc9e34b8b453c72945001d
+2015-11-23 07:48:45: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:48:45: netinfo: VODUK
+2015-11-23 07:48:45: callerid / function: hidebutton
+2015-11-23 07:48:45: TransactionID: 
+2015-11-23 07:48:45: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:48:47: GUID Set?: Yes
+2015-11-23 07:48:47: Sessiontoken: f7f50d26-4b3c-b0dd-3c86-bb48dc6c4c45
+2015-11-23 07:48:47: status: PfiConfirmButtonShown
+2015-11-23 07:48:47: requestime: 2015-11-23 07:48:47
+2015-11-23 07:48:47: hash: 0bf90e76ed68024aa1322251349aed62
+2015-11-23 07:48:47: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:48:47: netinfo: VODUK
+2015-11-23 07:48:47: callerid / function: 
+2015-11-23 07:48:47: TransactionID: 
+2015-11-23 07:48:47: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:48:49: GUID Set?: Yes
+2015-11-23 07:48:49: Sessiontoken: f7f50d26-4b3c-b0dd-3c86-bb48dc6c4c45
+2015-11-23 07:48:49: status: PfiProcessing
+2015-11-23 07:48:49: requestime: 2015-11-23 07:48:48
+2015-11-23 07:48:49: hash: b903dde3d1c8a9e5f83c4e838edd276d
+2015-11-23 07:48:49: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:48:49: netinfo: VODUK
+2015-11-23 07:48:49: callerid / function: 
+2015-11-23 07:48:49: TransactionID: 9900
+2015-11-23 07:48:49: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:48:51: GUID Set?: Yes
+2015-11-23 07:48:51: Sessiontoken: f7f50d26-4b3c-b0dd-3c86-bb48dc6c4c45
+2015-11-23 07:48:51: status: PfiPurchaseSuccess
+2015-11-23 07:48:51: requestime: 2015-11-23 07:48:51
+2015-11-23 07:48:51: hash: a2d1aef9ea8c199555cdb40b820b6033
+2015-11-23 07:48:51: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 07:48:51: netinfo: VODUK
+2015-11-23 07:48:51: callerid / function: 
+2015-11-23 07:48:51: TransactionID: 9900
+2015-11-23 07:48:51: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 07:49:30: GUID Set?: Yes
+2015-11-23 07:49:30: Sessiontoken: f83c7edb-3732-8b13-9174-1857d351bb22
+2015-11-23 07:49:30: status: PfiPurchaseButtonShown
+2015-11-23 07:49:30: requestime: 2015-11-23 07:49:30
+2015-11-23 07:49:30: hash: ff373c36c5d01e6de29a698b5419f320
+2015-11-23 07:49:30: alias: 
+2015-11-23 07:49:30: netinfo: 
+2015-11-23 07:49:30: callerid / function: hidebutton
+2015-11-23 07:49:30: TransactionID: 
+2015-11-23 07:49:30: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:05:37: GUID Set?: Yes
+2015-11-23 08:05:37: Sessiontoken: f7f50d26-4b3c-b0dd-3c86-bb48dc6c4c45
+2015-11-23 08:05:37: status: PfiPurchaseButtonShown
+2015-11-23 08:05:37: requestime: 2015-11-23 08:05:37
+2015-11-23 08:05:37: hash: 6e18a22c55d95b216324cc7048c3b8a8
+2015-11-23 08:05:37: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:05:37: netinfo: VODUK
+2015-11-23 08:05:37: callerid / function: hidebutton
+2015-11-23 08:05:37: TransactionID: 
+2015-11-23 08:05:37: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:05:41: GUID Set?: not set
+2015-11-23 08:05:41: Sessiontoken: 
+2015-11-23 08:05:41: status: PfiExit
+2015-11-23 08:05:41: requestime: 2015-11-23 08:05:40
+2015-11-23 08:05:41: hash: 34305ac29a1b43dc2c221d2ee10cce17
+2015-11-23 08:05:41: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:05:41: netinfo: VODUK
+2015-11-23 08:05:41: callerid / function: 
+2015-11-23 08:05:41: TransactionID: 
+2015-11-23 08:05:41: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:06:26: GUID Set?: Yes
+2015-11-23 08:06:26: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:06:26: status: PfiPurchaseButtonShown
+2015-11-23 08:06:26: requestime: 2015-11-23 08:06:25
+2015-11-23 08:06:26: hash: 52326c452377ede17d5a04844d408658
+2015-11-23 08:06:26: alias: 
+2015-11-23 08:06:26: netinfo: 
+2015-11-23 08:06:26: callerid / function: hidebutton
+2015-11-23 08:06:26: TransactionID: 
+2015-11-23 08:06:26: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:06:41: GUID Set?: Yes
+2015-11-23 08:06:41: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:06:41: status: PfiPurchaseButtonShown
+2015-11-23 08:06:41: requestime: 2015-11-23 08:06:41
+2015-11-23 08:06:41: hash: 787033201259905641b7ab66f5ae2d00
+2015-11-23 08:06:41: alias: 
+2015-11-23 08:06:41: netinfo: 
+2015-11-23 08:06:41: callerid / function: hidebutton
+2015-11-23 08:06:41: TransactionID: 
+2015-11-23 08:06:41: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:06:53: GUID Set?: Yes
+2015-11-23 08:06:53: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:06:53: status: PfiPurchaseButtonShown
+2015-11-23 08:06:53: requestime: 2015-11-23 08:06:53
+2015-11-23 08:06:53: hash: f00194ad6d98c705fe8616d28c3e2558
+2015-11-23 08:06:53: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:06:53: netinfo: VODUK
+2015-11-23 08:06:53: callerid / function: hidebutton
+2015-11-23 08:06:53: TransactionID: 
+2015-11-23 08:06:53: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:06:57: GUID Set?: Yes
+2015-11-23 08:06:57: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:06:57: status: PfiConfirmButtonShown
+2015-11-23 08:06:57: requestime: 2015-11-23 08:06:57
+2015-11-23 08:06:57: hash: 049066846bf0849a2cdbd52a19b25081
+2015-11-23 08:06:57: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:06:57: netinfo: VODUK
+2015-11-23 08:06:57: callerid / function: 
+2015-11-23 08:06:57: TransactionID: 
+2015-11-23 08:06:57: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:07:00: GUID Set?: Yes
+2015-11-23 08:07:00: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:07:00: status: PfiProcessing
+2015-11-23 08:07:00: requestime: 2015-11-23 08:07:00
+2015-11-23 08:07:00: hash: dd441578e013e4b4ee3db958a14f09ea
+2015-11-23 08:07:00: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:07:00: netinfo: VODUK
+2015-11-23 08:07:00: callerid / function: 
+2015-11-23 08:07:00: TransactionID: 9901
+2015-11-23 08:07:00: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:07:02: GUID Set?: Yes
+2015-11-23 08:07:02: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:07:02: status: PfiPurchaseSuccess
+2015-11-23 08:07:02: requestime: 2015-11-23 08:07:02
+2015-11-23 08:07:02: hash: 42b2c74752595e66908e708481ce6727
+2015-11-23 08:07:02: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:07:02: netinfo: VODUK
+2015-11-23 08:07:02: callerid / function: 
+2015-11-23 08:07:02: TransactionID: 9901
+2015-11-23 08:07:02: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:09:44: GUID Set?: Yes
+2015-11-23 08:09:44: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:09:44: status: PfiPurchaseButtonShown
+2015-11-23 08:09:44: requestime: 2015-11-23 08:09:44
+2015-11-23 08:09:44: hash: 7fe146ce781faedd9420cbbad76da08f
+2015-11-23 08:09:44: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:09:44: netinfo: VODUK
+2015-11-23 08:09:44: callerid / function: hidebutton
+2015-11-23 08:09:44: TransactionID: 
+2015-11-23 08:09:44: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:09:45: GUID Set?: Yes
+2015-11-23 08:09:45: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:09:45: status: PfiConfirmButtonShown
+2015-11-23 08:09:45: requestime: 2015-11-23 08:09:45
+2015-11-23 08:09:45: hash: 2f22a5d06f074dd7047804b2fbd29208
+2015-11-23 08:09:45: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:09:45: netinfo: VODUK
+2015-11-23 08:09:45: callerid / function: 
+2015-11-23 08:09:45: TransactionID: 
+2015-11-23 08:09:45: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:09:46: GUID Set?: Yes
+2015-11-23 08:09:46: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:09:46: status: PfiProcessing
+2015-11-23 08:09:46: requestime: 2015-11-23 08:09:46
+2015-11-23 08:09:46: hash: 7ddc950db37526279af27d2ce32fb7a2
+2015-11-23 08:09:46: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:09:46: netinfo: VODUK
+2015-11-23 08:09:46: callerid / function: 
+2015-11-23 08:09:46: TransactionID: 9902
+2015-11-23 08:09:46: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:09:49: GUID Set?: Yes
+2015-11-23 08:09:49: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:09:49: status: PfiPurchaseSuccess
+2015-11-23 08:09:49: requestime: 2015-11-23 08:09:49
+2015-11-23 08:09:49: hash: 4429aa8707f38d0aee5cff009a7e6fdc
+2015-11-23 08:09:49: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:09:49: netinfo: VODUK
+2015-11-23 08:09:49: callerid / function: 
+2015-11-23 08:09:49: TransactionID: 9902
+2015-11-23 08:09:49: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:13:30: GUID Set?: Yes
+2015-11-23 08:13:30: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:13:30: status: PfiPurchaseButtonShown
+2015-11-23 08:13:30: requestime: 2015-11-23 08:13:30
+2015-11-23 08:13:30: hash: df717e5b64ae8403dcbe8ae730c199eb
+2015-11-23 08:13:30: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:13:30: netinfo: VODUK
+2015-11-23 08:13:30: callerid / function: hidebutton
+2015-11-23 08:13:30: TransactionID: 
+2015-11-23 08:13:30: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:13:31: GUID Set?: Yes
+2015-11-23 08:13:31: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:13:31: status: PfiConfirmButtonShown
+2015-11-23 08:13:31: requestime: 2015-11-23 08:13:31
+2015-11-23 08:13:31: hash: 4807b6abf470b8dc05e3f04029d4c143
+2015-11-23 08:13:31: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:13:31: netinfo: VODUK
+2015-11-23 08:13:31: callerid / function: 
+2015-11-23 08:13:31: TransactionID: 
+2015-11-23 08:13:31: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:13:43: GUID Set?: Yes
+2015-11-23 08:13:43: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:13:43: status: PfiProcessing
+2015-11-23 08:13:43: requestime: 2015-11-23 08:13:43
+2015-11-23 08:13:43: hash: 47e298c49090719ad58268d5788bee4f
+2015-11-23 08:13:43: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:13:43: netinfo: VODUK
+2015-11-23 08:13:43: callerid / function: 
+2015-11-23 08:13:43: TransactionID: 9903
+2015-11-23 08:13:43: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:13:45: GUID Set?: Yes
+2015-11-23 08:13:45: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:13:45: status: PfiPurchaseSuccess
+2015-11-23 08:13:45: requestime: 2015-11-23 08:13:45
+2015-11-23 08:13:45: hash: b30de3f77723e50198bd1c5650fabb31
+2015-11-23 08:13:45: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:13:45: netinfo: VODUK
+2015-11-23 08:13:45: callerid / function: 
+2015-11-23 08:13:45: TransactionID: 9903
+2015-11-23 08:13:45: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:16:04: GUID Set?: Yes
+2015-11-23 08:16:04: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:16:04: status: PfiPurchaseButtonShown
+2015-11-23 08:16:04: requestime: 2015-11-23 08:16:04
+2015-11-23 08:16:04: hash: 47f5dfad559f05fe43cbe36c5a4f90df
+2015-11-23 08:16:04: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:16:04: netinfo: VODUK
+2015-11-23 08:16:04: callerid / function: hidebutton
+2015-11-23 08:16:04: TransactionID: 
+2015-11-23 08:16:04: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:16:06: GUID Set?: Yes
+2015-11-23 08:16:06: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:16:06: status: PfiConfirmButtonShown
+2015-11-23 08:16:06: requestime: 2015-11-23 08:16:06
+2015-11-23 08:16:06: hash: d7493208133d4414742643fda1ff4323
+2015-11-23 08:16:06: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:16:06: netinfo: VODUK
+2015-11-23 08:16:06: callerid / function: 
+2015-11-23 08:16:06: TransactionID: 
+2015-11-23 08:16:06: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:16:08: GUID Set?: Yes
+2015-11-23 08:16:08: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:16:08: status: PfiProcessing
+2015-11-23 08:16:08: requestime: 2015-11-23 08:16:08
+2015-11-23 08:16:08: hash: 927db2a8d8f17700de9340271d71a9bf
+2015-11-23 08:16:08: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:16:08: netinfo: VODUK
+2015-11-23 08:16:08: callerid / function: 
+2015-11-23 08:16:08: TransactionID: 9904
+2015-11-23 08:16:08: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 08:16:10: GUID Set?: Yes
+2015-11-23 08:16:10: Sessiontoken: a454fabc-8818-ce97-e58c-9a5b599a17f2
+2015-11-23 08:16:10: status: PfiPurchaseSuccess
+2015-11-23 08:16:10: requestime: 2015-11-23 08:16:10
+2015-11-23 08:16:10: hash: d2aceedc5b1c7a2f211f07e36a30d1cf
+2015-11-23 08:16:10: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 08:16:10: netinfo: VODUK
+2015-11-23 08:16:10: callerid / function: 
+2015-11-23 08:16:10: TransactionID: 9904
+2015-11-23 08:16:10: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:19:28: GUID Set?: Yes
+2015-11-23 10:19:28: Sessiontoken: 0be7457d-f047-ce93-0aa4-f5e4895fa7b5
+2015-11-23 10:19:28: status: PfiPurchaseButtonShown
+2015-11-23 10:19:28: requestime: 2015-11-23 10:19:28
+2015-11-23 10:19:28: hash: 54167915ae3063bd2cfbbd2f32cfa9ff
+2015-11-23 10:19:28: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:19:28: netinfo: VODUK
+2015-11-23 10:19:28: callerid / function: hidebutton
+2015-11-23 10:19:28: TransactionID: 
+2015-11-23 10:19:28: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:19:30: GUID Set?: Yes
+2015-11-23 10:19:30: Sessiontoken: 0be7457d-f047-ce93-0aa4-f5e4895fa7b5
+2015-11-23 10:19:30: status: PfiPurchaseButtonShown
+2015-11-23 10:19:30: requestime: 2015-11-23 10:19:30
+2015-11-23 10:19:30: hash: 872ddc3c78751ae4a4f21890cbc85c86
+2015-11-23 10:19:30: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:19:30: netinfo: VODUK
+2015-11-23 10:19:30: callerid / function: hidebutton
+2015-11-23 10:19:30: TransactionID: 
+2015-11-23 10:19:30: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:19:33: GUID Set?: Yes
+2015-11-23 10:19:33: Sessiontoken: 0be7457d-f047-ce93-0aa4-f5e4895fa7b5
+2015-11-23 10:19:33: status: PfiConfirmButtonShown
+2015-11-23 10:19:33: requestime: 2015-11-23 10:19:33
+2015-11-23 10:19:33: hash: fc85a67d233ebb82c3c21daa1266bf5c
+2015-11-23 10:19:33: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:19:33: netinfo: VODUK
+2015-11-23 10:19:33: callerid / function: 
+2015-11-23 10:19:33: TransactionID: 
+2015-11-23 10:19:33: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:19:41: GUID Set?: Yes
+2015-11-23 10:19:41: Sessiontoken: 0be7457d-f047-ce93-0aa4-f5e4895fa7b5
+2015-11-23 10:19:41: status: PfiProcessing
+2015-11-23 10:19:41: requestime: 2015-11-23 10:19:41
+2015-11-23 10:19:41: hash: 709ad82240b642bf6c4a085cee623a4f
+2015-11-23 10:19:41: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:19:41: netinfo: VODUK
+2015-11-23 10:19:41: callerid / function: 
+2015-11-23 10:19:41: TransactionID: 9906
+2015-11-23 10:19:41: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:19:44: GUID Set?: Yes
+2015-11-23 10:19:44: Sessiontoken: 0be7457d-f047-ce93-0aa4-f5e4895fa7b5
+2015-11-23 10:19:44: status: PfiPurchaseSuccess
+2015-11-23 10:19:44: requestime: 2015-11-23 10:19:44
+2015-11-23 10:19:44: hash: 550e4d679c8d93f031b9a9dca3de9ac3
+2015-11-23 10:19:44: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:19:44: netinfo: VODUK
+2015-11-23 10:19:44: callerid / function: 
+2015-11-23 10:19:44: TransactionID: 9906
+2015-11-23 10:19:44: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:21:00: GUID Set?: Yes
+2015-11-23 10:21:00: Sessiontoken: 0be7457d-f047-ce93-0aa4-f5e4895fa7b5
+2015-11-23 10:21:00: status: PfiPurchaseButtonShown
+2015-11-23 10:21:00: requestime: 2015-11-23 10:21:00
+2015-11-23 10:21:00: hash: 3672927e9cd8a6c54d6c771d10a5652e
+2015-11-23 10:21:00: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:21:00: netinfo: VODUK
+2015-11-23 10:21:00: callerid / function: hidebutton
+2015-11-23 10:21:00: TransactionID: 
+2015-11-23 10:21:00: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:21:01: GUID Set?: Yes
+2015-11-23 10:21:01: Sessiontoken: 0be7457d-f047-ce93-0aa4-f5e4895fa7b5
+2015-11-23 10:21:01: status: PfiConfirmButtonShown
+2015-11-23 10:21:01: requestime: 2015-11-23 10:21:01
+2015-11-23 10:21:01: hash: bcb5b5d9a830f1378d46cd6a9d99e40e
+2015-11-23 10:21:01: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:21:01: netinfo: VODUK
+2015-11-23 10:21:01: callerid / function: 
+2015-11-23 10:21:01: TransactionID: 
+2015-11-23 10:21:01: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:21:03: GUID Set?: Yes
+2015-11-23 10:21:03: Sessiontoken: 0be7457d-f047-ce93-0aa4-f5e4895fa7b5
+2015-11-23 10:21:03: status: PfiProcessing
+2015-11-23 10:21:03: requestime: 2015-11-23 10:21:03
+2015-11-23 10:21:03: hash: 237a6fb3ea41b4a67d1827d5fe94b337
+2015-11-23 10:21:03: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:21:03: netinfo: VODUK
+2015-11-23 10:21:03: callerid / function: 
+2015-11-23 10:21:03: TransactionID: 9907
+2015-11-23 10:21:03: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:21:06: GUID Set?: Yes
+2015-11-23 10:21:06: Sessiontoken: 0be7457d-f047-ce93-0aa4-f5e4895fa7b5
+2015-11-23 10:21:06: status: PfiPurchaseSuccess
+2015-11-23 10:21:06: requestime: 2015-11-23 10:21:05
+2015-11-23 10:21:06: hash: e7da4f6c588d3c82d5dd8b2831ad3a24
+2015-11-23 10:21:06: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:21:06: netinfo: VODUK
+2015-11-23 10:21:06: callerid / function: 
+2015-11-23 10:21:06: TransactionID: 9907
+2015-11-23 10:21:06: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:58:01: GUID Set?: Yes
+2015-11-23 10:58:01: Sessiontoken: 2f30a476-0763-3e52-d95f-bea64dc0454a
+2015-11-23 10:58:01: status: PfiPurchaseButtonShown
+2015-11-23 10:58:01: requestime: 2015-11-23 10:58:01
+2015-11-23 10:58:01: hash: 05a59b875e093e8f6bac08bbf3d48641
+2015-11-23 10:58:01: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:58:01: netinfo: VODUK
+2015-11-23 10:58:01: callerid / function: hidebutton
+2015-11-23 10:58:01: TransactionID: 
+2015-11-23 10:58:01: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:58:13: GUID Set?: Yes
+2015-11-23 10:58:13: Sessiontoken: 2f30a476-0763-3e52-d95f-bea64dc0454a
+2015-11-23 10:58:13: status: PfiPurchaseButtonShown
+2015-11-23 10:58:13: requestime: 2015-11-23 10:58:13
+2015-11-23 10:58:13: hash: a7b834c61c5125d2d1c2c900034ac95d
+2015-11-23 10:58:13: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:58:13: netinfo: VODUK
+2015-11-23 10:58:13: callerid / function: hidebutton
+2015-11-23 10:58:13: TransactionID: 
+2015-11-23 10:58:13: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:58:15: GUID Set?: Yes
+2015-11-23 10:58:15: Sessiontoken: 2f30a476-0763-3e52-d95f-bea64dc0454a
+2015-11-23 10:58:15: status: PfiConfirmButtonShown
+2015-11-23 10:58:15: requestime: 2015-11-23 10:58:15
+2015-11-23 10:58:15: hash: 09c38f8fe27f1e37ae15412f312f6748
+2015-11-23 10:58:15: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:58:15: netinfo: VODUK
+2015-11-23 10:58:15: callerid / function: 
+2015-11-23 10:58:15: TransactionID: 
+2015-11-23 10:58:15: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:58:18: GUID Set?: Yes
+2015-11-23 10:58:18: Sessiontoken: 2f30a476-0763-3e52-d95f-bea64dc0454a
+2015-11-23 10:58:18: status: PfiProcessing
+2015-11-23 10:58:18: requestime: 2015-11-23 10:58:18
+2015-11-23 10:58:18: hash: ee214f06dcd865f97cee60b52ba76f9e
+2015-11-23 10:58:18: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:58:18: netinfo: VODUK
+2015-11-23 10:58:18: callerid / function: 
+2015-11-23 10:58:18: TransactionID: 9910
+2015-11-23 10:58:18: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 10:58:21: GUID Set?: Yes
+2015-11-23 10:58:21: Sessiontoken: 2f30a476-0763-3e52-d95f-bea64dc0454a
+2015-11-23 10:58:21: status: PfiPurchaseSuccess
+2015-11-23 10:58:21: requestime: 2015-11-23 10:58:20
+2015-11-23 10:58:21: hash: 8373055b40dd6278e94d1c5f98efcb83
+2015-11-23 10:58:21: alias: arvVJqAo2o2054/XAWWAdw==
+2015-11-23 10:58:21: netinfo: VODUK
+2015-11-23 10:58:21: callerid / function: 
+2015-11-23 10:58:21: TransactionID: 9910
+2015-11-23 10:58:21: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 12:42:15: GUID Set?: Yes
+2015-11-23 12:42:15: Sessiontoken: 47eb29d5-302a-4f2f-cb75-f8224612140f
+2015-11-23 12:42:15: status: PfiPurchaseButtonShown
+2015-11-23 12:42:15: requestime: 2015-11-23 12:42:15
+2015-11-23 12:42:15: hash: 7a87b1b389a07f8d01e78da8bac3cf10
+2015-11-23 12:42:15: alias: 
+2015-11-23 12:42:15: netinfo: 
+2015-11-23 12:42:15: callerid / function: hidebutton
+2015-11-23 12:42:15: TransactionID: 
+2015-11-23 12:42:15: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 12:42:29: GUID Set?: Yes
+2015-11-23 12:42:29: Sessiontoken: 47eb29d5-302a-4f2f-cb75-f8224612140f
+2015-11-23 12:42:29: status: PfiConfirmButtonShown
+2015-11-23 12:42:29: requestime: 2015-11-23 12:42:29
+2015-11-23 12:42:29: hash: 7c3f8cac841224c784ea7fb9f44da727
+2015-11-23 12:42:29: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 12:42:29: netinfo: 
+2015-11-23 12:42:29: callerid / function: 
+2015-11-23 12:42:29: TransactionID: 
+2015-11-23 12:42:29: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 12:42:51: GUID Set?: Yes
+2015-11-23 12:42:51: Sessiontoken: 47eb29d5-302a-4f2f-cb75-f8224612140f
+2015-11-23 12:42:51: status: PfiProcessing
+2015-11-23 12:42:51: requestime: 2015-11-23 12:42:51
+2015-11-23 12:42:51: hash: 230b01883cc181a72294faaa24f2c3e2
+2015-11-23 12:42:51: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 12:42:51: netinfo: 
+2015-11-23 12:42:51: callerid / function: 
+2015-11-23 12:42:51: TransactionID: 
+2015-11-23 12:42:51: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 12:42:54: GUID Set?: Yes
+2015-11-23 12:42:54: Sessiontoken: 47eb29d5-302a-4f2f-cb75-f8224612140f
+2015-11-23 12:42:54: status: PfiProcessing
+2015-11-23 12:42:54: requestime: 2015-11-23 12:42:54
+2015-11-23 12:42:54: hash: db622dba8ec246358cda0f0b1ba22520
+2015-11-23 12:42:54: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 12:42:54: netinfo: TMOUK
+2015-11-23 12:42:54: callerid / function: 
+2015-11-23 12:42:54: TransactionID: 5178321
+2015-11-23 12:42:54: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 12:42:56: GUID Set?: Yes
+2015-11-23 12:42:56: Sessiontoken: 47eb29d5-302a-4f2f-cb75-f8224612140f
+2015-11-23 12:42:56: status: PfiPurchaseSuccess
+2015-11-23 12:42:56: requestime: 2015-11-23 12:42:56
+2015-11-23 12:42:56: hash: f9dd55b1ff350e86538f3a44efff8362
+2015-11-23 12:42:56: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 12:42:56: netinfo: TMOUK
+2015-11-23 12:42:56: callerid / function: 
+2015-11-23 12:42:56: TransactionID: 5178321
+2015-11-23 12:42:56: response was: {
+	"Error":null,
+	"Script":"showproc2()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 12:45:36: GUID Set?: Yes
+2015-11-23 12:45:36: Sessiontoken: 47eb29d5-302a-4f2f-cb75-f8224612140f
+2015-11-23 12:45:36: status: PfiPurchaseButtonShown
+2015-11-23 12:45:36: requestime: 2015-11-23 12:45:36
+2015-11-23 12:45:36: hash: 00c5b3822b8c4290f38ec4d838bbad1e
+2015-11-23 12:45:36: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 12:45:36: netinfo: TMOUK
+2015-11-23 12:45:36: callerid / function: hidebutton
+2015-11-23 12:45:36: TransactionID: 
+2015-11-23 12:45:36: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}
+
+2015-11-23 12:45:37: GUID Set?: Yes
+2015-11-23 12:45:37: Sessiontoken: 47eb29d5-302a-4f2f-cb75-f8224612140f
+2015-11-23 12:45:37: status: PfiConfirmButtonShown
+2015-11-23 12:45:37: requestime: 2015-11-23 12:45:37
+2015-11-23 12:45:37: hash: ffcd18e6aca627d890c0376e07c70e97
+2015-11-23 12:45:37: alias: ZGqaz+7ufEYWqkT0pRJ/UQ==
+2015-11-23 12:45:37: netinfo: TMOUK
+2015-11-23 12:45:37: callerid / function: 
+2015-11-23 12:45:37: TransactionID: 
+2015-11-23 12:45:37: response was: {
+	"Error":null,
+	"Script":"hidebutton()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}

@@ -30,6 +30,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 <head>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
+    <script type="text/javascript" src="/scripts/jquery-2.1.4.js">
     <script type="text/javascript">
         $(function(){
             $("body").hide();
