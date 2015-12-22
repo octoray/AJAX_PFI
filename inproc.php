@@ -85,6 +85,8 @@ fwrite($fh, $today1. ": callerid / function: " .$_SERVER['HTTP_X_PFI_CALLERID'])
 fwrite($fh, $stringData);
 fwrite($fh, $today1. ": opt in status: " .$_SERVER['HTTP_X_PFI_OPTINSTATUS']);
 fwrite($fh, $stringData);
+fwrite($fh, $today1. ": trans_id: " .$_SERVER['HTTP_X_PFI_TRANSACTIONID']);
+fwrite($fh, $stringData);
 fwrite($fh, $today1. ": response was: ".$response);
 fwrite($fh, $stringData);
 fclose($fh);
