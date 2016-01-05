@@ -122,6 +122,9 @@ img.banner_main {
     font-size: 13px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
 }
 
 .btn1:hover {
@@ -153,29 +156,29 @@ img.banner_main {
 }
 
 .block_2 {
-     color: #ffffff;
-     text-align: center;
-     font-size: 11px;
-     background-color: #000000;
-     margin: 0px;
- }
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    background-color: #000000;
+    margin: 0px;
+}
 
 .block_3 {
-     color: #000000;
-     text-align: left;
-     font-size: 11px;
-     background-color: #ffffff;
-     margin: 0px;
-     padding-bottom: 15px;
-     padding-top: 15px;
- }
+    color: #000000;
+    text-align: left;
+    font-size: 11px;
+    background-color: #ffffff;
+    margin: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
 
 .block_4 {
-     color: #000000;
-     text-align: left;
-     font-size: 11px;
-     display: flex;
- }
+    color: #000000;
+    text-align: left;
+    font-size: 11px;
+    display: flex;
+}
 
 .block_5 {
     color: #000000;
@@ -211,7 +214,7 @@ img.banner_main {
 }
 
 .hed {
-color: #ffffff;
+    color: #ffffff;
 }
 
 strong {
