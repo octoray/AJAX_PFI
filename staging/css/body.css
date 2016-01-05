@@ -122,6 +122,9 @@ img.banner_main {
     font-size: 13px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
 }
 
 .btn1:hover {
