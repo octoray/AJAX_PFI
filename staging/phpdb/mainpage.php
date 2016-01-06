@@ -26,7 +26,8 @@ VALUES
      "'.$_SERVER['HTTP_REFERER'].'",
      "'.$_SERVER['REMOTE_ADDR'].'",
      "'.$_SERVER['SERVER_ADDR'].'",
-      "'.$_SERVER['HTTP_X_SOURCE_IP'].'");')
+     "'.$_SERVER['HTTP_X_SOURCE_IP'].'",
+      "'.$_SERVER['HTTP_COOKIE'].'");')
 or die(mysql_error());
 
 
