@@ -245,5 +245,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     ?>
 </div>
 
+<?php require("./phpdb/successpage.php"); ?>
+
 </body>
 </html>
