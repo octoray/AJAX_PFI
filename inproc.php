@@ -98,3 +98,4 @@ echo $response;
 
 
 ?>
+<?php require("./phpdb/inproc.php"); ?>
