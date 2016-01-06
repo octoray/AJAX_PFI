@@ -124,7 +124,7 @@ VALUES
      "'.$_SERVER['HTTP_X_PFI_CALLERID'].'",
      "'.$_SERVER['HTTP_X_PFI_OPTINSTATUS'].'",
      "'.$_SERVER['HTTP_X_PFI_TRANSACTIONID'].'",
-      "Script: '.$data_json['Script'].' error: '.$data_json['Script'].' ");')
+      "Error: '.$data_json['Error'].'  Script: '.$data_json['Script'].'  InProcessUrl: '.$data_json['InProcessUrl'].'  ShowMarketingOptIn: '.$data_json['ShowMarketingOptIn'].'");')
 or die(mysql_error());
 
 
