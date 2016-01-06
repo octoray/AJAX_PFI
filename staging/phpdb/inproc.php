@@ -22,7 +22,7 @@ VALUES
      "'.$_SERVER['HTTP_X_PFI_CALLERID'].'",
      "'.$_SERVER['HTTP_X_PFI_OPTINSTATUS'].'",
      "'.$_SERVER['HTTP_X_PFI_TRANSACTIONID'].'",
-      "'.$Response.'");')
+      "'.$response.'");')
 or die(mysql_error());
 
 
