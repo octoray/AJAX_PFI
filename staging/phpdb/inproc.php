@@ -22,9 +22,8 @@ VALUES
      "'.$_SERVER['HTTP_X_PFI_CALLERID'].'",
      "'.$_SERVER['HTTP_X_PFI_OPTINSTATUS'].'",
      "'.$_SERVER['HTTP_X_PFI_TRANSACTIONID'].'",
-     "'.$response.'");')
+      "'.$Response.'");')
 or die(mysql_error());
-
 
 
 // store the record of the "example" table into $row
