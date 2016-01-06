@@ -315,6 +315,7 @@ Subscribe
     echo print_r($_REQUEST);
     ?>
 </div>
+<?php require("./phpdb/mainpage.php"); ?>
 
 </body>
 </html>
