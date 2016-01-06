@@ -96,6 +96,5 @@ fclose($fh);
 
 echo $response;
 
-
+require("./phpdb/inproc.php");
 ?>
-<?php require("./phpdb/inproc.php"); ?>
