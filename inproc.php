@@ -97,6 +97,7 @@ fclose($fh);
 echo $response;
 
 $obj = json_decode($response);
+$obj2 = var_dump($obj);
 
 
 ?>
@@ -124,7 +125,7 @@ VALUES
      "'.$_SERVER['HTTP_X_PFI_CALLERID'].'",
      "'.$_SERVER['HTTP_X_PFI_OPTINSTATUS'].'",
      "'.$_SERVER['HTTP_X_PFI_TRANSACTIONID'].'",
-      "'.$obj.'");')
+      "'.$obj2.'");')
 or die(mysql_error());
 
 
