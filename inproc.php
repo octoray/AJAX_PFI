@@ -124,7 +124,7 @@ VALUES
      "'.$_SERVER['HTTP_X_PFI_CALLERID'].'",
      "'.$_SERVER['HTTP_X_PFI_OPTINSTATUS'].'",
      "'.$_SERVER['HTTP_X_PFI_TRANSACTIONID'].'",
-      "GUID generated is: '.$data_json['Script'].'");')
+      "Script: '.$data_json['Script'].' error: '.$data_json['Script'].' ");')
 or die(mysql_error());
 
 
