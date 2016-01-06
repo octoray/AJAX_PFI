@@ -160,6 +160,12 @@ Subscribe
     Subscribe With Free Trial
 </div>
 <br>
+
+    <!-- 1st block /Purchase button -->
+    <div class="merchant-button btn1" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="337" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
+        test only single buy
+    </div>
+    <br>
 </div>
 
 <!-- 2nd block  -->
