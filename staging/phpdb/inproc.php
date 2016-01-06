@@ -27,13 +27,5 @@ or die(mysql_error());
 
 
 
-// store the record of the "example" table into $row
-//while ($row = mysql_fetch_assoc($result1)) {
-// $r1[] = $row;
-//}
-//$var1 = $r1[0]['id'];
-//echo $var1;
-
-
 mysql_close($dbhandle);
 ?>
