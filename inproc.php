@@ -124,16 +124,10 @@ VALUES
      "'.$_SERVER['HTTP_X_PFI_CALLERID'].'",
      "'.$_SERVER['HTTP_X_PFI_OPTINSTATUS'].'",
      "'.$_SERVER['HTTP_X_PFI_TRANSACTIONID'].'",
-      "'.$data_json['Script'].'");')
+      "GUID generated is: '.$data_json['Script'].'");')
 or die(mysql_error());
 
 
-// store the record of the "example" table into $row
-//while ($row = mysql_fetch_assoc($result1)) {
-// $r1[] = $row;
-//}
-//$var1 = $r1[0]['id'];
-//echo $var1;
 
 
 mysql_close($dbhandle);
