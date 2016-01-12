@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER['HTTP_X_PFI_ALIAS'] == NULL ) {
     ob_start();
-    header('Location: http://octoray.org.uk/staging/wifi1.php');
+    header('Location: http://octoraypfi.co.uk/staging/wifi1.php');
 }else{
 
     function getGUID(){
