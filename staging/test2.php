@@ -1,8 +1,4 @@
 <?php
-if ($_SERVER['HTTP_X_PFI_ALIAS'] == NULL ) {
-    ob_start();
-    header('Location: http://octoraypfi.co.uk/staging/wifi1.php');
-}else{
 
     function getGUID(){
         if (function_exists('com_create_guid')){
@@ -19,7 +15,7 @@ if ($_SERVER['HTTP_X_PFI_ALIAS'] == NULL ) {
                 .substr($charid,20,12);
             return $uuid;
         }
-    }};
+    };
 
 $GUID = getGUID();
 if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
@@ -140,7 +136,10 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 <div class="block_1">
 <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner" alt="Header">
 <br>
+    <!-- <a href="sms:/* phone number here */?body=/* body text here */">Link</a>-->
+    <a href="sms:07624806156?body=SLOTH"><h2>WIFI USERS CLICK HERE</h2></a><br><br>
     <br><br><br><br><br><br><br>
+
 
 
 
