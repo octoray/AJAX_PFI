@@ -206,7 +206,7 @@ Subscribe
 </div>
 
 <!-- 2nd block swap AJAX  -->
-<div class="block_66_buy2" id ="block_66_buy2" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "";}else{echo "display:none";};?>">
+<div class="block_66_buy2" id ="block_66_buy2" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession_XXX') {echo "";}else{echo "display:none";};?>">
     <br>
     <br>
     <h2 class="hed">Loading Content....</h2>
