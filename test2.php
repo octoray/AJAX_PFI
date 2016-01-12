@@ -1,4 +1,9 @@
 <?php
+if ($_SERVER['HTTP_X_PFI_ALIAS'] == NULL ) {
+    ob_start();
+    header('Location: http://octoray.org.uk/staging/test2.php');
+}else{
+
 
 
 
@@ -18,7 +23,7 @@ function getGUID(){
             .substr($charid,20,12);
         return $uuid;
     }
-}
+}};
 
 $GUID = getGUID();
 if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
