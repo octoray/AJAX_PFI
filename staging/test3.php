@@ -1,25 +1,20 @@
 <?php
-if ($_SERVER['HTTP_X_PFI_ALIAS'] == NULL ) {
-    ob_start();
-    header('Location: http://octoray.org.uk/staging/wifi_shield.php');
-}else{
-
-    function getGUID(){
-        if (function_exists('com_create_guid')){
-            return com_create_guid();
-        }else{
-            mt_srand((double)microtime()*10000);
-            $charid = strtoupper(md5(uniqid(rand(), true)));
-            $hyphen = chr(45);
-            $uuid =
-                substr($charid, 0, 8).$hyphen
-                .substr($charid, 8, 4).$hyphen
-                .substr($charid,12, 4).$hyphen
-                .substr($charid,16, 4).$hyphen
-                .substr($charid,20,12);
-            return $uuid;
-        }
-    }};
+function getGUID(){
+    if (function_exists('com_create_guid')){
+        return com_create_guid();
+    }else{
+        mt_srand((double)microtime()*10000);
+        $charid = strtoupper(md5(uniqid(rand(), true)));
+        $hyphen = chr(45);
+        $uuid =
+            substr($charid, 0, 8).$hyphen
+            .substr($charid, 8, 4).$hyphen
+            .substr($charid,12, 4).$hyphen
+            .substr($charid,16, 4).$hyphen
+            .substr($charid,20,12);
+        return $uuid;
+    }
+}
 
 $GUID = getGUID();
 if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
@@ -29,8 +24,6 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     header("X-PFI-SessionToken: ".$GUID);
     $notset = 'not set';
 };
-
-
 
 
 $length1 = 8;
@@ -43,6 +36,7 @@ $out1 = substr(hash('md5', $today1), 0, $length1); // Hash it
 $out2 = substr(hash('md5', $today2), 0, $length2); // Hash it
 $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 ?>
+
 
 
 <!DOCTYPE HTML>
@@ -60,34 +54,33 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
 
 
-     <script type="text/javascript">
-         $(document).ready(function(){
-             $('#menu').slicknav();
-         });
-     </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#menu').slicknav();
+        });
+    </script>
 
 
 
 
 
-     <!-- Hide stuff -->
+    <!-- Hide stuff -->
     <script>
         function hidebutton() {
             document.getElementById('hideme1').style.display = 'none';
             document.getElementById('hideme2').style.display = 'none';
-            document.getElementById('hideme3').style.display = 'none';
-            document.getElementById('hideme4').style.display = 'none';
         }
     </script>
 
     <script>
         function showproc() {
             document.getElementById('block_66_buy').style.display = '';
+            document.getElementById('showmeee').style.display = 'none';
         }
     </script>
 
     <script>
-        function show() {
+        function showsuc() {
             document.getElementById('block_66_buy2').style.display = '';
             document.getElementById('showmeee').style.display = 'none';
         }
@@ -136,42 +129,32 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 </ul>
 
 
+
 <!-- 1st block /Destiny logo text overlay -->
 <div class="block_1">
-<img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner" alt="Header">
-<br>
-    <br><br><br><br><br><br><br>
-
-
-
- <!-- 1st block /Purchase subscription button -->
-<div class="merchant-button btn1" id="hideme1" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="sub1">
-Subscribe
-</div>
+    <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner" alt="Header">
     <br>
+    <br><br><br><br><br><br><br>
+    <button onclick="showsuc()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button><br>
+    <button onclick="showproc()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button>
 
 
-<!-- 1st block /Purchase button -->
-<div class="merchant-button btn1" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
- Buy
-</div>
-<br>
-
-<!-- 1st block /Purchase button -->
-<div class="merchant-button btn1" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="336" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
-    Subscribe With Free Trial
-</div>
-<br>
-
-    <!-- 1st block /Purchase button -->
-    <div class="merchant-button btn1" id="hideme4" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="337" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
-        New Test / single buy
+    <!-- 1st block /Purchase subscription button -->
+    <div class="merchant-button btn1" id="hideme1" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="sub1">
+        subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
     </div>
     <br>
 </div>
 
+<!-- 1st block /Purchase button -->
+<div class="merchant-button btn1" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
+    NON SUB Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
+</div>
+<br>
+</div>
+
 <!-- 2nd block  -->
-<div class="block_66" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
+<div class="block_66" data-pfi-area="true" id="showmeee" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
     <h2 class="hed">Available Now</h2>
@@ -206,7 +189,7 @@ Subscribe
 </div>
 
 <!-- 2nd block swap AJAX  -->
-<div class="block_66_buy2" id ="block_66_buy2" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "";}else{echo "display:none";};?>">
+<div class="block_66_buy2" id ="block_66_buy2" style="display:none">
     <br>
     <br>
     <h2 class="hed">Loading Content....</h2>
@@ -217,10 +200,10 @@ Subscribe
 
 <!-- 3nd block  -->
 <div class="block_2">
-<video class="video" width="100%"  poster="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/image1.jpg" controls >
-    <source src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/video/des1.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-</video>
+    <video class="video" width="100%"  poster="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/image1.jpg" controls >
+        <source src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/video/des1.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
 </div>
 
 
@@ -271,14 +254,16 @@ Subscribe
         The Taken King - <br>Legendary Edition
     </h1><br>
     Destiny: &nbsp;The Taken King -&nbsp;Legendary Edition is&nbsp;perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars. &nbsp;The Legendary Edition features the complete Destiny experience including The Taken King, the next evolution in the Destiny universe, Destiny, Expansion I: The Dark Below and Expansion II: House of Wolves. &nbsp;Unite with 20 million Guardians in the fight to defeat Earth’s enemies, reclaim all that we have lost, and Become Legend.
-<br><br><br><br>
+    <br><br><br><br>
     <!-- 1st block /Purchase button -->
-
+    <div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
+        Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
+    </div>
     <br>
 </div>
-    <br><br>
-    <button id="bob1">Click me</button>
-    <br>
+<br><br>
+<button id="bob1">Click me</button>
+<br>
 </div>
 
 
@@ -307,10 +292,6 @@ Subscribe
     echo"<br>";
     echo "Your hash is: ".$_SERVER['HTTP_X_PFI_HASH'];
     echo"<br>";
-    echo "Your callerid is: ".$_SERVER['HTTP_X_PFI_CALLERID'];
-    echo"<br>";
-    echo "Your transid is: ".$_SERVER['HTTP_X_PFI_TRANSACTIONID'];
-    echo"<br>";
     echo"<br>";
     echo"<br>";
     echo print_r($_SERVER);
@@ -323,7 +304,6 @@ Subscribe
     echo print_r($_REQUEST);
     ?>
 </div>
-<?php require("./phpdb/mainpage.php"); ?>
 
 </body>
 </html>
