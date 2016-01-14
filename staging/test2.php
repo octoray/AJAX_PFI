@@ -138,7 +138,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 <br>
     <!-- <a href="sms:/* phone number here */?body=/* body text here */">Link</a>-->
     <a href="sms:07624806156?body=SLOTH"><h2>WIFI USERS CLICK HERE</h2></a><br><br>
-    <br><br><br><br><br><br><br>
+    <br><br><br>
 
 
 
