@@ -84,6 +84,15 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     </script>
 
     <script>
+        function clickme() {
+            document.getElementById('hideme1').style.display = 'none';
+            document.getElementById('hideme2').style.display = 'none';
+            document.getElementById('hideme3').style.display = 'none';
+            document.getElementById('hideme4').style.display = 'none';
+        }
+    </script>
+
+    <script>
         function showproc() {
             document.getElementById('block_66_buy').style.display = '';
         }
@@ -283,7 +292,9 @@ Subscribe
     <br>
 </div>
     <br><br>
-    <button id="bob1">Click me</button>
+<div class="btn1" onclick="clickme()">
+    hide top buttons
+</div>
     <br>
 </div>
 
