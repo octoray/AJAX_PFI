@@ -48,12 +48,19 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <!-- activate Menu -->
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/fonts.css" type="text/css">
-    <script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-    <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
+    <!--  <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">-->
+   <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
+   <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/fonts.css" type="text/css">
+   <script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>-->
+    <script src="http://vod2.69vidsbox.com/assets/vod-content/v2/js/imi-jquery.js" type="text/javascript"></script>
+    <script src="http://vod2.69vidsbox.com/assets/vod-content/v2/js/slick.min.js" type="text/javascript"></script>
+    <script src="http://vod2.69vidsbox.com/assets/vod-content/v2/js/modules.js" type="text/javascript"></script>
+    <script src="http://vod2.69vidsbox.com/assets/vod-content/v2/js/script.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://vod2.69vidsbox.com/assets/vod-content/v2/js/imi-jquery.js" ></script>
+    <script type="text/javascript" src="http://vod2.69vidsbox.com/assets/vod-content/v2/js/ewankApp.js" ></script>
+    <script type="text/javascript" src="http://vod2.69vidsbox.com/assets/vod-content/v2/js/slick.min.js"></script>
 
 
      <script type="text/javascript">
