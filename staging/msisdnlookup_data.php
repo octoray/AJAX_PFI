@@ -14,10 +14,12 @@
             merchantToken: '57D92441-6B7F-4691-936E-10836CB92496',
             sessionToken: '92248493-2177-3DB5-463E-B6EA29ABBB67'
         }
-    }).done(function (result) {
-document.write(result)
-        }).fail(function () {
-document.write('it fucked up')
+    }).done(function(result) {
+document.write(result);
+        }).fail(function(result) {
+document.write('it fucked up');
+            document.write('<br>');
+            document.write(result);
         });
 
 
