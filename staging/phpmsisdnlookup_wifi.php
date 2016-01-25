@@ -51,12 +51,23 @@ echo "URL POSTED TO IS: ".$info['url'];
 //echo $info['url'];
 echo '<br>';
 //echo '<br>';
-    echo "POSTED DATA IS:" . $info['body'];
+    echo "POSTED DATA IS:" .$info;
 
     print '<BR>';
     print '<BR>';
     print '<BR>';
-    echo "RESPONSE  IS:" . $runy;
+    echo "RESPONSE  IS:"    .$runy;
+    print '<BR>';
+    print '<BR>';
+    print '<BR>';
+    echo '<br>';
+    echo $info['url'];
+    echo '<br>';
+    echo $info['body'];
+    echo '<br>';
+    echo $info['request_header'];
+    echo '<br>';
+
 }
 
 
