@@ -60,7 +60,7 @@ echo '<br>';
     print '<BR>';
     print '<BR>';
     print '<BR>';
-    print_r($info)
+    print_r($info);
 }
 
 
