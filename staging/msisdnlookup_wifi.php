@@ -40,8 +40,8 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
             msisdn: '447768240407'
         }
     }).done(function (result) {
-// result contains the outcome .....document.write(result)
+document.write(result);
         }).fail(function () {
-// the call was not successful
+            document.write(result);
         });
 </script>
