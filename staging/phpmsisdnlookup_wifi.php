@@ -51,16 +51,17 @@ echo "URL POSTED TO IS: ".$info['url'];
 //echo $info['url'];
 echo '<br>';
 //echo '<br>';
-    echo "POSTED DATA IS:" .print_r($post);
+    echo "POSTED DATA IS:" .print_r($posty);
 
     print '<BR>';
-    print '<BR>';
+    echo "RESPONSE CODE: ".$info['http_code'];
     print '<BR>';
     echo "RESPONSE  IS:  "  .$runy;
     print '<BR>';
+    echo "Remote IP:  ".$info['primary_ip'];
     print '<BR>';
-    print '<BR>';
-    print_r($info);
+    echo "Remote IP:  ".$info['total_time'];
+
 }
 
 
