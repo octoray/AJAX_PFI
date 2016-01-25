@@ -32,9 +32,9 @@ curl_setopt($ch, CURLOPT_URL, 'http://pfi.imimobile.net/staging/msisdnlookup/web
 curl_setopt($ch, CURLOPT_POST, 1);
 
 $post = array(
-'merchantToken'=>('57D92441-6B7F-4691-936E-10836CB92496'),
-'sessionToken'=>('92248593-2177-3DB5-463E-B6EA29ABBB67'),
-'msisdn'=>('447768240407')
+'merchantToken'=>($_GET{'merchantToken'}),
+'sessionToken'=>($_GET{'sessionToken'}),
+'msisdn'=>($_GET{'msisdn'})
 );
 
 
@@ -45,24 +45,16 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
 
 $runy = curl_exec($ch);
 $info = curl_getinfo($ch);
-echo '<br>';
-echo $info['url'];
-echo '<br>';
-    echo '<br>';
-echo $info['body'];
-echo '<br>';
-    echo '<br>';
-echo $info['request_header'];
-echo '<br>';
 
-    echo $runy;
-    echo '<br>';
-    echo $info;
-    echo '<br>';
-    print_r($ch);
-    print '<BR>';
-    print_r($post);
-    echo $_GET{'bob'};
+echo '<br>';
+echo "URL POSTED TO IS: ".$info['url'];
+//echo $info['url'];
+echo '<br>';
+//echo '<br>';
+echo $info['body'];
+print '<BR>';
+    echo "POSTED DATA IS: ".print_r($post);
+
 }
 
 sendmessage();
