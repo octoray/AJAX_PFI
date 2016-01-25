@@ -22,7 +22,7 @@ $GUID = getGUID();
 
 
 function sendmessage() {
-$ch = curl_init('http://pfi.imimobile.net/staging/Ajax/Lookup');
+$ch = curl_init('http://pfi.imimobile.net/staging/msisdnlookup/web/lookup');
 curl_setopt($ch, CURLOPT_HEADER, 0);
 curl_setopt($ch, CURLOPT_HTTPHEADER,
         array("Content-type: application/json"));
@@ -37,9 +37,9 @@ $post = array(
 'msisdn'=>('447768240407')
 );
 
-json_encode($post);
+$postjson = json_encode($post);
 
-$query = http_build_query($post);
+$query = http_build_query($postjson);
 
 curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
 
