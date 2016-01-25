@@ -15,12 +15,8 @@
             sessionToken: '92248493-2177-3DB5-463E-B6EA29ABBB67'
         }
     }).done(function(result) {
-document.write(result);
-        }).fail(function(result) {
-document.write('it fucked up');
-            document.write('<br>');
             document.write(result);
+        }).fail(function() {
+            document.write('it fucked up');
         });
-
-
 </script>
