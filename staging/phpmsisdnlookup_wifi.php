@@ -51,7 +51,7 @@ echo "URL POSTED TO IS: ".$info['url'];
 //echo $info['url'];
 echo '<br>';
 //echo '<br>';
-    echo "POSTED DATA IS:" . $info['body'];
+    echo "POSTED DATA IS:" .$info;
 
     print '<BR>';
     print '<BR>';
