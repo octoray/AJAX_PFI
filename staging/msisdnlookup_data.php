@@ -7,7 +7,7 @@
 
 <script type="text/javascript">
     $.ajax({
-        url: "http://pfi.imimobile.net/staging/Ajax/Carrier",
+        url: "pfi.imimobile.net/staging/msisdnlookup/ajax/carrier",
         type: "POST",
         dataType: "jsonp",
         data: {
