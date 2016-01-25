@@ -24,8 +24,6 @@ $GUID = getGUID();
 function sendmessage() {
 $ch = curl_init('http://pfi.imimobile.net/staging/msisdnlookup/web/lookup');
 curl_setopt($ch, CURLOPT_HEADER, 0);
-curl_setopt($ch, CURLOPT_HTTPHEADER,
-        array("Content-type: application/json"));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 curl_setopt($ch, CURLOPT_URL, 'http://pfi.imimobile.net/staging/msisdnlookup/web/lookup');
@@ -37,9 +35,9 @@ $post = array(
 'msisdn'=>('447768240407')
 );
 
-$postjson = json_encode($post);
 
-$query = http_build_query($postjson);
+
+$query = http_build_query($post);
 
 curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
 
@@ -48,8 +46,10 @@ $info = curl_getinfo($ch);
 echo '<br>';
 echo $info['url'];
 echo '<br>';
+    echo '<br>';
 echo $info['body'];
 echo '<br>';
+    echo '<br>';
 echo $info['request_header'];
 echo '<br>';
 
@@ -59,7 +59,7 @@ echo '<br>';
     echo '<br>';
     print_r($ch);
     print '<BR>';
-    print_r($postjson);
+    print_r($post);
 }
 
 sendmessage();
