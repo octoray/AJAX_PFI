@@ -1,4 +1,4 @@
-
+<!DOCTYPE HTML>
 <?php
 
 function getGUID(){
@@ -19,7 +19,9 @@ function getGUID(){
 };
 
 $GUID = getGUID();
+?>
 
+<?php
 
 function sendmessage() {
 $ch = curl_init('http://pfi.imimobile.net/staging/msisdnlookup/web/lookup');
@@ -60,6 +62,7 @@ echo '<br>';
     print_r($ch);
     print '<BR>';
     print_r($post);
+    echo $_GET{'bob'};
 }
 
 sendmessage();
