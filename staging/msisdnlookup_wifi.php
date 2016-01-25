@@ -31,12 +31,12 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 <script type="text/javascript">
     $.ajax({
-        url: " http://pfi.imimobile.net/staging /Ajax/Lookup",
+        url: " http://pfi.imimobile.net/staging/Ajax/Lookup",
         type: "POST",
         dataType: "jsonp",
         data: {
             merchantToken: '57D92441-6B7F-4691-936E-10836CB92496',
-            sessionToken: '<?php echo $_SERVER['HTTP_X_PFI_SESSIONTOKEN']?>',
+            sessionToken: '<?php echo $GUID ?>',
             msisdn: '447768240407'
         }
     }).done(function (result) {
