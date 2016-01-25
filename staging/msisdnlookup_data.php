@@ -17,7 +17,7 @@
     }).done(function (result) {
 document.write(result)
         }).fail(function () {
-            document.write('it fucked up')
+document.write('it fucked up')
         });
 
 
