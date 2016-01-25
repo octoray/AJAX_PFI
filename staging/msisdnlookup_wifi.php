@@ -36,7 +36,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 <script type="text/javascript">
     $.ajax({
-        url: " http://pfi.imimobile.net/staging/Ajax/Lookup",
+        url: "http://pfi.imimobile.net/staging/Ajax/Lookup",
         type: "POST",
         dataType: "jsonp",
         data: {
