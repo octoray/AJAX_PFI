@@ -51,8 +51,8 @@ echo "URL POSTED TO IS: ".$info['url'];
 //echo $info['url'];
 echo '<br>';
 //echo '<br>';
-    echo "POSTED DATA IS:" .print_r($posty);
-
+    echo "POSTED DATA IS:"; print '<BR>';
+    print_r($post);
     print '<BR>';
     echo "RESPONSE CODE: ".$info['http_code'];
     print '<BR>';
