@@ -53,7 +53,11 @@ echo '<br>';
 echo $info['request_header'];
 echo '<br>';
 
-echo $runy;
+    echo $runy;
+    echo '<br>';
+    echo $info;
+    echo '<br>';
+    print_r($ch);
 }
 
 sendmessage();
