@@ -60,7 +60,7 @@ echo '<br>';
     print '<BR>';
     echo "Remote IP:  ".$info['primary_ip'];
     print '<BR>';
-    echo "Remote IP:  ".$info['total_time'];
+    echo "Time TAken:  ".$info['total_time'];
 
 }
 
