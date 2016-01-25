@@ -28,7 +28,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER,
         array("Content-type: application/json"));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-curl_setopt($ch, CURLOPT_URL, 'http://pfi.imimobile.net/staging/Ajax/Lookup');
+curl_setopt($ch, CURLOPT_URL, 'http://pfi.imimobile.net/staging/msisdnlookup/web/lookup');
 curl_setopt($ch, CURLOPT_POST, 1);
 
 $post = array(
@@ -58,6 +58,8 @@ echo '<br>';
     echo $info;
     echo '<br>';
     print_r($ch);
+    print '<BR>';
+    print_r($postjson);
 }
 
 sendmessage();
