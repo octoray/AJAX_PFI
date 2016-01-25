@@ -29,6 +29,11 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 ?>
 
+<script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+<script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
+
+
 <script type="text/javascript">
     $.ajax({
         url: " http://pfi.imimobile.net/staging/Ajax/Lookup",
