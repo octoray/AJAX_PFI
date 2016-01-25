@@ -15,9 +15,9 @@
             sessionToken: '92248493-2177-3DB5-463E-B6EA29ABBB67'
         }
     }).done(function (result) {
-// result contains the outcome
+document.write(result)
         }).fail(function () {
-// the call was not successful
+            document.write('it fucked up')
         });
 
 
