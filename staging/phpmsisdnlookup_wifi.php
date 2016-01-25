@@ -51,11 +51,15 @@ echo "URL POSTED TO IS: ".$info['url'];
 //echo $info['url'];
 echo '<br>';
 //echo '<br>';
-echo $info['body'];
-print '<BR>';
-    echo "POSTED DATA IS: ".print_r($post);
+    echo "POSTED DATA IS:" . $info['body'];
 
+    print '<BR>';
+    print '<BR>';
+    print '<BR>';
+    echo "RESPONSE  IS:" . $runy;
 }
+
+
 
 sendmessage();
 
