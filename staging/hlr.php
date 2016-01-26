@@ -190,7 +190,7 @@ if (empty($_POST["session"])) {
             document.write('AJAX lookup Failed :(');
         });}
 
-    callajax().success(function(result) {
+    callajax().success(function(data) {
         document.write(result);
     });
 </script>
