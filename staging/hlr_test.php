@@ -23,7 +23,8 @@
 
     callajax()(function(data) {
         //document.write(data);
-        document.getElementById("log").innerHTML=(data);
+        var carName = "Volvo";
+        document.getElementById("demo").innerHTML = carName;
         // document.write(result);
 
     });
