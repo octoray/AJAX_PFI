@@ -156,12 +156,20 @@ function sendmessage($n,$s,$m) {
 
 }
 
-
 if (empty($_POST["session"])) {
-
 } else {
-    sendmessage($name,$session,$msisdn);
+    if (isset($Ajax)){
+        echo '<script type="text/javascript">'
+        , 'callajax();'
+        , '</script>'
+        ;
+    }if (isset($http)){
+        sendmessage($name,$session,$msisdn);
+    }else{
+
+    }
 }
+
 
 ?>
 
