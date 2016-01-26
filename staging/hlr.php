@@ -9,6 +9,10 @@
         h4 {
             color: darkorange;
         }
+        h5 {
+            color: green;
+        }
+
     </style>
 </head>
 <body>
@@ -136,16 +140,16 @@ function sendmessage($n,$s,$m) {
     $runy = curl_exec($ch);
     $info = curl_getinfo($ch);
 
-    echo "URL POSTED TO IS: ".$info['url'];
+    echo "URL POSTED TO IS: <h4>".$info['url']."</h4>";
     print '<BR>';
 //echo $info['url'];
 //echo '<br>';
-    echo "POSTED DATA IS:"; print '<BR>';print '<BR>';
+    echo "POSTED DATA IS: <h4>"; print '<BR>';print '<BR>';
     print_r($post);
-    print '<BR>';
+    print '<BR></h4>';
     echo "RESPONSE CODE: <h4>".$info['http_code']."</h4>";
     print '<BR>';
-    echo "RESPONSE  IS:  <h4>"  .$runy."</h4>";
+    echo "RESPONSE  IS:  <h5>"  .$runy."</h5>";
     print '<BR>';
     echo "Remote IP:  <h4>".$info['primary_ip']."</h4>";
     print '<BR>';
