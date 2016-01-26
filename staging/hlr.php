@@ -167,7 +167,7 @@ if (empty($_POST["session"])) {
 ?>
 
 <script type="text/javascript">
-    function callajax() {
+    function callajax(callback) {
     $.ajax({
         url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/lookup",
         type: "POST",
@@ -177,13 +177,15 @@ if (empty($_POST["session"])) {
             sessionToken: '<?php echo $_POST["session"];?>',
             msisdn: '<?php echo $_POST["msisdn"];?>'
         }
-    }).done(function(result) {
-            document.write(result);
+    }).done(function(data) {
+            document.write(data);
         }).fail(function() {
             document.write('AJAX lookup Failed :(');
         });}
 
     callajax().success(function(data) {
-        document.write(result);
+        document.write(data);
+        // document.write(result);
+
     });
 </script>
