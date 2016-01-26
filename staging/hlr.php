@@ -20,29 +20,6 @@
     <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
 
 
-    <script type="text/javascript">
-        function callajax(callback) {
-            $.ajax({
-                url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/lookup",
-                type: "POST",
-                dataType: "jsonp",
-                data: {
-                    merchantToken: '<?php echo $_POST["name"];?>',
-                    sessionToken: '<?php echo $_POST["session"];?>',
-                    msisdn: '<?php echo $_POST["msisdn"];?>'
-                }
-            }).done(function(data) {
-                    document.write(data);
-                }).fail(function() {
-                    document.write('AJAX lookup Failed :(');
-                });}
-
-        callajax().success(function(data) {
-            document.write(data);
-            // document.write(result);
-
-        });
-    </script>
 </head>
 <body>
 
@@ -73,11 +50,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $session = test_input($_POST["session"]);
     }
 
-    if (empty($_POST["type"])) {
-        $typeErr = "Type is required";
-    } else {
-        $type = test_input($_POST["type"]);
-    }
+   // if (empty($_POST["type"])) {
+   //     $typeErr = "Type is required";
+   // } else {
+   //     $type = test_input($_POST["type"]);
+   // }
 
 
 
@@ -94,11 +71,12 @@ function test_input($data) {
 <h2>HLR LOOKUP TEST PFI</h2>
 <br>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+    <!-- Hide stuff
     Type:
     <input type="radio" name="type" <?php if (isset($type) && $type=="ajax") echo "checked";?>  value="ajax">ajax
     <input type="radio" name="type" <?php if (isset($type) && $type=="http") echo "checked";?>  value="http">http
     <span class="error">* <?php echo $typeErr;?></span>
-    <br><br>
+    <br><br>-->
     <br>
     Merchant Token:<br> <input type="text" name="name" size="40" value="<?php echo $name;?>">
     <span class="error"> <?php echo $nameErr;?></span>
