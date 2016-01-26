@@ -11,6 +11,7 @@
         }
         h5 {
             color: green;
+            font-size: 15px;
         }
 
     </style>
