@@ -16,7 +16,7 @@
                 msisdn: '<?php echo $_POST["msisdn"];?>'
             }
         }).done(function(data) {
-                document.write(data);
+               // document.write(data);
             }).fail(function() {
                 document.write('AJAX lookup Failed :(');
             });}
