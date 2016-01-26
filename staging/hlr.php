@@ -189,4 +189,5 @@ if (empty($_POST["session"])) {
         }).fail(function() {
             document.write('AJAX lookup Failed :(');
         });}
+    callajax();
 </script>
