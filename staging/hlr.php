@@ -3,6 +3,9 @@
 <head>
     <style>
         .error {color: #FF0000;}
+        body {
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -11,18 +14,14 @@
 
 <?php
 // define variables and set to empty values
-$nameErr = $emailErr = $genderErr = $websiteErr = "";
-$name = $email = $msisdn = $comment = $session = "";
+$nameErr = "";
+$name = $msisdn = $session = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
-        $nameErr = "Name is required";
+        $nameErr = "Merchant Token is required";
     } else {
         $name = test_input($_POST["name"]);
-        // check if name only contains letters and whitespace
-        if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
-            $nameErr = "Only letters and white space allowed";
-        }
     }
 
 
@@ -49,7 +48,7 @@ function test_input($data) {
 }
 ?>
 
-<h2>PHP Form Validation Example</h2>
+<h2>HLR LOOKUP TEST</h2>
 <br>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     Merchant Token: <input type="text" name="name" value="<?php echo $name;?>">
@@ -97,7 +96,7 @@ function getGUID(){
 $GUID = getGUID();
 
 echo "<br>";
-echo $GUID;
+echo "Sample Session Token: <h3> ".$GUID."<h3>";
 echo "<br>";
 
 
@@ -126,17 +125,22 @@ function sendmessage($n,$s,$m) {
 
     echo '<br>';
     echo "URL POSTED TO IS: ".$info['url'];
+    print '<BR>';
 //echo $info['url'];
     echo '<br>';
 //echo '<br>';
-    echo "POSTED DATA IS:"; print '<BR>';
+    echo "POSTED DATA IS:"; print '<BR>';print '<BR>';
     print_r($post);
+    print '<BR>';
     print '<BR>';
     echo "RESPONSE CODE: ".$info['http_code'];
     print '<BR>';
+    print '<BR>';
     echo "RESPONSE  IS:  "  .$runy;
     print '<BR>';
+    print '<BR>';
     echo "Remote IP:  ".$info['primary_ip'];
+    print '<BR>';
     print '<BR>';
     echo "Time TAken:  ".$info['total_time'];
 
