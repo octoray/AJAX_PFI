@@ -6,6 +6,9 @@
         body {
             text-align: left;
         }
+        h4 {
+            color: darkorange;
+        }
     </style>
 </head>
 <body>
@@ -96,9 +99,9 @@ function getGUID(){
 $GUID = getGUID();
 
 echo "<br>";
-echo "Sample Session Token: <h3> ".$GUID."</h3>";
+echo "Sample Session Token: <h4> ".$GUID."</h4>";
 echo "<br>";
-echo "Octoray Staging Merhcant Token: <h3> 57D92441-6B7F-4691-936E-10836CB92496 </h3>";
+echo "Octoray Staging Merhcant Token: <h4> 57D92441-6B7F-4691-936E-10836CB92496 </h4>";
 echo "<br>";
 
 
@@ -135,16 +138,16 @@ function sendmessage($n,$s,$m) {
     print_r($post);
     print '<BR>';
     print '<BR>';
-    echo "RESPONSE CODE: <h3>".$info['http_code']."</h3>";
+    echo "RESPONSE CODE: <h4>".$info['http_code']."</h4>";
     print '<BR>';
     print '<BR>';
-    echo "RESPONSE  IS:  <h3>"  .$runy."</h3>";
+    echo "RESPONSE  IS:  <h4>"  .$runy."</h4>";
     print '<BR>';
     print '<BR>';
-    echo "Remote IP:  <h3>".$info['primary_ip']."</h3>";
+    echo "Remote IP:  <h4>".$info['primary_ip']."</h4>";
     print '<BR>';
     print '<BR>';
-    echo "Time TAken:  <h3>".$info['total_time']."</h3>";
+    echo "Time TAken:  <h4>".$info['total_time']."</h4>";
 
 }
 
