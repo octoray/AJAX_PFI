@@ -23,7 +23,7 @@
 
     callajax()(function(data) {
         //document.write(data);
-        document.getElementById("log").innerHTML=data;
+        document.getElementById("log").innerHTML=(data);
         // document.write(result);
 
     });
