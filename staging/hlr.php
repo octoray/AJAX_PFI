@@ -25,9 +25,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     if (empty($_POST["msisdn"])) {
-        $comment = "";
+        $msisdn = "";
     } else {
-        $comment = test_input($_POST["msisdn"]);
+        $msisdn = test_input($_POST["msisdn"]);
     }
 
 
