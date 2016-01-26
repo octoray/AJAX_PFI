@@ -23,11 +23,11 @@
 
     callajax().success(function(data) {
         //document.write(data);
-        document.getElementById("log").innerHTML=(data);
+        document.getElementById("log").innerHTML=data;
         // document.write(result);
 
     });
 </script>
 <br><br><br><br><br><br>
 
-<h1><div id="log"></div></h1>
+<h1><div id="log">Hello</div></h1>
