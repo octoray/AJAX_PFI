@@ -28,6 +28,6 @@
 
     });
 </script>
+<br><br><br><br><br><br>
 
-
-<div id="log"></div>
+<h1><div id="log"></div></h1>
