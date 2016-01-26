@@ -14,22 +14,17 @@
                 merchantToken: '<?php echo $_POST["name"];?>',
                 sessionToken: '<?php echo $_POST["session"];?>',
                 msisdn: '<?php echo $_POST["msisdn"];?>'
-            },
-            success: function(data) {
-                var carName = data;
-                document.getElementById("log").innerHTML = carName;
-                //return data;
             }
         }).done(function(data) {
-               // document.write(data);
+                var success = data;
+                document.getElementById("log").innerHTML = success;
             }).fail(function() {
-                document.write('AJAX lookup Failed :(');
+                var fail = data;
+                document.getElementById("log").innerHTML = fail;
             });}
 
-    callajax()(function(data) {
-        return data;
-    });
 </script>
 <br><br><br><br><br><br>
 
 <h1><div id="log">Hello</div></h1>
+
