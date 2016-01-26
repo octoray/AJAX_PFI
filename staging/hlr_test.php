@@ -14,6 +14,11 @@
                 merchantToken: '<?php echo $_POST["name"];?>',
                 sessionToken: '<?php echo $_POST["session"];?>',
                 msisdn: '<?php echo $_POST["msisdn"];?>'
+            },
+            success: function(data) {
+                var carName = data;
+                document.getElementById("log").innerHTML = carName;
+                //return data;
             }
         }).done(function(data) {
                // document.write(data);
@@ -28,10 +33,3 @@
 <br><br><br><br><br><br>
 
 <h1><div id="log">Hello</div></h1>
-
-
-
-<script>
-    var carName = "Volvo";
-    document.getElementById("log").innerHTML = carName;
-</script>
