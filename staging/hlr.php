@@ -128,24 +128,18 @@ function sendmessage($n,$s,$m) {
     $runy = curl_exec($ch);
     $info = curl_getinfo($ch);
 
-    echo '<br>';
     echo "URL POSTED TO IS: ".$info['url'];
     print '<BR>';
 //echo $info['url'];
-    echo '<br>';
 //echo '<br>';
     echo "POSTED DATA IS:"; print '<BR>';print '<BR>';
     print_r($post);
     print '<BR>';
-    print '<BR>';
     echo "RESPONSE CODE: <h4>".$info['http_code']."</h4>";
-    print '<BR>';
     print '<BR>';
     echo "RESPONSE  IS:  <h4>"  .$runy."</h4>";
     print '<BR>';
-    print '<BR>';
     echo "Remote IP:  <h4>".$info['primary_ip']."</h4>";
-    print '<BR>';
     print '<BR>';
     echo "Time TAken:  <h4>".$info['total_time']."</h4>";
 
