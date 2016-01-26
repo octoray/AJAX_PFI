@@ -15,6 +15,9 @@
         }
 
     </style>
+    <script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
 </head>
 <body>
 
@@ -52,6 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
 
+
 }
 
 function test_input($data) {
@@ -66,6 +70,10 @@ function test_input($data) {
 <br>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     Type:
+    <input type="radio" name="type" <?php if (isset($type) && $type=="ajax") echo "checked";?>  value="ajax">ajax
+    <input type="radio" name="type" <?php if (isset($type) && $type=="http") echo "checked";?>  value="http">http
+    <span class="error">* <?php echo $typeErr;?></span>
+    <br><br>
     <br>
     Merchant Token:<br> <input type="text" name="name" size="40" value="<?php echo $name;?>">
     <span class="error"> <?php echo $nameErr;?></span>
@@ -158,34 +166,43 @@ function sendmessage($n,$s,$m) {
 
 }
 
+
+
 if (empty($_POST["session"])) {
 } else {
-    sendmessage($name,$session,$msisdn);
+    if (isset($ajax)){
+        echo '<script type="text/javascript">'
+        , 'callajax().success(function(data) {
+        document.write(data);
+    });'
+        , '</script>'
+        ;
+    }if (isset($http)){
+        sendmessage($name,$session,$msisdn);
+    }else{
+
+    }
 }
 
 
 ?>
 
+
 <script type="text/javascript">
     function callajax(callback) {
-    $.ajax({
-        url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/lookup",
-        type: "POST",
-        dataType: "jsonp",
-        data: {
-            merchantToken: '<?php echo $_POST["name"];?>',
-            sessionToken: '<?php echo $_POST["session"];?>',
-            msisdn: '<?php echo $_POST["msisdn"];?>'
-        }
-    }).done(function(data) {
-            document.write(data);
-        }).fail(function() {
-            document.write('AJAX lookup Failed :(');
-        });}
+        $.ajax({
+            url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/lookup",
+            type: "POST",
+            dataType: "jsonp",
+            data: {
+                merchantToken: '<?php echo $_POST["name"];?>',
+                sessionToken: '<?php echo $_POST["session"];?>',
+                msisdn: '<?php echo $_POST["msisdn"];?>'
+            }
+        }).done(function(data) {
+                document.write(data);
+            }).fail(function() {
+                document.write('AJAX lookup Failed :(');
+            });}
 
-    callajax().success(function(data) {
-        document.write(data);
-        // document.write(result);
-
-    });
 </script>
