@@ -54,12 +54,12 @@ function test_input($data) {
 <h2>HLR LOOKUP TEST</h2>
 <br>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-    Merchant Token:<br> <input type="text" name="name" value="<?php echo $name;?>">
+    Merchant Token:<br> <input type="text" name="name" rows="2" cols="40" value="<?php echo $name;?>">
     <span class="error">* <?php echo $nameErr;?></span>
     <br><br>
-    Session Token:<br> <textarea name="session" rows="5" cols="40"><?php echo $session;?></textarea>
+    Session Token:<br> <textarea name="session" rows="2" cols="40"><?php echo $session;?></textarea>
     <br><br>
-    Msisdn:<br> <textarea name="msisdn" rows="5" cols="40"><?php echo $msisdn;?></textarea>
+    Msisdn:<br> <textarea name="msisdn" rows="2" cols="40"><?php echo $msisdn;?></textarea>
     <input type="submit" name="submit" value="Submit">
 </form>
 
