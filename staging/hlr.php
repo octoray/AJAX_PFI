@@ -61,9 +61,6 @@ function test_input($data) {
 <br>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     Type:
-    <input type="radio" name="type" <?php if (isset($Ajax) && $type=="Ajax") echo "checked";?>  value="Ajax">AJAX
-    <input type="radio" name="type" <?php if (isset($http) && $type=="HTTP") echo "checked";?>  value="HTTP">HTTP
-    <span class="error"> <?php echo $typeErr;?></span>
     <br>
     Merchant Token:<br> <input type="text" name="name" size="40" value="<?php echo $name;?>">
     <span class="error"> <?php echo $nameErr;?></span>
@@ -158,16 +155,7 @@ function sendmessage($n,$s,$m) {
 
 if (empty($_POST["session"])) {
 } else {
-    if (isset($Ajax)){
-        echo '<script type="text/javascript">'
-        , 'callajax();'
-        , '</script>'
-        ;
-    }if (isset($http)){
-        sendmessage($name,$session,$msisdn);
-    }else{
-
-    }
+    sendmessage($name,$session,$msisdn);
 }
 
 
