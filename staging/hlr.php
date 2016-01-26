@@ -98,6 +98,9 @@ echo "Msisdn";
 echo "<br>";
 echo $msisdn;
 echo "<br>";
+echo $_POST["type"];
+echo '<br>;'
+
 
 
 function getGUID(){
@@ -190,6 +193,7 @@ function sendmessage($n,$s,$m) {
 <?php
 
 if (empty($_POST["session"])) {
+
 } else {
     if (isset($ajax)){
         echo '<script type="text/javascript">'
