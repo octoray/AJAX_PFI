@@ -21,7 +21,7 @@
                 document.write('AJAX lookup Failed :(');
             });}
 
-    callajax().success(function(data) {
+    callajax()(function(data) {
         //document.write(data);
         document.getElementById("log").innerHTML=data;
         // document.write(result);
