@@ -62,7 +62,7 @@ function test_input($data) {
 }
 ?>
 
-<h2>HLR LOOKUP TEST</h2>
+<h2>HLR LOOKUP TEST PFI</h2>
 <br>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     Type:
