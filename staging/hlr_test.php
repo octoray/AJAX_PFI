@@ -22,8 +22,12 @@
             });}
 
     callajax().success(function(data) {
-        document.write(data);
+        //document.write(data);
+        document.getElementById("log").innerHTML=(data);
         // document.write(result);
 
     });
 </script>
+
+
+<div id="log"></div>
