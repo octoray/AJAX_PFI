@@ -19,6 +19,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
 
+
     <script type="text/javascript">
         function callajax(callback) {
             $.ajax({
@@ -36,11 +37,11 @@
                     document.write('AJAX lookup Failed :(');
                 });}
 
-    </script>
-    <script type="text/javascript">
-    callajax().success(function(data) {
-    document.write(data);
-    // document.write(result);
+        callajax().success(function(data) {
+            document.write(data);
+            // document.write(result);
+
+        });
     </script>
 </head>
 <body>
