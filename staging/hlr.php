@@ -40,6 +40,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $session = test_input($_POST["session"]);
     }
 
+    if (empty($_POST["type"])) {
+        $typeErr = "Type is required";
+    } else {
+        $type = test_input($_POST["type"]);
+    }
+}
 
 }
 
@@ -54,8 +60,13 @@ function test_input($data) {
 <h2>HLR LOOKUP TEST</h2>
 <br>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+    Type:
+    <input type="radio" name="type" <?php if (isset($Ajax) && $type=="Ajax") echo "checked";?>  value="Ajax">AJAX
+    <input type="radio" name="type" <?php if (isset($http) && $type=="HTTP") echo "checked";?>  value="HTTP">HTTP
+    <span class="error"> <?php echo $typeErr;?></span>
+    <br>
     Merchant Token:<br> <input type="text" name="name" size="40" value="<?php echo $name;?>">
-    <span class="error">* <?php echo $nameErr;?></span>
+    <span class="error"> <?php echo $nameErr;?></span>
     <br><br>
     Session Token:<br> <textarea name="session" rows="2" cols="40"><?php echo $session;?></textarea>
     <br><br>
@@ -148,6 +159,29 @@ function sendmessage($n,$s,$m) {
 
 if (empty($_POST["session"])) {
 } else {
-    sendmessage($name,$session,$msisdn);
+    if (isset($Ajax) && $type=="Ajax"){
+        callajax();
+    }if (isset($Ajax) && $type=="HTTP"){
+        sendmessage($name,$session,$msisdn);
+    }
 }
+
 ?>
+
+<script type="text/javascript">
+    function callajax() {
+    $.ajax({
+        url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/lookup",
+        type: "POST",
+        dataType: "jsonp",
+        data: {
+            merchantToken: '<?php echo $_POST["name"];?>',
+            sessionToken: '<?php echo $_POST["session"];?>',
+            msisdn: '<?php echo $_POST["msisdn"];?>'
+        }
+    }).done(function(result) {
+            document.write(result);
+        }).fail(function() {
+            document.write('AJAX lookup Failed :(');
+        });}
+</script>
