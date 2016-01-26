@@ -96,9 +96,9 @@ function getGUID(){
 $GUID = getGUID();
 
 echo "<br>";
-echo "Sample Session Token: <h3> ".$GUID."<h3>";
+echo "Sample Session Token: <h3> ".$GUID."</h3>";
 echo "<br>";
-echo "Octoray Staging Merhcant Token: <h3> 57D92441-6B7F-4691-936E-10836CB92496 <h3>";
+echo "Octoray Staging Merhcant Token: <h3> 57D92441-6B7F-4691-936E-10836CB92496 </h3>";
 echo "<br>";
 
 
@@ -135,16 +135,16 @@ function sendmessage($n,$s,$m) {
     print_r($post);
     print '<BR>';
     print '<BR>';
-    echo "RESPONSE CODE: ".$info['http_code'];
+    echo "RESPONSE CODE: <h3>".$info['http_code']."</h3>";
     print '<BR>';
     print '<BR>';
-    echo "RESPONSE  IS:  "  .$runy;
+    echo "RESPONSE  IS:  <h3>"  .$runy."</h3>";
     print '<BR>';
     print '<BR>';
-    echo "Remote IP:  ".$info['primary_ip'];
+    echo "Remote IP:  <h3>".$info['primary_ip']."</h3>";
     print '<BR>';
     print '<BR>';
-    echo "Time TAken:  ".$info['total_time'];
+    echo "Time TAken:  <h3>".$info['total_time']."</h3>";
 
 }
 
