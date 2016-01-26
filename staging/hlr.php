@@ -98,9 +98,6 @@ echo "Msisdn";
 echo "<br>";
 echo $msisdn;
 echo "<br>";
-echo $_POST["type"];
-echo '<br>;'
-
 
 
 function getGUID(){
