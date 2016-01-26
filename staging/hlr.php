@@ -37,7 +37,11 @@
                 });}
 
     </script>
-
+    <script type="text/javascript">
+    callajax().success(function(data) {
+    document.write(data);
+    // document.write(result);
+    </script>
 </head>
 <body>
 
