@@ -51,12 +51,12 @@ function test_input($data) {
 <h2>HLR LOOKUP TEST</h2>
 <br>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-    Merchant Token: <input type="text" name="name" value="<?php echo $name;?>">
+    Merchant Token:<br> <input type="text" name="name" value="<?php echo $name;?>">
     <span class="error">* <?php echo $nameErr;?></span>
     <br><br>
-    Session Token: <textarea name="session" rows="5" cols="40"><?php echo $session;?></textarea>
+    Session Token:<br> <textarea name="session" rows="5" cols="40"><?php echo $session;?></textarea>
     <br><br>
-    Msisdn: <textarea name="msisdn" rows="5" cols="40"><?php echo $msisdn;?></textarea>
+    Msisdn:<br> <textarea name="msisdn" rows="5" cols="40"><?php echo $msisdn;?></textarea>
     <input type="submit" name="submit" value="Submit">
 </form>
 
@@ -97,6 +97,8 @@ $GUID = getGUID();
 
 echo "<br>";
 echo "Sample Session Token: <h3> ".$GUID."<h3>";
+echo "<br>";
+echo "Octoray Staging Merhcant Token: <h3> 57D92441-6B7F-4691-936E-10836CB92496 <h3>";
 echo "<br>";
 
 
