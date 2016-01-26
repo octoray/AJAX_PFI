@@ -21,11 +21,7 @@
                 document.write('AJAX lookup Failed :(');
             });}
 
-    callajax()(function(data) {
-        //document.write(data);
-        // document.write(result);
-
-    });
+    callajax()(function(data) {});
 </script>
 <br><br><br><br><br><br>
 
@@ -34,6 +30,6 @@
 
 
 <script>
-    var carName = "Volvo";
+    var carName = callajax()(function(data) {});
     document.getElementById("log").innerHTML = carName;
 </script>
