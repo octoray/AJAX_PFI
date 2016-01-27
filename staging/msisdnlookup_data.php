@@ -18,9 +18,9 @@
     }).done(function(result) {
             document.write(result);
             document.write('<br>');
-            document.write(<?php
+            document.write('<?php
 $execution_time = microtime() - $execution_time;
-printf('It took (secs)', $execution_time); ?>);
+printf("It took (secs)", $execution_time); ?>');
         }).fail(function() {
             document.write('it fucked up');
         });
