@@ -24,6 +24,6 @@
             var time = new Date() - start;
             document.write(time);
         }).fail(function() {
-            document.write('it fucked up');
+            document.write('it fucked up, probably coz your on an Iphone');
         });
 </script>
