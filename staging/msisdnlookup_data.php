@@ -5,7 +5,6 @@
 <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
 
 <?php $execution_time = microtime();
- return $execution_time;
  // Start counting ?>
 
 <script type="text/javascript">
