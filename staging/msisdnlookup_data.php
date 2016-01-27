@@ -19,6 +19,8 @@
     }).done(function(result) {
             document.write(result);
             document.write('<br>');
+            document.write('Time taken in milliseconds');
+            document.write('<br>');
             var time = new Date() - start;
             document.write(time);
         }).fail(function() {
