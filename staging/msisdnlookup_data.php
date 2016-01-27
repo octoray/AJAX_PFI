@@ -4,7 +4,9 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
 
-<?php $execution_time = microtime(); // Start counting ?>
+<?php $execution_time = microtime();
+ return $execution_time;
+ // Start counting ?>
 
 <script type="text/javascript">
     $.ajax({
