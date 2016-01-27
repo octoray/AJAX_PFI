@@ -17,12 +17,11 @@
         }
     }).done(function(result) {
             document.write(result);
+            document.write('<br>');
+            <?php
+$execution_time = microtime() - $execution_time;
+printf('It took (secs)', $execution_time); ?>
         }).fail(function() {
             document.write('it fucked up');
         });
 </script>
-
-<?php
-echo '<br>';
-$execution_time = microtime() - $execution_time;
-printf('It took (secs)', $execution_time); ?>
