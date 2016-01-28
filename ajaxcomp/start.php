@@ -53,7 +53,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 
 </head>
 <body>
-<img src="http://a.espncdn.com/combiner/i/?img=/media/motion/ESPNi/2015/0818/int_150818_Hislop_Ive_never_seen_Rooney_this_poor_REV1/int_150818_Hislop_Ive_never_seen_Rooney_this_poor_REV1.jpg&w=738&site=espnfc" class="banner" alt="Header">
+<img src="http://static.independent.co.uk/s3fs-public/thumbnails/image/2014/09/27/16/Wayne_Rooney-2.jpg" class="banner" alt="Header">
 <br>
 
 <br>
