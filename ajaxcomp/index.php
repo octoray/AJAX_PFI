@@ -62,7 +62,9 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
         <br>
 <div class="btn2">
-        <a href="http://octoraypfi.co.uk/ajaxcomp/start.php" id="btn2">PLAY NOW</a>
+        <a href="http://octoray.org.uk/ajaxcomp/start.php" id="btn2">PLAY NOW</a>
+    <br>
+    <br>
 </div>
 
 </body>
