@@ -64,7 +64,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 <br>
 <div class="competition">
     <div id="comp-entry-area">
-        <p class="question">How much better is Arsenal than Man Utd?</p>
+        <p class="question" id="question">How much better is Arsenal than Man Utd?</p>
 
         <div class="btn" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/ajaxcomp/finish.php" data-pfi-content-id="a1">
             <span>10%</span>
