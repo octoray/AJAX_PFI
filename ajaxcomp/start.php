@@ -60,29 +60,20 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 
 <div class="competition">
     <div id="comp-entry-area">
-        <p class="question">HOw much better is arenal than man u?</p>
+        <p class="question">How much better is arenal than man u?</p>
 
         <div class="btn" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a1">
             <span>10%</span>
         </div>
-
-
-
-
         <div class="btn" id="buttons2" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="330" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a2">
             <span>20%</span>
         </div>
-
-
-
-
-
         <div class="btn" id="buttons3" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="330" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a3">
             <span>5000%</span>
         </div>
     </div>
 
-    <div id="shirwan" class="dave" dudse="alex" data-pfi-area="true">This is a div</div>
+    <div id="shirwan" class="dave" dudse="alex" data-pfi-area="true">Click to accept £2.50 charge to your mobile</div>
     <br>
 </div>
 </body>
