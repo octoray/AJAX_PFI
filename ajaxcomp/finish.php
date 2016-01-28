@@ -51,7 +51,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 <div class="body1">
     <div id="comp-entry-area">
-       <h3> <p class="question">Congrats Thanks for playing. Clearly arsenal is better than Man U!!</p></h3>
+       <h3> <p class="question">Congrats, Thanks for playing</p></h3>
     </div>
 </div>
 
