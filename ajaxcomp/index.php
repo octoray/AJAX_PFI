@@ -28,5 +28,13 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 ?>
 
-
-hello shirwan
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+</head>
+<body>
+<h1>Hello shirwan</h1>
+</body>
+</html>
