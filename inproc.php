@@ -51,7 +51,7 @@ $temp1 = '{
 
 //respond
 
-if ($_SERVER['HTTP_X_PFI_CALLERID'] == "a3") {
+if ($_SERVER['HTTP_X_PFI_CALLERID'] == "a3" && $_SERVER['HTTP_X_PFI_STATUS'] == 'PfiPurchaseButtonShown') {
     $response = $response2;
 }else{
     $response = $response1;
