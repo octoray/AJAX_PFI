@@ -41,6 +41,13 @@ $response2 = '{
 	"ShowMarketingOptIn":true
 }';
 
+$response3 = '{
+	"Error":null,
+	"Script":"nope()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}';
+
 
 $temp1 = '{
 	"Error":null,
@@ -53,8 +60,10 @@ $temp1 = '{
 
 if ($_SERVER['HTTP_X_PFI_CALLERID'] == "a3" && $_SERVER['HTTP_X_PFI_STATUS'] == 'PfiPurchaseButtonShown') {
     $response = $response2;
-}else{
+}elseif($_SERVER['HTTP_X_PFI_CALLERID'] != "a3" && $_SERVER['HTTP_X_PFI_STATUS'] == 'PfiPurchaseButtonShown'){
     $response = $response1;
+}else{
+    $response = $response3;
 }
 
 
