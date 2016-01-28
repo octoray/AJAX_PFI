@@ -83,6 +83,6 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
         document.getElementById('buttons2').style.display = 'none';
         document.getElementById('buttons3').style.display = 'none';
     }
-    hidebutton();
+
 </script>
 </html>
