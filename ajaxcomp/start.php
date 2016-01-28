@@ -58,9 +58,13 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 
 <br>
 
+<h3><div class="wrong" style="display: none;">You got it wrong...go away</div></h3>
+<h3><div class="correct" style="display: none;">You Got the Answer correct...you may continue</div></h3>
+
+<br>
 <div class="competition">
     <div id="comp-entry-area">
-        <p class="question">How much better is arenal than man u?</p>
+        <p class="question">How much better is Arsenal than Man Utd?</p>
 
         <div class="btn" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/ajaxcomp/finish.php" data-pfi-content-id="a1">
             <span>10%</span>
@@ -76,12 +80,29 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     <div id="shirwan" class="dave" dudse="alex" data-pfi-area="true">Click to accept £2.50 charge to your mobile</div>
     <br>
 </div>
+
+
 </body>
+
+
 <script>
-    function hidebutton() {
+    function wrong() {
         document.getElementById('buttons1').style.display = 'none';
         document.getElementById('buttons2').style.display = 'none';
         document.getElementById('buttons3').style.display = 'none';
+        document.getElementById('buttons1').style.display = 'wrong';
+        document.getElementById('dave').style.display = 'none';
+
+    }
+
+</script>
+
+<script>
+    function correct() {
+        document.getElementById('buttons1').style.display = 'none';
+        document.getElementById('buttons2').style.display = 'none';
+        document.getElementById('buttons3').style.display = 'none';
+        document.getElementById('correct').style.display = '';
     }
 
 </script>

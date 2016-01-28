@@ -29,7 +29,14 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 $response1 = '{
 	"Error":null,
-	"Script":"hidebutton()",
+	"Script":"wrong()",
+	"InProcessUrl":null,
+	"ShowMarketingOptIn":true
+}';
+
+$response2 = '{
+	"Error":null,
+	"Script":"correct()",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
@@ -44,21 +51,11 @@ $temp1 = '{
 
 //respond
 
-if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
-    $response = $response1;
-    //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmButtonShown"){
-    $response = $response1;
-    //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessz"){
-    $response = $response1;
-    //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
-    //$var = '1';
+if ($_SERVER['HTTP_X_PFI_CALLERID'] == "a3") {
+    $response = $response2;
 }else{
     $response = $response1;
-    //echo $response1;
-};
+}
 
 
 //Write logs
