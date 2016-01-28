@@ -90,7 +90,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
         document.getElementById('buttons1').style.display = 'none';
         document.getElementById('buttons2').style.display = 'none';
         document.getElementById('buttons3').style.display = 'none';
-        document.getElementById('buttons1').style.display = 'wrong';
+        document.getElementById('wrong').style.display = '';
         document.getElementById('shirwan').style.display = 'none';
 
     }
