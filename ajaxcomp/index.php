@@ -26,6 +26,17 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     $notset = 'not set';
 };
 
+
+$length1 = 8;
+$length2 = 10;
+$length3 = 12;
+$today1 = date("Y-m-d H:i:s");
+$today2 = date("Y-m-d H:i:s");
+$today3= date("Y-m-d H:i:s");
+$out1 = substr(hash('md5', $today1), 0, $length1); // Hash it
+$out2 = substr(hash('md5', $today2), 0, $length2); // Hash it
+$out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
+
 ?>
 
 <!DOCTYPE HTML>
@@ -36,5 +47,27 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 </head>
 <body>
 <h1>Hello shirwan</h1>
+<br>
+<div id="shirwan" class="dave" dude="alex">This is a div</div>
+<br>
+
+<div class="competition">
+    <div id="comp-entry-area">
+        <p class="question">HOw much better is arenal than man u?</p>
+
+        <div class="answer" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="334" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a1">
+            <span>10%</span>
+        </div>
+        <div class="answer" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="334" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a2">
+            <span>20%</span>
+        </div>
+        <div class="answer" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="334" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a3">
+            <span>5000%</span>
+        </div>
+    </div>
+
+    <div data-pfi-area="true"></div>
+    <br>
+</div>
 </body>
 </html>
