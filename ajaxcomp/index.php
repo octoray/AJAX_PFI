@@ -48,7 +48,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 <body>
 <h1>Hello shirwan</h1>
 <br>
-<div id="shirwan" class="dave" dude="alex">This is a div</div>
+<div id="shirwan" class="dave" dude="alex" data-pfi-area="true">This is a div</div>
 <br>
 
 <div class="competition">
@@ -66,7 +66,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
         </div>
     </div>
 
-    <div data-pfi-area="true"></div>
+
     <br>
 </div>
 </body>
