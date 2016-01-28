@@ -77,7 +77,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
         </div>
     </div>
 
-    <div id="shirwan" class="dave" dudse="alex" data-pfi-area="true">Click to accept £2.50 charge to your mobile</div>
+    <div id="shirwan" class="dave" dudse="alex" data-pfi-area="true"></div>
     <br>
 </div>
 
@@ -92,7 +92,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
         document.getElementById('buttons3').style.display = 'none';
         document.getElementById('wrong').style.display = '';
         document.getElementById('shirwan').style.display = 'none';
-
+        document.getElementById('question').style.display = 'none';
     }
 
 </script>
@@ -103,6 +103,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
         document.getElementById('buttons2').style.display = 'none';
         document.getElementById('buttons3').style.display = 'none';
         document.getElementById('correct').style.display = '';
+        document.getElementById('question').style.display = 'none';
     }
 
 </script>
