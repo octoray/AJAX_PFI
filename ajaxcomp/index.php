@@ -50,14 +50,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
-    <script>
-        function hidebutton() {
-            document.getElementById('buttons1').style.display = 'none';
-            document.getElementById('buttons2').style.display = 'none';
-            document.getElementById('buttons3').style.display = 'none';
-        }
-        hidebutton()
-    </script>
+
 </head>
 <body>
 <img src="http://a.espncdn.com/combiner/i/?img=/media/motion/ESPNi/2015/0818/int_150818_Hislop_Ive_never_seen_Rooney_this_poor_REV1/int_150818_Hislop_Ive_never_seen_Rooney_this_poor_REV1.jpg&w=738&site=espnfc" class="banner" alt="Header">
@@ -84,4 +77,12 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     <br>
 </div>
 </body>
+<script>
+    function hidebutton() {
+        document.getElementById('buttons1').style.display = 'none';
+        document.getElementById('buttons2').style.display = 'none';
+        document.getElementById('buttons3').style.display = 'none';
+    }
+    hidebutton();
+</script>
 </html>
