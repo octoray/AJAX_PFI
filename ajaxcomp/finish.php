@@ -27,15 +27,6 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 };
 
 
-$length1 = 8;
-$length2 = 10;
-$length3 = 12;
-$today1 = date("Y-m-d H:i:s");
-$today2 = date("Y-m-d H:i:s");
-$today3= date("Y-m-d H:i:s");
-$out1 = substr(hash('md5', $today1), 0, $length1); // Hash it
-$out2 = substr(hash('md5', $today2), 0, $length2); // Hash ita
-$out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 
 ?>
 
@@ -58,40 +49,22 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 
 <br>
 
-<div class="competition">
+<div class="body1">
     <div id="comp-entry-area">
-        <p class="question">HOw much better is arenal than man u?</p>
-
-        <div class="btn" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a1">
-            <span>10%</span>
-        </div>
-
-
-
-
-        <div class="btn" id="buttons2" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="330" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a2">
-            <span>20%</span>
-        </div>
-
-
-
-
-
-        <div class="btn" id="buttons3" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="330" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a3">
-            <span>5000%</span>
-        </div>
+       <h3> <p class="question">Congrats Thanks for playing. Clearly arsenal is better than Man U!!</p></h3>
     </div>
-
-    <div id="shirwan" class="dave" dudse="alex" data-pfi-area="true">This is a div</div>
-    <br>
 </div>
-</body>
-<script>
-    function hidebutton() {
-        document.getElementById('buttons1').style.display = 'none';
-        document.getElementById('buttons2').style.display = 'none';
-        document.getElementById('buttons3').style.display = 'none';
-    }
 
-</script>
+<h2>Success Page</h2>
+
+
+<p class="stuff1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+<br>
+
+<br>
+<br>
+
+</body>
+
 </html>
