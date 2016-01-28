@@ -58,8 +58,8 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 
 <br>
 
-<h3><div class="wrong" style="display: none;">You got it wrong...go away</div></h3>
-<h3><div class="correct" style="display: none;">You Got the Answer correct...you may continue</div></h3>
+<h3><div id="wrong" style="display: none;">You got it wrong...go away</div></h3>
+<h3><div id="correct" style="display: none;">You Got the Answer correct...you may continue</div></h3>
 
 <br>
 <div class="competition">
@@ -91,7 +91,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
         document.getElementById('buttons2').style.display = 'none';
         document.getElementById('buttons3').style.display = 'none';
         document.getElementById('buttons1').style.display = 'wrong';
-        document.getElementById('dave').style.display = 'none';
+        document.getElementById('shirwan').style.display = 'none';
 
     }
 
