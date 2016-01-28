@@ -44,29 +44,30 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 <head>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/ajaxcomp.css" type="text/css">
 </head>
 <body>
-<h1>Hello shirwan</h1>
+<img src="http://a.espncdn.com/combiner/i/?img=/media/motion/ESPNi/2015/0818/int_150818_Hislop_Ive_never_seen_Rooney_this_poor_REV1/int_150818_Hislop_Ive_never_seen_Rooney_this_poor_REV1.jpg&w=738&site=espnfc" class="banner" alt="Header">
 <br>
-<div id="shirwan" class="dave" dude="alex" data-pfi-area="true">This is a div</div>
+
 <br>
 
 <div class="competition">
     <div id="comp-entry-area">
         <p class="question">HOw much better is arenal than man u?</p>
 
-        <div class="answer" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a1">
+        <div class="btn" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a1">
             <span>10%</span>
         </div>
-        <div class="answer" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="330" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a2">
+        <div class="btn" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="330" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a2">
             <span>20%</span>
         </div>
-        <div class="answer" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="330" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a3">
+        <div class="btn" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="330" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a3">
             <span>5000%</span>
         </div>
     </div>
 
-
+    <div id="shirwan" class="dave" dude="alex" data-pfi-area="true">This is a div</div>
     <br>
 </div>
 </body>
