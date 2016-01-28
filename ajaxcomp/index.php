@@ -34,7 +34,7 @@ $today1 = date("Y-m-d H:i:s");
 $today2 = date("Y-m-d H:i:s");
 $today3= date("Y-m-d H:i:s");
 $out1 = substr(hash('md5', $today1), 0, $length1); // Hash it
-$out2 = substr(hash('md5', $today2), 0, $length2); // Hash it
+$out2 = substr(hash('md5', $today2), 0, $length2); // Hash ita
 $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 
 ?>
@@ -73,7 +73,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
         </div>
     </div>
 
-    <div id="shirwan" class="dave" dude="alex" data-pfi-area="true">This is a div</div>
+    <div id="shirwan" class="dave" dudse="alex" data-pfi-area="true">This is a div</div>
     <br>
 </div>
 </body>
