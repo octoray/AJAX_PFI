@@ -45,6 +45,16 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/ajaxcomp.css" type="text/css">
+    <script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>-->
+    <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+    <script>
+        function hidebutton() {
+            document.getElementById('buttons').style.display = 'none';
+        }
+    </script>
 </head>
 <body>
 <img src="http://a.espncdn.com/combiner/i/?img=/media/motion/ESPNi/2015/0818/int_150818_Hislop_Ive_never_seen_Rooney_this_poor_REV1/int_150818_Hislop_Ive_never_seen_Rooney_this_poor_REV1.jpg&w=738&site=espnfc" class="banner" alt="Header">
@@ -56,13 +66,13 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     <div id="comp-entry-area">
         <p class="question">HOw much better is arenal than man u?</p>
 
-        <div class="btn" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a1">
+        <div class="btn" id="buttons" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a1">
             <span>10%</span>
         </div>
-        <div class="btn" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="330" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a2">
+        <div class="btn" id="buttons" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="330" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a2">
             <span>20%</span>
         </div>
-        <div class="btn" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="330" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a3">
+        <div class="btn" id="buttons" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="330" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/competition/success" data-pfi-content-id="a3">
             <span>5000%</span>
         </div>
     </div>
