@@ -64,3 +64,20 @@ img.banner {
     background-position: center center;
     width: 100%;
 }
+
+.btn2 {
+    background: #4fd934;
+    background-image: -webkit-linear-gradient(top, #4fd934, #077a0b);
+    background-image: -moz-linear-gradient(top, #4fd934, #077a0b);
+    background-image: -ms-linear-gradient(top, #4fd934, #077a0b);
+    background-image: -o-linear-gradient(top, #4fd934, #077a0b);
+    background-image: linear-gradient(to bottom, #4fd934, #077a0b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
