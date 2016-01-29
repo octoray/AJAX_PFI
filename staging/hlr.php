@@ -128,13 +128,13 @@ echo "<br>";
 echo "Octoray Staging Merhcant Token: <h4> 57D92441-6B7F-4691-936E-10836CB92496 </h4>";
 echo "<br>";
 
-
+//http://pfi.imimobile.net/staging/msisdnlookup/web/lookup
 function sendmessage($n,$s,$m) {
-    $ch = curl_init('http://pfi.imimobile.net/msisdnlookup/web/lookup');
+    $ch = curl_init('http://pfi.imimobile.net/staging/msisdnlookup/web/lookup');
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-    curl_setopt($ch, CURLOPT_URL, 'http://pfi.imimobile.net/msisdnlookup/web/lookup');
+    curl_setopt($ch, CURLOPT_URL, 'http://pfi.imimobile.net/staging/msisdnlookup/web/lookup');
     curl_setopt($ch, CURLOPT_POST, 1);
 
     $post = array(

@@ -9,7 +9,7 @@
 <script type="text/javascript">
     var start = new Date();
     $.ajax({
-        url: "http://pfi.imimobile.net/msisdnlookup/ajax/carrier",
+        url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/carrier",
         type: "POST",
         dataType: "jsonp",
         data: {
@@ -27,3 +27,6 @@
             document.write('it fucked up, probably coz your on an Iphone');
         });
 </script>
+
+
+
