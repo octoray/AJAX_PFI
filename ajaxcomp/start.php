@@ -107,4 +107,10 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     }
 
 </script>
+<script>
+    function nope() {
+
+    }
+
+</script>
 </html>

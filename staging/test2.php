@@ -337,4 +337,32 @@ Subscribe
 <?php require("./phpdb/mainpage.php"); ?>
 
 </body>
+<script>
+    function wrong() {
+        document.getElementById('buttons1').style.display = 'none';
+        document.getElementById('buttons2').style.display = 'none';
+        document.getElementById('buttons3').style.display = 'none';
+        document.getElementById('wrong').style.display = '';
+        document.getElementById('shirwan').style.display = 'none';
+        document.getElementById('question').style.display = 'none';
+    }
+
+</script>
+
+<script>
+    function correct() {
+        document.getElementById('buttons1').style.display = 'none';
+        document.getElementById('buttons2').style.display = 'none';
+        document.getElementById('buttons3').style.display = 'none';
+        document.getElementById('correct').style.display = '';
+        document.getElementById('question').style.display = 'none';
+    }
+
+</script>
+<script>
+    function nope() {
+
+    }
+
+</script>
 </html>
