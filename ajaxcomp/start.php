@@ -66,13 +66,13 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
     <div id="comp-entry-area">
         <p class="question" id="question">How much better is Arsenal than Man Utd?</p>
 
-        <div class="btn" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/ajaxcomp/finish.php" data-pfi-content-id="a1">
+        <div class="btn" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="342" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/ajaxcomp/finish.php" data-pfi-content-id="a1">
             <span>10%</span>
         </div>
-        <div class="btn" id="buttons2" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="330" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/ajaxcomp/finish.php" data-pfi-content-id="a2">
+        <div class="btn" id="buttons2" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="342" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/ajaxcomp/finish.php" data-pfi-content-id="a2">
             <span>20%</span>
         </div>
-        <div class="btn" id="buttons3" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="330" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/ajaxcomp/finish.php" data-pfi-content-id="a3">
+        <div class="btn" id="buttons3" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="342" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/ajaxcomp/finish.php" data-pfi-content-id="a3">
             <span>5000%</span>
         </div>
     </div>
