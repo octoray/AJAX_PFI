@@ -160,11 +160,11 @@ echo "<br>";
 
 //http://pfi.imimobile.net/staging/msisdnlookup/web/lookup
 function sendmessage($s,$m,$dl,$ms,$sp) {
-    $ch = curl_init('http://pfi.imimobile.net/staging/msisdnlookup/web/lookup');
+    $ch = curl_init($dl);
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-    curl_setopt($ch, CURLOPT_URL, 'http://pfi.imimobile.net/staging/msisdnlookup/web/lookup');
+    curl_setopt($ch, CURLOPT_URL, $dl);
     curl_setopt($ch, CURLOPT_POST, 1);
 
     $post = array(
