@@ -94,7 +94,6 @@ function test_input($data) {
     <input type="radio" name="type" <?php if (isset($type) && $type=="http") echo "checked";?>  value="http">http
     <span class="error">* <?php echo $typeErr;?></span>
     <br><br>-->
-    <br>
     <br><br>
     Session Token:<br> <textarea name="session" rows="2" cols="40"><?php echo $session;?></textarea>
     <br><br>
@@ -110,21 +109,27 @@ function test_input($data) {
 
 <?php
 echo "<h2>Your Input:</h2>";
-echo "Merchant Token";
+echo "Merchant Token set";
 echo "<br>";
 echo $name;
 echo "<br>";
-echo "Session Token";
+echo "Session Token set";
 echo "<br>";
 echo $session;
 echo "<br>";
-echo "Msisdn";
+echo "Msisdn set ";
 echo "<br>";
 echo $msisdn;
 echo "<br>";
+echo "URL set"
+echo "<br>";
 echo $durl;
 echo "<br>";
+echo "message set";
+echo "<br>";
 echo $message;
+echo "<br>";
+echo "spoof set";
 echo "<br>";
 echo $spoof;
 echo "<br>";
