@@ -100,6 +100,8 @@ function test_input($data) {
     <br><br>
     Session Token:<br> <textarea name="session" rows="2" cols="40"><?php echo $session;?></textarea>
     <br><br>
+    MSISDN:<br> <textarea name="session" rows="2" cols="40"><?php echo $msisdn;?></textarea>
+    <br><br>
     Destination URL:<br> <textarea name="durl" rows="2" cols="40"><?php echo $durl;?></textarea>
     <br><br>
     Message:<br> <textarea name="message" rows="2" cols="40"><?php echo $message;?></textarea>
@@ -121,7 +123,6 @@ echo "<br>";
 echo "Msisdn";
 echo "<br>";
 echo $msisdn;
-echo "<br>";
 echo "<br>";
 echo $durl;
 echo "<br>";
