@@ -50,21 +50,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (empty($_POST["durl"])) {
-        $session = "";
+        $durl = "";
     } else {
-        $session = test_input($_POST["durl"]);
+        $durl = test_input($_POST["durl"]);
     }
 
     if (empty($_POST["message"])) {
-        $session = "";
+        $message = "";
     } else {
-        $session = test_input($_POST["message"]);
+        $message = test_input($_POST["message"]);
     }
 
     if (empty($_POST["spoof"])) {
-        $session = "";
+        $spoof = "";
     } else {
-        $session = test_input($_POST["spoof"]);
+        $spoof = test_input($_POST["spoof"]);
     }
 
     // if (empty($_POST["type"])) {
@@ -97,7 +97,7 @@ function test_input($data) {
     <br><br>
     Session Token:<br> <textarea name="session" rows="2" cols="40"><?php echo $session;?></textarea>
     <br><br>
-    MSISDN:<br> <textarea name="session" rows="2" cols="40"><?php echo $msisdn;?></textarea>
+    MSISDN:<br> <textarea name="msisdn" rows="2" cols="40"><?php echo $msisdn;?></textarea>
     <br><br>
     Destination URL:<br> <textarea name="durl" rows="2" cols="40"><?php echo $durl;?></textarea>
     <br><br>
