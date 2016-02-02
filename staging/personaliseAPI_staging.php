@@ -155,11 +155,9 @@ function getGUID(){
 $GUID = getGUID();
 if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
-    header("Authorization: Basic NzA6NTdEOTI0NDEtNkI3Ri00NjkxLTkzNkUtMTA4MzZDQjkyNDk2");
     $set = 'set';
 }else{
     header("X-PFI-SessionToken: ".$GUID);
-    header("Authorization: Basic NzA6NTdEOTI0NDEtNkI3Ri00NjkxLTkzNkUtMTA4MzZDQjkyNDk2");
     $notset = 'not set';
 };
 
@@ -176,6 +174,8 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
     curl_setopt($ch, CURLOPT_URL, $dl);
+    curl_setopt($ch, CURLOPT_HTTPHEADER,"Authorization: Basic NzA6NTdEOTI0NDEtNkI3Ri00NjkxLTkzNkUtMTA4MzZDQjkyNDk2");
+    //curl_setopt($ch, CURLOPT_HTTPHEADER,"Authorization: Basic NzA6NTdEOTI0NDEtNkI3Ri00NjkxLTkzNkUtMTA4MzZDQjkyNDk2");
     curl_setopt($ch, CURLOPT_POST, 1);
 
     $post = array(
