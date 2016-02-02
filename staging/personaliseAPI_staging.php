@@ -95,8 +95,6 @@ function test_input($data) {
     <span class="error">* <?php echo $typeErr;?></span>
     <br><br>-->
     <br>
-    Merchant Token:<br> <input type="text" name="name" size="40" value="<?php echo $name;?>">
-    <span class="error"> <?php echo $nameErr;?></span>
     <br><br>
     Session Token:<br> <textarea name="session" rows="2" cols="40"><?php echo $session;?></textarea>
     <br><br>
@@ -204,7 +202,7 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
 if (empty($_POST["session"])) {
 
 } else {
-    sendmessage($name,$session,$msisdn,$durl,$message,$spoof);
+    sendmessage($session,$msisdn,$durl,$message,$spoof);
 }
 
 
