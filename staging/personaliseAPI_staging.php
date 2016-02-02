@@ -121,7 +121,7 @@ echo "Msisdn set ";
 echo "<br>";
 echo $msisdn;
 echo "<br>";
-echo "URL set"
+echo "URL set";
 echo "<br>";
 echo $durl;
 echo "<br>";
