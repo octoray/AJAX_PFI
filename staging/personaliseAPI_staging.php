@@ -101,10 +101,8 @@ function test_input($data) {
     Session Token:<br> <textarea name="session" rows="2" cols="40"><?php echo $session;?></textarea>
     <br><br>
     Destination URL:<br> <textarea name="durl" rows="2" cols="40"><?php echo $durl;?></textarea>
-    <input type="submit" name="submit" value="Submit">
     <br><br>
     Message:<br> <textarea name="message" rows="2" cols="40"><?php echo $message;?></textarea>
-    <input type="submit" name="submit" value="Submit">
     <br><br>
     Spoof:<br> <textarea name="spoof" rows="2" cols="40"><?php echo $spoof;?></textarea>
     <input type="submit" name="submit" value="Submit">
