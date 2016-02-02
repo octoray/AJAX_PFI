@@ -153,6 +153,13 @@ function getGUID(){
 };
 
 $GUID = getGUID();
+if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
+    header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
+    $set = 'set';
+}else{
+    header("X-PFI-SessionToken: ".$GUID);
+    $notset = 'not set';
+};
 
 echo "<br>";
 echo "Sample Session Token: <h4> ".$GUID."</h4>";
