@@ -176,7 +176,7 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
     curl_setopt($ch, CURLOPT_URL, $dl);
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Authorization: Basic NzA6NTdEOTI0NDEtNkI3Ri00NjkxLTkzNkUtMTA4MzZDQjkyNDk2");
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Accept: */*");
-    curl_setopt($ch, CURLOPT_HTTPHEADER,"Content-Type: application/x-www-form-urlencoded");
+    curl_setopt($ch, CURLOPT_HTTPHEADER,"Content-Type: application/json");
     curl_setopt($ch, CURLOPT_HTTPHEADER,"X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496");
     // curl_setopt($ch, CURLOPT_HTTPHEADER,"X-PFI-MerchantToken: */*");
     curl_setopt($ch, CURLOPT_POST, 1);
