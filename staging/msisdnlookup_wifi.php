@@ -11,13 +11,13 @@
         type: "POST",
         dataType: "jsonp",
         data: {
-            merchantToken: '<?php echo $_GET['merchantToken'];?>',
-            sessionToken: '<?php echo $_GET['sessionToken'];?>',
-            msisdn: '<?php echo $_GET['msisdn'];?>'
+            merchantToken: '57D92441-6B7F-4691-936E-10836CB92496',
+            sessionToken: '722642E0-1687-3965-29FC-10111B94A1AD',
+            msisdn: '447768240407'
         }
     }).done(function(result) {
             document.write(result);
         }).fail(function() {
-            document.write('it fucked up');
+            document.write('Error');
         });
 </script>

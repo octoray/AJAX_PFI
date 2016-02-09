@@ -13,18 +13,13 @@
         type: "POST",
         dataType: "jsonp",
         data: {
-            merchantToken: '<?php echo $_GET['merchantToken'];?>',
-            sessionToken: '<?php echo $_GET['sessionToken'];?>'
+            merchantToken: '57D92441-6B7F-4691-936E-10836CB92496',
+            sessionToken: '722642E0-1687-3965-29FC-10111B94A1AD'
         }
     }).done(function(result) {
             document.write(result);
-            document.write('<br>');
-            document.write('Time taken in milliseconds');
-            document.write('<br>');
-            var time = new Date() - start;
-            document.write(time);
         }).fail(function() {
-            document.write('it failed :( ');
+            document.write('Error');
         });
 </script>
 
