@@ -8,6 +8,3 @@
 <br>
 <a href="http://pfi.imimobile.net/staging/checkout/?sid=347&ref=IMI_00000000000_2">PFI-s SUB http non adult</a>
 <br>
-<a href="http://pfi.imimobile.net/staging/checkout/?sid=179&ref=IMI_00000000000_2">fortumo 179</a>
-<br>
-<a href="http://pfi.imimobile.net/staging/checkout/?sid=179&ref=IMI_00000000000_2">fortumo 179</a>
