@@ -16,7 +16,7 @@ headers: {
 'Content-Type':'application/json'
 },
 method: 'POST',
-dataType: 'json',
+dataType: 'jsonp',
     data: {"SessionToken":"4AD263B3-C0F5-8C0F-0AD0-380748666523","MSISDN":"447768240407","DestinationUrl":"http://the-sloth.uk/","Message":"test JS {url}","Spoof":"62277"},
 success: function(data){
 console.log('succes: '+data);
