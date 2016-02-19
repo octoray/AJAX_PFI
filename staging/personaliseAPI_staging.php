@@ -96,8 +96,7 @@ function test_input($data) {
     <span class="error">* <?php echo $typeErr;?></span>
     <br><br>-->
     <br><br>
-    End Point:<br> <textarea name="endpoint" rows="2" cols="40"><?php echo $ep;?></textarea>
-    <br><br>
+
     Session Token:<br> <textarea name="session" rows="2" cols="40"><?php echo $session;?></textarea>
     <br><br>
     MSISDN:<br> <textarea name="msisdn" rows="2" cols="40"><?php echo $msisdn;?></textarea>
@@ -171,13 +170,13 @@ echo "Octoray Staging Merhcant Token: <h4> 57D92441-6B7F-4691-936E-10836CB92496 
 echo "<br>";
 
 //http://pfi.imimobile.net/staging/msisdnlookup/web/lookup
-function sendmessage($s,$ep,$m,$dl,$ms,$sp) {
+function sendmessage($s,$m,$dl,$ms,$sp) {
     $ch = curl_init($dl);
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-    curl_setopt($ch, CURLOPT_URL, $ep);
-    curl_setopt($ch, CURLOPT_HTTPHEADER,"Authorization: Basic NzA6NTdEOTI0NDEtNkI3Ri00NjkxLTkzNkUtMTA4MzZDQjkyNDk2");
+    curl_setopt($ch, CURLOPT_URL, "http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink");
+    curl_setopt($ch, CURLOPT_HTTPHEADER,"Authorization: Basic MTpBRTdBMDdBOC1EMDg1LTQwQzYtQUNFNC1GRjg0RjE0RTMyNDc=");
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Accept: */*");
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Accept-Charset: utf-8");
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Content-Type: application/json");
@@ -223,7 +222,7 @@ function sendmessage($s,$ep,$m,$dl,$ms,$sp) {
 if (empty($_POST["session"])) {
 
 } else {
-    sendmessage($session,$ep,$msisdn,$durl,$message,$spoof);
+    sendmessage($session,$msisdn,$durl,$message,$spoof);
 }
 
 
