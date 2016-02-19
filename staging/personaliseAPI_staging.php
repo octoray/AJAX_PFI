@@ -227,6 +227,9 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
     print '<BR>';
     echo "all is:  <h5>"  .$ch."</h5>";
     print '<BR>';
+    print '<BR>';
+    echo "request is is:  <h5>"  .print_r($_REQUEST)."</h5>";
+    print '<BR>';
 
 }
 
