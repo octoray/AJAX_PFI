@@ -196,7 +196,7 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
         'spoof'=>($sp)
     );
 
-    $post_json = json_encode($arr);
+    $post_json = json_encode($post);
 
 
 
