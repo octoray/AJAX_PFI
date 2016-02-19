@@ -96,7 +96,7 @@ function test_input($data) {
     <span class="error">* <?php echo $typeErr;?></span>
     <br><br>-->
     <br><br>
-    Spoof:<br> <textarea name="endpoint" rows="2" cols="40"><?php echo $ep;?></textarea>
+    End Point:<br> <textarea name="endpoint" rows="2" cols="40"><?php echo $ep;?></textarea>
     <br><br>
     Session Token:<br> <textarea name="session" rows="2" cols="40"><?php echo $session;?></textarea>
     <br><br>
