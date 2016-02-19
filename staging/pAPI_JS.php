@@ -16,7 +16,7 @@ url: "http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink",
     data: {
         "SessionToken": "4AF16E35-0232-2C74-1EC9-DB0AD7F87820",
         "MSISDN": 447768240407,
-        "DestinationUrl": "the-sloth.uk",
+        "DestinationUrl": "http://the-sloth.uk/",
         "Message": "test 7 {url}",
         "Spoof": "12345678910"
     },
