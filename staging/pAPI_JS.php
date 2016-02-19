@@ -6,23 +6,21 @@
 
 
 
-
-
 <script type="text/javascript">
 $.ajax({
-crossOrigin: true,
-url: 'http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink',
-headers: {
-'Authorization':'Basic MTpBRTdBMDdBOC1EMDg1LTQwQzYtQUNFNC1GRjg0RjE0RTMyNDc=',
-'Content-Type':'application/json'
-},
-method: 'POST',
-dataType: 'jsonp',
-    data: {"SessionToken":"4AD263B3-C0F5-8C0F-0AD0-380748666523","MSISDN":"447768240407","DestinationUrl":"http://the-sloth.uk/","Message":"test JS {url}","Spoof":"62277"},
-success: function(data){
-console.log('succes: '+data);
-}
-});
-</script>
-
-
+crossDomain: true,
+type:"POST",
+    Authorization: "Basic MTpBRTdBMDdBOC1EMDg1LTQwQzYtQUNFNC1GRjg0RjE0RTMyNDc=",
+async:false,
+url: "http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink",
+    data: {
+        "SessionToken": "4AF16E35-0232-2C74-1EC9-DB0AD7F87820",
+        "MSISDN": 447768240407,
+        "DestinationUrl": "the-sloth.uk",
+        "Message": "test 7 {url}",
+        "Spoof": "12345678910"
+    },
+    dataType: "jsonp",
+    jsonpCallback: 'fnsuccesscallback'
+    });
+    </script>
