@@ -20,7 +20,7 @@ url: "http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink",
         "Message": "test 7 {url}",
         "Spoof": "12345678910"
     },
-    dataType: "jsonp",
+    dataType: "json",
     jsonpCallback: 'fnsuccesscallback'
     });
     </script>
