@@ -10,6 +10,7 @@
 
 <script type="text/javascript">
 $.ajax({
+crossOrigin: true,
 url: 'http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink',
 headers: {
 'Authorization':'Basic MTpBRTdBMDdBOC1EMDg1LTQwQzYtQUNFNC1GRjg0RjE0RTMyNDc=',
