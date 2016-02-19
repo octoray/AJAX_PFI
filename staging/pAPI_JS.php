@@ -7,9 +7,14 @@
 
 <script type="text/javascript">
     var start = new Date();
+    $.ajaxSetup({
+        beforeSend: function(xhr) {
+            xhr.setRequestHeader('Authorization', 'Basic MTpBRTdBMDdBOC1EMDg1LTQwQzYtQUNFNC1GRjg0RjE0RTMyNDc=');
+        }
+    });
     $.ajax({
         url: "http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink",
-        beforeSend: function (request)
+        beforeSend: function(request)
         {
             request.setRequestHeader("Authorization", "Basic MTpBRTdBMDdBOC1EMDg1LTQwQzYtQUNFNC1GRjg0RjE0RTMyNDc=");
         },
