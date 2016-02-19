@@ -184,6 +184,10 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
     // curl_setopt($ch, CURLOPT_HTTPHEADER,"X-PFI-MerchantToken: */*");
     curl_setopt($ch, CURLOPT_POST, 1);
 
+    $arr = array('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5);
+
+    echo json_encode($arr);
+
     $post = array(
         'sessionToken'=>($s),
         'msisdn'=>($m),
@@ -192,11 +196,13 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
         'spoof'=>($sp)
     );
 
+    $post_json = json_encode($arr);
+
 
 
     $query = http_build_query($post);
 
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $post_json);
 
     $runy = curl_exec($ch);
     $info = curl_getinfo($ch);
@@ -215,6 +221,9 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
     echo "Remote IP:  <h4>".$info['primary_ip']."</h4>";
     print '<BR>';
     echo "Time TAken:  <h4>".$info['total_time']."</h4>";
+    print '<BR>';
+    print 'JSON ARRAY';
+    echo json_encode($arr);
 
 }
 
