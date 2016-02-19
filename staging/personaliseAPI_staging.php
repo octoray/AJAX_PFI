@@ -172,13 +172,13 @@ echo "<br>";
 //http://pfi.imimobile.net/staging/msisdnlookup/web/lookup
 function sendmessage($s,$m,$dl,$ms,$sp) {
     $ch = curl_init($dl);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+    curl_setopt($ch, CURLOPT_HEADER, 1);
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Authorization: Basic MTpBRTdBMDdBOC1EMDg1LTQwQzYtQUNFNC1GRjg0RjE0RTMyNDc=");
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Accept: */*");
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Accept-Charset: utf-8");
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Content-Type: application/json");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
     curl_setopt($ch, CURLOPT_URL, "http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink");
     //curl_setopt($ch, CURLOPT_HTTPHEADER,"X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496");
     // curl_setopt($ch, CURLOPT_HTTPHEADER,"X-PFI-MerchantToken: */*");
