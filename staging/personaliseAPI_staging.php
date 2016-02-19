@@ -190,11 +190,11 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
 
 
     $post = array(
-        'sessionToken'=>($s),
-        'msisdn'=>($m),
-        'destinationurl'=>($dl),
-        'message'=>($ms),
-        'spoof'=>($sp)
+        'SessionToken'=>($s),
+        'MSISDN'=>($m),
+        'DestinationUrl'=>($dl),
+        'Message'=>($ms),
+        'Spoof'=>($sp)
     );
 
     $post_json = json_encode($post);
