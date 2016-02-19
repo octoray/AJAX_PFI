@@ -28,7 +28,7 @@
 <?php
 // define variables and set to empty values
 $nameErr = "";
-$name = $msisdn = $durl = $message = $spoof = $session = "";
+$name = $msisdn = $durl = $message = $spoof = $ep = $session = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
@@ -36,6 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $name = test_input($_POST["name"]);
     }
+
 
     if (empty($_POST["msisdn"])) {
         $msisdn = "";
@@ -94,6 +95,8 @@ function test_input($data) {
     <input type="radio" name="type" <?php if (isset($type) && $type=="http") echo "checked";?>  value="http">http
     <span class="error">* <?php echo $typeErr;?></span>
     <br><br>-->
+    <br><br>
+    Spoof:<br> <textarea name="endpoint" rows="2" cols="40"><?php echo $ep;?></textarea>
     <br><br>
     Session Token:<br> <textarea name="session" rows="2" cols="40"><?php echo $session;?></textarea>
     <br><br>
@@ -168,16 +171,17 @@ echo "Octoray Staging Merhcant Token: <h4> 57D92441-6B7F-4691-936E-10836CB92496 
 echo "<br>";
 
 //http://pfi.imimobile.net/staging/msisdnlookup/web/lookup
-function sendmessage($s,$m,$dl,$ms,$sp) {
+function sendmessage($s,$ep,$m,$dl,$ms,$sp) {
     $ch = curl_init($dl);
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-    curl_setopt($ch, CURLOPT_URL, $dl);
+    curl_setopt($ch, CURLOPT_URL, $ep);
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Authorization: Basic NzA6NTdEOTI0NDEtNkI3Ri00NjkxLTkzNkUtMTA4MzZDQjkyNDk2");
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Accept: */*");
+    curl_setopt($ch, CURLOPT_HTTPHEADER,"Accept-Charset: utf-8");
     curl_setopt($ch, CURLOPT_HTTPHEADER,"Content-Type: application/json");
-    curl_setopt($ch, CURLOPT_HTTPHEADER,"X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496");
+    //curl_setopt($ch, CURLOPT_HTTPHEADER,"X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496");
     // curl_setopt($ch, CURLOPT_HTTPHEADER,"X-PFI-MerchantToken: */*");
     curl_setopt($ch, CURLOPT_POST, 1);
 
@@ -219,7 +223,7 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
 if (empty($_POST["session"])) {
 
 } else {
-    sendmessage($session,$msisdn,$durl,$message,$spoof);
+    sendmessage($session,$ep,$msisdn,$durl,$message,$spoof);
 }
 
 
