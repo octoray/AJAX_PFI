@@ -223,7 +223,10 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
     echo "Time TAken:  <h4>".$info['total_time']."</h4>";
     print '<BR>';
     print 'JSON ARRAY';
-    echo json_encode($arr);
+    echo json_encode($post);
+    print '<BR>';
+    echo "all is:  <h5>"  .$ch."</h5>";
+    print '<BR>';
 
 }
 
