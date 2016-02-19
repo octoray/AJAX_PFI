@@ -179,7 +179,8 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
     $request_headers[] = 'Content-Type: application/json';
 
     $ch = curl_init($dl);
-    curl_setopt($ch, CURLOPT_HEADER, $request_headers);
+    curl_setopt($ch, CURLOPT_HEADER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $request_headers);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
     curl_setopt($ch, CURLOPT_URL, "http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink");
