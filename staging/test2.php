@@ -147,7 +147,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner" alt="Header">
 <br>
     <!-- <a href="sms:/* phone number here */?body=/* body text here */">Link</a>-->
-    <a href="sms:07624806156?body=SLOTH"><h2>WIFI USERS CLICK HERE</h2></a><br><br>
+    <a href="sms:62277?body=DAFT2"><h2>WIFI USERS CLICK HERE</h2></a><br><br>
     <br><br><br>
 
 
