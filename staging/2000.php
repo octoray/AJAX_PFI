@@ -58,7 +58,7 @@
 </div>
 <br><br>
 
-<div data-pfi-area="true">
+<div class="area" data-pfi-area="true">
 
 </div>
 
