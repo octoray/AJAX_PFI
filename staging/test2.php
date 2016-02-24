@@ -49,7 +49,7 @@
 
 <!-- 1st block /Destiny logo text overlay -->
 <div class="block_2">
-    <img src="http://images.thisisxbox.com/2013/12/destiny-logo.jpg" class="image2" alt="Header" width="100%">
+    <img src="http://www.gamebreaker.tv/wp-content/uploads/2014/06/featured-destiny1.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 <!-- 2nd block  -->
