@@ -67,24 +67,17 @@
     <h3>THE DARK BELOW
 
         Expand your Destiny adventure with a wealth of weapons, armor, and gear earned in new story quests and missions, three new competitive multiplayer arenas, and a new Strike and Raid. Beneath the surface of the Moon, a long-forgotten enemy stirs. Survive the true depths of the Hellmouth, and stop its dark army from invading Earth.</h3>
-
-</div>
-
-
-
-
-<!-- 4th block  -->
-<div class="block_6">
     <br>
     <h1 class="hed">The Taken King Live Action Trailer – Evil’s Most Wanted</h1> <br>
     You killed his son. Now Oryx, The Taken King, wants revenge. Gather your Fireteam and take on the greatest threat this universe has seen with Destiny: The Taken King.
     <br><br><br>
+
 </div>
 
 
 <!-- 5th block  -->
 <div class="block_4">
-    <img src="http://i.imgur.com/wPaNNLk.jpg" class="image2" alt="Header" width="100%">
+    <img src="http://destiny.bungie.org/images/news/Cal_Carlson_desktop_trio.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 
