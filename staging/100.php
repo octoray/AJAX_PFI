@@ -54,7 +54,7 @@
 <div class="block_eee">
     <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner2" alt="Header">
     <br>
-    <br><br>
+    <br>
 </div>
 <br><br>
 
@@ -62,7 +62,7 @@
 
 </div>
 
-<br><br>
+<br><br><br><br><br><br><br><br>
 <div class="footer">
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
