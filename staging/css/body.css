@@ -115,6 +115,8 @@ img.banner_main {
 
 .area {
     border-bottom-style: solid;
+    border-bottom-color: #727272;
+    border-top-color: #727272;
     padding-top: 45px;
     padding-bottom: 75px;
     border-top-style: solid;
