@@ -25,7 +25,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     $notset = 'not set';
 };
 
-$arr = array('Hello','World!','Beautiful','Day!');
+$arr = $_SERVER;
 // echo implode(" ",$arr);
 
 //Write logs
@@ -34,7 +34,7 @@ $myFile = "indexpage.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
 $stringData = "\n";
 fwrite($fh, $stringData);
-fwrite($fh, $today1. ": headers: " .$_SERVER);
+fwrite($fh, $today1. ": headers: " .implode(" ",$arr));
 fclose($fh);
 ?>
 <!DOCTYPE html>
