@@ -45,51 +45,6 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 
 
-
-    <!-- Hide stuff -->
-    <script>
-        function hidebutton() {
-            document.getElementById('hideme1').style.display = 'none';
-            document.getElementById('hideme2').style.display = 'none';
-        }
-    </script>
-
-    <script>
-        function showproc() {
-            document.getElementById('block_66_buy').style.display = '';
-        }
-    </script>
-
-    <script>
-        function show() {
-            document.getElementById('block_66_buy2').style.display = '';
-            document.getElementById('showmeee').style.display = 'none';
-        }
-    </script>
-
-    <script>
-        function hideproc() {
-            document.getElementById('block_66_buy').style.display = 'none';
-            document.getElementById('showmeee').style.display = 'none';
-            document.getElementById('mehhh').style.display = '';
-            $(function(){
-                $(".pfi-area").hide();
-            });
-        }
-    </script>
-
-    <script>
-        function showproc2() {
-            document.getElementById('extra').style.display = '';
-        }
-    </script>
-
-    <script>
-        function hybridshow() {
-            document.getElementById('hybridshow').style.display = '';
-        }
-    </script>
-
     <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
 
@@ -126,31 +81,13 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 </script>
 
 
-
-
-
-<!-- 1st block /Destiny logo text overlay -->
-<div class="block_1">
-    <img src="http://octoraypfi.co.uk/staging/images/banner.png" class="banner" alt="Header">
-    <br>
-    <br><br><br><br><br><br><br>
-    <button onclick="showproc2()">STAGING Click me to run hidebutton() !!!!!!!!!!!!!</button>
-    <!-- 1st block /Purchase button -->
-
-    <br>
-</div>
-
-<!-- 2nd block  -->
 <div class="block_66" data-pfi-area="true" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <h2 class="hed" style="color: greenyellow">STAGING Purchase Successful</h2>
+    <h2 class="hed" style="color: greenyellow">Purchase Successful</h2>
     <br>
-    <h2 class="hed" style="color: greenyellow">Thank You For Buying The Taken King Game </h2>
+    <h2 class="hed" style="color: greenyellow">Thank You For Buying The Taken King Game. You Will receive a SMS confirming your purchase shortly</h2>
     <br>
-</div>
-<div id="extra" style="display:none">
-    <h2 class="hed">extratext</h2>
 </div>
 
 
