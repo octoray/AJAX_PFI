@@ -54,6 +54,7 @@
     <br><br><br>
     <br><br><br>
     <br><br><br>
+    <br><br><br><br>
     <br>
 </div>
 
@@ -82,7 +83,7 @@
 
 <!-- 5th block  -->
 <div class="block_4">
-    <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/gun1.gif" class="image2" alt="Header" width="100%">
+    <img src="http://i.imgur.com/vLLkwbi.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 

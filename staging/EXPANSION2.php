@@ -92,7 +92,7 @@
 
 <!-- 7th block  -->
 <div class="block_4">
-    <img src="http://images.techtimes.com/data/images/full/85113/destiny-house-of-wolves.jpg?w=600" class="image2" alt="Header" width="100%">
+    <img src="http://i.imgur.com/fMVeE1G.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 
