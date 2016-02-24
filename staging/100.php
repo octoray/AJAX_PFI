@@ -24,7 +24,7 @@
     </script>
 
     <script type="text/javascript">
-        merchantCall('timebased001', 330, '00000001', '/success.php', 'destiny1');
+        merchantCall('<?php echo $out3 ?>', 348, '<?php echo $out1 ?>', '/success.php', '<?php echo $out2 ?>');
     </script>
 
 
