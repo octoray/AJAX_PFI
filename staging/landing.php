@@ -51,17 +51,15 @@
 <div class="block_1">
     <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner" alt="Header">
     <br>
-    <!-- <a href="sms:/* phone number here */?body=/* body text here */">Link</a>-->
-    <a href="sms:62277?body=DAFT2"><h2>WIFI USERS CLICK HERE</h2></a><br><br>
-    <br><br><br>
-    <br>
+<br><br><br>
+<br>
 </div>
 
 <!-- 2nd block  -->
 <div class="block_66" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <a href="test2.php"><h2>Available Now. Click Here to Purchase</h2></a><br><br>
+    <a href="/staging/test2.php"><h2>Available Now. Click Here to Purchase</h2></a><br><br>
 
 </div>
 
