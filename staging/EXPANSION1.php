@@ -33,15 +33,15 @@
 <ul id="menu">
     <li>Offers
         <ul>
-            <li><a href="EXPANSION1.php">EXPANSION I Offer</a></li>
-            <li><a href="EXPANSION2.php">EXPANSION II Offer</a></li>
+            <li><a href="/staging/EXPANSION1.php">EXPANSION I Offer</a></li>
+            <li><a href="/staging/EXPANSION2.php">EXPANSION II Offer</a></li>
         </ul>
     </li>
     <li>The Taken King Offer
         <ul>
-            <li><a href="abilitys.php">Abilitys</a></li>
-            <li><a href="newgear.php">New Gear</a></li>
-            <li><a href="subclass.php">New Subclasses</a></li>
+            <li><a href="/staging/abilitys.php">Abilitys</a></li>
+            <li><a href="/staging/newgear.php">New Gear</a></li>
+            <li><a href="/staging/subclass.php">New Subclasses</a></li>
         </ul>
     </li>
 </ul>
