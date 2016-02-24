@@ -23,6 +23,9 @@
         });
     </script>
 
+    <script type="text/javascript">
+        merchantCall('<?php echo $out3 ?>', 349, '<?php echo $out1 ?>', '/success.php', '<?php echo $out2 ?>');
+    </script>
 
 
 
@@ -46,19 +49,20 @@
     </li>
 </ul>
 
-
+<br><br>
 <!-- 1st block /Destiny logo text overlay -->
-<div class="block_1">
+<div class="block_eee">
     <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner2" alt="Header">
     <br>
-    <br><br><br><br><br><br><br><br><br>
     <br>
 </div>
+<br><br>
 
+<div data-pfi-area="true">
 
+</div>
 
-
-
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="footer">
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
