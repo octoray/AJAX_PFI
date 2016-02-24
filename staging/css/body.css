@@ -123,7 +123,8 @@ img.banner_main {
     font-size: 15px;
     background: #00a6e3;
     padding: 10px 10px 10px 10px;
-    border: solid #ffffff 1px;
+    border-top: solid #ffffff 1px;
+    border-bottom: solid #ffffff 1px;
     text-decoration: none;
 }
 

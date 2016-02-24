@@ -61,20 +61,20 @@
         Subscribe
     </div>
     <br>
-
+<br>
 
     <!-- 2nd block /Purchase button -->
     <div class="merchant-button btn1" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
         Buy
     </div>
     <br>
-
+    <br>
     <!-- 3rd block /Purchase button -->
     <div class="merchant-button btn1" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="336" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
         Subscribe With Free Trial
     </div>
     <br>
-
+    <br>
     <!-- 4th block /Purchase button -->
     <div class="merchant-button btn1" id="hideme4" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="337" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
         New Test / single buy
