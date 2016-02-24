@@ -49,7 +49,7 @@
 
 <!-- 1st block /Destiny logo text overlay -->
 <div class="block_2">
-    <img src="http://www.gamebreaker.tv/wp-content/uploads/2014/06/featured-destiny1.jpg" class="image2" alt="Header" width="100%">
+    <img src="http://drwallpaper.com/wp-content/uploads/2016/02/destiny_wallpaper_hd_background_download_desktop4.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 <!-- 2nd block  -->
