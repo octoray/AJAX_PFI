@@ -10,7 +10,9 @@ body {
     margin: 0px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
+h2{
+    color: white;
+}
 
 img.banner {
     width: 60%;
