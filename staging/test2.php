@@ -80,18 +80,8 @@
         New Test / single buy
     </div>
     <br>
-
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br>
-<br>
-<br>
+
 
 <div class="footer">
     <br>
