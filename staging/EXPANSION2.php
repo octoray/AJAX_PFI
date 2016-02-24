@@ -92,7 +92,7 @@
 
 <!-- 7th block  -->
 <div class="block_4">
-    <img src="http://i.imgur.com/fMVeE1G.jpg" class="image2" alt="Header" width="100%">
+    <img src="http://cdn1-www.craveonline.com/assets/uploads/2014/09/DestinyTitleHeader.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 
