@@ -99,7 +99,7 @@
 
 <!-- 8th block  -->
 <div class="block_6"><br>
-    <h1 class="hed">THE DARK BELOW</h1> <br>
+    <h1 class="hed">NEW STORY MISSIONS AND QUESTS</h1> <br>
     Summon your courage, Guardians. Crota waits in the dark below. Gather your most trusted allies to form a Fireteam, six Guardians strong. Don your best, battle-hardened weapons and armor. Master the depths of the Hellmouth. Face Crota, and live, and glory and reward are yours for the taking.
     <br><br><br>
 </div>
