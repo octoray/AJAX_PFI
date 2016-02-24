@@ -77,7 +77,7 @@
 
 <!-- 5th block  -->
 <div class="block_4">
-    <img src="http://ps4daily.com/wp-content/uploads/2014/07/destiny-wallpaper-18.jpg" class="image2" alt="Header" width="100%">
+    <img src="http://ps4daily.com/wp-content/uploads/2014/07/destiny-wallpaper-18.jpg" class="image2" alt="Header" width="100%" height="300">
 </div>
 
 
