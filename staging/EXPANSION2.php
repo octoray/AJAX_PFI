@@ -60,7 +60,9 @@
 <!-- 2nd block  -->
 <div class="block_66" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
     <br>
-    <a href="/staging/test2.php"><h2>Available Now. Click Here to Purchase The Expansion</h2></a><br><br>
+    <a href="/staging/test2.php"><h2>Available Now. Click Here to Purchase The Expansion Part II</h2></a><br>
+
+    <h3>In Trials of Osiris, three-player Guardian Fireteams face one another in Elimination-style combat. The more wins a Fireteam strings together, the greater their rewards. Only the most skilled Fireteams will reach the pinnacle of glory, but all who enter will have the opportunity to claim weapons and gear to bolster their might.</h3>
 </div>
 
 

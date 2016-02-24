@@ -52,6 +52,8 @@
     <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner2" alt="Header">
     <br>
     <br><br><br>
+    <br><br><br>
+    <br><br><br>
     <br>
 </div>
 
@@ -59,7 +61,10 @@
 <div class="block_66" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <a href="/staging/test2.php"><h2>Available Now. Click Here to Purchase</h2></a><br><br>
+    <a href="/staging/test2.php"><h2>Available Now. Click Here to Purchase The Expansion Part I</h2></a><br>
+    <h3>THE DARK BELOW
+
+        Expand your Destiny adventure with a wealth of weapons, armor, and gear earned in new story quests and missions, three new competitive multiplayer arenas, and a new Strike and Raid. Beneath the surface of the Moon, a long-forgotten enemy stirs. Survive the true depths of the Hellmouth, and stop its dark army from invading Earth.</h3>
 
 </div>
 
