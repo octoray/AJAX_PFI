@@ -57,13 +57,13 @@
     <br><br><br><br><br><br><br><br><br>
     <br>
 </div>
-<br><br><br><br>
+<br><br>
 
 <div data-pfi-area="true">
 
 </div>
 
-<br><br><br><br>
+<br><br>
 <div class="footer">
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
