@@ -102,7 +102,7 @@
 </div>
 
 <div class="block_5">
-    <img src="http://cdn.idigitaltimes.com/sites/idigitaltimes.com/files/styles/large/public/2015/04/22/destiny-house-wolves.jpg" alt="Header" width="100%">
+    <img src="http://img00.deviantart.net/705c/i/2015/113/9/7/destiny___house_of_wolves_hype_by_1337ninjasakura-d8qqree.png" alt="Header" width="100%">
 </div>
 
 
