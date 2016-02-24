@@ -48,8 +48,8 @@
 
 
 <!-- 1st block /Destiny logo text overlay -->
-<div class="block_1">
-<img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.pngf" class="banner" alt="Header">
+<div class="block_11">
+<img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner" alt="Header">
 <br>
     <!-- <a href="sms:/* phone number here */?body=/* body text here */">Link</a>-->
     <br><br><br>
@@ -90,50 +90,14 @@
     <br>
 
 </div>
-<div id="extra" style="display:none">
-    <h2 class="hed">extratext</h2>
-</div>
-
-</div>
-<div id="hybridshow" style="display:none">
-    <h2 class="hed">Please confirm using the SMS Link we just sent you</h2>
-</div>
 
 
-<!-- mehhhh  -->
-<div class="block_66" id="mehhh" style="display:none">
-    <br>
-    <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <h2 class="hed">SUccess :)</h2>
-    <br>
-</div>
-
-
-
-<!-- 2nd block swap AJAX  -->
-<div class="block_66_buy" id ="block_66_buy" style="display:none">
-    <br>
-    <br>
-    <h2 class="hed">Proccessing...</h2>
-    <br>
-</div>
-
-<!-- 2nd block swap AJAX  -->
-<div class="block_66_buy2" id ="block_66_buy2" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "";}else{echo "display:none";};?>">
-    <br>
-    <br>
-    <h2 class="hed">Loading Content....</h2>
-    <br>
-</div>
 
 
 
 <!-- 3nd block  -->
 <div class="block_2">
-<video class="video" width="100%"  poster="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/image1.jpg" controls >
-    <source src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/video/des1.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-</video>
+    <img src="http://images.thisisxbox.com/2013/12/destiny-logo.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 
