@@ -61,45 +61,9 @@
 <div class="block_66" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <h2 class="hed">Available Now</h2>
+    <a href="test2.php"><h2>Available Now. Click Here to Purchase</h2></a><br><br>
 
 </div>
-<div id="extra" style="display:none">
-    <h2 class="hed">extratext</h2>
-</div>
-
-</div>
-<div id="hybridshow" style="display:none">
-    <h2 class="hed">Please confirm using the SMS Link we just sent you</h2>
-</div>
-
-
-<!-- mehhhh  -->
-<div class="block_66" id="mehhh" style="display:none">
-    <br>
-    <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <h2 class="hed">SUccess :)</h2>
-    <br>
-</div>
-
-
-
-<!-- 2nd block swap AJAX  -->
-<div class="block_66_buy" id ="block_66_buy" style="display:none">
-    <br>
-    <br>
-    <h2 class="hed">Proccessing...</h2>
-    <br>
-</div>
-
-<!-- 2nd block swap AJAX  -->
-<div class="block_66_buy2" id ="block_66_buy2" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "";}else{echo "display:none";};?>">
-    <br>
-    <br>
-    <h2 class="hed">Loading Content....</h2>
-    <br>
-</div>
-
 
 
 <!-- 3nd block  -->
