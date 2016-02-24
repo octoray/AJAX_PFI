@@ -114,6 +114,7 @@ img.banner_main {
 }
 
 .area {
+    background-image: url("http://octoraypfi.co.uk/images/bg.jpg");
     border-bottom-style: solid;
     border-bottom-color: #0092b8;
     border-top-color: #0092b8;
