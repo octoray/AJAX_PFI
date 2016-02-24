@@ -334,12 +334,14 @@ Subscribe
     echo print_r($_REQUEST);
 
     //Write logs
+    $arr = $_SERVER;
+    // echo implode(" ",$arr);
     $today1 = date("Y-m-d H:i:s");
     $myFile = "mainpage.txt";
     $fh = fopen($myFile, 'a') or die("can't open file");
     $stringData = "\n";
     fwrite($fh, $stringData);
-    fwrite($fh, $today1. ": headers: " .($_SERVER));
+    fwrite($fh, $today1. ": headers: " .implode(" ",$arr));
     fclose($fh);
 
 
