@@ -24,7 +24,7 @@
     </script>
 
     <script type="text/javascript">
-        merchantCall('100tokens', 348, '<?php echo $out1 ?>', '/success.php', '<?php echo $out2 ?>');
+        merchantCall('100tokens', 348, '<?php echo $out1 ?>', '/staging/success.php', '<?php echo $out2 ?>');
     </script>
 
 
