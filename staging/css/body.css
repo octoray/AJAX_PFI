@@ -118,6 +118,8 @@ img.banner_main {
     padding-top: 45px;
     padding-bottom: 75px;
     border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
 }
 
 .foot_logo  {
