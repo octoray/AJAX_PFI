@@ -125,9 +125,6 @@ img.banner_main {
 
 
 .btn1 {
-    -webkit-border-radius: 3;
-    -moz-border-radius: 3;
-    border-radius: 3px;
     opacity: 0.4;
     font-family: Courier New;
     color: #000000;
@@ -150,9 +147,6 @@ img.banner_main {
 }
 
 .btn2 {
-    -webkit-border-radius: 3;
-    -moz-border-radius: 3;
-    border-radius: 3px;
     opacity: 0.4;
     font-family: Courier New;
     color: #000000;
@@ -175,9 +169,6 @@ img.banner_main {
 }
 
 .btn3 {
-    -webkit-border-radius: 3;
-    -moz-border-radius: 3;
-    border-radius: 3px;
     opacity: 0.4;
     font-family: Courier New;
     color: #000000;
