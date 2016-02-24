@@ -58,18 +58,19 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 <ul id="menu">
     <li>Offers
         <ul>
-            <li><a href="#">EXPANSION I Offer</a></li>
-            <li><a href="#">EXPANSION II Offer</a></li>
+            <li><a href="/staging/EXPANSION1.php">EXPANSION I Offer</a></li>
+            <li><a href="/staging/EXPANSION2.php">EXPANSION II Offer</a></li>
         </ul>
     </li>
     <li>The Taken King Offer
         <ul>
-            <li><a href="#">Abilitys</a></li>
-            <li><a href="#">New Gear</a></li>
-            <li><a href="#">New Subclasses</a></li>
+            <li><a href="/staging/100.php">Buy 100 In-Game Credits</a></li>
+            <li><a href="/staging/500.php">Buy 500 In-Game Credits</a></li>
+            <li><a href="/staging/2000.php">Buy 2000 In-Game Credits</a></li>
         </ul>
     </li>
 </ul>
+
 
 <!-- activate Menu -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
