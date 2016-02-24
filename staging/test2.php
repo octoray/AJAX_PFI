@@ -49,46 +49,45 @@
 
 <!-- 1st block /Destiny logo text overlay -->
 <div class="block_1">
-<img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner" alt="Header">
+<img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.pngf" class="banner" alt="Header">
 <br>
     <!-- <a href="sms:/* phone number here */?body=/* body text here */">Link</a>-->
-    <a href="sms:62277?body=DAFT2"><h2>WIFI USERS CLICK HERE</h2></a><br><br>
     <br><br><br>
 
 
 
 
- <!-- 1st block /Purchase subscription button -->
-<div class="merchant-button btn1" id="hideme1" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="sub1">
-Subscribe
-</div>
-    <br>
 
-
-<!-- 2nd block /Purchase button -->
-<div class="merchant-button btn1" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
- Buy
-</div>
-<br>
-
-<!-- 3rd block /Purchase button -->
-<div class="merchant-button btn1" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="336" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
-    Subscribe With Free Trial
-</div>
-<br>
-
-    <!-- 4th block /Purchase button -->
-    <div class="merchant-button btn1" id="hideme4" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="337" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
-        New Test / single buy
-    </div>
-    <br>
 </div>
 
 <!-- 2nd block  -->
 <div class="block_66" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <h2 class="hed">Available Now</h2>
+    <!-- 1st block /Purchase subscription button -->
+    <div class="merchant-button btn1" id="hideme1" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="sub1">
+        Subscribe
+    </div>
+    <br>
+
+
+    <!-- 2nd block /Purchase button -->
+    <div class="merchant-button btn1" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
+        Buy
+    </div>
+    <br>
+
+    <!-- 3rd block /Purchase button -->
+    <div class="merchant-button btn1" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="336" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
+        Subscribe With Free Trial
+    </div>
+    <br>
+
+    <!-- 4th block /Purchase button -->
+    <div class="merchant-button btn1" id="hideme4" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="337" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
+        New Test / single buy
+    </div>
+    <br>
 
 </div>
 <div id="extra" style="display:none">
