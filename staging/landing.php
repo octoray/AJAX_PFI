@@ -51,7 +51,7 @@
 <div class="block_1">
     <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner2" alt="Header">
     <br>
-<br><br><br>
+<br><br><br><br><br><br><br><br><br>
 <br>
 </div>
 
