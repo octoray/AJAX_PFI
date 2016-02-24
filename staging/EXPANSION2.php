@@ -85,7 +85,8 @@
 <!-- 6th block  -->
 <div class="block_6">
     <br>
-    <h1 class="hed">HOUSE OF WOLVES</h1> <br>
+    <h1 class="hed">NEW STRIKE: THE SHADOW THIEF
+    </h1> <br>
     New weapons, armor, and gear to increase your Guardian’s power, including Fallen and Osiris-themed collections earned as top-tier rewards in new activities. New Activity rewards will enable Guardians to upgrade old favorites. Legendary and Exotic gear from Destiny, The Dark Below, and House of Wolves can be boosted to the current maximum Attack, Defense, and Light values.
     <br><br><br>
 </div>
@@ -99,7 +100,7 @@
 
 <!-- 8th block  -->
 <div class="block_6"><br>
-    <h1 class="hed">THIS IS YOUR LEGEND</h1> <br>
+    <h1 class="hed">NEW MULTIPLAYER MAPS</h1> <br>
     ACCESS YOUR ARSENAL, TRACK YOUR STATS, AND TEAM UP WITH OTHER GUARDIANS.
     <br><br><br>
 </div>
