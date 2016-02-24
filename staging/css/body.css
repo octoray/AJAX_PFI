@@ -16,11 +16,22 @@ h2{
 }
 
 img.banner {
+     width: 60%;
+     margin-left: 20%;
+     margin-right: 20%;
+     /* height: 100px; */
+     margin-bottom: 10px;
+     /* text-align: center; */
+     /* align-content: center; */
+ }
+
+img.banner2 {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
     /* height: 100px; */
     margin-bottom: 10px;
+    margin-top: 25px;
     /* text-align: center; */
     /* align-content: center; */
 }
@@ -142,7 +153,7 @@ img.banner_main {
     -moz-border-radius: 3;
     border-radius: 3px;
     font-family: Courier New;
-    color: #ff952f;
+    color: #ff5800;
     font-size: 15px;
     background: #00a6e3;
     padding: 10px 10px 10px 10px;
@@ -166,7 +177,7 @@ img.banner_main {
     -moz-border-radius: 3;
     border-radius: 3px;
     font-family: Courier New;
-    color: #ff49d4;
+    color: #ff009d;
     font-size: 15px;
     background: #00a6e3;
     padding: 10px 10px 10px 10px;
