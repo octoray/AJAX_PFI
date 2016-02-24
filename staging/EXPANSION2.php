@@ -39,9 +39,9 @@
     </li>
     <li>The Taken King Offer
         <ul>
-            <li><a href="/staging/abilitys.php">Abilitys</a></li>
-            <li><a href="/staging/newgear.php">New Gear</a></li>
-            <li><a href="/staging/subclass.php">New Subclasses</a></li>
+            <li><a href="/staging/100.php">Buy 100 In-Game Credits</a></li>
+            <li><a href="/staging/500.php">Buy 500 In-Game Credits</a></li>
+            <li><a href="/staging/2000.php">Buy 2000 In-Game Credits</a></li>
         </ul>
     </li>
 </ul>
