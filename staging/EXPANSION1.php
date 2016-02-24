@@ -77,43 +77,45 @@
 
 <!-- 5th block  -->
 <div class="block_4">
-    <img src="http://destiny.bungie.org/images/news/Cal_Carlson_desktop_trio.jpg" class="image2" alt="Header" width="100%">
+    <img src="http://ps4daily.com/wp-content/uploads/2014/07/destiny-wallpaper-18.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 
 <!-- 6th block  -->
 <div class="block_6">
     <br>
-    <h1 class="hed">The Taken King - Legendary Edition</h1> <br>
-    Destiny: The Taken King - Legendary Edition is perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legends in the stars.
+    <h1 class="hed">THE DARK BELOW</h1> <br>
+
+
+    After years hiding amongst the Hive shadows, a new character, Eris, has come forth bearing an ominous warning: The Hive seek to summon a god, Crota, to destroy the Earth. Find her in the Tower to complete her quests and three new story missions, increase your Light, and earn the weapons and armor you’ll need to face what waits in the dark below.
     <br><br><br>
 </div>
 
 
 <!-- 7th block  -->
 <div class="block_4">
-    <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/image2.png" class="image2" alt="Header" width="100%">
+    <img src="http://i1.wp.com/planetdestiny.com/wp-content/uploads/2013/02/destiny_wallpaper___aspect_of_blood_by_tusk_and_ink-d7sq1l2.jpg?resize=407%2C254" class="image2" alt="Header" width="100%">
 </div>
 
 
 <!-- 8th block  -->
 <div class="block_6"><br>
-    <h1 class="hed">THIS IS YOUR LEGEND</h1> <br>
-    ACCESS YOUR ARSENAL, TRACK YOUR STATS, AND TEAM UP WITH OTHER GUARDIANS.
+    <h1 class="hed">THE DARK BELOW</h1> <br>
+    Summon your courage, Guardians. Crota waits in the dark below. Gather your most trusted allies to form a Fireteam, six Guardians strong. Don your best, battle-hardened weapons and armor. Master the depths of the Hellmouth. Face Crota, and live, and glory and reward are yours for the taking.
     <br><br><br>
 </div>
 
 <div class="block_5">
-    <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/gif.gif" class="image2" alt="Header" width="100%">
+    <img src="http://destiny.bungie.org/images/news/Cal_Carlson_desktop_trio.jpg" class="image2" alt="Header" width="100%">
 </div>
 
 
 <div class="block_6">
     <h1 class="edition-title hed" >
-        The Taken King - <br>Legendary Edition
+        NEW GEAR AND INCREASED LIGHT LEVEL
     </h1><br>
-    Destiny: &nbsp;The Taken King -&nbsp;Legendary Edition is&nbsp;perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars. &nbsp;The Legendary Edition features the complete Destiny experience including The Taken King, the next evolution in the Destiny universe, Destiny, Expansion I: The Dark Below and Expansion II: House of Wolves. &nbsp;Unite with 20 million Guardians in the fight to defeat Earth’s enemies, reclaim all that we have lost, and Become Legend.
-    <br><br><br><br>
+    NEW GEAR AND INCREASED LIGHT LEVEL
+    Your legend grows. Reach new heights of prestige and glory by increasing your Light Level to 32, acquiring exclusive new weapons, armor and gear, and facing new cooperative and competitive challenges as your adventure continues.
     <!-- 1st block /Purchase button -->
 
     <br>
