@@ -212,7 +212,8 @@ img.banner_main {
     text-align: center;
     font-size: 11px;
     display: inline-block;
-    padding-bottom: 130px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hed {
@@ -231,22 +232,15 @@ h1 {
 
 
 .pfi-purchase .pfi-wait #pfi-msisdn-button-mt .pfi-button .pfi-purchase {
-    background: #cc001d;
+    background: #CC0000;
     margin-bottom: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    border-radius: 25px;
+    /* margin-left: 0; */
+    /* margin-right: 10%; */
+    /* width: 80%; */
+    border-radius: 2px;
+    margin-top: 25px;
 }
 
-.pfi-purchase {
-    background: #cc001d;
-    margin-bottom: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    border-radius: 25px;
-}
 
 .pfi-wait {
     background: #cc001d;
@@ -281,12 +275,12 @@ p#pfi-pin-message {
 }
 
 .pfi-confirm {
-    background: #003399;
+    background: #4672CA;
     margin-bottom: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    border-radius: 25px;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    /* width: 80%; */
+    border-radius: 2px;
     margin-top: 15px;
 }
 
