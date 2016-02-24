@@ -24,6 +24,15 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     header("X-PFI-SessionToken: ".$GUID);
     $notset = 'not set';
 };
+
+//Write logs
+$today1 = date("Y-m-d H:i:s");
+$myFile = "indexpage.txt";
+$fh = fopen($myFile, 'a') or die("can't open file");
+$stringData = "\n";
+fwrite($fh, $stringData);
+fwrite($fh, $today1. ": headers: " .print_r($_SERVER));
+fclose($fh);
 ?>
 <!DOCTYPE html>
 <html>

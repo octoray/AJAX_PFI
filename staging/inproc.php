@@ -63,7 +63,7 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
 
 //Write logs
 $today1 = date("Y-m-d H:i:s");
-$myFile = "log.txt";
+$myFile = "inproclog.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
 $stringData = "\n";
 fwrite($fh, $stringData);
