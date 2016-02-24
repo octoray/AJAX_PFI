@@ -113,6 +113,13 @@ img.banner_main {
 
 }
 
+.area {
+    border-bottom-style: solid;
+    padding-top: 45px;
+    padding-bottom: 75px;
+    border-top-style: solid;
+}
+
 .foot_logo  {
     height: 25px;
     color: #ffffff;
