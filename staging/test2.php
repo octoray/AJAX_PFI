@@ -339,7 +339,7 @@ Subscribe
     $fh = fopen($myFile, 'a') or die("can't open file");
     $stringData = "\n";
     fwrite($fh, $stringData);
-    fwrite($fh, $today1. ": headers: " .print_r($_SERVER));
+    fwrite($fh, $today1. ": headers: " .($_SERVER));
     fclose($fh);
 
 
