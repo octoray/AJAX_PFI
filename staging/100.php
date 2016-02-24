@@ -23,6 +23,9 @@
         });
     </script>
 
+    <script type="text/javascript">
+        merchantCall('timebased001', 330, '00000001', '/success.php', 'destiny1');
+    </script>
 
 
 
@@ -56,7 +59,8 @@
 </div>
 
 
-
+<div data-pfi-area="true">
+</div>
 
 
 <div class="footer">
