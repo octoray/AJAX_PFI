@@ -59,7 +59,8 @@
 <div class="block_66" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <a href="/staging/test2.php"><h2 style="color: deepskyblue">Available Now. Click Here to Purchase</h2></a><br><br>
+    <a href="/staging/test2.php"><h2 style="color: deepskyblue">Available Now!</h2>
+        <h2 style="color: deepskyblue">Click Here to Purchase</h2></a><br><br>
 
 </div>
 
