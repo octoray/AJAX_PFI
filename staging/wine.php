@@ -59,7 +59,7 @@
 <div class="block_6667" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
     <div class="competition">
         <div id="comp-entry-area">
-            <p class="question" id="question">When Was The TAken King Released In The UK?</p>
+            <p class="question" id="question">When Was The Taken King Released In The UK?</p><br><br><br>
 
             <div class="btn1c" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="357" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="a_01">
                 <span>September 15, 2015</span>
