@@ -59,16 +59,16 @@
 <div class="block_6668" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
     <div class="competition">
         <div id="comp-entry-area">
-            <p class="question" id="question">When Was The Taken King Released In The UK?</p><br><br><br>
+            <p class="question" id="question">How Many Character Types Are There In Destiny?</p><br><br><br>
 
-            <div class="btn1t" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="357" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="a_01">
-                <span>September 15, 2015</span>
+            <div class="btn1t" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="358" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="a_01">
+                <span>10</span>
             </div>
-            <div class="btn1t" id="buttons2" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="357" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="a_02">
-                <span>November 15, 2013</span>
+            <div class="btn1t" id="buttons2" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="358" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="a_02">
+                <span>8</span>
             </div>
-            <div class="btn1t" id="buttons3" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="357" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="a_03">
-                <span>January 15, 2014</span>
+            <div class="btn1t" id="buttons3" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="358" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="a_03">
+                <span>3</span>
             </div>
         </div>
 
