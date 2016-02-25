@@ -340,6 +340,18 @@ img.banner_main {
     padding-bottom: 50px;
 }
 
+.block_666 {
+    background-image: url("http://cdn2-www.craveonline.com/assets/uploads/gallery/destiny-everything-you-need-to-know/1.jpg");
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font: cursive;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+}
 
 
 .block_6667 {
