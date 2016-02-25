@@ -61,9 +61,9 @@
 <div class="block_eee">
     <img src="http://<?php echo $_SERVER['SERVER_NAME'];?>/staging/images/banner.png" class="banner2" alt="Header">
     <br>
-    <br>
+
 </div>
-<br><br>
+<br>
 
 <div class="area" data-pfi-area="true">
 
