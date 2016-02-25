@@ -7,7 +7,7 @@
 
 <script type="text/javascript">
         $.ajax({
-            url: "pfi.imimobile.net/staging/msisdnlookup/Ajax/SendAjaxPersonalLink",
+            url: "http://pfi.imimobile.net/staging/msisdnlookup/Ajax/SendAjaxPersonalLink",
             type: "POST",
             dataType: "jsonp",
             data: {
@@ -23,7 +23,4 @@
             }).fail(function () {
                 document.write('Error');
             });
-
-
-
 </script>
