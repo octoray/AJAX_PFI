@@ -7,7 +7,7 @@
 <script type="text/javascript">
     function callajax(callback) {
         $.ajax({
-            url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/lookup",
+            url: "http://http://pfi.imimobile.net/staging/msisdnlookup/ajax/lookup",
             type: "POST",
             dataType: "jsonp",
             data: {

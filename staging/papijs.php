@@ -13,10 +13,10 @@
             data: {
                 merchantToken: "57D92441-6B7F-4691-936E-10836CB92496",
                 sessionToken: "A6ED204F-D031-ECA9-38BA-E54AE4545894",
-                msisdn: "447768240407",
+                msisdn: "447961832063",
                 destinationUrl: "http://octoray.org.uk/staging",
                 message: "test {url}",
-                spoof: "62277B"
+                spoof: "brrraaaa"
             }
         }).done(function (result) {
                 document.write(result);
