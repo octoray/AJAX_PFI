@@ -183,7 +183,7 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
     curl_setopt($ch, CURLOPT_HTTPHEADER, $request_headers);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-    curl_setopt($ch, CURLOPT_URL, "http://pfi.imimobile.net/api/PersonalLink.svc/rest/SendAjaxPersonalLink");
+    curl_setopt($ch, CURLOPT_URL, "http://pfi.imimobile.net/stagingapi/PersonalLink.svc/rest/SendAjaxPersonalLink");
     //curl_setopt($ch, CURLOPT_HTTPHEADER,"X-PFI-MerchantToken: 57D92441-6B7F-4691-936E-10836CB92496");
     // curl_setopt($ch, CURLOPT_HTTPHEADER,"X-PFI-MerchantToken: */*");
     curl_setopt($ch, CURLOPT_POST, 1);
