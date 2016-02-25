@@ -61,13 +61,13 @@
         <div id="comp-entry-area">
             <p class="question" id="question">When Was The TAken King Released In The UK?</p>
 
-            <div class="btn1c" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="357" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/finish.php" data-pfi-content-id="a_01">
+            <div class="btn1c" id="buttons1" data-pfi-button="true" data-pfi-button-id="a1" data-pfi-service-id="357" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="a_01">
                 <span>September 15, 2015</span>
             </div>
-            <div class="btn1c" id="buttons2" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="357" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/staging/finish.php" data-pfi-content-id="a_02">
+            <div class="btn1c" id="buttons2" data-pfi-button="true" data-pfi-button-id="a2" data-pfi-service-id="357" data-pfi-reference="<?php echo $out2;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="a_02">
                 <span>November 15, 2013</span>
             </div>
-            <div class="btn1c" id="buttons3" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="357" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/staging/finish.php" data-pfi-content-id="a_03">
+            <div class="btn1c" id="buttons3" data-pfi-button="true" data-pfi-button-id="a3" data-pfi-service-id="357" data-pfi-reference="<?php echo $out3;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="a_03">
                 <span>January 15, 2014</span>
             </div>
         </div>
