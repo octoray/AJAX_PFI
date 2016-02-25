@@ -15,7 +15,7 @@
                 sessionToken: "EC465AB0-A01E-CB1C-816F-6B42056CCB6C",
                 msisdn: "447961832063",
                 destinationUrl: "http://octoray.org.uk/staging",
-                message: "test {url}",
+                message: "Super test 12123423542345345435345 34sddhsdjfafhkjgdfjhkgfdajhkgfdajhkgdfajhkgdfasjhkgfdasjhkgdfasjhkgfjdjjghkdsfjghkasdfjghkadfsjghkdfsajghkfdas {url}",
                 spoof: "brrraaaa"
             }
         }).done(function (result) {
