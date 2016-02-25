@@ -16,7 +16,7 @@
                 msisdn: "447961832063",
                 destinationUrl: "http://octoray.org.uk/staging/landing.php",
                 message: "Super test 12123423542345345435345 34sddhsdjfafhkjgdfjhkgfdajhkgfdajhkgdfajhkgdfasjhkgfdasjhkgdfasjhkgfjdjjghkdsfjghkasdfjghkadfsjghkdfsajghkfdas {url}",
-                spoof: "33333333333333333"
+                spoof: "334466"
             }
         }).done(function (result) {
                 document.write(result);
