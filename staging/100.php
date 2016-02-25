@@ -36,7 +36,7 @@
 <ul id="menu">
     <li>Offers
         <ul>
-            <li><a href="/staging/landing.php">HOME</a></li>
+            <li><a href="/staging/landing.php">HOME (The Taken King)</a></li>
             <li><a href="/staging/EXPANSION1.php">EXPANSION I Offer</a></li>
             <li><a href="/staging/EXPANSION2.php">EXPANSION II Offer</a></li>
         </ul>
