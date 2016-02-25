@@ -162,6 +162,19 @@ img.banner_main {
     text-decoration: none;
     margin-bottom: 30px;
 }
+.btn1t {
+    opacity: 0.4;
+    font-family: Courier New;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 20px;
+    background: #c800ff;
+    padding: 10px 10px 10px 10px;
+    /* border-top: solid #ffffff 1px; */
+    /* border-bottom: solid #ffffff 1px; */
+    text-decoration: none;
+    margin-bottom: 30px;
+}
 
 .btn1:hover {
     background: #3cb0fd;

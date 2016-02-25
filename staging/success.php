@@ -87,7 +87,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
     <h2 class="hed" style="color: greenyellow">Purchase Successful</h2>
     <br>
-    <h2 class="hed" style="color: greenyellow">Thank You For Buying The Taken King Game. You Will receive a SMS confirming your purchase shortly</h2>
+    <h2 class="hed" style="color: greenyellow">You Will receive a SMS confirming your purchase shortly</h2>
     <br>
 </div>
 
