@@ -149,6 +149,18 @@ img.banner_main {
     text-decoration: none;
 }
 
+.btn1c {
+    opacity: 0.4;
+    font-family: Courier New;
+    color: #000000;
+    font-size: 20px;
+    background: #007de3;
+    padding: 10px 10px 10px 10px;
+    /* border-top: solid #ffffff 1px; */
+    /* border-bottom: solid #ffffff 1px; */
+    text-decoration: none;
+}
+
 .btn1:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
@@ -313,7 +325,9 @@ img.banner_main {
     padding-bottom: 50px;
 }
 
-.block_666 {
+
+
+.block_6667 {
     background-image: url("http://wallpapershow.com/wp-content/uploads/2015/06/destiny-wallpaper-4vi6oiq.jpg");
     width: 100%;
     color: #ffffff;
