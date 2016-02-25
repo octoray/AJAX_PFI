@@ -155,12 +155,12 @@ img.banner_main {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 20px;
-    background: #E30000;
+    background: #007CFF;
     padding: 10px 10px 10px 10px;
     /* border-top: solid #ffffff 1px; */
     /* border-bottom: solid #ffffff 1px; */
     text-decoration: none;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .btn1:hover {
