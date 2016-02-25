@@ -401,3 +401,9 @@ p#pfi-pin-message {
     border-radius: 25px;
     margin-top: 15px;
 }
+.pfi-charge-text {
+    font-size: 13px;
+    margin-top: 75px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
