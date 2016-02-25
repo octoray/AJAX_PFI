@@ -47,10 +47,6 @@
 </ul>
 
 
-<!-- 1st block /Destiny logo text overlay -->
-<div class="block_2">
-    <img src="http://drwallpaper.com/wp-content/uploads/2016/02/destiny_wallpaper_hd_background_download_desktop4.jpg" class="image2" alt="Header" width="100%">
-</div>
 
 <!-- 2nd block  -->
 <div class="block_66" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >

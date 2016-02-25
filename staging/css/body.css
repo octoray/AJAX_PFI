@@ -37,6 +37,7 @@ img.banner2 {
 }
 
 
+
 img.banner_main {
     width: 60%;
     margin-left: 20%;
@@ -303,6 +304,17 @@ img.banner_main {
 
 .block_66 {
     background-image: url("http://octoraypfi.co.uk/images/bg.jpg");
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block_666 {
+    background-image: url("http://drwallpaper.com/wp-content/uploads/2016/02/destiny_wallpaper_hd_background_download_desktop4.jpg");
     width: 100%;
     color: #ffffff;
     text-align: center;
