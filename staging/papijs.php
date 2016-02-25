@@ -1,8 +1,6 @@
 
 
-<script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-<script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 <script type="text/javascript">
     function callajax(callback) {
