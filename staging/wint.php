@@ -56,7 +56,7 @@
 
 
 <!-- 2nd block  -->
-<div class="block_6667" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
+<div class="block_6668" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
     <div class="competition">
         <div id="comp-entry-area">
             <p class="question" id="question">When Was The Taken King Released In The UK?</p><br><br><br>

@@ -343,7 +343,20 @@ img.banner_main {
 
 
 .block_6667 {
-    background-image: url("http://img1.gm.gtsstatic.com/wallpapers/8175fca87fcdf53d530a34a0b1962a2a_large.jpeg");
+    background-image: url("http://cdn2-www.craveonline.com/assets/uploads/gallery/destiny-everything-you-need-to-know/1.jpg");
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font: cursive;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+
+.block_6668 {
+    background-image: url("http://cdn1-www.craveonline.com/assets/uploads/2014/09/Destiny_Planet.jpg");
     width: 100%;
     color: #ffffff;
     text-align: center;
