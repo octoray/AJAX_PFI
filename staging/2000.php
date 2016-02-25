@@ -24,7 +24,7 @@
     </script>
 
     <script type="text/javascript">
-        merchantCall('<?php echo $out3 ?>', 350, '<?php echo $out1 ?>', '/staging/success.php', '<?php echo $out2 ?>');
+        merchantCall('<?php echo $out3 ?>', 350, '<?php echo $out1 ?>', '/staging/landing.php', '<?php echo $out2 ?>');
     </script>
 
 
