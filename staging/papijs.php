@@ -20,7 +20,9 @@
                 document.write(result);
             }).fail(function () {
                 document.write('Error');
-            });
+            }
+    }
+    );
 
 
 </script>
