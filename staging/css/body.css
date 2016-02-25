@@ -115,7 +115,7 @@ img.banner_main {
 }
 
 .area {
-    background-image: url("http://octoraypfi.co.uk/images/bg.jpg");
+    background-image: url("https://ebin.files.wordpress.com/2007/03/wallpaper-cf2-1440x900.png");
     border-bottom-style: solid;
     border-bottom-color: #0092b8;
     border-top-color: #0092b8;
@@ -124,6 +124,7 @@ img.banner_main {
     border-top-style: solid;
     border-top-width: 1px;
     border-bottom-width: 1px;
+    background-size: cover;
 }
 
 .foot_logo  {
