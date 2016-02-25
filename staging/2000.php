@@ -36,6 +36,7 @@
 <ul id="menu">
     <li>Offers
         <ul>
+            <li><a href="/staging/landing.php">HOME</a></li>
             <li><a href="/staging/EXPANSION1.php">EXPANSION I Offer</a></li>
             <li><a href="/staging/EXPANSION2.php">EXPANSION II Offer</a></li>
         </ul>
@@ -45,6 +46,12 @@
             <li><a href="/staging/100.php">Buy 100 In-Game Credits</a></li>
             <li><a href="/staging/500.php">Buy 500 In-Game Credits</a></li>
             <li><a href="/staging/2000.php">Buy 2000 In-Game Credits</a></li>
+        </ul>
+    </li>
+    <li>Destiny Competitions
+        <ul>
+            <li><a href="/staging/wine.php">WIN The Expansion Packs</a></li>
+            <li><a href="/staging/wint.php">WIN Free T-Shirt</a></li>
         </ul>
     </li>
 </ul>
