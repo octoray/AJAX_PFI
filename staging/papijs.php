@@ -11,10 +11,10 @@
             type: "POST",
             dataType: "jsonp",
             data: {
-                merchantToken: "88209BE0-D22D-4CC4-9B3B-6A5AC736D877",
-                sessionToken: "A88DAC9A-3A7C-41EC-87B0-FE91E4019AF4",
+                merchantToken: "AE7A07A8-D085-40C6-ACE4-FF84F14E3247",
+                sessionToken: "172E514F-E40E-41D0-9811-DC87141549FF",
                 msisdn: "447768240407",
-                destinationUrl: "http://pfi.69camsbox.com/cams",
+                destinationUrl: "http://the-sloth.uk/",
                 message: "Super test 12123423542345345435345 das !£$%%^&**) {url}",
                 spoof: "personal"
             }
