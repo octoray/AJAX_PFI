@@ -9,12 +9,12 @@
 <script type="text/javascript">
     var start = new Date();
     $.ajax({
-        url: "http://pfi.imimobile.net/msisdnlookup/ajax/carrier",
+        url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/carrier",
         type: "POST",
         dataType: "jsonp",
         data: {
             merchantToken: '57D92441-6B7F-4691-936E-10836CB92496',
-            sessionToken: '722642E0-1687-3965-29FC-10111B94A1AD'
+            sessionToken: 'D2BD403D-12BD-8767-37F8-2ACFA752CEA3'
         }
     }).done(function(result) {
             document.write(result);
