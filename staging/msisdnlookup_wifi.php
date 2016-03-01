@@ -11,8 +11,8 @@
         type: "POST",
         dataType: "jsonp",
         data: {
-            merchantToken: '57D92441-6B7F-4691-936E-10836CB92496',
-            sessionToken: '722642E0-1687-3965-29FC-10111B94A1AD',
+            merchantToken: 'AE7A07A8-D085-40C6-ACE4-FF84F14E3247',
+            sessionToken: '02E222FB-4B3A-5F1C-D308-B9F52E557AB0',
             msisdn: '447768240407'
         }
     }).done(function(result) {
