@@ -36,7 +36,6 @@
 
 </script>
 
-<script src="/adrum.js"></script>
 <body>
 <!-- Menu -->
 <ul id="menu">
