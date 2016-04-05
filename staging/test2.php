@@ -28,6 +28,15 @@
 
 
 </head>
+<script>
+
+    window['adrum-start-time']= new Date().getTime();
+
+    window['adrum-app-key'] = 'test1234';
+
+</script>
+
+<script src="/adrum.js"></script>
 <body>
 <!-- Menu -->
 <ul id="menu">
