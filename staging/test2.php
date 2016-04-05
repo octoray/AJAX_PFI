@@ -32,7 +32,7 @@
 
     window['adrum-start-time']= new Date().getTime();
 
-    window['adrum-app-key'] = 'test1234';
+    window['adrum-app-key'] = '5fn0v52zjk73';
 
 </script>
 
