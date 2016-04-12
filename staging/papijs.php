@@ -11,10 +11,10 @@
             type: "POST",
             dataType: "jsonp",
             data: {
-                merchantToken: "AE7A07A8-D085-40C6-ACE4-FF84F14E3247",
-                sessionToken: "172E514F-E40E-41D0-9811-DC87141549FF",
+                merchantToken: "57D92441-6B7F-4691-936E-10836CB92496",
+                sessionToken: "D7C6974F-F666-CF9B-7291-705B7492BB5D",
                 msisdn: "447768240407",
-                destinationUrl: "http://the-sloth.uk/",
+                destinationUrl: "http://octoray.org.uk/staging/",
                 message: "Super test 12123423542345345435345 das !£$%%^&**) {url}",
                 spoof: "personal"
             }
