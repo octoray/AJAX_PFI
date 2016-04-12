@@ -7,7 +7,7 @@
 
 <script type="text/javascript">
         $.ajax({
-            url: "http://pfi.imimobile.net/msisdnlookup/Ajax/SendAjaxPersonalLink",
+            url: "http://pfi.imimobile.net/staging/msisdnlookup/Ajax/SendAjaxPersonalLink",
             type: "POST",
             dataType: "jsonp",
             data: {
