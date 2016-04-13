@@ -150,6 +150,8 @@ if(!isset($_COOKIE[$cookie_name])) {
     echo "Cookie '" . $cookie_name . "' is set!<br>";
     echo "Value is: " . $_COOKIE[$cookie_name];
     echo "<BR>";
+    setcookie($cookie_name, urldecode($cookie_value), time() + (86400 * 30), "/"); // 86400 = 1 day
+    echo "Cookie is changed name too '" . $cookie_name . "'set to ASxY2FckENo5UwFuoHMk+g==";
     echo "<BR>";
     echo "<BR>";
 }
