@@ -1,5 +1,18 @@
 
+<?php
+$cookie_name = "PFI_NetInfo";
 
+if(!isset($_COOKIE[$cookie_name])) {
+echo "Cookie named '" . $cookie_name . "' is not set!";
+    echo "<BR>";
+} else {
+echo "Cookie '" . $cookie_name . "' is set!<br>";
+echo "Value is: " . $_COOKIE[$cookie_name];
+    echo "<BR>";
+}
+
+
+?>
 <a href="http://pfi.imimobile.net/staging/checkout/?sid=344&ref=IMI_00000000000_2">PFI-s normal http non adult</a>
 <br>
 <a href="http://pfi.imimobile.net/staging/checkout/?sid=345&ref=IMI_00000000000_2">PFI-s normal https non adult</a>
