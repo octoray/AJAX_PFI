@@ -134,14 +134,26 @@
     fclose($fh);
 
 
-    $cookie_name = "PFI_NetInfo";
+
+$cookie_name = "PFI_NetInfo";
+$cookie_value = "ASxY2FckENo5UwFuoHMk+g==";
 
 if(!isset($_COOKIE[$cookie_name])) {
     echo "Cookie named '" . $cookie_name . "' is not set!";
+    echo "<BR>";
+    setcookie($cookie_name, urldecode($cookie_value), time() + (86400 * 30), "/"); // 86400 = 1 day
+    echo "Cookie named '" . $cookie_name . "'set to ASxY2FckENo5UwFuoHMk+g==";
+    echo "<BR>";
+    echo "<BR>";
+    echo "<BR>";
 } else {
     echo "Cookie '" . $cookie_name . "' is set!<br>";
     echo "Value is: " . $_COOKIE[$cookie_name];
+    echo "<BR>";
+    echo "<BR>";
+    echo "<BR>";
 }
+
 
 
     ?>
