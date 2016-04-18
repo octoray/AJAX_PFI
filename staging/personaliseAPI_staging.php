@@ -176,7 +176,7 @@ function sendmessage($s,$m,$dl,$ms,$sp) {
     $request_headers[] = 'Authorization: Basic NzA6NTdEOTI0NDEtNkI3Ri00NjkxLTkzNkUtMTA4MzZDQjkyNDk2';
     $request_headers[] = 'Accept: */*';
     $request_headers[] = 'Accept-Charset: utf-8';
-    $request_headers[] = 'Content-Type: application/soap+xml;charset=UTF-8;action="MSISDNLookup"';
+    $request_headers[] = 'Content-Type: application/json';
 
     $ch = curl_init($dl);
     curl_setopt($ch, CURLOPT_HEADER, true);
