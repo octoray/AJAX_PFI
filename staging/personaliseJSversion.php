@@ -23,6 +23,7 @@
             }).fail(function () {
                 document.write('Error');
             });
+    }
 
 
 </script>

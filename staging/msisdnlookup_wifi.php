@@ -12,7 +12,7 @@
         dataType: "jsonp",
         data: {
             merchantToken: '57D92441-6B7F-4691-936E-10836CB92496',
-            sessionToken: '0C5E721E-D9FD-BE77-98F9-DC7BA002131F',
+            sessionToken: '136E8EAB-5AE0-E8ED-3C3C-3DB4D9E27C2A',
             msisdn: '447768240407'
         }
     }).done(function(result) {

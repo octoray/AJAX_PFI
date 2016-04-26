@@ -14,7 +14,7 @@
         dataType: "jsonp",
         data: {
             merchantToken: '57D92441-6B7F-4691-936E-10836CB92496',
-            sessionToken: 'B504DF13-94CA-CB5E-25F7-075C943F9D32'
+            sessionToken: '136E8EAB-5AE0-E8ED-3C3C-3DB4D9E27C2A'
         }
     }).done(function(result) {
             document.write(result);
