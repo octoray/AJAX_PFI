@@ -5,15 +5,16 @@
 <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
 
 
+
 <script type="text/javascript">
+    var start = new Date();
     $.ajax({
-        url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/lookup",
+        url: "http://pfi.imimobile.net/msisdnlookup/ajax/carrier",
         type: "POST",
         dataType: "jsonp",
         data: {
-            merchantToken: '57D92441-6B7F-4691-936E-10836CB92496',
-            sessionToken: '0C5E721E-D9FD-BE77-98F9-DC7BA002131F',
-            msisdn: '447768240407'
+            merchantToken: 'AE7A07A8-D085-40C6-ACE4-FF84F14E3247',
+            sessionToken: '3AD5F4D4-591C-34C0-3767-F7622683A586'
         }
     }).done(function(result) {
             document.write(result);
@@ -21,4 +22,6 @@
             document.write('Error');
         });
 </script>
+
+
 

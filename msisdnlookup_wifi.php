@@ -7,12 +7,12 @@
 
 <script type="text/javascript">
     $.ajax({
-        url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/lookup",
+        url: "http://pfi.imimobile.net/msisdnlookup/ajax/lookup",
         type: "POST",
         dataType: "jsonp",
         data: {
-            merchantToken: '57D92441-6B7F-4691-936E-10836CB92496',
-            sessionToken: '0C5E721E-D9FD-BE77-98F9-DC7BA002131F',
+            merchantToken: 'AE7A07A8-D085-40C6-ACE4-FF84F14E3247',
+            sessionToken: '70ACC6D7-7715-FA5B-BA98-B0FA35DA1C8F',
             msisdn: '447768240407'
         }
     }).done(function(result) {
