@@ -62,20 +62,20 @@
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner2" alt="Header"><br>
     <!-- 1st block /Purchase subscription button -->
     <div class="merchant-button btn1" id="hideme1" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="19" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="sub1">
-        Subscribe
+        Subscribee
     </div>
     <br>
 <br>
 
     <!-- 2nd block /Purchase button -->
-    <div class="merchant-button btn2" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="17" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
+    <div class="merchant-button btn2" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton2" data-pfi-service-id="17" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
         Buy
     </div>
     <br>
     <br>
     <!-- 3rd block /Purchase button -->
     <div class="merchant-button btn3" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="19" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
-        Subscribe With Free Trial
+        Subscribe With Free Triall
     </div>
     <br> <br>    <br>
 
