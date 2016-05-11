@@ -1,8 +1,7 @@
 <?php
 
-function hlr_check($key,$password,$msisdn)
-{
-    $curl = curl_init("https://www.hlrlookup.com/api/hlr/?apikey=$key&password=$password&msisdn=$msisdn");
+
+    $curl = curl_init("https://hlrlookup.com/api/hlr/?apikey=BebTIXVVcUP8kQIRQU6PQmIBNZBkLFgN&password=Wyab9mgx&msisdn=447768240407");
     curl_setopt($curl, CURLOPT_HEADER,0);
     curl_setopt($curl, CURLOPT_POST, 0);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
@@ -10,8 +9,6 @@ function hlr_check($key,$password,$msisdn)
     $response = curl_exec($curl);
     curl_close($curl);
     return $response;
-}
 
-hlr_check($_GET['apikey'],$_GET['password'],$_GET['msisdn']);
 
 ?>
