@@ -14,6 +14,9 @@ $request_headers[] = 'Host: www.hlrlookup.com';
     $response = curl_exec($curl);
     curl_close($curl);
     echo $response;
+    echo "<BR>";
+    $time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
+    echo "Process Time: {$time}";
 
 
 ?>
