@@ -4,8 +4,9 @@
 $request_headers = array();
 $request_headers[] = 'Accept: */*';
 $request_headers[] = 'Host: www.hlrlookup.com';
+$var1 = $_GET["msisdn"];
 
-    $curl = curl_init("https://hlrlookup.com/api/hlr/?apikey=BebTIXVVcUP8kQIRQU6PQmIBNZBkLFgN&password=Wyab9mgx&msisdn=447768240407");
+    $curl = curl_init("https://hlrlookup.com/api/hlr/?apikey=BebTIXVVcUP8kQIRQU6PQmIBNZBkLFgN&password=Wyab9mgx&msisdn=$var1");
     curl_setopt($curl, CURLOPT_HEADER, true);
     curl_setopt($curl, CURLOPT_HTTPHEADER, $request_headers);
     curl_setopt($curl, CURLOPT_POST, 0);
@@ -14,6 +15,7 @@ $request_headers[] = 'Host: www.hlrlookup.com';
     $response = curl_exec($curl);
     curl_close($curl);
     echo $response;
+    echo "<BR>";
     echo "<BR>";
     $time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
     echo "Process Time: {$time}";
