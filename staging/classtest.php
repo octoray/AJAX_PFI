@@ -5,6 +5,11 @@ class MyClass
     public $prop1 = "1";
     public $prop2 = "2";
 
+    public function __construct()
+    {
+        echo 'The class "', __CLASS__, '" was initiated!<br />';
+    }
+
     public function setProperty($newval,$newval2)
     {
         $this->prop1 = $newval;
