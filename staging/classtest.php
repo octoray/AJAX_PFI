@@ -45,6 +45,6 @@ $obj->setProperty(5,5);
 // Output both objects' $prop1 value
 echo $obj->getProperty();
 echo "<br>";
-echo $obj2->getProperty();
+echo $obj->getProperty();
 
 ?>
