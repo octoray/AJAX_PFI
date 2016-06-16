@@ -40,7 +40,7 @@ $obj2 = new MyClass;
 
 // Set new values for both objects
 $obj->setProperty(3,5);
-$obj2->setProperty(5,5);
+$obj->setProperty(5,5);
 
 // Output both objects' $prop1 value
 echo $obj->getProperty();
