@@ -7,24 +7,24 @@ class MyClass
 
     public function __construct()
     {
-        echo 'The class "', __CLASS__, '" was initiated!<br />';
+        //echo 'The class "', __CLASS__, '" was initiated!<br />';
     }
 
     public function __destruct()
     {
-        echo 'The class "', __CLASS__, '" was destroyed.<br />';
+        //echo 'The class "', __CLASS__, '" was destroyed.<br />';
     }
 
     public function setProperty($newval,$newval2)
     {
-        $this->prop1 = $newval;
-        $this->prop2 = $newval2;
+        $this->prop1 = $newval * $newval2;
+        $this->prop2 = $newval + $newval2;
 
     }
 
     public function getProperty()
     {
-        return $this->prop1 . "<br />".$this->prop2;
+        return $this->prop1 . " property 2 is: ".$this->prop2;
     }
 }
 
@@ -39,8 +39,8 @@ echo "<br>";
 echo $obj2->getProperty();
 
 // Set new values for both objects
-$obj->setProperty("I'm a new property value!","for prop1");
-$obj2->setProperty("I belong to the second instance!","this time for prop2");
+$obj->setProperty(3,5);
+$obj2->setProperty(5,5);
 
 // Output both objects' $prop1 value
 echo $obj->getProperty();
