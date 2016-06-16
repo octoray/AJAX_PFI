@@ -10,6 +10,11 @@ class MyClass
         echo 'The class "', __CLASS__, '" was initiated!<br />';
     }
 
+    public function __destruct()
+    {
+        echo 'The class "', __CLASS__, '" was destroyed.<br />';
+    }
+
     public function setProperty($newval,$newval2)
     {
         $this->prop1 = $newval;
