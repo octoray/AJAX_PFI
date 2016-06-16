@@ -2,8 +2,8 @@
 
 class MyClass
 {
-    public $prop1 = "1";
-    public $prop2 = "2";
+    public $prop1 = "";
+    public $prop2 = "";
 
     public function __construct()
     {
