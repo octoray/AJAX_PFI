@@ -2,16 +2,19 @@
 
 class MyClass
 {
-    public $prop1 = "I'm a class property!";
+    public $prop1 = "1";
+    public $prop2 = "2";
 
-    public function setProperty($newval)
+    public function setProperty($newval,$newval2)
     {
         $this->prop1 = $newval;
+        $this->prop2 = $newval2;
+
     }
 
     public function getProperty()
     {
-        return $this->prop1 . "<br />";
+        return $this->prop1 . "<br />".$this->prop2;
     }
 }
 
@@ -24,8 +27,8 @@ echo $obj->getProperty();
 echo $obj2->getProperty();
 
 // Set new values for both objects
-$obj->setProperty("I'm a new property value!");
-$obj2->setProperty("I belong to the second instance!");
+$obj->setProperty("I'm a new property value!","for prop1");
+$obj2->setProperty("I belong to the second instance!","this time for prop2");
 
 // Output both objects' $prop1 value
 echo $obj->getProperty();
