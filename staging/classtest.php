@@ -2,16 +2,25 @@
 
 class MyClass
 {
-    // Class properties and methods go here
-    public $prop1 = "I'm a first class property!";
-    public $prop2 = "I'm a second class property!";
+    public $prop1 = "I'm a class property!";
 
+    public function setProperty($newval)
+    {
+        $this->prop1 = $newval;
+    }
+
+    public function getProperty()
+    {
+        return $this->prop1 . "<br />";
+    }
 }
 
 $obj = new MyClass;
 
-echo $obj->prop1;
-echo "<br>";
-echo $obj->prop2;
+echo $obj->getProperty(); // Get the property value
+
+$obj->setProperty("I'm a new property value!"); // Set a new one
+
+echo $obj->getProperty(); // Read it out again to show the change
 
 ?>
