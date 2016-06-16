@@ -20,10 +20,12 @@ class MyClass
 
 // Create two objects
 $obj = new MyClass;
+echo "<br>";
 $obj2 = new MyClass;
 
 // Get the value of $prop1 from both objects
 echo $obj->getProperty();
+echo "<br>";
 echo $obj2->getProperty();
 
 // Set new values for both objects
@@ -32,6 +34,7 @@ $obj2->setProperty("I belong to the second instance!","this time for prop2");
 
 // Output both objects' $prop1 value
 echo $obj->getProperty();
+echo "<br>";
 echo $obj2->getProperty();
 
 ?>
