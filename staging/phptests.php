@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("localhost", "pfimonuser", "Fa6rUCha", "PFI_MON");
+$link = mysqli_connect("192.168.66.210", "pfimonuser", "Fa6rUCha", "PFI_MON");
 
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
