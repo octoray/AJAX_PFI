@@ -26,6 +26,8 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     $set = 'not set';
 };
 
+file_put_contents('imiconnect.txt', file_get_contents('php://input'));
+
 $response = 'hello world';
 $json_string = json_encode($_POST);
 //Write logs
