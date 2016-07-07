@@ -26,7 +26,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     $set = 'not set';
 };
 
-$response = 'hello world'
+$response = 'hello world';
 //Write logs
 $today1 = date("Y-m-d H:i:s");
 $myFile = "imiconnect.txt";
