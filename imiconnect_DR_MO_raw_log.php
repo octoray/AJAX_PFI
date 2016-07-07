@@ -32,12 +32,11 @@ $today1 = date("Y-m-d H:i:s");
 $myFile = "imiconnect.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
 $stringData = "\n";
+fwrite($fh, $today1. ": POST BODY: " .$HTTP_RAW_POST_DATA);
 fwrite($fh, $stringData);
-fwrite($fh, $today1. ": POST DATA: " .var_dump($_POST));
+fwrite($fh, $today1. ": Response Header: " .$http_response_header);
 fwrite($fh, $stringData);
-fwrite($fh, $today1. ": GET DATA: " .var_dump($HTTP_RAW_POST_DATA));
 fwrite($fh, $stringData);
-fwrite($fh, $today1. ": SERVER Headers: " .$HTTP_RAW_POST_DATA);
 fclose($fh);
 
 
