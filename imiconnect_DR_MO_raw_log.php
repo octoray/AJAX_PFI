@@ -35,9 +35,9 @@ $stringData = "\n";
 fwrite($fh, $stringData);
 fwrite($fh, $today1. ": POST DATA: " .var_dump($_POST));
 fwrite($fh, $stringData);
-fwrite($fh, $today1. ": GET DATA: " .var_dump($_GET));
+fwrite($fh, $today1. ": GET DATA: " .var_dump($HTTP_RAW_POST_DATA));
 fwrite($fh, $stringData);
-fwrite($fh, $today1. ": SERVER Headers: " .var_dump($_SERVER));
+fwrite($fh, $today1. ": SERVER Headers: " .$HTTP_RAW_POST_DATA);
 fclose($fh);
 
 
