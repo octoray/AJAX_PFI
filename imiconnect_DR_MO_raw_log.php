@@ -27,6 +27,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 };
 
 $response = 'hello world';
+$json_string = json_encode($_POST);
 //Write logs
 $today1 = date("Y-m-d H:i:s");
 $myFile = "imiconnect.txt";
@@ -35,6 +36,7 @@ $stringData = "\n";
 fwrite($fh, $today1. ": POST BODY: " .$HTTP_RAW_POST_DATA);
 fwrite($fh, $stringData);
 fwrite($fh, $stringData);
+fwrite($fh,  $today1. ": json BODY: " .$json_string);
 fwrite($fh, $stringData);
 fclose($fh);
 
