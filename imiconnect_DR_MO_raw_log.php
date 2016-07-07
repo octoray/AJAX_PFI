@@ -33,11 +33,11 @@ $myFile = "imiconnect.txt";
 $fh = fopen($myFile, 'a') or die("can't open file");
 $stringData = "\n";
 fwrite($fh, $stringData);
-fwrite($fh, $today1. ": POST DATA: " .print_r($_POST));
+fwrite($fh, $today1. ": POST DATA: " .var_dump($_POST));
 fwrite($fh, $stringData);
-fwrite($fh, $today1. ": GET DATA: " .print_r($_GET));
+fwrite($fh, $today1. ": GET DATA: " .var_dump($_GET));
 fwrite($fh, $stringData);
-fwrite($fh, $today1. ": SERVER Headers: " .print_r($_SERVER));
+fwrite($fh, $today1. ": SERVER Headers: " .var_dump($_SERVER));
 fclose($fh);
 
 
