@@ -78,14 +78,14 @@ function sendmessage() {
    // echo "POSTED JSON IS:"; print '<BR>';
     //print_r($post_json);
     //print '<BR>';
-    //echo "RESPONSE CODE: ".$info['http_code'];
-    //print '<BR>';
+    echo "RESPONSE CODE: ".$info['http_code'];
+    print '<BR>';
     //echo "RESPONSE  IS:  "  .$runy;
     //print '<BR>';
     //echo "Remote IP:  ".$info['primary_ip'];
     //print '<BR>';
     //echo "Time TAken:  ".$info['total_time'];
-    return $info;
+    return array ($info['http_code'],$info['total_time'], $info['primary_ip']);
 }
 
 
@@ -214,7 +214,7 @@ function sendmessage() {
             <textarea  name="details" maxlength="500" cols="99" rows="20">
                 <?php
                 echo "RESPONSE CODE: ".$info['http_code'];
-                print '<BR>';;?>
+                print '<BR>';?>
             </textarea>
             </textarea>
         </td>
