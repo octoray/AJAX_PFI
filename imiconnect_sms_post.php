@@ -24,8 +24,16 @@ $GUID = getGUID();
 
 if(isset($_POST['url']))
 {
+
+    $request_headers = array();
+    $request_headers[] = 'key: '.$_POST['key_header'];
+    $request_headers[] = 'Accept: application/json';
+    $request_headers[] = 'Accept-Charset: utf-8';
+    $request_headers[] = 'Content-Type: application/json';
+
     $ch = curl_init($_POST['url']);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
+    curl_setopt($ch, CURLOPT_HEADER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $request_headers);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
     curl_setopt($ch, CURLOPT_URL, $_POST['url']);
@@ -206,9 +214,6 @@ if(isset($_POST['url']))
         <td valign="top">
             <textarea  name="details" maxlength="500" cols="99" rows="20">
                 <?php
-                echo "RESPONSE CODE: ".$info['http_code'];
-                print '<BR>';
-                echo "Remote IP:  ".$info['primary_ip'];
                 print '<BR>';
                 print_r($info);
                 ?>
