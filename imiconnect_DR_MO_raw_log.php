@@ -66,8 +66,8 @@ function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', 
 // Perform queries
 
 
-    mysqli_query($con,"INSERT INTO" .$table." (dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES (".$time.",".$correlationid.",".$transid.",".$callbackData.",".$destination.",".$deliveryStatus.",".$deliveryChannel.",".$code.",".$description.",".$raw.")");
-    $var123 = "INSERT INTO" .$table." (dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES (".$time.",".$correlationid.",".$transid.",".$callbackData.",".$destination.",".$deliveryStatus.",".$deliveryChannel.",".$code.",".$description.",".$raw.")";
+    mysqli_query($con,"INSERT INTO " .$table." (dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES (".$time.",".$correlationid.",".$transid.",".$callbackData.",".$destination.",".$deliveryStatus.",".$deliveryChannel.",".$code.",".$description.",".$raw.")");
+    $var123 = "INSERT INTO " .$table. " (dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES (".$time.",".$correlationid.",".$transid.",".$callbackData.",".$destination.",".$deliveryStatus.",".$deliveryChannel.",".$code.",".$description.",".$raw.")";
     mysqli_close($con);
 
     echo "<BR>";
@@ -76,6 +76,6 @@ function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', 
 }
 
 
-db_dr_insert($table, $today1,$json_db['deliveryInfoNotification']['correlationid'],$json_db['deliveryInfoNotification']['transid'],$json_db['deliveryInfoNotification']['callbackData'],$json_db['deliveryInfoNotification']['deliveryInfo']['destination'],$json_db['deliveryInfoNotification']['deliveryInfo']['deliveryStatus'],$json_db['deliveryInfoNotification']['deliveryInfo']['deliveryChannel'],$json_db['deliveryInfoNotification']['deliveryInfo']['code'],$json_db['deliveryInfoNotification']['deliveryInfo']['Description'],$HTTP_RAW_POST_DATA);
+db_dr_insert($table, $today1,$json_db['deliveryInfoNotification']['correlationid'],$json_db['deliveryInfoNotification']['transid'],$json_db['deliveryInfoNotification']['callbackData'],$json_db['deliveryInfoNotification']['deliveryInfo']['destination'],$json_db['deliveryInfoNotification']['deliveryInfo']['deliveryStatus'],$json_db['deliveryInfoNotification']['deliveryInfo']['deliveryChannel'],$json_db['deliveryInfoNotification']['deliveryInfo']['code'],$json_db['deliveryInfoNotification']['deliveryInfo']['Description'],"null");
 
 ?>
