@@ -197,9 +197,20 @@ if(isset($_POST['url']))
 <p><li><h1>Output</h1></li>
 <br>
 <table width="550px">
+
     <tr>
         <td valign="top">
-            <label for="details">BODY</label>
+            <label for="details">JSON Sent</label>
+        </td>
+        <td valign="top">
+            <textarea  name="details" maxlength="500" cols="99" rows="20"><?php echo $post_json ?></textarea>
+            </textarea>
+        </td>
+    </tr>
+
+    <tr>
+        <td valign="top">
+            <label for="details">Values Set</label>
         </td>
         <td valign="top">
             <textarea  name="details" maxlength="500" cols="99" rows="20"><?php print_r($_POST);?></textarea>
