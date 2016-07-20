@@ -72,7 +72,7 @@ function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', 
 
     mysqli_query($con,"INSERT INTO " .$table." (dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES ('".$time."','".$correlationid."','".$transid."','".$callbackData."','".$destination."','".$deliveryStatus."','".$deliveryChannel."','".$code."','".$description."','".$raw."')");
     //mysqli_query($con,"INSERT INTO " .$table." (dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES (".$time.",".$correlationid.",".$transid.",".$callbackData.",".$destination.",".$deliveryStatus.",".$deliveryChannel.",".$code.",".$description.",".$raw.")");
-    $var123 = "INSERT INTO " .$table." (dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES ('".$time."','".$correlationid."','".$transid."','".$callbackData."','".$destination."','".$deliveryStatus."','".$deliveryChannel."','".$code."','".$description."','".$raw."')";
+   // $var123 = "INSERT INTO " .$table." (dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES ('".$time."','".$correlationid."','".$transid."','".$callbackData."','".$destination."','".$deliveryStatus."','".$deliveryChannel."','".$code."','".$description."','".$raw."')";
     mysqli_close($con);
 
     echo "<BR>";

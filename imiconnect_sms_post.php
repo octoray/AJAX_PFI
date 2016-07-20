@@ -72,24 +72,24 @@ if(isset($_POST['url']))
     $runy = curl_exec($ch);
     $info = curl_getinfo($ch);
 
-    //echo '<br>';
-    //echo "URL POSTED TO IS: ".print_r($post_json);
-//echo $info['url'];
-    //echo '<br>';
-//echo '<br>';
-   // echo "POSTED JSON IS:"; print '<BR>';
-    //print_r($post_json);
-    //print '<BR>';
-    //echo "RESPONSE CODE: ".$info['http_code'];
-    //print '<BR>';
-    //echo "RESPONSE  IS:  "  .$runy;
-    //print '<BR>';
-    //echo "Remote IP:  ".$info['primary_ip'];
-    //print '<BR>';
-    //echo "Time TAken:  ".$info['total_time'];
-    //return $info['http_code'];
-}
+    //Establish a connection
+    $con = mysqli_connect("localhost", "remote", "foobar", "imiconnect");
+// Check connection
+    if (mysqli_connect_errno())
+    {
+        echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    };
 
+    if (empty($callbackData))
+    {
+        $callbackData = 'empty';
+    };
+
+// Perform queries
+
+    mysqli_query($con,"INSERT INTO sms_sent (key,notifyurl,senderid,text,type,deliverychannel,correlationid,customerid,response_code,total_time_taken,namelookup_time,connect_time,response_json) VALUES ('".$_POST['key']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".var_dump($runy)."')");
+    mysqli_close($con);
+}
 
 
 //sendmessage();
@@ -113,7 +113,7 @@ if(isset($_POST['url']))
         </tr>
         <tr>
             <td valign="top">
-                <label for="server">Key (Header)</label>
+                <label for="server">Header (key)</label>
             </td>
             <td valign="top">
                 <input  type="text" name="key_header" maxlength="80" size="50" value="<?php if(isset($_POST['key_header'])) {echo $_POST['key_header'];}else{echo "ba8ca2eb-3ea9-11e6-b778-005056ad794f";};?>">
