@@ -61,7 +61,12 @@ function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', 
     if (mysqli_connect_errno())
     {
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
-    }
+    };
+
+    if (is_null($callbackData))
+    {
+        $callbackData = 'NULL';
+    };
 
 // Perform queries
 
