@@ -71,12 +71,12 @@ function sendmessage() {
     $info = curl_getinfo($ch);
 
     echo '<br>';
-    echo "URL POSTED TO IS: ".$info['url'];
+    echo "URL POSTED TO IS: ".$_POST['url'];
 //echo $info['url'];
     echo '<br>';
 //echo '<br>';
     echo "POSTED DATA IS:"; print '<BR>';
-    print_r($post);
+    print_r($post_json);
     print '<BR>';
     echo "RESPONSE CODE: ".$info['http_code'];
     print '<BR>';
