@@ -1,4 +1,12 @@
 <?php
+if(isset($_POST['host']))
+{
+    sendmessage();
+}
+// call_user_func('open');
+?>
+
+<?php
 
 function getGUID(){
     if (function_exists('com_create_guid')){
@@ -175,15 +183,6 @@ function sendmessage() {
         </tr>
 
 
-        <tr>
-            <td valign="top">
-                <label for="ip">valid in Relative*</label>
-
-            </td>
-            <td valign="top">
-                <input  type="text" name="validity" maxlength="80" size="20" value="<?php if(isset($_POST['validity'])) {echo $_POST['validity'];}else{echo "000000000300000R";};?>">3 mins set default
-            </td>
-        </tr>
 
         <tr>
             <td colspan="2" style="text-align:center">
