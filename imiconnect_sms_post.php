@@ -71,8 +71,8 @@ if(isset($_POST['url']))
    // echo "POSTED JSON IS:"; print '<BR>';
     //print_r($post_json);
     //print '<BR>';
-    echo "RESPONSE CODE: ".$info['http_code'];
-    print '<BR>';
+    //echo "RESPONSE CODE: ".$info['http_code'];
+    //print '<BR>';
     //echo "RESPONSE  IS:  "  .$runy;
     //print '<BR>';
     //echo "Remote IP:  ".$info['primary_ip'];
@@ -207,7 +207,11 @@ if(isset($_POST['url']))
             <textarea  name="details" maxlength="500" cols="99" rows="20">
                 <?php
                 echo "RESPONSE CODE: ".$info['http_code'];
-                print '<BR>';?>
+                print '<BR>';
+                echo "Remote IP:  ".$info['primary_ip'];
+                print '<BR>';
+                print_r($info['primary_ip']);
+                ?>
             </textarea>
             </textarea>
         </td>
