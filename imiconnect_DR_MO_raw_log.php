@@ -52,7 +52,7 @@ echo $json_db['deliverychannel'];
 $table = 'sms_dr';
 
 
-function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', $callbackData = 'NULL', $destination = 'NULL', $deliveryStatus = 'NULL', $deliveryChannel ='NULL', $code = 'NULL', $description = 'NULL', $raw='NULL')   {
+function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', $callbackData = null, $destination = 'NULL', $deliveryStatus = 'NULL', $deliveryChannel ='NULL', $code = 'NULL', $description = 'NULL', $raw='NULL')   {
 
 
     //Establish a connection
