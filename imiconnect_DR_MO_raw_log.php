@@ -54,8 +54,9 @@ $table = 'sms_dr';
 
 function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', $callbackData = 'NULL', $destination = 'NULL', $deliveryStatus = 'NULL', $deliveryChannel ='NULL', $code = 'NULL', $description = 'NULL', $raw='NULL')   {
 
+
     //Establish a connection
-    $con = mysqli_connect("localhost", "pfimonuser", "Fa6rUCha", "PFI_MON");
+    $con = mysqli_connect("localhost", "remote", "foobar", "imiconnect");
 // Check connection
     if (mysqli_connect_errno())
     {
