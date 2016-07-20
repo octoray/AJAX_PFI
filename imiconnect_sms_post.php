@@ -95,7 +95,6 @@ if(isset($_POST['url']))
     mysqli_close($con);
 }
 
-
 //sendmessage();
 // call_user_func('open');
 ?>
