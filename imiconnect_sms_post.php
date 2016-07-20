@@ -226,15 +226,6 @@ if(isset($_POST['url']))
         </td>
     </tr>
 
-
-    <tr>
-        <td valign="top">
-            <label for="ip">Total Bind/Send Time</label>
-        </td>
-        <td valign="top">
-            <input  type="text" name="t" maxlength="80" size="20" value="<?php echo $time;?>">
-        </td>
-    </tr>
 </table>
 <br>
 <br>
