@@ -44,6 +44,7 @@ $json_db = json_decode($json_string, true);
 //$item['product']['title'];
 
 print_r($json_db);
+print_r($json_string);
 
 
 
