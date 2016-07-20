@@ -216,6 +216,8 @@ if(isset($_POST['url']))
                 <?php
                 print '<BR>';
                 print_r($info);
+                print '<BR>';
+                print_r($runy);
                 ?>
             </textarea>
             </textarea>
