@@ -211,7 +211,23 @@ function sendmessage() {
             <label for="details">RESPONSE</label>
         </td>
         <td valign="top">
-            <textarea  name="details" maxlength="500" cols="99" rows="20"><?php print_r($_POST);?></textarea>
+            <textarea  name="details" maxlength="500" cols="99" rows="20">
+                <?php echo '<br>';
+                echo "URL POSTED TO IS: ".$_POST['url'];
+                //echo $info['url'];
+                echo '<br>';
+                //echo '<br>';
+                echo "POSTED DATA IS:"; print '<BR>';
+                print_r($post_json);
+                print '<BR>';
+                echo "RESPONSE CODE: ".$info['http_code'];
+                print '<BR>';
+                echo "RESPONSE  IS:  "  .$runy;
+                print '<BR>';
+                echo "Remote IP:  ".$info['primary_ip'];
+                print '<BR>';
+                echo "Time TAken:  ".$info['total_time'];?>
+            </textarea>
             </textarea>
         </td>
     </tr>
