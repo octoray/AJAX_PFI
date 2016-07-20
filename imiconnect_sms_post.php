@@ -1,12 +1,4 @@
 <?php
-if(isset($_POST['url']))
-{
-    sendmessage();
-}
-// call_user_func('open');
-?>
-
-<?php
 
 function getGUID(){
     if (function_exists('com_create_guid')){
@@ -30,7 +22,8 @@ $GUID = getGUID();
 
 <?php
 
-function sendmessage() {
+if(isset($_POST['url']))
+{
     $ch = curl_init($_POST['url']);
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -85,7 +78,7 @@ function sendmessage() {
     //echo "Remote IP:  ".$info['primary_ip'];
     //print '<BR>';
     //echo "Time TAken:  ".$info['total_time'];
-    return array ($info['http_code'],$info['total_time'], $info['primary_ip']);
+    return $info['http_code'];
 }
 
 
