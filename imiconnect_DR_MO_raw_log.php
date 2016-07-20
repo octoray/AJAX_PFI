@@ -65,7 +65,7 @@ function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', 
 
     if (empty($callbackData))
     {
-        $callbackData = 'NULL';
+        $callbackData = 'empty';
     };
 
 // Perform queries
@@ -81,6 +81,6 @@ function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', 
 }
 
 
-db_dr_insert($table, $today1,$json_db['deliveryInfoNotification']['correlationid'],$json_db['deliveryInfoNotification']['transid'],$json_db['deliveryInfoNotification']['callbackData'],$json_db['deliveryInfoNotification']['deliveryInfo']['destination'],$json_db['deliveryInfoNotification']['deliveryInfo']['deliveryStatus'],$json_db['deliveryInfoNotification']['deliveryInfo']['deliveryChannel'],$json_db['deliveryInfoNotification']['deliveryInfo']['code'],$json_db['deliveryInfoNotification']['deliveryInfo']['Description'],"null");
+db_dr_insert($table, $today1,$json_db['deliveryInfoNotification']['correlationid'],$json_db['deliveryInfoNotification']['transid'],$json_db['deliveryInfoNotification']['callbackData'],$json_db['deliveryInfoNotification']['deliveryInfo']['destination'],$json_db['deliveryInfoNotification']['deliveryInfo']['deliveryStatus'],$json_db['deliveryInfoNotification']['deliveryInfo']['deliveryChannel'],$json_db['deliveryInfoNotification']['deliveryInfo']['code'],$json_db['deliveryInfoNotification']['deliveryInfo']['Description'],"empty");
 
 ?>
