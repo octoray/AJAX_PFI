@@ -45,8 +45,11 @@ $json_db = json_decode($HTTP_RAW_POST_DATA, true);
 
 //$item['product']['title'];
 
-print_r($json_db['notifyurl']);
 
+echo "<BR>";
+print_r($json_db);
+echo "<BR>";
+echo $json_db['notifyurl'];
 
 
 
