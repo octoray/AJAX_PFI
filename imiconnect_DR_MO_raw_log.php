@@ -49,7 +49,7 @@ $json_db = json_decode($HTTP_RAW_POST_DATA, true);
 echo "<BR>";
 print_r($json_db);
 echo "<BR>";
-echo $json_db['notifyurl'];
+echo $json_db['deliverychannel'];
 
 
 
