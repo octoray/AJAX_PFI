@@ -70,9 +70,9 @@ function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', 
 
 // Perform queries
 
-    mysqli_query($con,"INSERT INTO " .$table." (dr_recive_time) VALUES (".$time.")");
+    mysqli_query($con,"INSERT INTO " .$table." (dr_recive_time) VALUES ('".$time."')");
     //mysqli_query($con,"INSERT INTO " .$table." (dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES (".$time.",".$correlationid.",".$transid.",".$callbackData.",".$destination.",".$deliveryStatus.",".$deliveryChannel.",".$code.",".$description.",".$raw.")");
-    $var123 = "INSERT INTO " .$table." (dr_recive_time) VALUES (".$time.")";
+    $var123 = "INSERT INTO " .$table." (dr_recive_time) VALUES ('".$time."')";
     mysqli_close($con);
 
     echo "<BR>";
