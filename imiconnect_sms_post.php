@@ -214,9 +214,9 @@ if(isset($_POST['url']))
         <td valign="top">
             <textarea  name="details" maxlength="500" cols="99" rows="20">
                 <?php
-                print '<BR>';
+                echo '<BR>';
                 print_r($info);
-                print '<BR>';
+                echo '<BR>';
                 print_r($runy);
                 ?>
             </textarea>
