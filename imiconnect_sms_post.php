@@ -106,7 +106,7 @@ function sendmessage() {
                 <label for="server">URL</label>
             </td>
             <td valign="top">
-                <input  type="text" name="system_id" maxlength="80" size="50" value="<?php if(isset($_POST['url'])) {echo $_POST['url'];}else{echo "https://api.imiconnect.com/resources/v1/messaging";};?>">
+                <input  type="text" name="url" maxlength="80" size="50" value="<?php if(isset($_POST['url'])) {echo $_POST['url'];}else{echo "https://api.imiconnect.com/resources/v1/messaging";};?>">
             </td>
         </tr>
         <tr>
@@ -114,7 +114,7 @@ function sendmessage() {
                 <label for="server">Key (Header)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="system_id" maxlength="80" size="50" value="<?php if(isset($_POST['key_header'])) {echo $_POST['key_header'];}else{echo "ba8ca2eb-3ea9-11e6-b778-005056ad794f";};?>">
+                <input  type="text" name="key_header" maxlength="80" size="50" value="<?php if(isset($_POST['key_header'])) {echo $_POST['key_header'];}else{echo "ba8ca2eb-3ea9-11e6-b778-005056ad794f";};?>">
             </td>
         </tr>
 
@@ -123,7 +123,7 @@ function sendmessage() {
                 <label for="ip">BODY (notifyurl)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="password" maxlength="80" size="50" value="<?php if(isset($_POST['notifyurl'])) {echo $_POST['notifyurl'];}else{echo "";};?>"><br><br><br>
+                <input  type="text" name="notifyurl" maxlength="80" size="50" value="<?php if(isset($_POST['notifyurl'])) {echo $_POST['notifyurl'];}else{echo "";};?>"><br><br><br>
             </td>
         </tr>
 
@@ -132,7 +132,7 @@ function sendmessage() {
             <label for="login">BODY (senderid)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="host" maxlength="80" size="50"value="<?php if(isset($_POST['senderid'])) {echo $_POST['senderid'];}else{echo "CONNCT";};?>">
+                <input  type="text" name="senderid" maxlength="80" size="50"value="<?php if(isset($_POST['senderid'])) {echo $_POST['senderid'];}else{echo "CONNCT";};?>">
             </td>
         </tr>
 
@@ -142,7 +142,7 @@ function sendmessage() {
                 <label for="server">BODY (text)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="port" maxlength="80" size="50" value="<?php if(isset($_POST['text'])) {echo $_POST['text'];}else{echo "IMIconnect Test 000001";};?>">
+                <input  type="text" name="text" maxlength="80" size="50" value="<?php if(isset($_POST['text'])) {echo $_POST['text'];}else{echo "IMIconnect Test 000001";};?>">
             </td>
         </tr>
 
@@ -151,7 +151,7 @@ function sendmessage() {
                 <label for="ip">BODY (type)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="system_type" maxlength="80" size="50" value="<?php if(isset($_POST['type'])) {echo $_POST['type'];}else{echo "1";};?>"><br><br><br>
+                <input  type="text" name="type" maxlength="80" size="50" value="<?php if(isset($_POST['type'])) {echo $_POST['type'];}else{echo "1";};?>"><br><br><br>
             </td>
         </tr>
 
@@ -160,7 +160,7 @@ function sendmessage() {
                 <label for="ip">BODY (deliverychannel)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="src" maxlength="80" size="50" value="<?php if(isset($_POST['deliverychannel'])) {echo $_POST['deliverychannel'];}else{echo "sms";};?>">
+                <input  type="text" name="deliverychannel" maxlength="80" size="50" value="<?php if(isset($_POST['deliverychannel'])) {echo $_POST['deliverychannel'];}else{echo "sms";};?>">
             </td>
         </tr>
 
@@ -169,7 +169,7 @@ function sendmessage() {
                 <label for="ip">BODY (correlationid)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="dst" maxlength="80" size="50" value="<?php if(isset($_POST['correlationid'])) {echo $_POST['correlationid'];}else{echo(mt_rand());};?>"><br><br><br>
+                <input  type="text" name="correlationid" maxlength="80" size="50" value="<?php if(isset($_POST['correlationid'])) {echo $_POST['correlationid'];}else{echo(mt_rand());};?>"><br><br><br>
             </td>
         </tr>
 
@@ -178,7 +178,7 @@ function sendmessage() {
                 <label for="ip">BODY (customerid)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="interface_version" maxlength="80" size="20" value="<?php if(isset($_POST['customerid'])) {echo $_POST['customerid'];}else{echo "0000001";};?>">
+                <input  type="text" name="customerid" maxlength="80" size="20" value="<?php if(isset($_POST['customerid'])) {echo $_POST['customerid'];}else{echo "0000001";};?>">
             </td>
         </tr>
 
