@@ -17,14 +17,6 @@ function getGUID(){
         return $uuid;
     }
 }
-$GUID = getGUID();
-if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
-    header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
-    $set = 'Yes';
-}else{
-    header("X-PFI-SessionToken: ".$GUID);
-    $set = 'not set';
-};
 
 file_put_contents('imiconnect.txt', file_get_contents('php://input'));
 
@@ -44,6 +36,34 @@ fclose($fh);
 
 
 echo $response;
+
+function db_dr_insert($table, $deliveryInfoNotification = '*', $correlationid = null, $transid = null, $callbackData = '1', $deliveryInfo ='', $destination = '', $deliveryStatus = '', $deliveryChannel ='', $raw='')   {
+
+    //Establish a connection
+    $con = mysqli_connect("localhost", "pfimonuser", "Fa6rUCha", "PFI_MON");
+// Check connection
+    if (mysqli_connect_errno())
+    {
+        echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    }
+
+// Perform queries
+    mysqli_query($con,"INSERT INTO" .$table." (".$FirstName",LastName,Age) VALUES ('Glenn','Quagmire',33)");
+
+    mysqli_close($con);
+
+}
+
+
+$json_db = json_decode($json_string, true);
+
+//$item['product']['title'];
+
+print_r($json_db);
+
+
+
+
 
 
 ?>
