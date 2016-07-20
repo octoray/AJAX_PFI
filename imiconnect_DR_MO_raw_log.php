@@ -38,7 +38,6 @@ fclose($fh);
 echo $response;
 
 
-
 $json_db = json_decode($HTTP_RAW_POST_DATA, true);
 
 
@@ -50,10 +49,27 @@ echo "<BR>";
 print_r($json_db);
 echo "<BR>";
 echo $json_db['deliverychannel'];
+$table = 'sms_dr';
 
 
+function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', $callbackData = 'NULL', $destination = 'NULL', $deliveryStatus = 'NULL', $deliveryChannel ='NULL', $code = 'NULL', $description = 'NULL', $raw='NULL')   {
+
+    //Establish a connection
+    $con = mysqli_connect("localhost", "pfimonuser", "Fa6rUCha", "PFI_MON");
+// Check connection
+    if (mysqli_connect_errno())
+    {
+        echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    }
+
+// Perform queries
+    mysqli_query($con,"INSERT INTO" .$table." (dr_recive_time, deliveryInfoNotification,correlationid,transid,callbackData,deliveryInfo,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES (".$time.",".$correlationid.",".$transid.",".$callbackData.",".$destination.",".$deliveryStatus.",".$deliveryChannel.",".$code.",".$description.",".$raw.")");
+
+    mysqli_close($con);
+
+}
 
 
-
+db_dr_insert($table, $today1,$json_db['deliveryInfoNotification']['correlationid'],$json_db['deliveryInfoNotification']['transid'],$json_db['deliveryInfoNotification']['callbackData'],$json_db['deliveryInfoNotification']['deliveryInfo']['destination'],$json_db['deliveryInfoNotification']['deliveryInfo']['deliveryStatus'],$json_db['deliveryInfoNotification']['deliveryInfo']['deliveryChannel'],$json_db['deliveryInfoNotification']['deliveryInfo']['code'],$json_db['deliveryInfoNotification']['deliveryInfo']['Description'],$HTTP_RAW_POST_DATA);
 
 ?>
