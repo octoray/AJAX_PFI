@@ -210,7 +210,7 @@ if(isset($_POST['url']))
                 print '<BR>';
                 echo "Remote IP:  ".$info['primary_ip'];
                 print '<BR>';
-                print_r($info['primary_ip']);
+                print_r($info);
                 ?>
             </textarea>
             </textarea>
