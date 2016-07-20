@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['host']))
+if(isset($_POST['url']))
 {
     sendmessage();
 }
