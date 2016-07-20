@@ -39,12 +39,12 @@ echo $response;
 
 
 
-$json_db = json_decode($json_string, true);
+$json_db = json_decode($HTTP_RAW_POST_DATA, true);
 
 //$item['product']['title'];
 
 print_r($json_db);
-print_r($json_string);
+
 
 
 
