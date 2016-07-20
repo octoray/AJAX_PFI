@@ -41,9 +41,27 @@ echo $response;
 
 $json_db = json_decode($HTTP_RAW_POST_DATA, true);
 
+function db_dr_insert($table, $deliveryInfoNotification = '*', $correlationid = null, $transid = null, $callbackData = '1', $deliveryInfo ='', $destination = '', $deliveryStatus = '', $deliveryChannel ='', $raw='')   {
+
+    //Establish a connection
+    $con = mysqli_connect("localhost", "pfimonuser", "Fa6rUCha", "PFI_MON");
+// Check connection
+    if (mysqli_connect_errno())
+    {
+        echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    }
+
+// Perform queries
+    mysqli_query($con,"INSERT INTO" .$table." (".$FirstName",LastName,Age) VALUES ('Glenn','Quagmire',33)");
+
+    mysqli_close($con);
+
+}
+
+
 //$item['product']['title'];
 
-print_r($json_db);
+print_r($json_db['notifyurl']);
 
 
 
