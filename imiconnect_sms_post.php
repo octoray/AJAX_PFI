@@ -90,7 +90,7 @@ if(isset($_POST['url']))
 // Perform queries
 
     mysqli_query($con,"INSERT INTO sms_sent (key,notifyurl,senderid,text,type,deliverychannel,correlationid,customerid,response_code,total_time_taken,namelookup_time,connect_time,response_json) VALUES ('".$_POST['key']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$info['connect_time']."')");
-    $var12345 = "INSERT INTO sms_sent (key,notifyurl,senderid,text,type,deliverychannel,correlationid,customerid,response_code,total_time_taken,namelookup_time,connect_time,response_json) VALUES ('".$_POST['key']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$info['connect_time']."')"
+    $var12345 = "INSERT INTO sms_sent (key,notifyurl,senderid,text,type,deliverychannel,correlationid,customerid,response_code,total_time_taken,namelookup_time,connect_time,response_json) VALUES ('".$_POST['key']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$info['connect_time']."')";
     echo $var12345;
     mysqli_close($con);
 }
