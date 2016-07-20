@@ -78,7 +78,7 @@ if(isset($_POST['url']))
     //echo "Remote IP:  ".$info['primary_ip'];
     //print '<BR>';
     //echo "Time TAken:  ".$info['total_time'];
-    return $info['http_code'];
+    //return $info['http_code'];
 }
 
 
