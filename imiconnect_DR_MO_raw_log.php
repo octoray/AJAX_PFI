@@ -65,12 +65,8 @@ function db_dr_insert($table, $time,$correlationid = 'NULL', $transid = 'NULL', 
 
 // Perform queries
 
-    if (mysqli_query($con,"INSERT INTO" .$table." (dr_recive_time, deliveryInfoNotification,correlationid,transid,callbackData,deliveryInfo,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES (".$time.",".$correlationid.",".$transid.",".$callbackData.",".$destination.",".$deliveryStatus.",".$deliveryChannel.",".$code.",".$description.",".$raw.")");
-    {
-        echo "<BR>";
-        echo "Failed to insert ";
-    }
-   // mysqli_query($con,"INSERT INTO" .$table." (dr_recive_time, deliveryInfoNotification,correlationid,transid,callbackData,deliveryInfo,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES (".$time.",".$correlationid.",".$transid.",".$callbackData.",".$destination.",".$deliveryStatus.",".$deliveryChannel.",".$code.",".$description.",".$raw.")");
+
+    mysqli_query($con,"INSERT INTO" .$table." (dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw) VALUES (".$time.",".$correlationid.",".$transid.",".$callbackData.",".$destination.",".$deliveryStatus.",".$deliveryChannel.",".$code.",".$description.",".$raw.")");
 
     mysqli_close($con);
 
