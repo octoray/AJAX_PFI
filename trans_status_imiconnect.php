@@ -25,25 +25,34 @@ $GUID = getGUID();
 if(isset($_POST['url']))
 {
 
-    $request_headers = array();
-    $request_headers[] = 'key: '.$_POST['key_header'];
-    $request_headers[] = 'Accept-Charset: utf-8';
+    $curl = curl_init();
 
-    $ch = curl_init($_POST['url'].$_POST['key_header']."/".$_POST['transid']);
-    curl_setopt($ch, CURLOPT_HEADER, true);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $request_headers);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-    curl_setopt($ch, CURLOPT_URL, $_POST['url'].$_POST['key_header']."/".$_POST['transid']);
-    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => $_POST['url'].$_POST['key_header']."/".$_POST['transid'],
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => "",
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 30,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => "GET",
+        CURLOPT_HTTPHEADER => array(
+            "cache-control: no-cache"
+        ),
+    ));
 
-    echo $_POST['url'].$_POST['key_header']."/".$_POST['transid'];
-    //$query = http_build_query($data);
+    $response = curl_exec($curl);
+    $err = curl_error($curl);
 
-    //curl_setopt($ch, CURLOPT_POSTFIELDS, $post_json);
+    curl_close($curl);
 
-    $runy = curl_exec($ch);
-    $info = curl_getinfo($ch);
+    if ($err) {
+        echo "cURL Error #:" . $err;
+    } else {
+        echo $response;
+    }
+
+    $runy = curl_exec($curl);
+    $info = curl_getinfo($curl);
 
 
 
