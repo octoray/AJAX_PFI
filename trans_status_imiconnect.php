@@ -64,6 +64,7 @@ if(isset($_POST['url']))
 // Perform queries
 
     mysqli_query($con,"INSERT INTO get_trans_status (sent_time,trans_id,service_key,url,to,trans_status,error_message,response_code,error_code,imiconnect_last_updated,api_version,channel,total_time_taken,connect_time,raw_response) VALUES ('".$today1."','".$_POST['transid']."','".$_POST['key_header']."','".$_POST['url']."','".$data['to']."','".$data['status']."','".$data['error_message']."','".$info['http_code']."','".$data['error_code']."','".$data['last_updated']."','".$data['api_version']."','".$data['channel']."','".$info['total_time']."','".$info['connect_time']."','".$response."')");
+    echo "INSERT INTO get_trans_status (sent_time,trans_id,service_key,url,to,trans_status,error_message,response_code,error_code,imiconnect_last_updated,api_version,channel,total_time_taken,connect_time,raw_response) VALUES ('".$today1."','".$_POST['transid']."','".$_POST['key_header']."','".$_POST['url']."','".$data['to']."','".$data['status']."','".$data['error_message']."','".$info['http_code']."','".$data['error_code']."','".$data['last_updated']."','".$data['api_version']."','".$data['channel']."','".$info['total_time']."','".$info['connect_time']."','".$response."'";
     mysqli_close($con);
 }
 
