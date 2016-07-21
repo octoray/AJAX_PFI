@@ -63,7 +63,7 @@ if(isset($_POST['url']))
 
 // Perform queries
 
-   // mysqli_query($con,"INSERT INTO sms_sent (sent_time,db_insert_time,trans_id,service_key,url,to,trans_status,error_message,response_code,error_code,imiconnect_last_updated,api_version,channel,total_time_taken,connect_time,raw_response) VALUES ('".$_POST['key_header']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
+    mysqli_query($con,"INSERT INTO get_trans_status (sent_time,trans_id,service_key,url,to,trans_status,error_message,response_code,error_code,imiconnect_last_updated,api_version,channel,total_time_taken,connect_time,raw_response) VALUES ('".$today1."','".$_POST['transid']."','".$_POST['key_header']."','".$_POST['url']."','".$data['to']."','".$data['status']."','".$data['error_message']."','".$info['http_code']."','".$data['error_code']."','".$data['last_updated']."','".$data['api_version']."','".$data['channel']."','".$info['total_time']."','".$info['connect_time']."','".$response."')");
     mysqli_close($con);
 }
 
@@ -144,7 +144,7 @@ if(isset($_POST['url']))
                    echo "";
                     echo "";
                     echo "";
-                    print_r($data);
+                    print_r($err);
                     echo "";
                     echo "";
                     echo "";
