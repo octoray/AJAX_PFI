@@ -21,7 +21,7 @@ $GUID = getGUID();
 ?>
 
 <?php
-
+$today1 = date("Y-m-d H:i:s");
 if(isset($_POST['url']))
 {
 
@@ -43,6 +43,7 @@ if(isset($_POST['url']))
     $response = curl_exec($curl);
     $err = curl_error($curl);
     $info = curl_getinfo($curl);
+    $data = json_decode($response, TRUE);
 
     curl_close($curl);
 
@@ -62,7 +63,7 @@ if(isset($_POST['url']))
 
 // Perform queries
 
-   // mysqli_query($con,"INSERT INTO sms_sent (header_key,notifyurl,senderid,msg,j_type,deliverychannel,correlationid,customerid,response_code,total_time_taken,namelookup_time,connect_time,response_json) VALUES ('".$_POST['key_header']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
+   // mysqli_query($con,"INSERT INTO sms_sent (sent_time,db_insert_time,trans_id,service_key,url,to,trans_status,error_message,response_code,error_code,imiconnect_last_updated,api_version,channel,total_time_taken,connect_time,raw_response) VALUES ('".$_POST['key_header']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
     mysqli_close($con);
 }
 
@@ -143,7 +144,7 @@ if(isset($_POST['url']))
                    echo "";
                     echo "";
                     echo "";
-                    print_r($err);
+                    print_r($data);
                     echo "";
                     echo "";
                     echo "";
