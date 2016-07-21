@@ -148,7 +148,7 @@ if(isset($_POST['url']))
                     echo "";
                     echo "//////////////////////";
                     //$data['last_updated'];
-                    $data[0]['last_updated'];
+                    print_r($data[0]['last_updated']);
                     echo "";
 
                     print_r($info);
