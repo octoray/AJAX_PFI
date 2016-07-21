@@ -140,9 +140,13 @@ if(isset($_POST['url']))
                     <?php
 
                     print_r($response);
-
-
+                   echo "";
+                    echo "";
+                    echo "";
                     print_r($err);
+                    echo "";
+                    echo "";
+                    echo "";
 
                     print_r($info);
 
