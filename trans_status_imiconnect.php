@@ -125,7 +125,7 @@ if(isset($_POST['url']))
                 <label for="details">Sent</label>
             </td>
             <td valign="top">
-                <textarea  name="details" maxlength="500" cols="99" rows="20"><?php echo $post_json ?></textarea>
+                <textarea  name="details" maxlength="500" cols="99" rows="20"><?php echo $_POST['url'].$_POST['key_header']."/".$_POST['transid'] ?></textarea>
                 </textarea>
             </td>
         </tr>
@@ -135,7 +135,7 @@ if(isset($_POST['url']))
                 <label for="details">Values Set</label>
             </td>
             <td valign="top">
-                <textarea  name="details" maxlength="500" cols="99" rows="20"><?php print_r($_POST);?></textarea>
+                <textarea  name="details" maxlength="500" cols="99" rows="20"><?php print_r($_GET);?></textarea>
                 </textarea>
             </td>
         </tr>
