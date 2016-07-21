@@ -144,7 +144,7 @@ if(isset($_POST['url']))
                    echo "";
                     echo "";
                     echo "";
-                    print_r($data);
+                    //print_r($data);
                     echo "";
                     echo "//////////////////////";
                     echo "";
