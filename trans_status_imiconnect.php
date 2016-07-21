@@ -144,7 +144,7 @@ if(isset($_POST['url']))
                 <label for="details">Values Set</label>
             </td>
             <td valign="top">
-                <textarea  name="details" maxlength="500" cols="99" rows="20"><?php print_r($_GET);?></textarea>
+                <textarea  name="details" maxlength="500" cols="99" rows="20"><?php print_r($response);?></textarea>
                 </textarea>
             </td>
         </tr>
@@ -157,10 +157,10 @@ if(isset($_POST['url']))
                 <textarea  name="details" maxlength="500" cols="99" rows="20">
                     <?php
 
-                    print_r($info);
+                    print_r($response);
 
 
-                    print_r($runy);
+                    print_r($err);
 
                     ?>
                 </textarea>
