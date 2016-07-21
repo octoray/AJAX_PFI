@@ -147,12 +147,12 @@ if(isset($_POST['url']))
             <td valign="top">
                 <textarea  name="details" maxlength="500" cols="99" rows="20">
                     <?php
-                    echo "<pre>";
+
                     print_r($response);
 
 
                     print_r($err);
-                    echo "</pre>";
+
                     ?>
                 </textarea>
                 </textarea>
