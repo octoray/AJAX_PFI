@@ -42,18 +42,9 @@ if(isset($_POST['url']))
 
     $response = curl_exec($curl);
     $err = curl_error($curl);
+    $info = curl_getinfo($curl);
 
     curl_close($curl);
-
-    //if ($err) {
-    //    echo "cURL Error #:" . $err;
-   // } else {
-   //     echo $response;
-    //}
-
-    //$runy = curl_exec($curl);
-    //$info = curl_getinfo($curl);
-
 
 
     //Establish a connection
@@ -152,6 +143,8 @@ if(isset($_POST['url']))
 
 
                     print_r($err);
+
+                    print_r($info);
 
                     ?>
                 </textarea>
