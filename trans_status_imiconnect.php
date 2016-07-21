@@ -27,47 +27,20 @@ if(isset($_POST['url']))
 
     $request_headers = array();
     $request_headers[] = 'key: '.$_POST['key_header'];
-    $request_headers[] = 'Accept: application/json';
     $request_headers[] = 'Accept-Charset: utf-8';
-    $request_headers[] = 'Content-Type: application/json';
 
-    $ch = curl_init($_POST['url']);
+    $ch = curl_init($_POST['url'].$_POST['key_header']."/".$_POST['transid']);
     curl_setopt($ch, CURLOPT_HEADER, true);
     curl_setopt($ch, CURLOPT_HTTPHEADER, $request_headers);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-    curl_setopt($ch, CURLOPT_URL, $_POST['url']);
+    curl_setopt($ch, CURLOPT_URL, $_POST['url'].$_POST['key_header']."/".$_POST['transid']);
     curl_setopt($ch, CURLOPT_POST, 1);
 
-
-    $post_json = '
-    {
-	"notifyurl": "'.$_POST['notifyurl'].'",
-	"channels": {
-		"sms": {
-			"senderid": "'.$_POST['senderid'].'",
-			"text": "'.$_POST['text'].'",
-			"type": "'.$_POST['type'].'"
-		}
-	},
-	"deliverychannel": "'.$_POST['deliverychannel'].'",
-	"correlationid": "'.$_POST['correlationid'].'",
-	"destination": [
-		{
-			"customerid": [
-				"'.$_POST['customerid'].'"
-			]
-		}
-	]
-}
-    ';
-
-    $data = json_decode($post_json, TRUE);
-
-
+    echo $_POST['url'].$_POST['key_header']."/".$_POST['transid'];
     //$query = http_build_query($data);
 
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $post_json);
+    //curl_setopt($ch, CURLOPT_POSTFIELDS, $post_json);
 
     $runy = curl_exec($ch);
     $info = curl_getinfo($ch);
@@ -89,7 +62,7 @@ if(isset($_POST['url']))
 
 // Perform queries
 
-    mysqli_query($con,"INSERT INTO sms_sent (header_key,notifyurl,senderid,msg,j_type,deliverychannel,correlationid,customerid,response_code,total_time_taken,namelookup_time,connect_time,response_json) VALUES ('".$_POST['key_header']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
+   // mysqli_query($con,"INSERT INTO sms_sent (header_key,notifyurl,senderid,msg,j_type,deliverychannel,correlationid,customerid,response_code,total_time_taken,namelookup_time,connect_time,response_json) VALUES ('".$_POST['key_header']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
     mysqli_close($con);
 }
 
@@ -127,7 +100,7 @@ if(isset($_POST['url']))
                 <label for="login">Trans ID</label>
                 </td>
                 <td valign="top">
-                    <input  type="text" name="senderid" maxlength="80" size="50"value="<?php if(isset($_POST['senderid'])) {echo $_POST['senderid'];}else{echo "404568be-230a-4918-944a-f2d5a474757e";};?>">
+                    <input  type="text" name="transid" maxlength="80" size="50"value="<?php if(isset($_POST['transid'])) {echo $_POST['transid'];}else{echo "404568be-230a-4918-944a-f2d5a474757e";};?>">
                 </td>
             </tr>
 
