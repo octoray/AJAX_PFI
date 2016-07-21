@@ -109,33 +109,25 @@ if(isset($_POST['url']))
                     <label for="server">URL</label>
                 </td>
                 <td valign="top">
-                    <input  type="text" name="url" maxlength="80" size="50" value="<?php if(isset($_POST['url'])) {echo $_POST['url'];}else{echo "https://api.imiconnect.com/resources/v1/messaging";};?>">
+                    <input  type="text" name="url" maxlength="80" size="50" value="<?php if(isset($_POST['url'])) {echo $_POST['url'];}else{echo "https://api.imiconnect.com/resources/v1/messaging/status/";};?>">
                 </td>
             </tr>
             <tr>
                 <td valign="top">
-                    <label for="server">Header (key)</label>
+                    <label for="server">Service Key</label>
                 </td>
                 <td valign="top">
                     <input  type="text" name="key_header" maxlength="80" size="50" value="<?php if(isset($_POST['key_header'])) {echo $_POST['key_header'];}else{echo "ba8ca2eb-3ea9-11e6-b778-005056ad794f";};?>">
                 </td>
             </tr>
 
-            <tr>
-                <td valign="top">
-                    <label for="ip">BODY (key)</label>
-                </td>
-                <td valign="top">
-                    <input  type="text" name="notifyurl" maxlength="80" size="50" value="<?php if(isset($_POST['notifyurl'])) {echo $_POST['notifyurl'];}else{echo "";};?>"><br><br><br>
-                </td>
-            </tr>
 
             <tr>
                 <td valign="top"">
-                <label for="login">BODY (trans_id)</label>
+                <label for="login">Trans ID</label>
                 </td>
                 <td valign="top">
-                    <input  type="text" name="senderid" maxlength="80" size="50"value="<?php if(isset($_POST['senderid'])) {echo $_POST['senderid'];}else{echo "CONNCT";};?>">
+                    <input  type="text" name="senderid" maxlength="80" size="50"value="<?php if(isset($_POST['senderid'])) {echo $_POST['senderid'];}else{echo "404568be-230a-4918-944a-f2d5a474757e";};?>">
                 </td>
             </tr>
 
