@@ -45,14 +45,14 @@ if(isset($_POST['url']))
 
     curl_close($curl);
 
-    if ($err) {
-        echo "cURL Error #:" . $err;
-    } else {
-        echo $response;
-    }
+    //if ($err) {
+    //    echo "cURL Error #:" . $err;
+   // } else {
+   //     echo $response;
+    //}
 
-    $runy = curl_exec($curl);
-    $info = curl_getinfo($curl);
+    //$runy = curl_exec($curl);
+    //$info = curl_getinfo($curl);
 
 
 
