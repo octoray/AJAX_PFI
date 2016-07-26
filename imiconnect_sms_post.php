@@ -30,7 +30,7 @@ if(isset($_POST['url']))
     $request_headers[] = 'Accept: application/json';
     $request_headers[] = 'Accept-Charset: UTF-8';
     $request_headers[] = 'Encoding: UTF-8';
-    $request_headers[] = 'Content-Type: application/x-www-form-urlencoded';
+    $request_headers[] = 'Content-Type: application/json';
 
     $ch = curl_init($_POST['url']);
     curl_setopt($ch, CURLOPT_HEADER, true);
