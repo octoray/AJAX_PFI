@@ -173,7 +173,7 @@ if(isset($_POST['url']))
                 <label for="ip">BODY (correlationid)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="correlationid" maxlength="80" size="50" value="<?php if(isset($_POST['correlationid'])) {echo $_POST['correlationid'];}else{echo(mt_rand());};?>"><br><br><br>
+                <input  type="text" name="correlationid" maxlength="80" size="50" value="<?php if(isset($_POST['correlationid'])) {echo $_POST['correlationid'];}else{echo $GUID;};?>"><br><br><br>
             </td>
         </tr>
 
