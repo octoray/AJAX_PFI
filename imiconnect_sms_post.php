@@ -28,7 +28,8 @@ if(isset($_POST['url']))
     $request_headers = array();
     $request_headers[] = 'key: '.$_POST['key_header'];
     $request_headers[] = 'Accept: application/json';
-    $request_headers[] = 'Accept-Charset: utf-8';
+    $request_headers[] = 'Accept-Charset: UTF-8';
+    $request_headers[] = 'Encoding: UTF-8';
     $request_headers[] = 'Content-Type: application/json';
 
     $ch = curl_init($_POST['url']);
