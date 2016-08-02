@@ -83,7 +83,7 @@
 </div>
 
 
-<div class="footer">
+<div class="footer" id="footer">
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
     <?php
@@ -187,7 +187,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 </script>
 <script>
     function nope() {
-
+        document.getElementById('footer').style.display = 'none';
     }
 
 </script>
