@@ -8,20 +8,20 @@
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <!-- activate Menu -->
-   <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">
-   <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
+    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">
+    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
     <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/fonts.css" type="text/css">
     <script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
-   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
 
 
 
-     <script type="text/javascript">
-         $(document).ready(function(){
-             $('#menu').slicknav();
-         });
-     </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#menu').slicknav();
+        });
+    </script>
 
 
 
@@ -63,26 +63,16 @@
 
 <!-- 2nd block  -->
 <div class="block_666" data-pfi-area="true" id="showmeee" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "display:none";}else{echo "";}; ?>" >
+
     <br>
-    <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner2" alt="Header"><br>
-    <!-- 1st block /Purchase subscription button -->
-    <div class="merchant-button btn1" id="hideme1" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="sub1">
-        Subscribe
-    </div>
     <br>
-<br>
 
     <!-- 2nd block /Purchase button -->
     <div class="merchant-button btn2" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton2" data-pfi-service-id="330" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
         Buy
     </div>
     <br>
-    <br>
-    <!-- 3rd block /Purchase button -->
-    <div class="merchant-button btn3" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="336" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
-        Subscribe With Free Trial
-    </div>
-    <br> <br>    <br>
+  <br>    <br>
 
 
 </div>
@@ -140,26 +130,26 @@
 
 
 
-$cookie_name = "PFI_NetInfo";
-$cookie_value = "ASxY2FckENo5UwFuoHMk+g==";
+    $cookie_name = "PFI_NetInfo";
+    $cookie_value = "ASxY2FckENo5UwFuoHMk+g==";
 
-if(!isset($_COOKIE[$cookie_name])) {
-    echo "Cookie named '" . $cookie_name . "' is not set!";
-    echo "<BR>";
-    setcookie($cookie_name, urldecode($cookie_value), time() + (86400 * 30), "/"); // 86400 = 1 day
-    echo "Cookie named '" . $cookie_name . "'set to ASxY2FckENo5UwFuoHMk+g==";
-    echo "<BR>";
-    echo "<BR>";
-    echo "<BR>";
-} else {
-    echo "Cookie '" . $cookie_name . "' is set!<br>";
-    echo "Value is: " . $_COOKIE[$cookie_name];
-    echo "<BR>";
-    setcookie($cookie_name, urldecode($cookie_value), time() + (86400 * 30), "/"); // 86400 = 1 day
-    echo "Cookie is changed name too '" . $cookie_name . "'set to ASxY2FckENo5UwFuoHMk+g==";
-    echo "<BR>";
-    echo "<BR>";
-}
+    if(!isset($_COOKIE[$cookie_name])) {
+        echo "Cookie named '" . $cookie_name . "' is not set!";
+        echo "<BR>";
+        setcookie($cookie_name, urldecode($cookie_value), time() + (86400 * 30), "/"); // 86400 = 1 day
+        echo "Cookie named '" . $cookie_name . "'set to ASxY2FckENo5UwFuoHMk+g==";
+        echo "<BR>";
+        echo "<BR>";
+        echo "<BR>";
+    } else {
+        echo "Cookie '" . $cookie_name . "' is set!<br>";
+        echo "Value is: " . $_COOKIE[$cookie_name];
+        echo "<BR>";
+        setcookie($cookie_name, urldecode($cookie_value), time() + (86400 * 30), "/"); // 86400 = 1 day
+        echo "Cookie is changed name too '" . $cookie_name . "'set to ASxY2FckENo5UwFuoHMk+g==";
+        echo "<BR>";
+        echo "<BR>";
+    }
 
 
 
