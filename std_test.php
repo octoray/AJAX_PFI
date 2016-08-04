@@ -1,5 +1,6 @@
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
 
 <script>
@@ -25,7 +26,7 @@
         target.appendChild(s);
     }
 
-    var elFrame = document.getElementById('#iframe');
+    var elFrame = document.getElementById('frame1');
     $(elFrame).load(function(){
         var context = this.contentDocument;
         var frameHead = context.getElementsByTagName('head').item(0);
