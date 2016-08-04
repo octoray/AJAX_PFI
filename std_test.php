@@ -1,9 +1,23 @@
 <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/iframe.css" type="text/css">
 
+<style>
+    h1 {
+        color: blue;
+        font-family: verdana;
+        font-size: 300%;
+    }
+    .frame  {
+        color: red;!important;
+        background-color: #000000;!important;
+        font-family: courier;!important;
+        font-size: 160%;!important;
+    }
+</style>
+
 <script>
 $('iframe').load( function() {
 $('iframe').contents().find("head")
-.append($("<style type='text/css'>  input.btn, a.btn{display:none;}  </style>"));
+.append($("<style type='text/css'>  input.btn, a.btn{display:none;!important;}  </style>"));
 });
 
 
@@ -11,7 +25,7 @@ var iframe = document.getElementById('frame');
 var style = document.createElement('style');
 style.textContent =
     'body {' +
-        '  background-color: #33a9a9;' +
+        '  background-color: #33a9a9; !important;' +
         '  background-image: some-image;' +
         '}'
 ;
@@ -28,19 +42,19 @@ iframe.contentDocument.head.appendChild(style);
 <br>
 <br>
 <br>
-<iframe id="frame" style="width: 420px; height: 280px; background-color: powderblue;" src="http://pfi.imimobile.net/staging/checkout/?sid=344&ref=0000000101&render=embed" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+<iframe id="frame" class="frame" style="width: 420px; height: 280px; background-color: powderblue;" src="http://pfi.imimobile.net/staging/checkout/?sid=344&ref=0000000101&render=embed" marginheight="0" marginwidth="0" frameborder="0"></iframe>
 
 <br>
 <br>
 LIVE
 <br>
-<iframe id="frame" style="width: 420px; height: 280px; background-color: powderblue;" src="http://pfi.imimobile.net/checkout/?sid=115&ref=0000000101&render=embed" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+<iframe id="frame" class="frame" style="width: 420px; height: 280px; background-color: powderblue;" src="http://pfi.imimobile.net/checkout/?sid=115&ref=0000000101&render=embed" marginheight="0" marginwidth="0" frameborder="0"></iframe>
 
 
 <script>
     $('iframe').load( function() {
         $('iframe').contents().find("head")
-            .append($("<style type='text/css'>  input.btn, a.btn{display:none;}  </style>"));
+            .append($("<style type='text/css'>  input.btn, a.btn{display:none;!important;}  </style>"));
     });
 
 
@@ -48,8 +62,8 @@ LIVE
     var style = document.createElement('style');
     style.textContent =
         'body {' +
-            '  background-color: #33a9a9;' +
-            '  background-image: some-image;' +
+            '  background-color: #33a9a9; !important;' +
+            '  background-image: some-image; !important;' +
             '}'
     ;
     iframe.contentDocument.head.appendChild(style);
