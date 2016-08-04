@@ -3,7 +3,7 @@
 
 
 <script>
-    $('#iframe').load(function() {
+    $('#iframe1').load(function() {
         $(this).contents().find('body').append('<scr' + 'ipt type="text/javascript" src="somescript.js"></scr' + 'ipt>');
     });
 </script>
