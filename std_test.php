@@ -28,13 +28,13 @@ iframe.contentDocument.head.appendChild(style);
 <br>
 <br>
 <br>
-<iframe id="frame" style="width: 420px; height: 280px;" src="http://pfi.imimobile.net/staging/checkout/?sid=344&ref=0000000101&render=embed" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+<iframe id="frame" style="width: 420px; height: 280px; background-color: powderblue;" src="http://pfi.imimobile.net/staging/checkout/?sid=344&ref=0000000101&render=embed" marginheight="0" marginwidth="0" frameborder="0"></iframe>
 
 <br>
 <br>
 LIVE
 <br>
-<iframe id="frame" style="width: 420px; height: 280px;" src="http://pfi.imimobile.net/checkout/?sid=115&ref=0000000101&render=embed" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+<iframe id="frame" style="width: 420px; height: 280px; background-color: powderblue;" src="http://pfi.imimobile.net/checkout/?sid=115&ref=0000000101&render=embed" marginheight="0" marginwidth="0" frameborder="0"></iframe>
 
 
 <script>
