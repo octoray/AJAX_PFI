@@ -4,7 +4,24 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
 
-
+<?php
+function getGUID(){
+    if (function_exists('com_create_guid')){
+        return com_create_guid();
+    }else{
+        mt_srand((double)microtime()*10000);//optional for php 4.2.0 and up.
+        $charid = strtoupper(md5(uniqid(rand(), true)));
+        $hyphen = chr(45);// "-"
+        $uuid = // "{"
+            substr($charid, 0, 8).$hyphen
+            .substr($charid, 8, 4).$hyphen
+            .substr($charid,12, 4).$hyphen
+            .substr($charid,16, 4).$hyphen
+            .substr($charid,20,12);
+        return $uuid;
+    }
+}
+?>
 
 <script type="text/javascript">
     var start = new Date();
@@ -14,7 +31,7 @@
         dataType: "jsonp",
         data: {
             merchantToken: 'AE7A07A8-D085-40C6-ACE4-FF84F14E3247',
-            sessionToken: '3AD5F4D4-591C-34C0-3767-F7622683A586'
+            sessionToken: '<?php echo getGUID();?>'
         }
     }).done(function(result) {
             document.write(result);
