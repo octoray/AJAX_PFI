@@ -1,6 +1,11 @@
 <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/iframe.css" type="text/css">
 
-
+<script>
+$('iframe').load( function() {
+$('iframe').contents().find("head")
+.append($("<style type='text/css'>  input.btn, a.btn{display:none;}  </style>"));
+});
+</script>
 
 <a href="http://pfi.imimobile.net/staging/checkout/?sid=344&ref=IMI_00000000000_2">PFI-s normal http non adult</a>
 <br>
