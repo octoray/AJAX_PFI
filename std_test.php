@@ -1,34 +1,11 @@
 <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/iframe.css" type="text/css">
 
-<style>
-    h1 {
-        color: blue;
-        font-family: verdana;
-        font-size: 300%;
-    }
-    .frame  {
-        color: red;!important;
-        background-color: #000000;!important;
-        font-family: courier;!important;
-        font-size: 160%;!important;
-    }
-</style>
+
 
 <script>
-$('iframe').load( function() {
-$('iframe').contents().find("head")
-.append($("<style type='text/css'>  input.btn, a.btn{display:none;!important;}  </style>"));
-});
-
-
-var iframe = document.getElementById('frame');
-var style = document.createElement('style');
-style.textContent =
-    'body {' +
-        '  background-color: #33a9a9; !important;' +
-        '  background-image: some-image;' +
-        '}';
-iframe.contentDocument.head.appendChild(style);
+    $('#iframe').load(function() {
+        $(this).contents().find('body').append('<lin' + 'k rel="stylesheet" src="http://octoraypfi.co.uk/staging/css/iframe.css" type="text/css"');
+    });
 </script>
 
 
