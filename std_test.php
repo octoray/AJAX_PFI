@@ -52,5 +52,5 @@ LIVE
 
 
 <script>
-    document.getElementById('frame31').style.display = 'none';
+    document.getElementById('pfi-form').style.display = 'none';
 </script>
