@@ -4,7 +4,7 @@
 
 <script>
     $('#iframe').load(function() {
-        $(this).contents().find('body').append('<lin' + 'k rel="stylesheet" src="http://octoraypfi.co.uk/staging/css/iframe.css" type="text/css"');
+        $(this).contents().find('body').append('<scr' + 'ipt type="text/javascript" src="somescript.js"></scr' + 'ipt>');
     });
 </script>
 
