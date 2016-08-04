@@ -1,11 +1,11 @@
 .input.btn, a.btn iframe
 {
-    background: rgba(0, 23, 200, 0.5);
-    color: #000;
+    background: rgba(0, 23, 200, 0.5); !important;
+    color: #000; !important;
 }
 
 iframe
 {
-    background: rgba(0, 23, 200, 0.5);
-    color: #000;
+    background: rgba(0, 23, 200, 0.5); !important;
+    color: #000; !important;
 }
