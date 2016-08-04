@@ -52,5 +52,5 @@ LIVE
 
 
 <script>
-    document.getElementById('frame1').style.display = 'none';
+    document.getElementById('frame31').style.display = 'none';
 </script>
