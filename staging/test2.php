@@ -22,11 +22,6 @@
              $('#menu').slicknav();
          });
      </script>
-
-
-
-
-
 </head>
 
 <body>
@@ -83,8 +78,6 @@
         Subscribe With Free Trial
     </div>
     <br> <br>    <br>
-
-
 </div>
 
 
