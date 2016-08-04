@@ -5,6 +5,17 @@ $('iframe').load( function() {
 $('iframe').contents().find("head")
 .append($("<style type='text/css'>  input.btn, a.btn{display:none;}  </style>"));
 });
+
+
+var iframe = document.getElementById('frame');
+var style = document.createElement('style');
+style.textContent =
+    'body {' +
+        '  background-color: #33a9a9;' +
+        '  background-image: some-image;' +
+        '}'
+;
+iframe.contentDocument.head.appendChild(style);
 </script>
 
 <a href="http://pfi.imimobile.net/staging/checkout/?sid=344&ref=IMI_00000000000_2">PFI-s normal http non adult</a>
@@ -31,4 +42,15 @@ LIVE
         $('iframe').contents().find("head")
             .append($("<style type='text/css'>  input.btn, a.btn{display:none;}  </style>"));
     });
+
+
+    var iframe = document.getElementById('frame');
+    var style = document.createElement('style');
+    style.textContent =
+        'body {' +
+            '  background-color: #33a9a9;' +
+            '  background-image: some-image;' +
+            '}'
+    ;
+    iframe.contentDocument.head.appendChild(style);
 </script>
