@@ -26,7 +26,7 @@
         target.appendChild(s);
     }
 
-    var elFrame = document.getElementById('frame1');
+    var elFrame = document.getElementById('#iframe');
     $(elFrame).load(function(){
         var context = this.contentDocument;
         var frameHead = context.getElementsByTagName('head').item(0);
