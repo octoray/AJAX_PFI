@@ -3,9 +3,34 @@
 
 
 <script>
-    $('#frame1').load(function() {
-        $(this).contents().find('body').append('<scr' + 'ipt type="text/javascript" src="somescript.js"></scr' + 'ipt>');
-    });
+    function insertScript(doc, target, src, callback) {
+        var s = doc.createElement("script");
+        s.type = "text/javascript";
+        if(callback) {
+            if (s.readyState){  //IE
+                s.onreadystatechange = function(){
+                    if (s.readyState == "loaded" ||
+                        s.readyState == "complete"){
+                        s.onreadystatechange = null;
+                        callback();
+                    }
+                };
+            } else {  //Others
+                s.onload = function(){
+                    callback();
+                };
+            }
+        }
+        s.src = src;
+        target.appendChild(s);
+    }
+
+    var elFrame = document.getElementById('#frame1');
+    $(elFrame).load(function(){
+        var context = this.contentDocument;
+        var frameHead = context.getElementsByTagName('head').item(0);
+        insertScript(context, frameHead, '/js/somescript.js');
+    }
 </script>
 
 
