@@ -24,3 +24,11 @@ $('iframe').contents().find("head")
 LIVE
 <br>
 <iframe id="frame" style="width: 420px; height: 280px;" src="http://pfi.imimobile.net/checkout/?sid=115&ref=0000000101&render=embed" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+
+
+<script>
+    $('iframe').load( function() {
+        $('iframe').contents().find("head")
+            .append($("<style type='text/css'>  input.btn, a.btn{display:none;}  </style>"));
+    });
+</script>
