@@ -38,7 +38,6 @@ return $uuid;
         }).fail(function() {
             document.write('Error');
         });
-    start.abort()
 </script>
 
 
