@@ -40,6 +40,7 @@ return $uuid;
             document.write('Error');
             ajax.abort();
         });
+    ajax.abort();
 </script>
 
 
