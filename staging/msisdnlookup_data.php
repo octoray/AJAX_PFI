@@ -35,12 +35,9 @@ return $uuid;
         }
     }).done(function(result) {
             document.write(result);
-            ajax.abort();
         }).fail(function() {
             document.write('Error');
-            ajax.abort();
         });
-    ajax.abort();
 </script>
 
 
