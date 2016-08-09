@@ -141,14 +141,14 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 
 
  <!-- 1st block /Purchase subscription button -->
-<div class="merchant-button btn1" id="hideme1" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="19" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="sub1">
+<div class="merchant-button btn1" id="hideme1123" data-pfi-button="true" data-pfi-button-id="hidebutton1" data-pfi-service-id="19" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="sub1">
 subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
     <br>
 </div>
 
 <!-- 1st block /Purchase button -->
-<div class="merchant-button btn1" id="hideme2" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="17" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
+<div class="merchant-button btn1" id="hideme1232" data-pfi-button="true" data-pfi-button-id="hidebutton1" data-pfi-service-id="17" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
     NON SUB Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
 </div>
 <br>
@@ -257,8 +257,8 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
     Destiny: &nbsp;The Taken King -&nbsp;Legendary Edition is&nbsp;perfect for new and existing Guardians that are ready to jump into the Destiny universe or continue to carve their legend in the stars. &nbsp;The Legendary Edition features the complete Destiny experience including The Taken King, the next evolution in the Destiny universe, Destiny, Expansion I: The Dark Below and Expansion II: House of Wolves. &nbsp;Unite with 20 million Guardians in the fight to defeat Earth’s enemies, reclaim all that we have lost, and Become Legend.
 <br><br><br><br>
     <!-- 1st block /Purchase button -->
-    <div class="merchant-button btn1" id="hideme" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
-        Buy Expansion Pack For £30 <br>(Charged To Your Mobile)
+    <div class="merchant-button btn1" id="hidemwwe" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="326" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/success.php" data-pfi-content-id="<?php echo $out2;?>">
+        Buy Expansion Pack For £300 <br>(Charged To Your Mobile)
     </div>
     <br>
 </div>
