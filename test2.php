@@ -67,48 +67,7 @@ $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 
 
      <!-- Hide stuff -->
-    <script>
-        function hidebutton() {
-            document.getElementById('hideme1').style.display = 'none';
-            document.getElementById('hideme2').style.display = 'none';
-        }
-    </script>
 
-    <script>
-        function showproc() {
-            document.getElementById('block_66_buy').style.display = '';
-        }
-    </script>
-
-    <script>
-        function show() {
-            document.getElementById('block_66_buy2').style.display = '';
-            document.getElementById('showmeee').style.display = 'none';
-        }
-    </script>
-
-    <script>
-        function hideproc() {
-            document.getElementById('block_66_buy').style.display = 'none';
-            document.getElementById('showmeee').style.display = 'none';
-            document.getElementById('mehhh').style.display = '';
-            $(function(){
-                $(".pfi-area").hide();
-            });
-        }
-    </script>
-
-    <script>
-        function showproc2() {
-            document.getElementById('extra').style.display = '';
-        }
-    </script>
-
-    <script>
-        function hybridshow() {
-            document.getElementById('hybridshow').style.display = '';
-        }
-    </script>
 
 </head>
 <body>
@@ -160,42 +119,10 @@ subscripbe to Expansion Pack For £30 <br>(Charged To Your Mobile)
     <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
     <h2 class="hed">Available Now</h2>
 
-</div>
-<div id="extra" style="display:none">
-    <h2 class="hed">extratext</h2>
-</div>
-
-</div>
-<div id="hybridshow" style="display:none">
-    <h2 class="hed">Please confirm using the SMS Link we just sent you</h2>
-</div>
-
-
-<!-- mehhhh  -->
-<div class="block_66" id="mehhh" style="display:none">
-    <br>
-    <img src="https://www.destinythegame.com/content/dam/atvi/bungie/dtg-comet/utils/logos/destiny-taken-king-composite-logo.svg" class="banner" alt="Header"> <br>
-    <h2 class="hed">SUccess :)</h2>
-    <br>
-</div>
 
 
 
-<!-- 2nd block swap AJAX  -->
-<div class="block_66_buy" id ="block_66_buy" style="display:none">
-    <br>
-    <br>
-    <h2 class="hed">Proccessing...</h2>
-    <br>
-</div>
 
-<!-- 2nd block swap AJAX  -->
-<div class="block_66_buy2" id ="block_66_buy2" style="<?php if ($_SERVER['HTTP_X_PFI_STATUS'] == 'PfiHybridSession') {echo "";}else{echo "display:none";};?>">
-    <br>
-    <br>
-    <h2 class="hed">Loading Content....</h2>
-    <br>
-</div>
 
 
 
