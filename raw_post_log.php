@@ -34,4 +34,6 @@ fwrite($fh,  $today1. ": json BODY: " .$json_string);
 fwrite($fh, $stringData);
 fclose($fh);
 
+echo $response;
+
 ?>
