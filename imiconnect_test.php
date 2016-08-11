@@ -35,34 +35,36 @@ Try it »
 
 
 <h3> Tool for testing IMIconnect SMS API. loges all in db detail below. can match up DR's etc
-    will add more APIs to it later.
+    will add more APIs to it later.</h3>
 
 
-    http://octoraypfi.co.uk/imiconnect_sms_post.php
 
-    Mysql DB:
+
+<p>Mysql DB:
     IP: 212.71.238.228
     user: remote
     pw: foobar
-    schema: imiconnect
+    schema: imiconnect</p>
 
 
-    -- sent messages
+<p>   -- sent messages
     SELECT
     *
     FROM
     `imiconnect`.`sms_sent`
     ORDER BY id DESC
-    LIMIT 0, 999999 ;
+    LIMIT 0, 999999 ;</p>
 
 
-    -- drs recived
+<p>   -- drs recived
     SELECT
     *
     FROM
     `imiconnect`.`sms_dr`
     ORDER BY id DESC
-    LIMIT 0, 999999 ;
+    LIMIT 0, 999999 ;</p>
 
 
-    match up via correlation id</h3>
+<p>  match up via correlation id</p>
+
+    </h3>
