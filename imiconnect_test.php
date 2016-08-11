@@ -17,3 +17,18 @@ Try it »
     <a href="http://octoraypfi.co.uk/imiconnect_sms_post.php">Facebook Send API</a>
     Try it »
 </p>
+
+<p>
+    <a href="http://octoraypfi.co.uk/imiconnect_sms_post.php">Twitter Send API</a>
+    Try it »
+</p>
+
+<p>
+    <a href="http://octoraypfi.co.uk/trans_status_imiconnect.php">Get Transaction Status API</a>
+    Try it »
+</p>
+
+<p>
+    <a href="http://octoraypfi.co.uk/imiconnect_sms_post.php">Notifications Received</a>
+    See Data »
+</p>
