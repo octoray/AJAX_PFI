@@ -87,7 +87,7 @@ if(isset($_POST['url']))
 // Perform queries
 
     //mysqli_query($con,"INSERT INTO fb_sent (header_key,deliverychannel,msg,psid,response_code,total_time_taken,namelookup_time,connect_time,response_json) VALUES ('".$_POST['key_header']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
-    mysqli_query($con,"INSERT INTO fb_sent(header_key,msg,deliverychannel,psid,response_code,total_time_taken,namelookup_time,connect_time,response_json)VALUES('".$_POST['key_header']."','".$_POST['TEXT']."','".$_POST['deliverychannel']."','".$_POST['psid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
+    mysqli_query($con,"INSERT INTO fb_sent(header_key,msg,deliverychannel,psid,response_code,total_time_taken,namelookup_time,connect_time,response_json)VALUES('".$_POST['key_header']."','".$_POST['text']."','".$_POST['deliverychannel']."','".$_POST['psid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
     mysqli_close($con);
 }
 
