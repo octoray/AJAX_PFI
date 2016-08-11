@@ -40,11 +40,11 @@ Try it »
 
 
 
-<p>Mysql DB:
-    IP: 212.71.238.228
-    user: remote
-    pw: foobar
-    schema: imiconnect</p>
+<p>Mysql DB:<br>
+    IP: 212.71.238.228<br>
+    user: remote<br>
+    pw: foobar<br>
+    schema: imiconnect<br></p>
 
 
 <p>   -- sent messages
