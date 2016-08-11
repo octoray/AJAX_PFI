@@ -7,7 +7,7 @@
 
 <?php
 ?>
-<h1> Options </h1>
+<h1> Options </h1><br>
 <p>
 <a href="http://octoraypfi.co.uk/imiconnect_sms_post.php">SMS Send API</a>
 Try it »
