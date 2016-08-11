@@ -43,23 +43,19 @@ if(isset($_POST['url']))
 
     $post_json = '
     {
-	"notifyurl": "'.$_POST['notifyurl'].'",
-	"channels": {
-		"sms": {
-			"senderid": "'.$_POST['senderid'].'",
-			"text": "'.$_POST['text'].'",
-			"type": "'.$_POST['type'].'"
-		}
-	},
-	"deliverychannel": "'.$_POST['deliverychannel'].'",
-	"correlationid": "'.$_POST['correlationid'].'",
-	"destination": [
-		{
-			"customerid": [
-				"'.$_POST['customerid'].'"
-			]
-		}
-	]
+  "deliverychannel": "'.$_POST['deliverychannel'].'",
+  "channels": {
+        "OTT-Messaging": {
+            "fb": {
+                "text": "'.$_POST['text'].'"
+            }
+        }
+    },
+    "destination": [{
+        "psid": [
+            "'.$_POST['psid'].'"
+        ]
+    }]
 }
     ';
 
