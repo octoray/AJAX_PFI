@@ -179,10 +179,10 @@ if(isset($_POST['url']))
 
         <tr>
             <td valign="top">
-                <label for="ip">BODY (customerid)</label>
+                <label for="ip">BODY (spid)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="customerid" maxlength="80" size="20" value="<?php if(isset($_POST['customerid'])) {echo $_POST['customerid'];}else{echo "0000001";};?>">
+                <input  type="text" name="spid" maxlength="80" size="20" value="<?php if(isset($_POST['spid'])) {echo $_POST['spid'];}else{echo "0000001";};?>">
             </td>
         </tr>
 
