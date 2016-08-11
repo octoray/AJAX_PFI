@@ -46,14 +46,14 @@ if(isset($_POST['url']))
   "deliverychannel": "'.$_POST['deliverychannel'].'",
   "channels": {
         "OTT-Messaging": {
-            "fb": {
+            "twitter": {
                 "text": "'.$_POST['text'].'"
             }
         }
     },
     "destination": [{
-        "psid": [
-            "'.$_POST['psid'].'"
+        "twitterid": [
+            "'.$_POST['twitterid'].'"
         ]
     }]
 }
@@ -124,7 +124,7 @@ if(isset($_POST['url']))
                     <label for="ip">BODY (deliverychannel)</label>
                 </td>
                 <td valign="top">
-                    <input  type="text" name="deliverychannel" maxlength="80" size="50" value="<?php if(isset($_POST['deliverychannel'])) {echo $_POST['deliverychannel'];}else{echo "fb";};?>"><br><br><br>
+                    <input  type="text" name="deliverychannel" maxlength="80" size="50" value="<?php if(isset($_POST['deliverychannel'])) {echo $_POST['deliverychannel'];}else{echo "twitter";};?>"><br><br><br>
                 </td>
             </tr>
 
@@ -135,7 +135,7 @@ if(isset($_POST['url']))
                     <label for="server">BODY (text)</label>
                 </td>
                 <td valign="top">
-                    <input  type="text" name="text" maxlength="80" size="50" value="<?php if(isset($_POST['text'])) {echo $_POST['text'];}else{echo "IMIconnect FB Test 000001";};?>">
+                    <input  type="text" name="text" maxlength="80" size="50" value="<?php if(isset($_POST['text'])) {echo $_POST['text'];}else{echo "IMIconnect twitter Test 000001";};?>">
                 </td>
             </tr>
 
