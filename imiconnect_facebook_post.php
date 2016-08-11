@@ -124,7 +124,7 @@ if(isset($_POST['url']))
                 <label for="ip">BODY (deliverychannel)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="deliverychannel" maxlength="80" size="50" value="<?php if(isset($_POST['deliverychannel'])) {echo $_POST['deliverychannel'];}else{echo "";};?>"><br><br><br>
+                <input  type="text" name="deliverychannel" maxlength="80" size="50" value="<?php if(isset($_POST['deliverychannel'])) {echo $_POST['deliverychannel'];}else{echo "fb";};?>"><br><br><br>
             </td>
         </tr>
 
