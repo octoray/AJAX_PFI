@@ -29,8 +29,8 @@ Try it »
 </p>
 
 <p>
-    <a href="http://octoraypfi.co.uk/imiconnect_sms_post.php">Notifications Received</a>
-    See Data »
+    <a href="#">Notifications Received</a>
+    See Data (coming soon) »
 </p>
 
 <br><br>
