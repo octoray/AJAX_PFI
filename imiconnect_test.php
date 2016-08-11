@@ -42,6 +42,7 @@ Try it »
 
 <p>Mysql DB:<br>
     IP: 212.71.238.228<br>
+    Port: 3306<br>
     user: remote<br>
     pw: foobar<br>
     schema: imiconnect<br></p>
