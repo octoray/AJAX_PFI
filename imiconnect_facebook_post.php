@@ -90,7 +90,8 @@ if(isset($_POST['url']))
 
 // Perform queries
 
-    mysqli_query($con,"INSERT INTO sms_sent (header_key,notifyurl,senderid,msg,j_type,deliverychannel,correlationid,customerid,response_code,total_time_taken,namelookup_time,connect_time,response_json) VALUES ('".$_POST['key_header']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
+    //mysqli_query($con,"INSERT INTO fb_sent (header_key,deliverychannel,msg,psid,response_code,total_time_taken,namelookup_time,connect_time,response_json) VALUES ('".$_POST['key_header']."','".$_POST['notifyurl']."','".$_POST['senderid']."','".$_POST['text']."','".$_POST['type']."','".$_POST['deliverychannel']."','".$_POST['correlationid']."','".$_POST['customerid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
+    mysqli_query($con,"INSERT INTO fb_sent(header_key,msg,deliverychannel,psid,response_code,total_time_taken,namelookup_time,connect_time,response_json)VALUES('".$_POST['key_header']."','".$_POST['TEXT']."','".$_POST['deliverychannel']."','".$_POST['psid']."','".$info['http_code']."','".$info['total_time']."','".$info['namelookup_time']."','".$info['connect_time']."','".$runy."')");
     mysqli_close($con);
 }
 
@@ -124,21 +125,13 @@ if(isset($_POST['url']))
 
         <tr>
             <td valign="top">
-                <label for="ip">BODY (notifyurl)</label>
+                <label for="ip">BODY (deliverychannel)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="notifyurl" maxlength="80" size="50" value="<?php if(isset($_POST['notifyurl'])) {echo $_POST['notifyurl'];}else{echo "";};?>"><br><br><br>
+                <input  type="text" name="deliverychannel" maxlength="80" size="50" value="<?php if(isset($_POST['deliverychannel'])) {echo $_POST['deliverychannel'];}else{echo "";};?>"><br><br><br>
             </td>
         </tr>
 
-        <tr>
-            <td valign="top"">
-            <label for="login">BODY (senderid)</label>
-            </td>
-            <td valign="top">
-                <input  type="text" name="senderid" maxlength="80" size="50"value="<?php if(isset($_POST['senderid'])) {echo $_POST['senderid'];}else{echo "CONNCT";};?>">
-            </td>
-        </tr>
 
         </tr>
         <tr>
@@ -146,43 +139,18 @@ if(isset($_POST['url']))
                 <label for="server">BODY (text)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="text" maxlength="80" size="50" value="<?php if(isset($_POST['text'])) {echo $_POST['text'];}else{echo "IMIconnect Test 000001";};?>">
+                <input  type="text" name="text" maxlength="80" size="50" value="<?php if(isset($_POST['text'])) {echo $_POST['text'];}else{echo "IMIconnect FB Test 000001";};?>">
             </td>
         </tr>
 
-        <tr>
-            <td valign="top">
-                <label for="ip">BODY (type)</label>
-            </td>
-            <td valign="top">
-                <input  type="text" name="type" maxlength="80" size="50" value="<?php if(isset($_POST['type'])) {echo $_POST['type'];}else{echo "1";};?>"><br><br><br>
-            </td>
-        </tr>
+
 
         <tr>
             <td valign="top">
-                <label for="ip">BODY (deliverychannel)</label>
+                <label for="ip">BODY (psid)</label>
             </td>
             <td valign="top">
-                <input  type="text" name="deliverychannel" maxlength="80" size="50" value="<?php if(isset($_POST['deliverychannel'])) {echo $_POST['deliverychannel'];}else{echo "sms";};?>">
-            </td>
-        </tr>
-
-        <tr>
-            <td valign="top">
-                <label for="ip">BODY (correlationid)</label>
-            </td>
-            <td valign="top">
-                <input  type="text" name="correlationid" maxlength="80" size="50" value="<?php if(isset($_POST['correlationid'])) {echo $_POST['correlationid'];}else{echo $GUID;};?>"><br><br><br>
-            </td>
-        </tr>
-
-        <tr>
-            <td valign="top">
-                <label for="ip">BODY (spid)</label>
-            </td>
-            <td valign="top">
-                <input  type="text" name="spid" maxlength="80" size="20" value="<?php if(isset($_POST['spid'])) {echo $_POST['spid'];}else{echo "0000001";};?>">
+                <input  type="text" name="psid" maxlength="80" size="20" value="<?php if(isset($_POST['psid'])) {echo $_POST['psid'];}else{echo "xxxxxxxxxxxx";};?>">
             </td>
         </tr>
 
