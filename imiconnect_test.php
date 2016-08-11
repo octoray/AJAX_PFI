@@ -34,8 +34,35 @@ Try it »
 </p>
 
 
-<h3> Dat for db is xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxx
-xxxxxxxxxxxx
-xxxxxxxxxxxx</h3>
+<h3> Tool for testing IMIconnect SMS API. loges all in db detail below. can match up DR's etc
+    will add more APIs to it later.
+
+
+    http://octoraypfi.co.uk/imiconnect_sms_post.php
+
+    Mysql DB:
+    IP: 212.71.238.228
+    user: remote
+    pw: foobar
+    schema: imiconnect
+
+
+    -- sent messages
+    SELECT
+    *
+    FROM
+    `imiconnect`.`sms_sent`
+    ORDER BY id DESC
+    LIMIT 0, 999999 ;
+
+
+    -- drs recived
+    SELECT
+    *
+    FROM
+    `imiconnect`.`sms_dr`
+    ORDER BY id DESC
+    LIMIT 0, 999999 ;
+
+
+    match up via correlation id</h3>
