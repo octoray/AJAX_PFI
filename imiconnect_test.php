@@ -34,7 +34,7 @@ Try it »
 </p>
 
 <br><br>
-<h3> Tool for testing IMIconnect SMS API. loges all in db detail below. can match up DR's etc
+<h3> Tool for testing IMIconnect API's. logs all in db detail below.
     will add more APIs to it later.</h3>
 
 
