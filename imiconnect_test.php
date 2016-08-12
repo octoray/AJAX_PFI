@@ -48,24 +48,7 @@ Try it »
     schema: imiconnect<br></p>
 
 
-<p>   -- sent messages
-    SELECT
-    *
-    FROM
-    `imiconnect`.`sms_sent`
-    ORDER BY id DESC
-    LIMIT 0, 999999 ;</p>
 
-
-<p>   -- drs recived
-    SELECT
-    *
-    FROM
-    `imiconnect`.`sms_dr`
-    ORDER BY id DESC
-    LIMIT 0, 999999 ;</p>
-
-
-<p>  match up via correlation id</p>
+<p>  match up sms via correlation id</p>
 
     </h3>
