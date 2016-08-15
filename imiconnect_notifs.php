@@ -21,7 +21,7 @@
 </head>
 <body>
 <br>
-<h3>Notifications</h3>
+<h3>Notifications (last 50 received)</h3>
 <table style="
     margin-left: 1%;
     margin-right: 1%;
