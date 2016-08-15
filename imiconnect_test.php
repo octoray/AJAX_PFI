@@ -34,7 +34,7 @@ Try it »
 </p>
 
 <br>
-<h3>URL Endpoint for data shown here is: http://octoraypfi.co.uk/imiconnect_DR_MO_raw_log.php </h3>
+
 <br>
 <h3> Tool for testing IMIconnect API's. logs all in db detail below.
     will add more APIs to it later.</h3>
@@ -53,4 +53,5 @@ Try it »
 
 <p>  match up sms via correlation id</p>
 
-    </h3>
+    <br>
+<h3>URL Endpoint for data shown here is: http://octoraypfi.co.uk/imiconnect_DR_MO_raw_log.php </h3>
