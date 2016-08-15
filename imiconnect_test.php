@@ -30,10 +30,12 @@ Try it »
 
 <p>
     <a href="http://octoraypfi.co.uk/imiconnect_notifs.php">Notifications Received</a>
-    See Data (coming soon) »
+    See Data »
 </p>
 
-<br><br>
+<br>
+<h3>URL Endpoint for data shown here is: http://octoraypfi.co.uk/imiconnect_DR_MO_raw_log.php </h3>
+<br>
 <h3> Tool for testing IMIconnect API's. logs all in db detail below.
     will add more APIs to it later.</h3>
 
