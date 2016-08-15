@@ -62,7 +62,7 @@
 
     // Perform queries
 
-    $query = mysqli_query($con,"SELECT id,db_insert_time,dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw FROM sms_dr LIMIT 0, 10;");
+    $query = mysqli_query($con,"SELECT id,db_insert_time,dr_recive_time,correlationid,transid,callbackData,destination,deliveryStatus,deliveryChannel,code,description,raw FROM sms_dr order by id desc LIMIT 0, 50;");
 
 
     //sendmessage();
