@@ -29,7 +29,7 @@ Try it »
 </p>
 
 <p>
-    <a href="#">Notifications Received</a>
+    <a href="http://octoraypfi.co.uk/imiconnect_notifs.php">Notifications Received</a>
     See Data (coming soon) »
 </p>
 
