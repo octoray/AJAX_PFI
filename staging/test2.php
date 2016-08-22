@@ -78,6 +78,9 @@
         Subscribe With Free Trial
     </div>
     <br> <br>    <br>
+    <div class="merchant-button btn3" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="381" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
+        Subscribe With Free Trial 5.00
+    </div>
 </div>
 
 
