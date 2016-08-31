@@ -174,7 +174,9 @@ if(!isset($_COOKIE[$cookie_name])) {
     ?>
 </div>
 <?php require("./phpdb/mainpage.php"); ?>
-
+<iframe src="http://www.w3schools.com">
+    <p>Your browser does not support iframes.</p>
+</iframe>
 </body>
 <script>
     function wrong() {
