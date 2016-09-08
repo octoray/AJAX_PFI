@@ -33,10 +33,10 @@ html{
 .form-basic h1{
     display: inline-block;
     box-sizing: border-box;
-    color:  #4c565e;
+    color: #ffffff;
     font-size: 24px;
     padding: 0 10px 15px;
-    border-bottom: 2px solid #6caee0;
+    border-bottom: 2px solid #722b85;
     margin: 0;
 }
 
