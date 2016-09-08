@@ -14,6 +14,7 @@ html{
     font: bold 14px sans-serif;
     text-align: center;
     color: white;
+    border-radius: 8px;
 }
 
 .form-basic .form-row{
