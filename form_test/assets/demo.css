@@ -79,7 +79,7 @@ ul a{
 }
 
 ul li a.active{
-    background-color: #F05283;
+    background-color: #6a0087;
     pointer-events: none;
 }
 
