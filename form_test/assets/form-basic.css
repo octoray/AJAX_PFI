@@ -9,10 +9,11 @@ html{
     box-sizing: border-box;
 
     background-color:  #ffffff;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 6px 1px 3px 0 rgba(0, 0, 0, 0.1);
     background-color: #484747;
     font: bold 14px sans-serif;
     text-align: center;
+    color: white;
 }
 
 .form-basic .form-row{
