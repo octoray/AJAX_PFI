@@ -13,6 +13,7 @@ html{
 body{
 	font:14px/1.5 Arial, Helvetica, sans-serif;
 	margin:0;
+    background-color: #484747;
 }
 
 
@@ -23,6 +24,10 @@ header{
     padding: 25px 40px;
     background-color: #6e6972;
     overflow: hidden;
+}
+
+span {
+    color: white;
 }
 
 
