@@ -19,11 +19,13 @@ html{
 .form-basic .form-row{
     text-align: left;
     margin-bottom: 22px;
+    color: white;
 }
 
 .form-basic .form-title-row{
     text-align: center;
     margin-bottom: 55px;
+    color: white;
 }
 
 /* The form title */
