@@ -21,7 +21,7 @@ header{
 	text-align: center;
     width: 100%;
     padding: 25px 40px;
-    background-color: #0092b8;
+    background-color: #6e6972;
     overflow: hidden;
 }
 
@@ -41,7 +41,7 @@ header a{
     border-radius: 3px;
     font: bold 14px/1 'Open Sans', sans-serif;
     text-transform: uppercase;
-    background-color:#F05283;
+    background-color: #6a0087;
 
 }
 
