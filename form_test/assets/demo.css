@@ -9,6 +9,7 @@
 html{
 
     background-image: url("http://octoraypfi.co.uk/form_test/assets/bkgrd.jpg");
+    background-repeat: round;
 }
 
 body{
