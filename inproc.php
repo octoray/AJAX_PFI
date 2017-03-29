@@ -29,21 +29,21 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 $response1 = '{
 	"Error":null,
-	"Script":"wrong()",
+	"Script":"",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
 
 $response2 = '{
 	"Error":null,
-	"Script":"correct()",
+	"Script":"",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
 
 $response3 = '{
 	"Error":null,
-	"Script":"nope()",
+	"Script":"",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
@@ -51,7 +51,7 @@ $response3 = '{
 
 $temp1 = '{
 	"Error":null,
-	"Script":"hidebutton()",
+	"Script":"",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
