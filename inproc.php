@@ -67,39 +67,6 @@ if ($_SERVER['HTTP_X_PFI_CALLERID'] == "a3" && $_SERVER['HTTP_X_PFI_STATUS'] == 
 }
 
 
-//Write logs
-$today1 = date("Y-m-d H:i:s");
-$myFile = "log.txt";
-$fh = fopen($myFile, 'a') or die("can't open file");
-$stringData = "\n";
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": GUID Set?: " .$set);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": Sessiontoken: " .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": status: " .$_SERVER['HTTP_X_PFI_STATUS']);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": requestime: " .$_SERVER['HTTP_X_PFI_REQUESTTIME']);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": hash: " .$_SERVER['HTTP_X_PFI_HASH']);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": alias: " .$_SERVER['HTTP_X_PFI_ALIAS']);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": netinfo: " .$_SERVER['HTTP_X_PFI_NETINFO']);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": callerid / function: " .$_SERVER['HTTP_X_PFI_CALLERID']);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": opt in status: " .$_SERVER['HTTP_X_PFI_OPTINSTATUS']);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": trans_id: " .$_SERVER['HTTP_X_PFI_TRANSACTIONID']);
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": response was: ".$response);
-fwrite($fh, $stringData);
-fclose($fh);
-
-
-
-
 echo $response;
 
 $data_json = json_decode($response, true);
