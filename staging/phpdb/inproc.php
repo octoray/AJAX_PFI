@@ -1,6 +1,6 @@
 <?php
-$username = "remote";
-$password = "foobar";
+$username = "root";
+$password = "toor";
 $hostname = "localhost";
 $today1 = date("Y-m-d H:i:s");
 //connection to the database
