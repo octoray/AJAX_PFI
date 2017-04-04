@@ -28,14 +28,6 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 $arr = $_SERVER;
 // echo implode(" ",$arr);
 
-//Write logs
-$today1 = date("Y-m-d H:i:s");
-$myFile = "indexpage.txt";
-$fh = fopen($myFile, 'a') or die("can't open file");
-$stringData = "\n";
-fwrite($fh, $stringData);
-fwrite($fh, $today1. ": headers: " .implode(" ",$arr));
-fclose($fh);
 ?>
 <!DOCTYPE html>
 <html>
