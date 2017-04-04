@@ -43,16 +43,16 @@ fclose($fh);
     <title>Main</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css" type="text/css">
-    <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
+    <link rel="stylesheet" href="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/css/body.css" type="text/css">
+    <link rel="stylesheet" href="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/slicknav/dist/slicknav.css" type="text/css">
+    <script src="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/slicknav/dist/jquery.slicknav.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript">
         $(function(){
             $("body").fadeOut(4200,function(){
-                window.location.href = "http://octoray.org.uk/staging/landing.php"
+                window.location.href = "http://staging.octoray.mobi/staging/landing.php"
             })
         });
     </script>
@@ -61,7 +61,7 @@ fclose($fh);
 <body>
 
 
-<img src="http://octoraypfi.co.uk/staging/images/banner.png" class="banner_main" alt="Header">
+<img src="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/images/banner.png" class="banner_main" alt="Header">
 
 
 </body>
