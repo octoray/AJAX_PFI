@@ -45,8 +45,8 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 
 
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/slicknav/dist/slicknav.css">
-    <link rel="stylesheet" href="http://octoraypfi.co.uk/staging/css/body.css" type="text/css">
+    <link rel="stylesheet" href="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/slicknav/dist/slicknav.css">
+    <link rel="stylesheet" href="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/css/body.css" type="text/css">
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
