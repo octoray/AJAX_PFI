@@ -237,7 +237,7 @@ img.banner_main {
     font-size: 11px;
     background-color: #000000;
     padding-bottom: 20px;
-    background-image: url("http://octoraypfi.co.uk/staging/images/1.gif");
+    background-image: url("http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/images/1.gif");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -254,7 +254,7 @@ img.banner_main {
     font-size: 11px;
     background-color: #000000;
     padding-bottom: 20px;
-    background-image: url("http://octoraypfi.co.uk/staging/images/e1.gif");
+    background-image: url("http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/images/e1.gif");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -271,7 +271,7 @@ img.banner_main {
     font-size: 11px;
     background-color: #000000;
     padding-bottom: 20px;
-    background-image: url("http://octoraypfi.co.uk/staging/images/e2.gif");
+    background-image: url("http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/images/e2.gif");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -322,7 +322,7 @@ img.banner_main {
 
 
 .block_6 {
-    background-image: url("http://octoraypfi.co.uk/images/bg.jpg");
+    background-image: url("http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/images/bg.jpg");
     width: 100%;
     color: #ffffff;
     text-align: center;
@@ -331,7 +331,7 @@ img.banner_main {
 }
 
 .block_66 {
-    background-image: url("http://octoraypfi.co.uk/images/bg.jpg");
+    background-image: url("http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/images/bg.jpg");
     width: 100%;
     color: #ffffff;
     text-align: center;
