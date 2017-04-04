@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <!-- activate Menu -->
-    <link rel="stylesheet" href="ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/slicknav/dist/slicknav.css">
-    <link rel="stylesheet" href="ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/css/body.css" type="text/css">
-    <link rel="stylesheet" href="ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/staging/css/fonts.css" type="text/css">
-    <script src="ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/staging/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/slicknav/dist/slicknav.css">
+    <link rel="stylesheet" href="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/css/body.css" type="text/css">
+    <link rel="stylesheet" href="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/staging/css/fonts.css" type="text/css">
+    <script src="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/staging/jquery-2.1.4.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-    <script src="ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/slicknav/dist/jquery.slicknav.js"></script>
+    <script src="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/slicknav/dist/jquery.slicknav.js"></script>
 
 
 
