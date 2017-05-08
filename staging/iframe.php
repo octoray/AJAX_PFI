@@ -112,8 +112,8 @@ function myFunction() {
 
     <script>
     window.load(function(){
-   $('#InnerIframe').contents().find('#pfi-data-purchase').trigger( "click" );
-        $('#InnerIframe').contents().find('.pfi-button-text').trigger( "click" );
+   $('#InnerIframe').contents().find('#pfi-exit-button').trigger( "click" );
+        $('#InnerIframe').contents().find('.pfi-exit-button').trigger( "click" );
 });
 </script>
     
