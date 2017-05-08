@@ -111,7 +111,7 @@ function myFunction() {
 </div>
 
     <script>
-    window.load(function(){
+    window.onload(function(){
    $('#InnerIframe').contents().find('#pfi-exit-button').trigger( "click" );
         $('#InnerIframe').contents().find('.pfi-exit-button').trigger( "click" );
 });
