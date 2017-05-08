@@ -73,27 +73,9 @@
     </div>
     <br>
     <br>
-    <!-- 3rd block /Purchase button -->
-    <div class="merchant-button btn3" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="336" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
-        Subscribe With Free Trial
-    </div>
-    <br> <br>
-    <div class="merchant-button btn3" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="381" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
-        Subscribe With Free Trial 5.00 week
-    </div>
-    <br> <br>
-    <div class="merchant-button btn3" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="383" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
-        Subscribe With Free Trial 1.00 week
-    </div>
-    <br> <br>
-    <div class="merchant-button btn3" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="385" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
-        Subscribe With Free Trial 5.00 day
-    </div>
-    <br> <br>
-    <div class="merchant-button btn3" id="hideme3" data-pfi-button="true" data-pfi-button-id="hidebutton" data-pfi-service-id="384" data-pfi-reference="<?php echo $out1;?>" data-pfi-content-url="/staging/landing.php" data-pfi-content-id="<?php echo $out2;?>">
-        Subscribe With Free Trial 1.00 day
-    </div>
-</div>
+    <iframe src="https://www.w3schools.com">
+  <p>Your browser does not support iframes.</p>
+</iframe>
 
 
 <div class="footer" id="footer">
