@@ -113,7 +113,7 @@ function myFunction() {
    $('#InnerIframe').contents().find('#pfi-data-purchase').trigger( "click" );
         $('#InnerIframe').contents().find('.pfi-data-purchase').trigger( "click" );
        $('#framey').contents().find('#submit-button').trigger( "click" );
-        $('#framey').contents().find('.submit-button').trigger( "click" );
+        $('#framey').contents().find('.section').trigger( "click" );
 });
 </script>
     
