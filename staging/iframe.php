@@ -84,6 +84,18 @@
     <iframe src="http://staging.octoray.mobi/staging/100.php">
   <p>Your browser does not support iframes.</p>
 </iframe>
+    <br>
+    <p>Click the button to get the URL of the iframe.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+    <script>
+function myFunction() {
+    var x = document.getElementById("myFrame").src;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
 
 
 <div class="footer" id="footer">
