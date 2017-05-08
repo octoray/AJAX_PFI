@@ -83,7 +83,7 @@
     <br>
     <iframe id="framey" style="width: 420px; height: 280px;" src="http://pfi.imimobile.net/staging/checkout/?sid=18&ref=0000000101&render=embed" marginheight="0" marginwidth="0" frameborder="0"></iframe>
     <br>
-    <iframe id ='myframe' src='http://staging.octoray.mobi/staging/100.php' onload="onLoadHandler();"></iframe>
+    <iframe id ='myFrame' src='http://staging.octoray.mobi/staging/100.php' onload="onLoadHandler();"></iframe>
 
 <script type="text/javascript">
 function onLoadHandler() {
