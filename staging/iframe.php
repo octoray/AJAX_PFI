@@ -106,15 +106,7 @@ function myFunction() {
 }       
 </script>
 <br>
-    <iframe id ="ifraame"></iframe>
-  <script>  
-    $('#ifraame').load(function() {
-  $(this).contents().find("body").on('click', function(event) {
-    alert('test');
-  });
-});
-$('ifraame').attr("src", "JavaScript:'iframe content'");
-      </script>
+
 
 <div class="footer" id="footer">
     <br>
