@@ -81,11 +81,11 @@
   <p>Your browser does not support iframes.</p>
 </iframe>
     <br>
-    <iframe id="myFrame" src="http://staging.octoray.mobi/staging/100.php">
+    <iframe id="myFrame" onmouseover="myFunction()" src="http://staging.octoray.mobi/staging/100.php">
   <p>Your browser does not support iframes.</p>
 </iframe>
     <br>
-    <p>Click the button to get the URL of the iframe.</p>
+    <p>Click the button to interact with iframe.</p>
 
 <button onclick="myFunction()">Try it</button>
 
@@ -94,6 +94,9 @@
 function myFunction() {
     var x = document.getElementById("myFrame").src;
     document.getElementById("demo").innerHTML = x;
+}
+        function myFunction() {
+    document.getElementById("pfi-data-purchase").click(); // Click on the checkbox
 }
 </script>
 
