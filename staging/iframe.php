@@ -85,6 +85,14 @@
   <p>Your browser does not support iframes.</p>
 </iframe>
     <br>
+    <iframe id ='myrame' src='http://staging.octoray.mobi/staging/100.php' onload="onLoadHandler();"></iframe>
+
+<script type="text/javascript">
+function onLoadHandler() {
+    alert('JS loaded');
+}
+</script>
+    
     <p>Click the button to interact with iframe.</p>
 
 <button onclick="myFunction()">Try it</button>
