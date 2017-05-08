@@ -81,7 +81,7 @@
   <p>Your browser does not support iframes.</p>
 </iframe>
     <br>
-    <iframe id="myFrame" onmouseover="myFunction()" src="http://staging.octoray.mobi/staging/100.php">
+    <iframe id="myFrame" src="http://staging.octoray.mobi/staging/100.php">
   <p>Your browser does not support iframes.</p>
 </iframe>
     <br>
@@ -90,6 +90,7 @@
 <button onclick="myFunction()">Try it</button>
 
 <p id="demo"></p>
+    <br>
     <script>
 function myFunction() {
     var x = document.getElementById("myFrame").src;
@@ -97,7 +98,6 @@ function myFunction() {
 }       
 </script>
 
-    
 
 <div class="footer" id="footer">
     <br>
