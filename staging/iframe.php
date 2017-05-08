@@ -76,6 +76,14 @@
     <iframe src="https://www.w3schools.com">
   <p>Your browser does not support iframes.</p>
 </iframe>
+    <br>
+    <iframe src="http://mobilepayments.imimobile.net">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+    <br>
+    <iframe src="http://staging.octoray.mobi/staging/100.php">
+  <p>Your browser does not support iframes.</p>
+</iframe>
 
 
 <div class="footer" id="footer">
