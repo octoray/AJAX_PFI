@@ -94,12 +94,10 @@
 function myFunction() {
     var x = document.getElementById("myFrame").src;
     document.getElementById("demo").innerHTML = x;
-}
-        function myFunction() {
-    document.getElementById("pfi-data-purchase").click(); // Click on the checkbox
-}
+}       
 </script>
 
+    
 
 <div class="footer" id="footer">
     <br>
