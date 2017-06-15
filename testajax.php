@@ -34,6 +34,16 @@ $out2 = substr(hash('md5', $today2), 0, $length2); // Hash it
 $out3 = substr(hash('md5', $today3), 0, $length3); // Hash it
 ?>
 
+<!DOCTYPE HTML>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    
+    </head>
+
+<body>
 
 <div class="merchant-button btn2" id="hideme2" 
 data-pfi-button="true" 
@@ -46,3 +56,8 @@ data-pfi-content-id="a2100fd1eecd158e70d2986e03538247ced714934924c875">
 </div>
 <br>
 <div class="block_666" data-pfi-area="true" id="showmeee" style=""> Content goes here </div>
+
+
+</body>
+</script>
+</html>
