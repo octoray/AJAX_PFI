@@ -43,7 +43,7 @@ $response1 = '{
 
 echo $response1;
 
-$data_json = json_decode($response, true);
+$data_json = json_decode($response1, true);
 
 
 ?>
