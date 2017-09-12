@@ -36,40 +36,12 @@ $response1 = '{
 	"ShowMarketingOptIn":true
 }';
 
-$response2 = '{
-	"Error":null,
-	"Script":"",
-	"InProcessUrl":null,
-	"ShowMarketingOptIn":true
-}';
 
-$response3 = '{
-	"Error":null,
-	"Script":"",
-	"InProcessUrl":null,
-	"ShowMarketingOptIn":true
-}';
-
-
-$temp1 = '{
-	"Error":null,
-	"Script":"",
-	"InProcessUrl":null,
-	"ShowMarketingOptIn":true
-}';
 
 //respond
 
-if ($_SERVER['HTTP_X_PFI_CALLERID'] == "a3" && $_SERVER['HTTP_X_PFI_STATUS'] == 'PfiPurchaseButtonShown') {
-    $response = $response2;
-}elseif($_SERVER['HTTP_X_PFI_CALLERID'] != "a3" && $_SERVER['HTTP_X_PFI_STATUS'] == 'PfiPurchaseButtonShown'){
-    $response = $response1;
-}else{
-    $response = $response3;
-}
 
-
-echo $response;
+echo $response1;
 
 $data_json = json_decode($response, true);
 
