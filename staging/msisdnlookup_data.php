@@ -1,6 +1,9 @@
 
 
-<script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 <script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
 <?php
