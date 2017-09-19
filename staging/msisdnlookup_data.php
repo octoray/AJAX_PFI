@@ -24,7 +24,7 @@ function getGUID(){
 <script type="text/javascript">
     var start = new Date();
     $.ajax({
-        url: "http://pfi.imimobile.net/staging/msisdnlookup/ajax/carrier",
+        url: "https://stagingshop.tap2bill.com/msisdnlookup/ajax/carrier",
         type: "POST",
         dataType: "jsonp",
         data: {
