@@ -1,8 +1,8 @@
 
 
-<script src="http://octoraypfi.co.uk/staging/jquery-2.1.4.min.js"></script>
+<script src="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/jquery-2.1.4.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-<script src="http://octoraypfi.co.uk/staging/slicknav/dist/jquery.slicknav.js"></script>
+<script src="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/slicknav/dist/jquery.slicknav.js"></script>
 
 <?php
 function getGUID(){
