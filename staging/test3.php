@@ -4,6 +4,18 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+    <style>
+data-pfi-button {
+    cursor: pointer;
+    margin-left: 20%;
+    color: black;
+    font-size: 25px;
+    background: red;
+    margin-right: 20%;
+    text-align: center;
+    border-radius: 8px;
+}
+</style>
 
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
