@@ -36,14 +36,19 @@ $response1 = '{
 	"ShowMarketingOptIn":true
 }';
 
-
+$response2 = '{
+   "error":null,
+   "showMarketingOptIn":false,
+   "inProcessUrl":null,
+   "script":"ewank.ImiHandler.handleStyling('')"
+}';
 
 //respond
 
 
-echo $response1;
+echo $response2;
 
-$data_json = json_decode($response1, true);
+$data_json = json_decode($response2, true);
 
 
 ?>
