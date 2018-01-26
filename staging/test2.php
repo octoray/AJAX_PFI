@@ -14,7 +14,23 @@
     <script src="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/jquery-2.1.4.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <script src="http://ec2-35-158-40-105.eu-central-1.compute.amazonaws.com/staging/slicknav/dist/jquery.slicknav.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+    function correct() {
+        document.getElementById('buttons1').style.display = 'none';
+        document.getElementById('buttons2').style.display = 'none';
+        document.getElementById('buttons3').style.display = 'none';
+        document.getElementById('correct').style.display = '';
+        document.getElementById('question').style.display = 'none';
+    }
+
+</script>
+<script>
+    function nope() {
+        document.getElementById('footer').style.display = 'none';
+    }
+
+</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65637947-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -107,7 +123,7 @@
 
 <div class="footer" id="footer">
     <br>
-    <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" alt="Header"><br><br>
+    <img src="https://www.destinythegame.com/content/dam/atvi/global/firstparty/activision/activision-logo.svg"  class="foot_logo" id="footerlogo" alt="Header"><br><br>
     <?php
     echo"<br>";
     echo $set;
@@ -199,20 +215,5 @@ if(!isset($_COOKIE[$cookie_name])) {
 
 </script>
 
-<script>
-    function correct() {
-        document.getElementById('buttons1').style.display = 'none';
-        document.getElementById('buttons2').style.display = 'none';
-        document.getElementById('buttons3').style.display = 'none';
-        document.getElementById('correct').style.display = '';
-        document.getElementById('question').style.display = 'none';
-    }
 
-</script>
-<script>
-    function nope() {
-        document.getElementById('footer').style.display = 'none';
-    }
-
-</script>
 </html>
