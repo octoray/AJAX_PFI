@@ -40,7 +40,7 @@ $response2 = '{
    "error":null,
    "showMarketingOptIn":false,
    "inProcessUrl":null,
-   "script":"nope()"
+   "script":"callme()"
 }';
 
 //respond
