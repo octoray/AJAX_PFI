@@ -31,7 +31,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 $response1 = '{
 	"Error":null,
-	"Script":"showDiscount();",
+	"Script":"showDiscount()",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
