@@ -31,7 +31,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 
 $response1 = '{
 	"Error":null,
-	"Script":"callme()",
+	"Script":"",
 	"InProcessUrl":null,
 	"ShowMarketingOptIn":true
 }';
@@ -40,7 +40,7 @@ $response2 = '{
    "error":null,
    "showMarketingOptIn":false,
    "inProcessUrl":null,
-   "script":"callme()"
+   "script":""
 }';
 
 //respond
